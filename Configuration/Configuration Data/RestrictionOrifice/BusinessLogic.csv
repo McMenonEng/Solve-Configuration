@@ -1,0 +1,1514 @@
+ColumnName,Value,Units,UnitsType,Notes,Expression
+GADrawing1,FPD190.1,,,FPD190.1,Exp1 AND Exp2 AND Exp7 AND Exp10
+GADrawing1,FPD190.2,,,FPD190.2,Exp1 AND Exp2 AND Exp7 AND Exp11
+GADrawing1,FPD190.3,,,FPD190.3,Exp1 AND Exp2 AND Exp10
+GADrawing1,FPD190.4,,,FPD190.4,Exp1 AND Exp2 AND Exp11
+GADrawing1,FPD190.6,,,FPD190.6,Exp1 AND Exp3
+GADrawing1,FPD190.7,,,FPD190.7,Exp1 AND Exp10 AND Exp95
+GADimensionA,47.6,mm,length,O/DIA A = 47.6mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp12 AND Exp39
+GADimensionA,54,mm,length,O/DIA A = 54mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp12 AND Exp40
+GADimensionA,63.5,mm,length,O/DIA A = 63.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp12 AND Exp41
+GADimensionA,70,mm,length,O/DIA A = 70mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp12 AND Exp42
+GADimensionA,57,mm,length,O/DIA A = 57mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp13 AND Exp39
+GADimensionA,66.7,mm,length,O/DIA A = 66.7mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp13 AND Exp40
+GADimensionA,70,mm,length,O/DIA A = 70mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp13 AND Exp41
+GADimensionA,76,mm,length,O/DIA A = 76mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp13 AND Exp42
+GADimensionA,66.7,mm,length,O/DIA A = 66.7mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp14 AND Exp39
+GADimensionA,73,mm,length,O/DIA A = 73mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp14 AND Exp40
+GADimensionA,79.5,mm,length,O/DIA A = 79.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp14 AND Exp41
+GADimensionA,85.5,mm,length,O/DIA A = 85.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp14 AND Exp42
+GADimensionA,76,mm,length,O/DIA A = 76mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp15 AND Exp39
+GADimensionA,82.5,mm,length,O/DIA A = 82.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp15 AND Exp40
+GADimensionA,89,mm,length,O/DIA A = 89mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp15 AND Exp41
+GADimensionA,105,mm,length,O/DIA A = 105mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp15 AND Exp42
+GADimensionA,85.5,mm,length,O/DIA A = 85.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp16 AND Exp39
+GADimensionA,95.3,mm,length,O/DIA A = 95.3mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp16 AND Exp40
+GADimensionA,98.5,mm,length,O/DIA A = 98.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp16 AND Exp41
+GADimensionA,117.5,mm,length,O/DIA A = 117.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp16 AND Exp42
+GADimensionA,105,mm,length,O/DIA A = 105mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp17 AND Exp39
+GADimensionA,111.1,mm,length,O/DIA A = 111.1mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp17 AND Exp40
+GADimensionA,143,mm,length,O/DIA A = 143mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp17 AND Exp41
+GADimensionA,146,mm,length,O/DIA A = 146mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp17 AND Exp42
+GADimensionA,124,mm,length,O/DIA A = 124mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp18 AND Exp39
+GADimensionA,130,mm,length,O/DIA A = 130mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp18 AND Exp40
+GADimensionA,165,mm,length,O/DIA A = 165mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp18 AND Exp41
+GADimensionA,168,mm,length,O/DIA A = 168mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp18 AND Exp42
+GADimensionA,137,mm,length,O/DIA A = 137mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp19 AND Exp39
+GADimensionA,149.2,mm,length,O/DIA A = 149.2mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp19 AND Exp40
+GADimensionA,168,mm,length,O/DIA A = 168mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp19 AND Exp43
+GADimensionA,174.5,mm,length,O/DIA A = 174.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp19 AND Exp44
+GADimensionA,197,mm,length,O/DIA A = 197mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp19 AND Exp42
+GADimensionA,162,mm,length,O/DIA A = 162mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp20 AND Exp45
+GADimensionA,165,mm,length,O/DIA A = 165mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp20 AND Exp46
+GADimensionA,175,mm,length,O/DIA A = 175mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp39
+GADimensionA,181,mm,length,O/DIA A = 181mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp46
+GADimensionA,178,mm,length,O/DIA A = 178mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp47
+GADimensionA,194,mm,length,O/DIA A = 194mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp48
+GADimensionA,207,mm,length,O/DIA A = 207mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp43
+GADimensionA,209.5,mm,length,O/DIA A = 209.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp44
+GADimensionA,235,mm,length,O/DIA A = 235mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp21 AND Exp42
+GADimensionA,197,mm,length,O/DIA A = 197mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp39
+GADimensionA,216,mm,length,O/DIA A = 216mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp46
+GADimensionA,212.5,mm,length,O/DIA A = 212.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp47
+GADimensionA,241.5,mm,length,O/DIA A = 241.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp48
+GADimensionA,247.5,mm,length,O/DIA A = 247.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp43
+GADimensionA,254,mm,length,O/DIA A = 254mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp44
+GADimensionA,279.5,mm,length,O/DIA A = 279.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp22 AND Exp42
+GADimensionA,222,mm,length,O/DIA A = 222mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp39
+GADimensionA,251,mm,length,O/DIA A = 251mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp46
+GADimensionA,247.5,mm,length,O/DIA A = 247.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp47
+GADimensionA,267,mm,length,O/DIA A = 267mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp48
+GADimensionA,289,mm,length,O/DIA A = 289mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp43
+GADimensionA,282.5,mm,length,O/DIA A = 282.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp44
+GADimensionA,317.5,mm,length,O/DIA A = 317.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp23 AND Exp42
+GADimensionA,279.5,mm,length,O/DIA A = 279.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp39
+GADimensionA,308,mm,length,O/DIA A = 308mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp46
+GADimensionA,305,mm,length,O/DIA A = 305mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp47
+GADimensionA,321,mm,length,O/DIA A = 321mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp48
+GADimensionA,359,mm,length,O/DIA A = 359mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp43
+GADimensionA,353,mm,length,O/DIA A = 353mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp44
+GADimensionA,387.5,mm,length,O/DIA A = 387.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp24 AND Exp42
+GADimensionA,340,mm,length,O/DIA A = 340mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp39
+GADimensionA,362,mm,length,O/DIA A = 362mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp46
+GADimensionA,359,mm,length,O/DIA A = 359mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp47
+GADimensionA,400,mm,length,O/DIA A = 400mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp48
+GADimensionA,435,mm,length,O/DIA A = 435mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp43
+GADimensionA,435,mm,length,O/DIA A = 435mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp44
+GADimensionA,476,mm,length,O/DIA A = 476mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp25 AND Exp42
+GADimensionA,410,mm,length,O/DIA A = 410mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp39
+GADimensionA,422.5,mm,length,O/DIA A = 422.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp46
+GADimensionA,419,mm,length,O/DIA A = 419mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp47
+GADimensionA,457,mm,length,O/DIA A = 457mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp48
+GADimensionA,498.5,mm,length,O/DIA A = 498.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp43
+GADimensionA,520.5,mm,length,O/DIA A = 520.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp44
+GADimensionA,549.5,mm,length,O/DIA A = 549.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp26 AND Exp42
+GADimensionA,451,mm,length,O/DIA A = 451mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp39
+GADimensionA,486,mm,length,O/DIA A = 486mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp46
+GADimensionA,482.5,mm,length,O/DIA A = 482.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp47
+GADimensionA,492,mm,length,O/DIA A = 492mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp48
+GADimensionA,521,mm,length,O/DIA A = 521mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp43
+GADimensionA,578,mm,length,O/DIA A = 578mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp27 AND Exp44
+GADimensionA,514.5,mm,length,O/DIA A = 514.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp39
+GADimensionA,540,mm,length,O/DIA A = 540mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp46
+GADimensionA,536.5,mm,length,O/DIA A = 536.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp47
+GADimensionA,565,mm,length,O/DIA A = 565mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp48
+GADimensionA,575,mm,length,O/DIA A = 575mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp43
+GADimensionA,641.5,mm,length,O/DIA A = 641.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp28 AND Exp44
+GADimensionA,549.5,mm,length,O/DIA A = 549.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp39
+GADimensionA,597,mm,length,O/DIA A = 597mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp46
+GADimensionA,593.7,mm,length,O/DIA A = 593.7mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp47
+GADimensionA,613,mm,length,O/DIA A = 613mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp48
+GADimensionA,638,mm,length,O/DIA A = 638mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp43
+GADimensionA,705,mm,length,O/DIA A = 705mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp29 AND Exp44
+GADimensionA,606.5,mm,length,O/DIA A = 606.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp39
+GADimensionA,654,mm,length,O/DIA A = 654mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp46
+GADimensionA,647.5,mm,length,O/DIA A = 647.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp47
+GADimensionA,682.5,mm,length,O/DIA A = 682.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp48
+GADimensionA,698.5,mm,length,O/DIA A = 698.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp43
+GADimensionA,755.5,mm,length,O/DIA A = 755.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp30 AND Exp44
+GADimensionA,717.5,mm,length,O/DIA A = 717.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp39
+GADimensionA,775,mm,length,O/DIA A = 775mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp46
+GADimensionA,768.5,mm,length,O/DIA A = 768.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp47
+GADimensionA,790.5,mm,length,O/DIA A = 790.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp48
+GADimensionA,838,mm,length,O/DIA A = 838mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp43
+GADimensionA,901.5,mm,length,O/DIA A = 901.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp32 AND Exp44
+GADimensionA,660.5,mm,length,O/DIA A = 660.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp31 AND Exp39
+GADimensionA,705,mm,length,O/DIA A = 705mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp31 AND Exp46
+GADimensionA,701.5,mm,length,O/DIA A = 701.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp31 AND Exp47
+GADimensionA,733.5,mm,length,O/DIA A = 733.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp31 AND Exp48
+GADimensionA,775,mm,length,O/DIA A = 775mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp33 AND Exp39
+GADimensionA,835,mm,length,O/DIA A = 835mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp33 AND Exp46
+GADimensionA,832,mm,length,O/DIA A = 832mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp33 AND Exp47
+GADimensionA,867,mm,length,O/DIA A = 867mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp33 AND Exp48
+GADimensionA,882.5,mm,length,O/DIA A = 882.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp33 AND Exp43
+GADimensionA,832,mm,length,O/DIA A = 832mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp34 AND Exp39
+GADimensionA,898.5,mm,length,O/DIA A = 898.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp34 AND Exp46
+GADimensionA,892,mm,length,O/DIA A = 892mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp34 AND Exp47
+GADimensionA,914.5,mm,length,O/DIA A = 914.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp34 AND Exp48
+GADimensionA,946,mm,length,O/DIA A = 946mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp34 AND Exp43
+GADimensionA,882.5,mm,length,O/DIA A = 882.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp35 AND Exp39
+GADimensionA,952.5,mm,length,O/DIA A = 952.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp35 AND Exp46
+GADimensionA,946,mm,length,O/DIA A = 946mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp35 AND Exp47
+GADimensionA,971.5,mm,length,O/DIA A = 971.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp35 AND Exp48
+GADimensionA,1009.5,mm,length,O/DIA A = 1009.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp35 AND Exp43
+GADimensionA,940,mm,length,O/DIA A = 940mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp36 AND Exp39
+GADimensionA,1006.5,mm,length,O/DIA A = 1006.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp36 AND Exp46
+GADimensionA,1003.5,mm,length,O/DIA A = 1003.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp36 AND Exp47
+GADimensionA,1022.5,mm,length,O/DIA A = 1022.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp36 AND Exp48
+GADimensionA,1073,mm,length,O/DIA A = 1073mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp36 AND Exp43
+GADimensionA,990.5,mm,length,O/DIA A = 990.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp37 AND Exp39
+GADimensionA,1057,mm,length,O/DIA A = 1057mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp37 AND Exp46
+GADimensionA,1054,mm,length,O/DIA A = 1054mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp37 AND Exp47
+GADimensionA,1073,mm,length,O/DIA A = 1073mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp37 AND Exp48
+GADimensionA,1136.5,mm,length,O/DIA A = 1136.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp37 AND Exp43
+GADimensionA,1048,mm,length,O/DIA A = 1048mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp38 AND Exp39
+GADimensionA,1117.5,mm,length,O/DIA A = 1117.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp38 AND Exp49
+GADimensionA,1130.5,mm,length,O/DIA A = 1130.5mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp38 AND Exp48
+GADimensionA,1200,mm,length,O/DIA A = 1200mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp10 AND Exp38 AND Exp43
+GADimensionA,125,mm,length,O/DIA A = 125mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp14 AND Exp40
+GADimensionA,150,mm,length,O/DIA A = 150mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp14 AND Exp41
+GADimensionA,160,mm,length,O/DIA A = 160mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp14 AND Exp42
+GADimensionA,135,mm,length,O/DIA A = 135mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp15 AND Exp40
+GADimensionA,160,mm,length,O/DIA A = 160mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp15 AND Exp41
+GADimensionA,185,mm,length,O/DIA A = 185mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp15 AND Exp42
+GADimensionA,155,mm,length,O/DIA A = 155mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp16 AND Exp40
+GADimensionA,180,mm,length,O/DIA A = 180mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp16 AND Exp41
+GADimensionA,205,mm,length,O/DIA A = 205mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp16 AND Exp42
+GADimensionA,165,mm,length,O/DIA A = 165mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp17 AND Exp40
+GADimensionA,215,mm,length,O/DIA A = 215mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp17 AND Exp41
+GADimensionA,235,mm,length,O/DIA A = 235mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp17 AND Exp42
+GADimensionA,190,mm,length,O/DIA A = 190mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp18 AND Exp40
+GADimensionA,245,mm,length,O/DIA A = 245mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp18 AND Exp41
+GADimensionA,265,mm,length,O/DIA A = 265mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp18 AND Exp42
+GADimensionA,210,mm,length,O/DIA A = 210mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp19 AND Exp40
+GADimensionA,240,mm,length,O/DIA A = 240mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp19 AND Exp43
+GADimensionA,265,mm,length,O/DIA A = 265mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp19 AND Exp44
+GADimensionA,305,mm,length,O/DIA A = 305mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp19 AND Exp42
+GADimensionA,230,mm,length,O/DIA A = 230mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp20 AND Exp40
+GADimensionA,255,mm,length,O/DIA A = 255mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp21 AND Exp49
+GADimensionA,275,mm,length,O/DIA A = 275mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp21 AND Exp48
+GADimensionA,290,mm,length,O/DIA A = 290mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp21 AND Exp43
+GADimensionA,310,mm,length,O/DIA A = 310mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp21 AND Exp44
+GADimensionA,355,mm,length,O/DIA A = 355mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp21 AND Exp42
+GADimensionA,280,mm,length,O/DIA A = 280mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp22 AND Exp49
+GADimensionA,330,mm,length,O/DIA A = 330mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp22 AND Exp48
+GADimensionA,350,mm,length,O/DIA A = 350mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp22 AND Exp43
+GADimensionA,375,mm,length,O/DIA A = 375mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp22 AND Exp44
+GADimensionA,420,mm,length,O/DIA A = 420mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp22 AND Exp42
+GADimensionA,320,mm,length,O/DIA A = 320mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp23 AND Exp49
+GADimensionA,355,mm,length,O/DIA A =  355mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp23 AND Exp48
+GADimensionA,380,mm,length,O/DIA A = 380mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp23 AND Exp43
+GADimensionA,395,mm,length,O/DIA A = 395mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp23 AND Exp44
+GADimensionA,485,mm,length,O/DIA A = 485mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp23 AND Exp42
+GADimensionA,380,mm,length,O/DIA A = 380mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp24 AND Exp49
+GADimensionA,420,mm,length,O/DIA A = 420mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp24 AND Exp48
+GADimensionA,470,mm,length,O/DIA A = 470mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp24 AND Exp43
+GADimensionA,485,mm,length,O/DIA A = 485mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp24 AND Exp44
+GADimensionA,550,mm,length,O/DIA A = 550mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp24 AND Exp42
+GADimensionA,445,mm,length,O/DIA A = 445mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp25 AND Exp49
+GADimensionA,510,mm,length,O/DIA A = 510mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp25 AND Exp48
+GADimensionA,545,mm,length,O/DIA A = 545mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp25 AND Exp43
+GADimensionA,585,mm,length,O/DIA A = 585mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp25 AND Exp44
+GADimensionA,675,mm,length,O/DIA A = 675mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp25 AND Exp42
+GADimensionA,520,mm,length,O/DIA A = 520mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp26 AND Exp49
+GADimensionA,560,mm,length,O/DIA A = 560mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp26 AND Exp48
+GADimensionA,610,mm,length,O/DIA A = 610mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp26 AND Exp43
+GADimensionA,675,mm,length,O/DIA A = 675mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp26 AND Exp44
+GADimensionA,760,mm,length,O/DIA A = 760mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp26 AND Exp42
+GADimensionA,585,mm,length,O/DIA A = 585mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp27 AND Exp49
+GADimensionA,605,mm,length,O/DIA A = 605mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp27 AND Exp48
+GADimensionA,640,mm,length,O/DIA A = 640mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp27 AND Exp43
+GADimensionA,750,mm,length,O/DIA A = 750mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp27 AND Exp44
+GADimensionA,650,mm,length,O/DIA A = 650mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp28 AND Exp49
+GADimensionA,685,mm,length,O/DIA A = 685mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp28 AND Exp48
+GADimensionA,705,mm,length,O/DIA A = 705mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp28 AND Exp43
+GADimensionA,825,mm,length,O/DIA A = 825mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp28 AND Exp44
+GADimensionA,710,mm,length,O/DIA A = 710mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp29 AND Exp49
+GADimensionA,745,mm,length,O/DIA A = 745mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp29 AND Exp48
+GADimensionA,785,mm,length,O/DIA A = 785mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp29 AND Exp43
+GADimensionA,915,mm,length,O/DIA A = 915mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp29 AND Exp44
+GADimensionA,775,mm,length,O/DIA A = 775mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp30 AND Exp49
+GADimensionA,815,mm,length,O/DIA A = 815mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp30 AND Exp48
+GADimensionA,855,mm,length,O/DIA A = 855mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp30 AND Exp43
+GADimensionA,985,mm,length,O/DIA A = 985mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp30 AND Exp44
+GADimensionA,915,mm,length,O/DIA A = 915mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp32 AND Exp49
+GADimensionA,940,mm,length,O/DIA A = 940mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp32 AND Exp48
+GADimensionA,1040,mm,length,O/DIA A = 1040mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp32 AND Exp43
+GADimensionA,1170,mm,length,O/DIA A = 1170mm,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp11 AND Exp32 AND Exp44
+GADimensionC,25,mm,length,25,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp12 AND Exp50
+GADimensionC,25,mm,length,25,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp13 AND Exp50
+GADimensionC,25,mm,length,25,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp14 AND Exp50
+GADimensionC,25,mm,length,25,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp15 AND Exp50
+GADimensionC,25,mm,length,25,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp16 AND Exp50
+GADimensionC,30,mm,length,30,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp17 AND Exp50
+GADimensionC,30,mm,length,30,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp18 AND Exp50
+GADimensionC,30,mm,length,30,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp19 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp21 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp23 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp24 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp25 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp26 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp27 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp28 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp29 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp30 AND Exp50
+GADimensionC,40,mm,length,40,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp32 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp12 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp13 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp14 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp15 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp16 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp17 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp18 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp19 AND Exp50
+GADimensionB,102,mm,length,102,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp21 AND Exp50
+GADimensionB,127,mm,length,127,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp23 AND Exp50
+GADimensionB,127,mm,length,127,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp24 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp25 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp26 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp27 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp28 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp29 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp30 AND Exp50
+GADimensionB,150,mm,length,150,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp32 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp12 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp13 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp14 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp15 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp16 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp17 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp18 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp19 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp21 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp23 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp24 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp25 AND Exp50
+GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp26 AND Exp50
+GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp27 AND Exp50
+GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp28 AND Exp50
+GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp29 AND Exp50
+GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp30 AND Exp50
+GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp8 AND Exp9 AND Exp52 AND Exp32 AND Exp50
+GADimensionRN,R16,,,R16,Exp1 AND Exp96 AND EXP14 AND Exp46
+GADimensionRN,R16,,,R16,Exp1 AND Exp96 AND EXP14 AND Exp48
+GADimensionRN,R16,,,R16,Exp1 AND Exp96 AND EXP14 AND Exp43
+GADimensionRN,R16,,,R16,Exp1 AND Exp96 AND EXP14 AND Exp44
+GADimensionRN,R18,,,R18,Exp1 AND Exp96 AND EXP14 AND Exp42
+GADimensionRN,R20,,,R20,Exp1 AND Exp96 AND EXP16 AND Exp46
+GADimensionRN,R20,,,R20,Exp1 AND Exp96 AND EXP16 AND Exp48
+GADimensionRN,R20,,,R20,Exp1 AND Exp96 AND EXP16 AND Exp43
+GADimensionRN,R20,,,R20,Exp1 AND Exp96 AND EXP16 AND Exp44
+GADimensionRN,R23,,,R23,Exp1 AND Exp96 AND EXP16 AND Exp42
+GADimensionRN,R23,,,R23,Exp1 AND Exp96 AND EXP17 AND Exp46
+GADimensionRN,R23,,,R23,Exp1 AND Exp96 AND EXP17 AND Exp48
+GADimensionRN,R24,,,R24,Exp1 AND Exp96 AND EXP17 AND Exp43
+GADimensionRN,R24,,,R24,Exp1 AND Exp96 AND EXP17 AND Exp44
+GADimensionRN,R26,,,R26,Exp1 AND Exp96 AND EXP17 AND Exp42
+GADimensionRN,R31,,,R31,Exp1 AND Exp96 AND EXP19 AND Exp46
+GADimensionRN,R31,,,R31,Exp1 AND Exp96 AND EXP19 AND Exp48
+GADimensionRN,R31,,,R31,Exp1 AND Exp96 AND EXP19 AND Exp43
+GADimensionRN,R35,,,R35,Exp1 AND Exp96 AND EXP19 AND Exp44
+GADimensionRN,R32,,,R32,Exp1 AND Exp96 AND EXP19 AND Exp42
+GADimensionRN,R37,,,R37,Exp1 AND Exp96 AND EXP21 AND Exp46
+GADimensionRN,R37,,,R37,Exp1 AND Exp96 AND EXP21 AND Exp48
+GADimensionRN,R37,,,R37,Exp1 AND Exp96 AND EXP21 AND Exp43
+GADimensionRN,R39,,,R39,Exp1 AND Exp96 AND EXP21 AND Exp44
+GADimensionRN,R38,,,R38,Exp1 AND Exp96 AND EXP21 AND Exp42
+GADimensionRN,R45,,,R45,Exp1 AND Exp96 AND EXP23 AND Exp46
+GADimensionRN,R45,,,R45,Exp1 AND Exp96 AND EXP23 AND Exp48
+GADimensionRN,R45,,,R45,Exp1 AND Exp96 AND EXP23 AND Exp43
+GADimensionRN,R46,,,R46,Exp1 AND Exp96 AND EXP23 AND Exp44
+GADimensionRN,R47,,,R47,Exp1 AND Exp96 AND EXP23 AND Exp42
+GADimensionRN,R49,,,R49,Exp1 AND Exp96 AND EXP24 AND Exp46
+GADimensionRN,R49,,,R49,Exp1 AND Exp96 AND EXP24 AND Exp48
+GADimensionRN,R49,,,R49,Exp1 AND Exp96 AND EXP24 AND Exp43
+GADimensionRN,R50,,,R50,Exp1 AND Exp96 AND EXP24 AND Exp44
+GADimensionRN,R51,,,R51,Exp1 AND Exp96 AND EXP24 AND Exp42
+GADimensionRN,R53,,,R53,Exp1 AND Exp96 AND EXP25 AND Exp46
+GADimensionRN,R53,,,R53,Exp1 AND Exp96 AND EXP25 AND Exp48
+GADimensionRN,R53,,,R53,Exp1 AND Exp96 AND EXP25 AND Exp43
+GADimensionRN,R54,,,R54,Exp1 AND Exp96 AND EXP25 AND Exp44
+GADimensionRN,R55,,,R55,Exp1 AND Exp96 AND EXP25 AND Exp42
+GADimensionRN,R57,,,R57,Exp1 AND Exp96 AND EXP26 AND Exp46
+GADimensionRN,R57,,,R57,Exp1 AND Exp96 AND EXP26 AND Exp48
+GADimensionRN,R57,,,R57,Exp1 AND Exp96 AND EXP26 AND Exp43
+GADimensionRN,R58,,,R58,Exp1 AND Exp96 AND EXP26 AND Exp44
+GADimensionRN,R60,,,R60,Exp1 AND Exp96 AND EXP26 AND Exp42
+GADimensionRN,R61,,,R61,Exp1 AND Exp96 AND EXP27 AND Exp46
+GADimensionRN,R61,,,R61,Exp1 AND Exp96 AND EXP27 AND Exp48
+GADimensionRN,R62,,,R62,Exp1 AND Exp96 AND EXP27 AND Exp43
+GADimensionRN,R63,,,R63,Exp1 AND Exp96 AND EXP27 AND Exp44
+GADimensionRN,R65,,,R65,Exp1 AND Exp96 AND EXP28 AND Exp46
+GADimensionRN,R65,,,R65,Exp1 AND Exp96 AND EXP28 AND Exp48
+GADimensionRN,R66,,,R66,Exp1 AND Exp96 AND EXP28 AND Exp43
+GADimensionRN,R67,,,R67,Exp1 AND Exp96 AND EXP28 AND Exp44
+GADimensionRN,R69,,,R69,Exp1 AND Exp96 AND EXP29 AND Exp46
+GADimensionRN,R69,,,R69,Exp1 AND Exp96 AND EXP29 AND Exp48
+GADimensionRN,R70,,,R70,Exp1 AND Exp96 AND EXP29 AND Exp43
+GADimensionRN,R71,,,R71,Exp1 AND Exp96 AND EXP29 AND Exp44
+GADimensionP,50.8,mm,length,50.8,Exp1 AND Exp96 AND EXP14 AND Exp46
+GADimensionP,50.8,mm,length,50.8,Exp1 AND Exp96 AND EXP14 AND Exp48
+GADimensionP,50.8,mm,length,50.8,Exp1 AND Exp96 AND EXP14 AND Exp43
+GADimensionP,50.8,mm,length,50.8,Exp1 AND Exp96 AND EXP14 AND Exp44
+GADimensionP,60.33,mm,length,60.33,Exp1 AND Exp96 AND EXP14 AND Exp42
+GADimensionP,68.27,mm,length,68.27,Exp1 AND Exp96 AND EXP16 AND Exp46
+GADimensionP,68.27,mm,length,68.27,Exp1 AND Exp96 AND EXP16 AND Exp48
+GADimensionP,68.27,mm,length,68.27,Exp1 AND Exp96 AND EXP16 AND Exp43
+GADimensionP,68.27,mm,length,68.27,Exp1 AND Exp96 AND EXP16 AND Exp44
+GADimensionP,82.55,mm,length,82.55,Exp1 AND Exp96 AND EXP16 AND Exp42
+GADimensionP,82.55,mm,length,82.55,Exp1 AND Exp96 AND EXP17 AND Exp46
+GADimensionP,82.55,mm,length,82.55,Exp1 AND Exp96 AND EXP17 AND Exp48
+GADimensionP,95.25,mm,length,95.25,Exp1 AND Exp96 AND EXP17 AND Exp43
+GADimensionP,95.25,mm,length,95.25,Exp1 AND Exp96 AND EXP17 AND Exp44
+GADimensionP,101.6,mm,length,101.6,Exp1 AND Exp96 AND EXP17 AND Exp42
+GADimensionP,123.83,mm,length,123.83,Exp1 AND Exp96 AND EXP19 AND Exp46
+GADimensionP,123.83,mm,length,123.83,Exp1 AND Exp96 AND EXP19 AND Exp48
+GADimensionP,123.83,mm,length,123.83,Exp1 AND Exp96 AND EXP19 AND Exp43
+GADimensionP,136.53,mm,length,136.53,Exp1 AND Exp96 AND EXP19 AND Exp44
+GADimensionP,127,mm,length,127,Exp1 AND Exp96 AND EXP19 AND Exp42
+GADimensionP,149.23,mm,length,149.23,Exp1 AND Exp96 AND EXP21 AND Exp46
+GADimensionP,149.23,mm,length,149.23,Exp1 AND Exp96 AND EXP21 AND Exp48
+GADimensionP,149.23,mm,length,149.23,Exp1 AND Exp96 AND EXP21 AND Exp43
+GADimensionP,161.93,mm,length,161.93,Exp1 AND Exp96 AND EXP21 AND Exp44
+GADimensionP,157.18,mm,length,157.18,Exp1 AND Exp96 AND EXP21 AND Exp42
+GADimensionP,211.12,mm,length,211.12,Exp1 AND Exp96 AND EXP23 AND Exp46
+GADimensionP,211.12,mm,length,211.12,Exp1 AND Exp96 AND EXP23 AND Exp48
+GADimensionP,211.12,mm,length,211.12,Exp1 AND Exp96 AND EXP23 AND Exp43
+GADimensionP,211.14,mm,length,211.14,Exp1 AND Exp96 AND EXP23 AND Exp44
+GADimensionP,228.6,mm,length,228.6,Exp1 AND Exp96 AND EXP23 AND Exp42
+GADimensionP,269.88,mm,length,269.88,Exp1 AND Exp96 AND EXP24 AND Exp46
+GADimensionP,269.88,mm,length,269.88,Exp1 AND Exp96 AND EXP24 AND Exp48
+GADimensionP,269.88,mm,length,269.88,Exp1 AND Exp96 AND EXP24 AND Exp43
+GADimensionP,269.88,mm,length,269.88,Exp1 AND Exp96 AND EXP24 AND Exp44
+GADimensionP,279.4,mm,length,279.4,Exp1 AND Exp96 AND EXP24 AND Exp42
+GADimensionP,323.85,mm,length,323.85,Exp1 AND Exp96 AND EXP25 AND Exp46
+GADimensionP,323.85,mm,length,323.85,Exp1 AND Exp96 AND EXP25 AND Exp48
+GADimensionP,323.85,mm,length,323.85,Exp1 AND Exp96 AND EXP25 AND Exp43
+GADimensionP,323.85,mm,length,323.85,Exp1 AND Exp96 AND EXP25 AND Exp44
+GADimensionP,342.9,mm,length,342.9,Exp1 AND Exp96 AND EXP25 AND Exp42
+GADimensionP,381,mm,length,381,Exp1 AND Exp96 AND EXP26 AND Exp46
+GADimensionP,381,mm,length,381,Exp1 AND Exp96 AND EXP26 AND Exp48
+GADimensionP,381,mm,length,381,Exp1 AND Exp96 AND EXP26 AND Exp43
+GADimensionP,381,mm,length,381,Exp1 AND Exp96 AND EXP26 AND Exp44
+GADimensionP,406.4,mm,length,406.4,Exp1 AND Exp96 AND EXP26 AND Exp42
+GADimensionP,419.1,mm,length,419.1,Exp1 AND Exp96 AND EXP27 AND Exp46
+GADimensionP,419.1,mm,length,419.1,Exp1 AND Exp96 AND EXP27 AND Exp48
+GADimensionP,419.1,mm,length,419.1,Exp1 AND Exp96 AND EXP27 AND Exp43
+GADimensionP,419.1,mm,length,419.1,Exp1 AND Exp96 AND EXP27 AND Exp44
+GADimensionP,469.9,mm,length,469.9,Exp1 AND Exp96 AND EXP28 AND Exp46
+GADimensionP,469.9,mm,length,469.9,Exp1 AND Exp96 AND EXP28 AND Exp48
+GADimensionP,469.9,mm,length,469.9,Exp1 AND Exp96 AND EXP28 AND Exp43
+GADimensionP,469.9,mm,length,469.9,Exp1 AND Exp96 AND EXP28 AND Exp44
+GADimensionP,533.4,mm,length,533.4,Exp1 AND Exp96 AND EXP29 AND Exp46
+GADimensionP,533.4,mm,length,533.4,Exp1 AND Exp96 AND EXP29 AND Exp48
+GADimensionP,533.4,mm,length,533.4,Exp1 AND Exp96 AND EXP29 AND Exp43
+GADimensionP,533.4,mm,length,533.4,Exp1 AND Exp96 AND EXP29 AND Exp44
+GADimensionA1,70,mm,length,O/DIA A =70,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionA1,70,mm,length,O/DIA A =70,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionA1,71,mm,length,O/DIA A =71,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionA1,71,mm,length,O/DIA A =71,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionA1,83,mm,length,O/DIA A =83,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionA1,90,mm,length,O/DIA A =90,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionA1,90,mm,length,O/DIA A =90,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionA1,92,mm,length,O/DIA A =92,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionA1,92,mm,length,O/DIA A =92,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionA1,114,mm,length,O/DIA A =114,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionA1,108,mm,length,O/DIA A =108,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionA1,108,mm,length,O/DIA A =108,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionA1,124,mm,length,O/DIA A =124,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionA1,124,mm,length,O/DIA A =124,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionA1,133,mm,length,O/DIA A =133,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionA1,146,mm,length,O/DIA A =146,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionA1,146,mm,length,O/DIA A =146,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionA1,155,mm,length,O/DIA A =155,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionA1,168,mm,length,O/DIA A =168,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionA1,168,mm,length,O/DIA A =168,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionA1,175,mm,length,O/DIA A =175,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionA1,175,mm,length,O/DIA A =175,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionA1,181,mm,length,O/DIA A =181,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionA1,194,mm,length,O/DIA A =194,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionA1,203,mm,length,O/DIA A =203,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionA1,241,mm,length,O/DIA A =241,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionA1,241,mm,length,O/DIA A =241,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionA1,241,mm,length,O/DIA A =241,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionA1,248,mm,length,O/DIA A =248,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionA1,279,mm,length,O/DIA A =279,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionA1,302,mm,length,O/DIA A =302,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionA1,302,mm,length,O/DIA A =302,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionA1,308,mm,length,O/DIA A =308,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionA1,318,mm,length,O/DIA A =318,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionA1,340,mm,length,O/DIA A =340,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionA1,356,mm,length,O/DIA A =356,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionA1,356,mm,length,O/DIA A =356,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionA1,362,mm,length,O/DIA A =362,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionA1,371,mm,length,O/DIA A =371,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionA1,425,mm,length,O/DIA A =425,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionA1,413,mm,length,O/DIA A =413,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionA1,413,mm,length,O/DIA A =413,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionA1,419,mm,length,O/DIA A =419,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionA1,438,mm,length,O/DIA A =438,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionA1,495,mm,length,O/DIA A =495,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionA1,457,mm,length,O/DIA A =457,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionA1,457,mm,length,O/DIA A =457,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionA1,467,mm,length,O/DIA A =467,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionA1,489,mm,length,O/DIA A =489,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionA1,508,mm,length,O/DIA A =508,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionA1,508,mm,length,O/DIA A =508,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionA1,524,mm,length,O/DIA A =524,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionA1,546,mm,length,O/DIA A =546,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionA1,575,mm,length,O/DIA A =575,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionA1,575,mm,length,O/DIA A =575,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionA1,594,mm,length,O/DIA A =594,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionA1,613,mm,length,O/DIA A =613,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionE,6.35,mm,length,6.35,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionE,9.53,mm,length,9.53,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionE,11.13,mm,length,11.13,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionE,9.53,mm,length,9.53,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionE,12.7,mm,length,12.7,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionE,11.13,mm,length,11.13,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionE,14.27,mm,length,14.27,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionE,11.13,mm,length,11.13,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionE,17.48,mm,length,17.48,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionE,14.27,mm,length,14.27,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionE,17.48,mm,length,17.48,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionE,11.13,mm,length,11.13,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionE,15.88,mm,length,15.88,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionE,11.13,mm,length,11.13,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionE,17.48,mm,length,17.48,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionE,7.92,mm,length,7.92,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionE,12.7,mm,length,12.7,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionE,17.48,mm,length,17.48,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionF,8.74,mm,length,8.74,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionF,13.49,mm,length,13.49,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionF,16.66,mm,length,16.66,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionF,13.49,mm,length,13.49,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionF,19.84,mm,length,19.84,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionF,16.66,mm,length,16.66,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionF,23.01,mm,length,23.01,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionF,16.66,mm,length,16.66,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionF,30.18,mm,length,30.18,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionF,23.01,mm,length,23.01,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionF,33.32,mm,length,33.32,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionF,16.66,mm,length,16.66,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionF,26.97,mm,length,26.97,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionF,16.66,mm,length,16.66,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionF,30.18,mm,length,30.18,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionF,11.91,mm,length,11.91,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionF,19.84,mm,length,19.84,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionF,30.18,mm,length,30.18,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionG1,3,mm,length,3,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionW,25,mm,length,25,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionW,38,mm,length,38,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP14 AND Exp46
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP14 AND Exp48
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP14 AND Exp43
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP14 AND Exp44
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP14 AND Exp42
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP16 AND Exp46
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP16 AND Exp48
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP16 AND Exp43
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP16 AND Exp44
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP16 AND Exp42
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP17 AND Exp46
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP17 AND Exp48
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP17 AND Exp43
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP17 AND Exp44
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP17 AND Exp42
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP19 AND Exp46
+GADimensionL,102,mm,length,102,Exp1 AND Exp51 AND EXP19 AND Exp48
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP19 AND Exp43
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP19 AND Exp44
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP19 AND Exp42
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP21 AND Exp46
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP21 AND Exp48
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP21 AND Exp43
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP21 AND Exp44
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP21 AND Exp42
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP23 AND Exp46
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP23 AND Exp48
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP23 AND Exp43
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP23 AND Exp44
+GADimensionL,203,mm,length,203,Exp1 AND Exp51 AND EXP23 AND Exp42
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP24 AND Exp46
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP24 AND Exp48
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP24 AND Exp43
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP24 AND Exp44
+GADimensionL,203,mm,length,203,Exp1 AND Exp51 AND EXP24 AND Exp42
+GADimensionL,127,mm,length,127,Exp1 AND Exp51 AND EXP25 AND Exp46
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP25 AND Exp48
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP25 AND Exp43
+GADimensionL,203,mm,length,203,Exp1 AND Exp51 AND EXP25 AND Exp44
+GADimensionL,229,mm,length,229,Exp1 AND Exp51 AND EXP25 AND Exp42
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP26 AND Exp46
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP26 AND Exp48
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP26 AND Exp43
+GADimensionL,203,mm,length,203,Exp1 AND Exp51 AND EXP26 AND Exp44
+GADimensionL,229,mm,length,229,Exp1 AND Exp51 AND EXP26 AND Exp42
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP27 AND Exp46
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP27 AND Exp48
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP27 AND Exp43
+GADimensionL,229,mm,length,229,Exp1 AND Exp51 AND EXP27 AND Exp44
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP28 AND Exp46
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP28 AND Exp48
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP28 AND Exp43
+GADimensionL,229,mm,length,229,Exp1 AND Exp51 AND EXP28 AND Exp44
+GADimensionL,152,mm,length,152,Exp1 AND Exp51 AND EXP29 AND Exp46
+GADimensionL,178,mm,length,178,Exp1 AND Exp51 AND EXP29 AND Exp48
+GADimensionL,203,mm,length,203,Exp1 AND Exp51 AND EXP29 AND Exp43
+GADimensionL,254,mm,length,254,Exp1 AND Exp51 AND EXP29 AND Exp44
+GADimensionH,19.1,mm,length,19.1,Exp1 AND Exp51 AND EXP14 AND Exp46 AND Exp53
+GADimensionH,19.1,mm,length,19.1,Exp1 AND Exp51 AND EXP14 AND Exp48 AND Exp53
+GADimensionH,23.9,mm,length,23.9,Exp1 AND Exp51 AND EXP14 AND Exp43 AND Exp55
+GADimensionH,23.9,mm,length,23.9,Exp1 AND Exp51 AND EXP14 AND Exp44 AND Exp55
+GADimensionH,28.7,mm,length,28.7,Exp1 AND Exp51 AND EXP14 AND Exp42 AND Exp58
+GADimensionH,22.3,mm,length,22.3,Exp1 AND Exp51 AND EXP16 AND Exp46 AND Exp54
+GADimensionH,22.3,mm,length,22.3,Exp1 AND Exp51 AND EXP16 AND Exp48 AND Exp54
+GADimensionH,27.1,mm,length,27.1,Exp1 AND Exp51 AND EXP16 AND Exp43 AND Exp57
+GADimensionH,27.1,mm,length,27.1,Exp1 AND Exp51 AND EXP16 AND Exp44 AND Exp57
+GADimensionH,38,mm,length,38,Exp1 AND Exp51 AND EXP16 AND Exp42 AND Exp61
+GADimensionH,27,mm,length,27,Exp1 AND Exp51 AND EXP17 AND Exp46 AND Exp56
+GADimensionH,27,mm,length,27,Exp1 AND Exp51 AND EXP17 AND Exp48 AND Exp56
+GADimensionH,34.9,mm,length,34.9,Exp1 AND Exp51 AND EXP17 AND Exp43 AND Exp60
+GADimensionH,34.9,mm,length,34.9,Exp1 AND Exp51 AND EXP17 AND Exp44 AND Exp60
+GADimensionH,42.8,mm,length,42.8,Exp1 AND Exp51 AND EXP17 AND Exp42 AND Exp64
+GADimensionH,31.7,mm,length,31.7,Exp1 AND Exp51 AND EXP19 AND Exp46 AND Exp59
+GADimensionH,31.7,mm,length,31.7,Exp1 AND Exp51 AND EXP19 AND Exp48 AND Exp59
+GADimensionH,34.9,mm,length,34.9,Exp1 AND Exp51 AND EXP19 AND Exp43 AND Exp60
+GADimensionH,44.4,mm,length,44.4,Exp1 AND Exp51 AND EXP19 AND Exp44 AND Exp65
+GADimensionH,52.3,mm,length,52.3,Exp1 AND Exp51 AND EXP19 AND Exp42 AND Exp70
+GADimensionH,34.9,mm,length,34.9,Exp1 AND Exp51 AND EXP21 AND Exp46 AND Exp60
+GADimensionH,34.9,mm,length,34.9,Exp1 AND Exp51 AND EXP21 AND Exp48 AND Exp60
+GADimensionH,39.6,mm,length,39.6,Exp1 AND Exp51 AND EXP21 AND Exp43 AND Exp62
+GADimensionH,49.1,mm,length,49.1,Exp1 AND Exp51 AND EXP21 AND Exp44 AND Exp67
+GADimensionH,63.5,mm,length,63.5,Exp1 AND Exp51 AND EXP21 AND Exp42 AND Exp76
+GADimensionH,42.8,mm,length,42.8,Exp1 AND Exp51 AND EXP23 AND Exp46 AND Exp64
+GADimensionH,42.8,mm,length,42.8,Exp1 AND Exp51 AND EXP23 AND Exp48 AND Exp64
+GADimensionH,49.1,mm,length,49.1,Exp1 AND Exp51 AND EXP23 AND Exp43 AND Exp67
+GADimensionH,61.9,mm,length,61.9,Exp1 AND Exp51 AND EXP23 AND Exp44 AND Exp74
+GADimensionH,84.1,mm,length,84.1,Exp1 AND Exp51 AND EXP23 AND Exp42 AND Exp82
+GADimensionH,41.2,mm,length,41.2,Exp1 AND Exp51 AND EXP24 AND Exp46 AND Exp63
+GADimensionH,50.8,mm,length,50.8,Exp1 AND Exp51 AND EXP24 AND Exp48 AND Exp69
+GADimensionH,58.7,mm,length,58.7,Exp1 AND Exp51 AND EXP24 AND Exp43 AND Exp73
+GADimensionH,76.2,mm,length,76.2,Exp1 AND Exp51 AND EXP24 AND Exp44 AND Exp81
+GADimensionH,101.6,mm,length,101.6,Exp1 AND Exp51 AND EXP24 AND Exp42 AND Exp85
+GADimensionH,47.6,mm,length,47.6,Exp1 AND Exp51 AND EXP25 AND Exp46 AND Exp66
+GADimensionH,57.1,mm,length,57.1,Exp1 AND Exp51 AND EXP25 AND Exp48 AND Exp72
+GADimensionH,66.6,mm,length,66.6,Exp1 AND Exp51 AND EXP25 AND Exp43 AND Exp77
+GADimensionH,87.3,mm,length,87.3,Exp1 AND Exp51 AND EXP25 AND Exp44 AND Exp83
+GADimensionH,123.9,mm,length,123.9,Exp1 AND Exp51 AND EXP25 AND Exp42 AND Exp89
+GADimensionH,50.7,mm,length,50.7,Exp1 AND Exp51 AND EXP26 AND Exp46 AND Exp68
+GADimensionH,63.4,mm,length,63.4,Exp1 AND Exp51 AND EXP26 AND Exp48 AND Exp75
+GADimensionH,74.5,mm,length,74.5,Exp1 AND Exp51 AND EXP26 AND Exp43 AND Exp79
+GADimensionH,104.8,mm,length,104.8,Exp1 AND Exp51 AND EXP26 AND Exp44 AND Exp86
+GADimensionH,139.8,mm,length,139.8,Exp1 AND Exp51 AND EXP26 AND Exp42 AND Exp91
+GADimensionH,53.9,mm,length,53.9,Exp1 AND Exp51 AND EXP27 AND Exp46 AND Exp71
+GADimensionH,69.8,mm,length,69.8,Exp1 AND Exp51 AND EXP27 AND Exp48 AND Exp78
+GADimensionH,87.3,mm,length,87.3,Exp1 AND Exp51 AND EXP27 AND Exp43 AND Exp83
+GADimensionH,115.9,mm,length,115.9,Exp1 AND Exp51 AND EXP27 AND Exp44 AND Exp88
+GADimensionH,58.7,mm,length,58.7,Exp1 AND Exp51 AND EXP28 AND Exp46 AND Exp73
+GADimensionH,76.1,mm,length,76.1,Exp1 AND Exp51 AND EXP28 AND Exp48 AND Exp80
+GADimensionH,95.2,mm,length,95.2,Exp1 AND Exp51 AND EXP28 AND Exp43 AND Exp84
+GADimensionH,128.7,mm,length,128.7,Exp1 AND Exp51 AND EXP28 AND Exp44 AND Exp90
+GADimensionH,63.4,mm,length,63.4,Exp1 AND Exp51 AND EXP29 AND Exp46 AND Exp75
+GADimensionH,84.1,mm,length,84.1,Exp1 AND Exp51 AND EXP29 AND Exp48 AND Exp82
+GADimensionH,108,mm,length,108,Exp1 AND Exp51 AND EXP29 AND Exp43 AND Exp87
+GADimensionH,141.4,mm,length,141.4,Exp1 AND Exp51 AND EXP29 AND Exp44 AND Exp92
+FlangeLengthF,60.35,mm,length,,Exp14 AND Exp39 AND Exp93
+FlangeLengthF,66.35,mm,length,,Exp16 AND Exp39 AND Exp93
+FlangeLengthF,68.35,mm,length,,Exp17 AND Exp39 AND Exp93
+FlangeLengthF,74.35,mm,length,,Exp18 AND Exp39 AND Exp93
+FlangeLengthF,74.35,mm,length,,Exp19 AND Exp39 AND Exp93
+FlangeLengthF,76.35,mm,length,,Exp20 AND Exp39 AND Exp93
+FlangeLengthF,81.35,mm,length,,Exp21 AND Exp39 AND Exp93
+FlangeLengthF,93.35,mm,length,,Exp22 AND Exp39 AND Exp93
+FlangeLengthF,93.35,mm,length,,Exp23 AND Exp39 AND Exp93
+FlangeLengthF,106.35,mm,length,,Exp24 AND Exp39 AND Exp93
+FlangeLengthF,106.35,mm,length,,Exp25 AND Exp39 AND Exp93
+FlangeLengthF,119.35,mm,length,,Exp26 AND Exp39 AND Exp93
+FlangeLengthF,131.35,mm,length,,Exp27 AND Exp39 AND Exp93
+FlangeLengthF,131.35,mm,length,,Exp28 AND Exp39 AND Exp93
+FlangeLengthF,144.35,mm,length,,Exp29 AND Exp39 AND Exp93
+FlangeLengthF,149.35,mm,length,,Exp30 AND Exp39 AND Exp93
+FlangeLengthF,157.35,mm,length,,Exp32 AND Exp39 AND Exp93
+FlangeLengthF,56.54,mm,length,,Exp12 AND Exp46 AND Exp93
+FlangeLengthF,62.35,mm,length,,Exp13 AND Exp46 AND Exp93
+FlangeLengthF,66.35,mm,length,,Exp14 AND Exp46 AND Exp93
+FlangeLengthF,73.35,mm,length,,Exp16 AND Exp46 AND Exp93
+FlangeLengthF,75.92,mm,length,,Exp17 AND Exp46 AND Exp93
+FlangeLengthF,82.92,mm,length,,Exp18 AND Exp46 AND Exp93
+FlangeLengthF,85.92,mm,length,,Exp19 AND Exp46 AND Exp93
+FlangeLengthF,86.92,mm,length,,Exp20 AND Exp46 AND Exp93
+FlangeLengthF,91.92,mm,length,,Exp21 AND Exp46 AND Exp93
+FlangeLengthF,104.92,mm,length,,Exp22 AND Exp46 AND Exp93
+FlangeLengthF,104.92,mm,length,,Exp23 AND Exp46 AND Exp93
+FlangeLengthF,117.92,mm,length,,Exp24 AND Exp46 AND Exp93
+FlangeLengthF,123.92,mm,length,,Exp25 AND Exp46 AND Exp93
+FlangeLengthF,136.92,mm,length,,Exp26 AND Exp46 AND Exp93
+FlangeLengthF,148.92,mm,length,,Exp27 AND Exp46 AND Exp93
+FlangeLengthF,151.92,mm,length,,Exp28 AND Exp46 AND Exp93
+FlangeLengthF,164.92,mm,length,,Exp29 AND Exp46 AND Exp93
+FlangeLengthF,169.53,mm,length,,Exp30 AND Exp46 AND Exp93
+FlangeLengthF,178.13,mm,length,,Exp32 AND Exp46 AND Exp93
+FlangeLengthF,57.54,mm,length,,Exp12 AND Exp48 AND Exp93
+FlangeLengthF,63.35,mm,length,,Exp13 AND Exp48 AND Exp93
+FlangeLengthF,68.35,mm,length,,Exp14 AND Exp48 AND Exp93
+FlangeLengthF,76.35,mm,length,,Exp16 AND Exp48 AND Exp93
+FlangeLengthF,80.92,mm,length,,Exp17 AND Exp48 AND Exp93
+FlangeLengthF,86.92,mm,length,,Exp18 AND Exp48 AND Exp93
+FlangeLengthF,90.92,mm,length,,Exp19 AND Exp48 AND Exp93
+FlangeLengthF,93.92,mm,length,,Exp20 AND Exp48 AND Exp93
+FlangeLengthF,109.92,mm,length,,Exp21 AND Exp48 AND Exp93
+FlangeLengthF,121.92,mm,length,,Exp22 AND Exp48 AND Exp93
+FlangeLengthF,124.92,mm,length,,Exp23 AND Exp48 AND Exp93
+FlangeLengthF,140.92,mm,length,,Exp24 AND Exp48 AND Exp93
+FlangeLengthF,159.92,mm,length,,Exp25 AND Exp48 AND Exp93
+FlangeLengthF,163.92,mm,length,,Exp26 AND Exp48 AND Exp93
+FlangeLengthF,172.92,mm,length,,Exp27 AND Exp48 AND Exp93
+FlangeLengthF,185.92,mm,length,,Exp28 AND Exp48 AND Exp93
+FlangeLengthF,191.92,mm,length,,Exp29 AND Exp48 AND Exp93
+FlangeLengthF,199.53,mm,length,,Exp30 AND Exp48 AND Exp93
+FlangeLengthF,214.13,mm,length,,Exp32 AND Exp48 AND Exp93
+FlangeLengthF,66.35,mm,length,,Exp12 AND Exp43 AND Exp93
+FlangeLengthF,76.35,mm,length,,Exp13 AND Exp43 AND Exp93
+FlangeLengthF,79.35,mm,length,,Exp14 AND Exp43 AND Exp93
+FlangeLengthF,89.35,mm,length,,Exp16 AND Exp43 AND Exp93
+FlangeLengthF,109.92,mm,length,,Exp17 AND Exp43 AND Exp93
+FlangeLengthF,112.92,mm,length,,Exp18 AND Exp43 AND Exp93
+FlangeLengthF,109.92,mm,length,,Exp19 AND Exp43 AND Exp93
+FlangeLengthF,121.92,mm,length,,Exp21 AND Exp43 AND Exp93
+FlangeLengthF,134.92,mm,length,,Exp22 AND Exp43 AND Exp93
+FlangeLengthF,147.92,mm,length,,Exp23 AND Exp43 AND Exp93
+FlangeLengthF,169.92,mm,length,,Exp24 AND Exp43 AND Exp93
+FlangeLengthF,191.92,mm,length,,Exp25 AND Exp43 AND Exp93
+FlangeLengthF,207.92,mm,length,,Exp26 AND Exp43 AND Exp93
+FlangeLengthF,224.13,mm,length,,Exp27 AND Exp43 AND Exp93
+FlangeLengthF,227.13,mm,length,,Exp28 AND Exp43 AND Exp93
+FlangeLengthF,241.7,mm,length,,Exp29 AND Exp43 AND Exp93
+FlangeLengthF,260.7,mm,length,,Exp30 AND Exp43 AND Exp93
+FlangeLengthF,307.88,mm,length,,Exp32 AND Exp43 AND Exp93
+FlangeLengthF,66.35,mm,length,,Exp12 AND Exp44 AND Exp93
+FlangeLengthF,76.35,mm,length,,Exp13 AND Exp44 AND Exp93
+FlangeLengthF,79.35,mm,length,,Exp14 AND Exp44 AND Exp93
+FlangeLengthF,89.35,mm,length,,Exp16 AND Exp44 AND Exp93
+FlangeLengthF,109.92,mm,length,,Exp17 AND Exp44 AND Exp93
+FlangeLengthF,112.92,mm,length,,Exp18 AND Exp44 AND Exp93
+FlangeLengthF,124.92,mm,length,,Exp19 AND Exp44 AND Exp93
+FlangeLengthF,131.92,mm,length,,Exp21 AND Exp44 AND Exp93
+FlangeLengthF,163.92,mm,length,,Exp22 AND Exp44 AND Exp93
+FlangeLengthF,180.53,mm,length,,Exp23 AND Exp44 AND Exp93
+FlangeLengthF,224.13,mm,length,,Exp24 AND Exp44 AND Exp93
+FlangeLengthF,265.13,mm,length,,Exp25 AND Exp44 AND Exp93
+FlangeLengthF,297.27,mm,length,,Exp26 AND Exp44 AND Exp93
+FlangeLengthF,313.88,mm,length,,Exp27 AND Exp44 AND Exp93
+FlangeLengthF,328.48,mm,length,,Exp28 AND Exp44 AND Exp93
+FlangeLengthF,344.48,mm,length,,Exp29 AND Exp44 AND Exp93
+FlangeLengthF,373.48,mm,length,,Exp30 AND Exp44 AND Exp93
+FlangeLengthF,426.62,mm,length,,Exp32 AND Exp44 AND Exp93
+FlangeLengthF,79.35,mm,length,,Exp12 AND Exp42 AND Exp93
+FlangeLengthF,85.35,mm,length,,Exp13 AND Exp42 AND Exp93
+FlangeLengthF,95.35,mm,length,,Exp14 AND Exp42 AND Exp93
+FlangeLengthF,118.92,mm,length,,Exp16 AND Exp42 AND Exp93
+FlangeLengthF,134.92,mm,length,,Exp17 AND Exp42 AND Exp93
+FlangeLengthF,152.53,mm,length,,Exp18 AND Exp42 AND Exp93
+FlangeLengthF,177.53,mm,length,,Exp19 AND Exp42 AND Exp93
+FlangeLengthF,201.13,mm,length,,Exp21 AND Exp42 AND Exp93
+FlangeLengthF,241.7,mm,length,,Exp22 AND Exp42 AND Exp93
+FlangeLengthF,285.7,mm,length,,Exp23 AND Exp42 AND Exp93
+FlangeLengthF,332.27,mm,length,,Exp24 AND Exp42 AND Exp93
+FlangeLengthF,436.48,mm,length,,Exp25 AND Exp42 AND Exp93
+FlangeLengthF,481.48,mm,length,,Exp26 AND Exp42 AND Exp93
+FlangeLengthF,48,mm,length,,Exp12 AND Exp39 AND Exp10
+FlangeLengthF,53,mm,length,,Exp13 AND Exp39 AND Exp10
+FlangeLengthF,56,mm,length,,Exp14 AND Exp39 AND Exp10
+FlangeLengthF,62,mm,length,,Exp16 AND Exp39 AND Exp10
+FlangeLengthF,64,mm,length,,Exp17 AND Exp39 AND Exp10
+FlangeLengthF,70,mm,length,,Exp18 AND Exp39 AND Exp10
+FlangeLengthF,70,mm,length,,Exp19 AND Exp39 AND Exp10
+FlangeLengthF,72,mm,length,,Exp20 AND Exp39 AND Exp10
+FlangeLengthF,77,mm,length,,Exp21 AND Exp39 AND Exp10
+FlangeLengthF,89,mm,length,,Exp22 AND Exp39 AND Exp10
+FlangeLengthF,89,mm,length,,Exp23 AND Exp39 AND Exp10
+FlangeLengthF,102,mm,length,,Exp24 AND Exp39 AND Exp10
+FlangeLengthF,102,mm,length,,Exp25 AND Exp39 AND Exp10
+FlangeLengthF,115,mm,length,,Exp26 AND Exp39 AND Exp10
+FlangeLengthF,127,mm,length,,Exp27 AND Exp39 AND Exp10
+FlangeLengthF,127,mm,length,,Exp28 AND Exp39 AND Exp10
+FlangeLengthF,140,mm,length,,Exp29 AND Exp39 AND Exp10
+FlangeLengthF,145,mm,length,,Exp30 AND Exp39 AND Exp10
+FlangeLengthF,153,mm,length,,Exp32 AND Exp39 AND Exp10
+FlangeLengthF,53,mm,length,,Exp12 AND Exp46 AND Exp10
+FlangeLengthF,58,mm,length,,Exp13 AND Exp46 AND Exp10
+FlangeLengthF,62,mm,length,,Exp14 AND Exp46 AND Exp10
+FlangeLengthF,69,mm,length,,Exp16 AND Exp46 AND Exp10
+FlangeLengthF,70,mm,length,,Exp17 AND Exp46 AND Exp10
+FlangeLengthF,77,mm,length,,Exp18 AND Exp46 AND Exp10
+FlangeLengthF,80,mm,length,,Exp19 AND Exp46 AND Exp10
+FlangeLengthF,81,mm,length,,Exp20 AND Exp46 AND Exp10
+FlangeLengthF,86,mm,length,,Exp21 AND Exp46 AND Exp10
+FlangeLengthF,99,mm,length,,Exp22 AND Exp46 AND Exp10
+FlangeLengthF,99,mm,length,,Exp23 AND Exp46 AND Exp10
+FlangeLengthF,112,mm,length,,Exp24 AND Exp46 AND Exp10
+FlangeLengthF,118,mm,length,,Exp25 AND Exp46 AND Exp10
+FlangeLengthF,131,mm,length,,Exp26 AND Exp46 AND Exp10
+FlangeLengthF,143,mm,length,,Exp27 AND Exp46 AND Exp10
+FlangeLengthF,146,mm,length,,Exp28 AND Exp46 AND Exp10
+FlangeLengthF,159,mm,length,,Exp29 AND Exp46 AND Exp10
+FlangeLengthF,162,mm,length,,Exp30 AND Exp46 AND Exp10
+FlangeLengthF,169,mm,length,,Exp32 AND Exp46 AND Exp10
+FlangeLengthF,59,mm,length,,Exp12 AND Exp48 AND Exp10
+FlangeLengthF,64,mm,length,,Exp13 AND Exp48 AND Exp10
+FlangeLengthF,69,mm,length,,Exp14 AND Exp48 AND Exp10
+FlangeLengthF,77,mm,length,,Exp16 AND Exp48 AND Exp10
+FlangeLengthF,80,mm,length,,Exp17 AND Exp48 AND Exp10
+FlangeLengthF,86,mm,length,,Exp18 AND Exp48 AND Exp10
+FlangeLengthF,90,mm,length,,Exp19 AND Exp48 AND Exp10
+FlangeLengthF,93,mm,length,,Exp20 AND Exp48 AND Exp10
+FlangeLengthF,109,mm,length,,Exp21 AND Exp48 AND Exp10
+FlangeLengthF,121,mm,length,,Exp22 AND Exp48 AND Exp10
+FlangeLengthF,124,mm,length,,Exp23 AND Exp48 AND Exp10
+FlangeLengthF,140,mm,length,,Exp24 AND Exp48 AND Exp10
+FlangeLengthF,159,mm,length,,Exp25 AND Exp48 AND Exp10
+FlangeLengthF,163,mm,length,,Exp26 AND Exp48 AND Exp10
+FlangeLengthF,172,mm,length,,Exp27 AND Exp48 AND Exp10
+FlangeLengthF,185,mm,length,,Exp28 AND Exp48 AND Exp10
+FlangeLengthF,191,mm,length,,Exp29 AND Exp48 AND Exp10
+FlangeLengthF,197,mm,length,,Exp30 AND Exp48 AND Exp10
+FlangeLengthF,210,mm,length,,Exp32 AND Exp48 AND Exp10
+FlangeLengthF,67,mm,length,,Exp12 AND Exp43 AND Exp10
+FlangeLengthF,77,mm,length,,Exp13 AND Exp43 AND Exp10
+FlangeLengthF,80,mm,length,,Exp14 AND Exp43 AND Exp10
+FlangeLengthF,90,mm,length,,Exp16 AND Exp43 AND Exp10
+FlangeLengthF,109,mm,length,,Exp17 AND Exp43 AND Exp10
+FlangeLengthF,112,mm,length,,Exp18 AND Exp43 AND Exp10
+FlangeLengthF,109,mm,length,,Exp19 AND Exp43 AND Exp10
+FlangeLengthF,121,mm,length,,Exp21 AND Exp43 AND Exp10
+FlangeLengthF,134,mm,length,,Exp22 AND Exp43 AND Exp10
+FlangeLengthF,147,mm,length,,Exp23 AND Exp43 AND Exp10
+FlangeLengthF,169,mm,length,,Exp24 AND Exp43 AND Exp10
+FlangeLengthF,191,mm,length,,Exp25 AND Exp43 AND Exp10
+FlangeLengthF,207,mm,length,,Exp26 AND Exp43 AND Exp10
+FlangeLengthF,220,mm,length,,Exp27 AND Exp43 AND Exp10
+FlangeLengthF,223,mm,length,,Exp28 AND Exp43 AND Exp10
+FlangeLengthF,236,mm,length,,Exp29 AND Exp43 AND Exp10
+FlangeLengthF,255,mm,length,,Exp30 AND Exp43 AND Exp10
+FlangeLengthF,299,mm,length,,Exp32 AND Exp43 AND Exp10
+FlangeLengthF,67,mm,length,,Exp12 AND Exp44 AND Exp10
+FlangeLengthF,77,mm,length,,Exp13 AND Exp44 AND Exp10
+FlangeLengthF,80,mm,length,,Exp14 AND Exp44 AND Exp10
+FlangeLengthF,90,mm,length,,Exp16 AND Exp44 AND Exp10
+FlangeLengthF,109,mm,length,,Exp17 AND Exp44 AND Exp10
+FlangeLengthF,112,mm,length,,Exp18 AND Exp44 AND Exp10
+FlangeLengthF,124,mm,length,,Exp19 AND Exp44 AND Exp10
+FlangeLengthF,131,mm,length,,Exp21 AND Exp44 AND Exp10
+FlangeLengthF,163,mm,length,,Exp22 AND Exp44 AND Exp10
+FlangeLengthF,178,mm,length,,Exp23 AND Exp44 AND Exp10
+FlangeLengthF,220,mm,length,,Exp24 AND Exp44 AND Exp10
+FlangeLengthF,261,mm,length,,Exp25 AND Exp44 AND Exp10
+FlangeLengthF,290,mm,length,,Exp26 AND Exp44 AND Exp10
+FlangeLengthF,305,mm,length,,Exp27 AND Exp44 AND Exp10
+FlangeLengthF,318,mm,length,,Exp28 AND Exp44 AND Exp10
+FlangeLengthF,334,mm,length,,Exp29 AND Exp44 AND Exp10
+FlangeLengthF,363,mm,length,,Exp30 AND Exp44 AND Exp10
+FlangeLengthF,413,mm,length,,Exp32 AND Exp44 AND Exp10
+FlangeLengthF,80,mm,length,,Exp12 AND Exp42 AND Exp10
+FlangeLengthF,86,mm,length,,Exp13 AND Exp42 AND Exp10
+FlangeLengthF,96,mm,length,,Exp14 AND Exp42 AND Exp10
+FlangeLengthF,118,mm,length,,Exp16 AND Exp42 AND Exp10
+FlangeLengthF,134,mm,length,,Exp17 AND Exp42 AND Exp10
+FlangeLengthF,150,mm,length,,Exp18 AND Exp42 AND Exp10
+FlangeLengthF,175,mm,length,,Exp19 AND Exp42 AND Exp10
+FlangeLengthF,197,mm,length,,Exp21 AND Exp42 AND Exp10
+FlangeLengthF,236,mm,length,,Exp22 AND Exp42 AND Exp10
+FlangeLengthF,280,mm,length,,Exp23 AND Exp42 AND Exp10
+FlangeLengthF,325,mm,length,,Exp24 AND Exp42 AND Exp10
+FlangeLengthF,426,mm,length,,Exp25 AND Exp42 AND Exp10
+FlangeLengthF,471,mm,length,,Exp26 AND Exp42 AND Exp10
+FlangeLengthF,46,mm,length,,Exp12 AND Exp39 AND Exp11
+FlangeLengthF,51,mm,length,,Exp13 AND Exp39 AND Exp11
+FlangeLengthF,54,mm,length,,Exp14 AND Exp39 AND Exp11
+FlangeLengthF,60,mm,length,,Exp16 AND Exp39 AND Exp11
+FlangeLengthF,62,mm,length,,Exp17 AND Exp39 AND Exp11
+FlangeLengthF,68,mm,length,,Exp18 AND Exp39 AND Exp11
+FlangeLengthF,68,mm,length,,Exp19 AND Exp39 AND Exp11
+FlangeLengthF,70,mm,length,,Exp20 AND Exp39 AND Exp11
+FlangeLengthF,75,mm,length,,Exp21 AND Exp39 AND Exp11
+FlangeLengthF,87,mm,length,,Exp22 AND Exp39 AND Exp11
+FlangeLengthF,87,mm,length,,Exp23 AND Exp39 AND Exp11
+FlangeLengthF,100,mm,length,,Exp24 AND Exp39 AND Exp11
+FlangeLengthF,100,mm,length,,Exp25 AND Exp39 AND Exp11
+FlangeLengthF,113,mm,length,,Exp26 AND Exp39 AND Exp11
+FlangeLengthF,125,mm,length,,Exp27 AND Exp39 AND Exp11
+FlangeLengthF,125,mm,length,,Exp28 AND Exp39 AND Exp11
+FlangeLengthF,138,mm,length,,Exp29 AND Exp39 AND Exp11
+FlangeLengthF,143,mm,length,,Exp30 AND Exp39 AND Exp11
+FlangeLengthF,151,mm,length,,Exp32 AND Exp39 AND Exp11
+FlangeLengthF,51,mm,length,,Exp12 AND Exp46 AND Exp11
+FlangeLengthF,56,mm,length,,Exp13 AND Exp46 AND Exp11
+FlangeLengthF,60,mm,length,,Exp14 AND Exp46 AND Exp11
+FlangeLengthF,67,mm,length,,Exp16 AND Exp46 AND Exp11
+FlangeLengthF,68,mm,length,,Exp17 AND Exp46 AND Exp11
+FlangeLengthF,75,mm,length,,Exp18 AND Exp46 AND Exp11
+FlangeLengthF,78,mm,length,,Exp19 AND Exp46 AND Exp11
+FlangeLengthF,79,mm,length,,Exp20 AND Exp46 AND Exp11
+FlangeLengthF,84,mm,length,,Exp21 AND Exp46 AND Exp11
+FlangeLengthF,97,mm,length,,Exp22 AND Exp46 AND Exp11
+FlangeLengthF,97,mm,length,,Exp23 AND Exp46 AND Exp11
+FlangeLengthF,110,mm,length,,Exp24 AND Exp46 AND Exp11
+FlangeLengthF,116,mm,length,,Exp25 AND Exp46 AND Exp11
+FlangeLengthF,129,mm,length,,Exp26 AND Exp46 AND Exp11
+FlangeLengthF,141,mm,length,,Exp27 AND Exp46 AND Exp11
+FlangeLengthF,144,mm,length,,Exp28 AND Exp46 AND Exp11
+FlangeLengthF,157,mm,length,,Exp29 AND Exp46 AND Exp11
+FlangeLengthF,160,mm,length,,Exp30 AND Exp46 AND Exp11
+FlangeLengthF,167,mm,length,,Exp32 AND Exp46 AND Exp11
+FlangeLengthF,52,mm,length,,Exp12 AND Exp48 AND Exp11
+FlangeLengthF,57,mm,length,,Exp13 AND Exp48 AND Exp11
+FlangeLengthF,62,mm,length,,Exp14 AND Exp48 AND Exp11
+FlangeLengthF,70,mm,length,,Exp16 AND Exp48 AND Exp11
+FlangeLengthF,73,mm,length,,Exp17 AND Exp48 AND Exp11
+FlangeLengthF,79,mm,length,,Exp18 AND Exp48 AND Exp11
+FlangeLengthF,83,mm,length,,Exp19 AND Exp48 AND Exp11
+FlangeLengthF,86,mm,length,,Exp20 AND Exp48 AND Exp11
+FlangeLengthF,102,mm,length,,Exp21 AND Exp48 AND Exp11
+FlangeLengthF,114,mm,length,,Exp22 AND Exp48 AND Exp11
+FlangeLengthF,117,mm,length,,Exp23 AND Exp48 AND Exp11
+FlangeLengthF,133,mm,length,,Exp24 AND Exp48 AND Exp11
+FlangeLengthF,152,mm,length,,Exp25 AND Exp48 AND Exp11
+FlangeLengthF,156,mm,length,,Exp26 AND Exp48 AND Exp11
+FlangeLengthF,165,mm,length,,Exp27 AND Exp48 AND Exp11
+FlangeLengthF,178,mm,length,,Exp28 AND Exp48 AND Exp11
+FlangeLengthF,184,mm,length,,Exp29 AND Exp48 AND Exp11
+FlangeLengthF,190,mm,length,,Exp30 AND Exp48 AND Exp11
+FlangeLengthF,203,mm,length,,Exp32 AND Exp48 AND Exp11
+FlangeLengthF,60,mm,length,,Exp12 AND Exp43 AND Exp11
+FlangeLengthF,70,mm,length,,Exp13 AND Exp43 AND Exp11
+FlangeLengthF,73,mm,length,,Exp14 AND Exp43 AND Exp11
+FlangeLengthF,83,mm,length,,Exp16 AND Exp43 AND Exp11
+FlangeLengthF,102,mm,length,,Exp17 AND Exp43 AND Exp11
+FlangeLengthF,105,mm,length,,Exp18 AND Exp43 AND Exp11
+FlangeLengthF,102,mm,length,,Exp19 AND Exp43 AND Exp11
+FlangeLengthF,114,mm,length,,Exp21 AND Exp43 AND Exp11
+FlangeLengthF,127,mm,length,,Exp22 AND Exp43 AND Exp11
+FlangeLengthF,140,mm,length,,Exp23 AND Exp43 AND Exp11
+FlangeLengthF,162,mm,length,,Exp24 AND Exp43 AND Exp11
+FlangeLengthF,184,mm,length,,Exp25 AND Exp43 AND Exp11
+FlangeLengthF,200,mm,length,,Exp26 AND Exp43 AND Exp11
+FlangeLengthF,213,mm,length,,Exp27 AND Exp43 AND Exp11
+FlangeLengthF,216,mm,length,,Exp28 AND Exp43 AND Exp11
+FlangeLengthF,229,mm,length,,Exp29 AND Exp43 AND Exp11
+FlangeLengthF,248,mm,length,,Exp30 AND Exp43 AND Exp11
+FlangeLengthF,292,mm,length,,Exp32 AND Exp43 AND Exp11
+FlangeLengthF,60,mm,length,,Exp12 AND Exp44 AND Exp11
+FlangeLengthF,70,mm,length,,Exp13 AND Exp44 AND Exp11
+FlangeLengthF,73,mm,length,,Exp14 AND Exp44 AND Exp11
+FlangeLengthF,83,mm,length,,Exp16 AND Exp44 AND Exp11
+FlangeLengthF,102,mm,length,,Exp17 AND Exp44 AND Exp11
+FlangeLengthF,105,mm,length,,Exp18 AND Exp44 AND Exp11
+FlangeLengthF,117,mm,length,,Exp19 AND Exp44 AND Exp11
+FlangeLengthF,124,mm,length,,Exp21 AND Exp44 AND Exp11
+FlangeLengthF,156,mm,length,,Exp22 AND Exp44 AND Exp11
+FlangeLengthF,171,mm,length,,Exp23 AND Exp44 AND Exp11
+FlangeLengthF,213,mm,length,,Exp24 AND Exp44 AND Exp11
+FlangeLengthF,254,mm,length,,Exp25 AND Exp44 AND Exp11
+FlangeLengthF,283,mm,length,,Exp26 AND Exp44 AND Exp11
+FlangeLengthF,298,mm,length,,Exp27 AND Exp44 AND Exp11
+FlangeLengthF,311,mm,length,,Exp28 AND Exp44 AND Exp11
+FlangeLengthF,327,mm,length,,Exp29 AND Exp44 AND Exp11
+FlangeLengthF,356,mm,length,,Exp30 AND Exp44 AND Exp11
+FlangeLengthF,406,mm,length,,Exp32 AND Exp44 AND Exp11
+FlangeLengthF,73,mm,length,,Exp12 AND Exp42 AND Exp11
+FlangeLengthF,79,mm,length,,Exp13 AND Exp42 AND Exp11
+FlangeLengthF,89,mm,length,,Exp14 AND Exp42 AND Exp11
+FlangeLengthF,111,mm,length,,Exp16 AND Exp42 AND Exp11
+FlangeLengthF,127,mm,length,,Exp17 AND Exp42 AND Exp11
+FlangeLengthF,143,mm,length,,Exp18 AND Exp42 AND Exp11
+FlangeLengthF,168,mm,length,,Exp19 AND Exp42 AND Exp11
+FlangeLengthF,190,mm,length,,Exp21 AND Exp42 AND Exp11
+FlangeLengthF,229,mm,length,,Exp22 AND Exp42 AND Exp11
+FlangeLengthF,273,mm,length,,Exp23 AND Exp42 AND Exp11
+FlangeLengthF,318,mm,length,,Exp24 AND Exp42 AND Exp11
+FlangeLengthF,419,mm,length,,Exp25 AND Exp42 AND Exp11
+FlangeLengthF,464,mm,length,,Exp26 AND Exp42 AND Exp11
+BoltHolesN,4,,,,Exp12 AND Exp39
+BoltHolesN,4,,,,Exp13 AND Exp39
+BoltHolesN,4,,,,Exp14 AND Exp39
+BoltHolesN,4,,,,Exp16 AND Exp39
+BoltHolesN,4,,,,Exp17 AND Exp39
+BoltHolesN,4,,,,Exp18 AND Exp39
+BoltHolesN,4,,,,Exp19 AND Exp39
+BoltHolesN,4,,,,Exp20 AND Exp39
+BoltHolesN,8,,,,Exp21 AND Exp39
+BoltHolesN,8,,,,Exp22 AND Exp39
+BoltHolesN,8,,,,Exp23 AND Exp39
+BoltHolesN,8,,,,Exp24 AND Exp39
+BoltHolesN,12,,,,Exp25 AND Exp39
+BoltHolesN,12,,,,Exp26 AND Exp39
+BoltHolesN,12,,,,Exp27 AND Exp39
+BoltHolesN,16,,,,Exp28 AND Exp39
+BoltHolesN,16,,,,Exp29 AND Exp39
+BoltHolesN,20,,,,Exp30 AND Exp39
+BoltHolesN,20,,,,Exp32 AND Exp39
+BoltHolesN,4,,,,Exp12 AND Exp46
+BoltHolesN,4,,,,Exp13 AND Exp46
+BoltHolesN,4,,,,Exp14 AND Exp46
+BoltHolesN,4,,,,Exp16 AND Exp46
+BoltHolesN,8,,,,Exp17 AND Exp46
+BoltHolesN,8,,,,Exp18 AND Exp46
+BoltHolesN,8,,,,Exp19 AND Exp46
+BoltHolesN,8,,,,Exp20 AND Exp46
+BoltHolesN,8,,,,Exp21 AND Exp46
+BoltHolesN,8,,,,Exp22 AND Exp46
+BoltHolesN,12,,,,Exp23 AND Exp46
+BoltHolesN,12,,,,Exp24 AND Exp46
+BoltHolesN,16,,,,Exp25 AND Exp46
+BoltHolesN,16,,,,Exp26 AND Exp46
+BoltHolesN,20,,,,Exp27 AND Exp46
+BoltHolesN,20,,,,Exp28 AND Exp46
+BoltHolesN,24,,,,Exp29 AND Exp46
+BoltHolesN,24,,,,Exp30 AND Exp46
+BoltHolesN,24,,,,Exp32 AND Exp46
+BoltHolesN,4,,,,Exp12 AND Exp48
+BoltHolesN,4,,,,Exp13 AND Exp48
+BoltHolesN,4,,,,Exp14 AND Exp48
+BoltHolesN,4,,,,Exp16 AND Exp48
+BoltHolesN,8,,,,Exp17 AND Exp48
+BoltHolesN,8,,,,Exp18 AND Exp48
+BoltHolesN,8,,,,Exp19 AND Exp48
+BoltHolesN,8,,,,Exp20 AND Exp48
+BoltHolesN,8,,,,Exp21 AND Exp48
+BoltHolesN,8,,,,Exp22 AND Exp48
+BoltHolesN,12,,,,Exp23 AND Exp48
+BoltHolesN,12,,,,Exp24 AND Exp48
+BoltHolesN,16,,,,Exp25 AND Exp48
+BoltHolesN,20,,,,Exp26 AND Exp48
+BoltHolesN,20,,,,Exp27 AND Exp48
+BoltHolesN,20,,,,Exp28 AND Exp48
+BoltHolesN,20,,,,Exp29 AND Exp48
+BoltHolesN,24,,,,Exp30 AND Exp48
+BoltHolesN,24,,,,Exp32 AND Exp48
+BoltHolesN,4,,,,Exp12 AND Exp43
+BoltHolesN,4,,,,Exp13 AND Exp43
+BoltHolesN,4,,,,Exp14 AND Exp43
+BoltHolesN,4,,,,Exp16 AND Exp43
+BoltHolesN,8,,,,Exp17 AND Exp43
+BoltHolesN,8,,,,Exp18 AND Exp43
+BoltHolesN,8,,,,Exp19 AND Exp43
+BoltHolesN,8,,,,Exp21 AND Exp43
+BoltHolesN,8,,,,Exp22 AND Exp43
+BoltHolesN,12,,,,Exp23 AND Exp43
+BoltHolesN,12,,,,Exp24 AND Exp43
+BoltHolesN,16,,,,Exp25 AND Exp43
+BoltHolesN,20,,,,Exp26 AND Exp43
+BoltHolesN,20,,,,Exp27 AND Exp43
+BoltHolesN,20,,,,Exp28 AND Exp43
+BoltHolesN,20,,,,Exp29 AND Exp43
+BoltHolesN,20,,,,Exp30 AND Exp43
+BoltHolesN,20,,,,Exp32 AND Exp43
+BoltHolesN,4,,,,Exp12 AND Exp44
+BoltHolesN,4,,,,Exp13 AND Exp44
+BoltHolesN,4,,,,Exp14 AND Exp44
+BoltHolesN,4,,,,Exp16 AND Exp44
+BoltHolesN,8,,,,Exp17 AND Exp44
+BoltHolesN,8,,,,Exp18 AND Exp44
+BoltHolesN,8,,,,Exp19 AND Exp44
+BoltHolesN,8,,,,Exp21 AND Exp44
+BoltHolesN,8,,,,Exp22 AND Exp44
+BoltHolesN,12,,,,Exp23 AND Exp44
+BoltHolesN,12,,,,Exp24 AND Exp44
+BoltHolesN,12,,,,Exp25 AND Exp44
+BoltHolesN,16,,,,Exp26 AND Exp44
+BoltHolesN,16,,,,Exp27 AND Exp44
+BoltHolesN,16,,,,Exp28 AND Exp44
+BoltHolesN,16,,,,Exp29 AND Exp44
+BoltHolesN,16,,,,Exp30 AND Exp44
+BoltHolesN,16,,,,Exp32 AND Exp44
+BoltHolesN,4,,,,Exp12 AND Exp42
+BoltHolesN,4,,,,Exp13 AND Exp42
+BoltHolesN,4,,,,Exp14 AND Exp42
+BoltHolesN,4,,,,Exp16 AND Exp42
+BoltHolesN,8,,,,Exp17 AND Exp42
+BoltHolesN,8,,,,Exp18 AND Exp42
+BoltHolesN,8,,,,Exp19 AND Exp42
+BoltHolesN,8,,,,Exp21 AND Exp42
+BoltHolesN,8,,,,Exp22 AND Exp42
+BoltHolesN,8,,,,Exp23 AND Exp42
+BoltHolesN,12,,,,Exp24 AND Exp42
+BoltHolesN,12,,,,Exp25 AND Exp42
+BoltHolesN,12,,,,Exp26 AND Exp42
+HoleDiaH,"5/8""",,,,Exp12 AND Exp39
+HoleDiaH,"5/8""",,,,Exp13 AND Exp39
+HoleDiaH,"5/8""",,,,Exp14 AND Exp39
+HoleDiaH,"5/8""",,,,Exp16 AND Exp39
+HoleDiaH,"3/4""",,,,Exp17 AND Exp39
+HoleDiaH,"3/4""",,,,Exp18 AND Exp39
+HoleDiaH,"3/4""",,,,Exp19 AND Exp39
+HoleDiaH,"3/4""",,,,Exp20 AND Exp39
+HoleDiaH,"3/4""",,,,Exp21 AND Exp39
+HoleDiaH,"7/8""",,,,Exp22 AND Exp39
+HoleDiaH,"7/8""",,,,Exp23 AND Exp39
+HoleDiaH,"7/8""",,,,Exp24 AND Exp39
+HoleDiaH,"1""",,,,Exp25 AND Exp39
+HoleDiaH,"1""",,,,Exp26 AND Exp39
+HoleDiaH,"1 1/8""",,,,Exp27 AND Exp39
+HoleDiaH,"1 1/8""",,,,Exp28 AND Exp39
+HoleDiaH,"1 1/4""",,,,Exp29 AND Exp39
+HoleDiaH,"1 1/4""",,,,Exp30 AND Exp39
+HoleDiaH,"1 3/8""",,,,Exp32 AND Exp39
+HoleDiaH,"5/8""",,,,Exp12 AND Exp46
+HoleDiaH,"3/4""",,,,Exp13 AND Exp46
+HoleDiaH,"3/4""",,,,Exp14 AND Exp46
+HoleDiaH,"7/8""",,,,Exp16 AND Exp46
+HoleDiaH,"3/4""",,,,Exp17 AND Exp46
+HoleDiaH,"7/8""",,,,Exp18 AND Exp46
+HoleDiaH,"7/8""",,,,Exp19 AND Exp46
+HoleDiaH,"7/8""",,,,Exp20 AND Exp46
+HoleDiaH,"7/8""",,,,Exp21 AND Exp46
+HoleDiaH,"7/8""",,,,Exp22 AND Exp46
+HoleDiaH,"7/8""",,,,Exp23 AND Exp46
+HoleDiaH,"1""",,,,Exp24 AND Exp46
+HoleDiaH,"1 1/8""",,,,Exp25 AND Exp46
+HoleDiaH,"1 1/4""",,,,Exp26 AND Exp46
+HoleDiaH,"1 1/4""",,,,Exp27 AND Exp46
+HoleDiaH,"1 3/8""",,,,Exp28 AND Exp46
+HoleDiaH,"1 3/8""",,,,Exp29 AND Exp46
+HoleDiaH,"1 3/8""",,,,Exp30 AND Exp46
+HoleDiaH,"1 5/8""",,,,Exp32 AND Exp46
+HoleDiaH,"5/8""",,,,Exp12 AND Exp48
+HoleDiaH,"3/4""",,,,Exp13 AND Exp48
+HoleDiaH,"3/4""",,,,Exp14 AND Exp48
+HoleDiaH,"7/8""",,,,Exp16 AND Exp48
+HoleDiaH,"3/4""",,,,Exp17 AND Exp48
+HoleDiaH,"7/8""",,,,Exp18 AND Exp48
+HoleDiaH,"7/8""",,,,Exp19 AND Exp48
+HoleDiaH,"1""",,,,Exp20 AND Exp48
+HoleDiaH,"1""",,,,Exp21 AND Exp48
+HoleDiaH,"1 1/8""",,,,Exp22 AND Exp48
+HoleDiaH,"1 1/8""",,,,Exp23 AND Exp48
+HoleDiaH,"1 1/4""",,,,Exp24 AND Exp48
+HoleDiaH,"1 3/8""",,,,Exp25 AND Exp48
+HoleDiaH,"1 3/8""",,,,Exp26 AND Exp48
+HoleDiaH,"1 1/2""",,,,Exp27 AND Exp48
+HoleDiaH,"1 5/8""",,,,Exp28 AND Exp48
+HoleDiaH,"1 3/4""",,,,Exp29 AND Exp48
+HoleDiaH,"1 3/4""",,,,Exp30 AND Exp48
+HoleDiaH,"2""",,,,Exp32 AND Exp48
+HoleDiaH,"7/8""",,,,Exp12 AND Exp43
+HoleDiaH,"7/8""",,,,Exp13 AND Exp43
+HoleDiaH,"1""",,,,Exp14 AND Exp43
+HoleDiaH,"1 1/8""",,,,Exp16 AND Exp43
+HoleDiaH,"1""",,,,Exp17 AND Exp43
+HoleDiaH,"1 1/8""",,,,Exp18 AND Exp43
+HoleDiaH,"1""",,,,Exp19 AND Exp43
+HoleDiaH,"1 1/4""",,,,Exp21 AND Exp43
+HoleDiaH,"1 3/8""",,,,Exp22 AND Exp43
+HoleDiaH,"1 1/4""",,,,Exp23 AND Exp43
+HoleDiaH,"1 1/2""",,,,Exp24 AND Exp43
+HoleDiaH,"1 1/2""",,,,Exp25 AND Exp43
+HoleDiaH,"1 1/2""",,,,Exp26 AND Exp43
+HoleDiaH,"1 5/8""",,,,Exp27 AND Exp43
+HoleDiaH,"1 3/4""",,,,Exp28 AND Exp43
+HoleDiaH,"2""",,,,Exp29 AND Exp43
+HoleDiaH,"2 1/8""",,,,Exp30 AND Exp43
+HoleDiaH,"2 5/8""",,,,Exp32 AND Exp43
+HoleDiaH,"7/8""",,,,Exp12 AND Exp44
+HoleDiaH,"7/8""",,,,Exp13 AND Exp44
+HoleDiaH,"1""",,,,Exp14 AND Exp44
+HoleDiaH,"1 1/8""",,,,Exp16 AND Exp44
+HoleDiaH,"1""",,,,Exp17 AND Exp44
+HoleDiaH,"1 1/8""",,,,Exp18 AND Exp44
+HoleDiaH,"1 1/4""",,,,Exp19 AND Exp44
+HoleDiaH,"1 3/8""",,,,Exp21 AND Exp44
+HoleDiaH,"1 5/8""",,,,Exp22 AND Exp44
+HoleDiaH,"1 1/2""",,,,Exp23 AND Exp44
+HoleDiaH,"1 3/4""",,,,Exp24 AND Exp44
+HoleDiaH,"2""",,,,Exp25 AND Exp44
+HoleDiaH,"2 1/8""",,,,Exp26 AND Exp44
+HoleDiaH,"2 3/8""",,,,Exp27 AND Exp44
+HoleDiaH,"2 5/8""",,,,Exp28 AND Exp44
+HoleDiaH,"2 7/8""",,,,Exp29 AND Exp44
+HoleDiaH,"3 1/8""",,,,Exp30 AND Exp44
+HoleDiaH,"3 5/8""",,,,Exp32 AND Exp44
+HoleDiaH,"7/8""",,,,Exp12 AND Exp42
+HoleDiaH,"7/8""",,,,Exp13 AND Exp42
+HoleDiaH,"1""",,,,Exp14 AND Exp42
+HoleDiaH,"1 1/4""",,,,Exp16 AND Exp42
+HoleDiaH,"1 1/8""",,,,Exp17 AND Exp42
+HoleDiaH,"1 1/4""",,,,Exp18 AND Exp42
+HoleDiaH,"1 3/8""",,,,Exp19 AND Exp42
+HoleDiaH,"1 5/8""",,,,Exp21 AND Exp42
+HoleDiaH,"1 7/8""",,,,Exp22 AND Exp42
+HoleDiaH,"2 1/8""",,,,Exp23 AND Exp42
+HoleDiaH,"2 1/8""",,,,Exp24 AND Exp42
+HoleDiaH,"2 5/8""",,,,Exp25 AND Exp42
+HoleDiaH,"2 7/8""",,,,Exp26 AND Exp42
+HolePCDP,60.3,mm,LENGTH,,Exp12 AND Exp39
+HolePCDP,69.9,mm,LENGTH,,Exp13 AND Exp39
+HolePCDP,79.4,mm,LENGTH,,Exp14 AND Exp39
+HolePCDP,98.4,mm,LENGTH,,Exp16 AND Exp39
+HolePCDP,120.7,mm,LENGTH,,Exp17 AND Exp39
+HolePCDP,139.7,mm,LENGTH,,Exp18 AND Exp39
+HolePCDP,152.4,mm,LENGTH,,Exp19 AND Exp39
+HolePCDP,177.8,mm,LENGTH,,Exp20 AND Exp39
+HolePCDP,190.5,mm,LENGTH,,Exp21 AND Exp39
+HolePCDP,215.9,mm,LENGTH,,Exp22 AND Exp39
+HolePCDP,241.3,mm,LENGTH,,Exp23 AND Exp39
+HolePCDP,298.5,mm,LENGTH,,Exp24 AND Exp39
+HolePCDP,362,mm,LENGTH,,Exp25 AND Exp39
+HolePCDP,431.8,mm,LENGTH,,Exp26 AND Exp39
+HolePCDP,476.3,mm,LENGTH,,Exp27 AND Exp39
+HolePCDP,539.8,mm,LENGTH,,Exp28 AND Exp39
+HolePCDP,577.9,mm,LENGTH,,Exp29 AND Exp39
+HolePCDP,635,mm,LENGTH,,Exp30 AND Exp39
+HolePCDP,749.3,mm,LENGTH,,Exp32 AND Exp39
+HolePCDP,66.7,mm,LENGTH,,Exp12 AND Exp46
+HolePCDP,82.6,mm,LENGTH,,Exp13 AND Exp46
+HolePCDP,88.9,mm,LENGTH,,Exp14 AND Exp46
+HolePCDP,114.3,mm,LENGTH,,Exp16 AND Exp46
+HolePCDP,127,mm,LENGTH,,Exp17 AND Exp46
+HolePCDP,149.2,mm,LENGTH,,Exp18 AND Exp46
+HolePCDP,168.3,mm,LENGTH,,Exp19 AND Exp46
+HolePCDP,184.2,mm,LENGTH,,Exp20 AND Exp46
+HolePCDP,200,mm,LENGTH,,Exp21 AND Exp46
+HolePCDP,235,mm,LENGTH,,Exp22 AND Exp46
+HolePCDP,269.9,mm,LENGTH,,Exp23 AND Exp46
+HolePCDP,330.2,mm,LENGTH,,Exp24 AND Exp46
+HolePCDP,387.4,mm,LENGTH,,Exp25 AND Exp46
+HolePCDP,450.8,mm,LENGTH,,Exp26 AND Exp46
+HolePCDP,514.4,mm,LENGTH,,Exp27 AND Exp46
+HolePCDP,571.5,mm,LENGTH,,Exp28 AND Exp46
+HolePCDP,628.6,mm,LENGTH,,Exp29 AND Exp46
+HolePCDP,685.8,mm,LENGTH,,Exp30 AND Exp46
+HolePCDP,812.8,mm,LENGTH,,Exp32 AND Exp46
+HolePCDP,66.7,mm,LENGTH,,Exp12 AND Exp48
+HolePCDP,82.6,mm,LENGTH,,Exp13 AND Exp48
+HolePCDP,88.9,mm,LENGTH,,Exp14 AND Exp48
+HolePCDP,114.3,mm,LENGTH,,Exp16 AND Exp48
+HolePCDP,127,mm,LENGTH,,Exp17 AND Exp48
+HolePCDP,149.2,mm,LENGTH,,Exp18 AND Exp48
+HolePCDP,168.3,mm,LENGTH,,Exp19 AND Exp48
+HolePCDP,184.2,mm,LENGTH,,Exp20 AND Exp48
+HolePCDP,215.9,mm,LENGTH,,Exp21 AND Exp48
+HolePCDP,266.7,mm,LENGTH,,Exp22 AND Exp48
+HolePCDP,292.1,mm,LENGTH,,Exp23 AND Exp48
+HolePCDP,39.2,mm,LENGTH,,Exp24 AND Exp48
+HolePCDP,431.8,mm,LENGTH,,Exp25 AND Exp48
+HolePCDP,489,mm,LENGTH,,Exp26 AND Exp48
+HolePCDP,527,mm,LENGTH,,Exp27 AND Exp48
+HolePCDP,603.2,mm,LENGTH,,Exp28 AND Exp48
+HolePCDP,654,mm,LENGTH,,Exp29 AND Exp48
+HolePCDP,723.9,mm,LENGTH,,Exp30 AND Exp48
+HolePCDP,838.2,mm,LENGTH,,Exp32 AND Exp48
+HolePCDP,82.6,mm,LENGTH,,Exp12 AND Exp43
+HolePCDP,88.9,mm,LENGTH,,Exp13 AND Exp43
+HolePCDP,101.6,mm,LENGTH,,Exp14 AND Exp43
+HolePCDP,123.8,mm,LENGTH,,Exp16 AND Exp43
+HolePCDP,165.1,mm,LENGTH,,Exp17 AND Exp43
+HolePCDP,190.5,mm,LENGTH,,Exp18 AND Exp43
+HolePCDP,190.5,mm,LENGTH,,Exp19 AND Exp43
+HolePCDP,235,mm,LENGTH,,Exp21 AND Exp43
+HolePCDP,279.4,mm,LENGTH,,Exp22 AND Exp43
+HolePCDP,317.5,mm,LENGTH,,Exp23 AND Exp43
+HolePCDP,393.7,mm,LENGTH,,Exp24 AND Exp43
+HolePCDP,469.9,mm,LENGTH,,Exp25 AND Exp43
+HolePCDP,533.4,mm,LENGTH,,Exp26 AND Exp43
+HolePCDP,558.8,mm,LENGTH,,Exp27 AND Exp43
+HolePCDP,616,mm,LENGTH,,Exp28 AND Exp43
+HolePCDP,685.8,mm,LENGTH,,Exp29 AND Exp43
+HolePCDP,749.3,mm,LENGTH,,Exp30 AND Exp43
+HolePCDP,901.7,mm,LENGTH,,Exp32 AND Exp43
+HolePCDP,82.6,mm,LENGTH,,Exp12 AND Exp44
+HolePCDP,88.9,mm,LENGTH,,Exp13 AND Exp44
+HolePCDP,101.6,mm,LENGTH,,Exp14 AND Exp44
+HolePCDP,123.8,mm,LENGTH,,Exp16 AND Exp44
+HolePCDP,165.1,mm,LENGTH,,Exp17 AND Exp44
+HolePCDP,190.5,mm,LENGTH,,Exp18 AND Exp44
+HolePCDP,203.2,mm,LENGTH,,Exp19 AND Exp44
+HolePCDP,241.3,mm,LENGTH,,Exp21 AND Exp44
+HolePCDP,292.1,mm,LENGTH,,Exp22 AND Exp44
+HolePCDP,317.5,mm,LENGTH,,Exp23 AND Exp44
+HolePCDP,393.7,mm,LENGTH,,Exp24 AND Exp44
+HolePCDP,482.6,mm,LENGTH,,Exp25 AND Exp44
+HolePCDP,571.5,mm,LENGTH,,Exp26 AND Exp44
+HolePCDP,635,mm,LENGTH,,Exp27 AND Exp44
+HolePCDP,704.8,mm,LENGTH,,Exp28 AND Exp44
+HolePCDP,774.7,mm,LENGTH,,Exp29 AND Exp44
+HolePCDP,831.8,mm,LENGTH,,Exp30 AND Exp44
+HolePCDP,990.6,mm,LENGTH,,Exp32 AND Exp44
+HolePCDP,88.9,mm,LENGTH,,Exp12 AND Exp42
+HolePCDP,95.2,mm,LENGTH,,Exp13 AND Exp42
+HolePCDP,108,mm,LENGTH,,Exp14 AND Exp42
+HolePCDP,146,mm,LENGTH,,Exp16 AND Exp42
+HolePCDP,171.4,mm,LENGTH,,Exp17 AND Exp42
+HolePCDP,196.8,mm,LENGTH,,Exp18 AND Exp42
+HolePCDP,228.6,mm,LENGTH,,Exp19 AND Exp42
+HolePCDP,273,mm,LENGTH,,Exp21 AND Exp42
+HolePCDP,323.8,mm,LENGTH,,Exp22 AND Exp42
+HolePCDP,368.3,mm,LENGTH,,Exp23 AND Exp42
+HolePCDP,438.2,mm,LENGTH,,Exp24 AND Exp42
+HolePCDP,539.8,mm,LENGTH,,Exp25 AND Exp42
+HolePCDP,619.1,mm,LENGTH,,Exp26 AND Exp42
+GADimensionL,"=((2.0*isnull([FlangeLengthF]{length,LengthOutputUnits},0))+(2.0*isnull([PipeID]{length,PipeIDUnits},0))+(isnull([SelectedItem]{CH/FPD/PLATE/THICK,numvalue},0)*isnull([NumberOfStages],0))+(2.5*isnull([PipeID]{length,PipeIDUnits},0)*(isnull([NumberOfStages],1)-1)))",m,length,multi-stage version,Exp5
+UniqueExpression,Exp1,,,Exp1,('[ProductCode]' IN ('FPD190'))
+UniqueExpression,Exp2,,,Exp2,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R1'))
+UniqueExpression,Exp3,,,Exp3,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R2'))
+UniqueExpression,Exp4,,,Exp4,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R3'))
+UniqueExpression,Exp5,,,Exp5,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R4'))
+UniqueExpression,Exp6,,,Exp6,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R5'))
+UniqueExpression,Exp7,,,Exp7,"([SelectedItem]{CH/FPD/DRAIN/VENT} IN ('HT1','HT2'))"
+UniqueExpression,Exp8,,,Exp8,([SelectedItem]{CH/FPD/CUST/STD} = 'A1')
+UniqueExpression,Exp9,,,Exp9,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'C4')
+UniqueExpression,Exp10,,,Exp10,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'R1')
+UniqueExpression,Exp11,,,Exp11,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'F1')
+UniqueExpression,Exp12,,,Exp12,([SelectedItem]{CH/FPD/LINE/SIZE} = '015')
+UniqueExpression,Exp13,,,Exp13,([SelectedItem]{CH/FPD/LINE/SIZE} = '020')
+UniqueExpression,Exp14,,,Exp14,([SelectedItem]{CH/FPD/LINE/SIZE} = '025')
+UniqueExpression,Exp15,,,Exp15,([SelectedItem]{CH/FPD/LINE/SIZE} = '032')
+UniqueExpression,Exp16,,,Exp16,([SelectedItem]{CH/FPD/LINE/SIZE} = '040')
+UniqueExpression,Exp17,,,Exp17,([SelectedItem]{CH/FPD/LINE/SIZE} = '050')
+UniqueExpression,Exp18,,,Exp18,([SelectedItem]{CH/FPD/LINE/SIZE} = '065')
+UniqueExpression,Exp19,,,Exp19,([SelectedItem]{CH/FPD/LINE/SIZE} = '080')
+UniqueExpression,Exp20,,,Exp20,([SelectedItem]{CH/FPD/LINE/SIZE} = '090')
+UniqueExpression,Exp21,,,Exp21,([SelectedItem]{CH/FPD/LINE/SIZE} = '100')
+UniqueExpression,Exp22,,,Exp22,([SelectedItem]{CH/FPD/LINE/SIZE} = '125')
+UniqueExpression,Exp23,,,Exp23,([SelectedItem]{CH/FPD/LINE/SIZE} = '150')
+UniqueExpression,Exp24,,,Exp24,([SelectedItem]{CH/FPD/LINE/SIZE} = '200')
+UniqueExpression,Exp25,,,Exp25,([SelectedItem]{CH/FPD/LINE/SIZE} = '250')
+UniqueExpression,Exp26,,,Exp26,([SelectedItem]{CH/FPD/LINE/SIZE} = '300')
+UniqueExpression,Exp27,,,Exp27,([SelectedItem]{CH/FPD/LINE/SIZE} = '350')
+UniqueExpression,Exp28,,,Exp28,([SelectedItem]{CH/FPD/LINE/SIZE} = '400')
+UniqueExpression,Exp29,,,Exp29,([SelectedItem]{CH/FPD/LINE/SIZE} = '450')
+UniqueExpression,Exp30,,,Exp30,([SelectedItem]{CH/FPD/LINE/SIZE} = '500')
+UniqueExpression,Exp31,,,Exp31,([SelectedItem]{CH/FPD/LINE/SIZE} = '550')
+UniqueExpression,Exp32,,,Exp32,([SelectedItem]{CH/FPD/LINE/SIZE} = '600')
+UniqueExpression,Exp33,,,Exp33,([SelectedItem]{CH/FPD/LINE/SIZE} = '650')
+UniqueExpression,Exp34,,,Exp34,([SelectedItem]{CH/FPD/LINE/SIZE} = '700')
+UniqueExpression,Exp35,,,Exp35,([SelectedItem]{CH/FPD/LINE/SIZE} = '750')
+UniqueExpression,Exp36,,,Exp36,([SelectedItem]{CH/FPD/LINE/SIZE} = '800')
+UniqueExpression,Exp37,,,Exp37,([SelectedItem]{CH/FPD/LINE/SIZE} = '850')
+UniqueExpression,Exp38,,,Exp38,([SelectedItem]{CH/FPD/LINE/SIZE} = '900')
+UniqueExpression,Exp39,,,Exp39,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A1')
+UniqueExpression,Exp40,,,Exp40,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A3','A4','A6'))"
+UniqueExpression,Exp41,,,Exp41,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A7','A8'))"
+UniqueExpression,Exp42,,,Exp42,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A9')
+UniqueExpression,Exp43,,,Exp43,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A7')
+UniqueExpression,Exp44,,,Exp44,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A8')
+UniqueExpression,Exp45,,,Exp45,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A1','A4','A6'))"
+UniqueExpression,Exp46,,,Exp46,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A3')
+UniqueExpression,Exp47,,,Exp47,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A4')
+UniqueExpression,Exp48,,,Exp48,([SelectedItem]{CH/FPD/END/CONN/RAT} = 'A6')
+UniqueExpression,Exp49,,,Exp49,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A3','A4'))"
+UniqueExpression,Exp50,,,Exp50,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A3','A4','A6','A7','A8','A9'))"
+UniqueExpression,Exp51,,,Exp51,([SelectedItem]{CH/FPD/PRODUCT/DES} = 'R2')
+UniqueExpression,Exp52,,,Exp52,"([SelectedItem]{CH/FPD/END/CONN/TYPE} IN ('R1','F1'))"
+UniqueExpression,Exp53,,,Exp53,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0191)"
+UniqueExpression,Exp54,,,Exp54,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0223)"
+UniqueExpression,Exp55,,,Exp55,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0239)"
+UniqueExpression,Exp56,,,Exp56,"([PlateThicknessMin]{length,LengthOutputUnits}<0.027)"
+UniqueExpression,Exp57,,,Exp57,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0271)"
+UniqueExpression,Exp58,,,Exp58,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0287)"
+UniqueExpression,Exp59,,,Exp59,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0317)"
+UniqueExpression,Exp60,,,Exp60,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0349)"
+UniqueExpression,Exp61,,,Exp61,"([PlateThicknessMin]{length,LengthOutputUnits}<0.038)"
+UniqueExpression,Exp62,,,Exp62,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0396)"
+UniqueExpression,Exp63,,,Exp63,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0412)"
+UniqueExpression,Exp64,,,Exp64,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0428)"
+UniqueExpression,Exp65,,,Exp65,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0444)"
+UniqueExpression,Exp66,,,Exp66,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0476)"
+UniqueExpression,Exp67,,,Exp67,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0491)"
+UniqueExpression,Exp68,,,Exp68,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0507)"
+UniqueExpression,Exp69,,,Exp69,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0508)"
+UniqueExpression,Exp70,,,Exp70,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0523)"
+UniqueExpression,Exp71,,,Exp71,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0539)"
+UniqueExpression,Exp72,,,Exp72,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0571)"
+UniqueExpression,Exp73,,,Exp73,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0587)"
+UniqueExpression,Exp74,,,Exp74,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0619)"
+UniqueExpression,Exp75,,,Exp75,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0634)"
+UniqueExpression,Exp76,,,Exp76,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0635)"
+UniqueExpression,Exp77,,,Exp77,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0666)"
+UniqueExpression,Exp78,,,Exp78,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0698)"
+UniqueExpression,Exp79,,,Exp79,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0745)"
+UniqueExpression,Exp80,,,Exp80,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0761)"
+UniqueExpression,Exp81,,,Exp81,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0762)"
+UniqueExpression,Exp82,,,Exp82,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0841)"
+UniqueExpression,Exp83,,,Exp83,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0873)"
+UniqueExpression,Exp84,,,Exp84,"([PlateThicknessMin]{length,LengthOutputUnits}<0.0952)"
+UniqueExpression,Exp85,,,Exp85,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1016)"
+UniqueExpression,Exp86,,,Exp86,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1048)"
+UniqueExpression,Exp87,,,Exp87,"([PlateThicknessMin]{length,LengthOutputUnits}<0.108)"
+UniqueExpression,Exp88,,,Exp88,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1159)"
+UniqueExpression,Exp89,,,Exp89,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1239)"
+UniqueExpression,Exp90,,,Exp90,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1287)"
+UniqueExpression,Exp91,,,Exp91,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1398)"
+UniqueExpression,Exp92,,,Exp92,"([PlateThicknessMin]{length,LengthOutputUnits}<0.1414)"
+UniqueExpression,Exp93,,,Exp93,"([SelectedItem]{CH/FPD/END/CONN/TYPE} IN ('J1','J3'))"
+UniqueExpression,Exp95,,,Exp95,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'M2')
+UniqueExpression,Exp96,,,Exp96,"([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('R2','R3','R4'))"

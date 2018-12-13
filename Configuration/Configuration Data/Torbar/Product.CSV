@@ -1,0 +1,10 @@
+ProductCode,CodeDisplay,Name,ProductOrder,Cost,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
+FPD350_1,FPD350,FPD350 100 Series Torbar,1,0,,,,,,,,,,
+FPD350_3,FPD350,FPD350 300 Series Torbar,2,0,,,,,,,,,,
+FPD350_4,FPD350,FPD350 400 Series Torbar,3,0,,,,,,,,,,
+FPD350_5,FPD350,FPD350 500 Series Torbar,4,0,,,,,,,,,,
+FPD350_L6,FPD350,FPD350 L6 Series Torbar - Low Pressure Retractable,5,0,,,,,,,,,,
+FPD350_H6,FPD350,FPD350 H6 Series Torbar - High Pressure Retractable,6,0,,,,,,,,,,
+FPD350_L7,FPD350,FPD350 L7 Series Torbar - Low Pressure Retractable,7,0,,,,,,,,,,
+FPD350_H7,FPD350,FPD350 H7 Series Torbar - High Pressure Retractable,8,0,,,,,,,,,,
+FPD350_H8,FPD350,FPD350 H8 Series Torbar - High Pressure Retractable,9,0,,,,,,,,,,

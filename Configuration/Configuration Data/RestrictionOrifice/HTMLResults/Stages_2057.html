@@ -1,0 +1,178 @@
+<head>
+</head>
+<style type="text/css">
+    .errorStyle
+    {
+        color: #FF0000;
+    }
+</style>
+<table border="0" cellpadding="2" cellspacing="1" width="" style="table-layout:fixed; font-family: Arial; font-size: 8pt; padding-right: 1px; padding-left: 1px; padding-bottom: 1px; margin: 1px; padding-top: 1px; border-top-width: thin; border-left-width: thin; border-left-color: #009999; border-bottom-width: thin; border-bottom-color: #009999; border-top-color: #009999; border-right-width: thin; border-right-color: #009999;">
+<colgroup>
+    <col align="left" />
+    <col align="char" char="." id="item0"/>
+    <col align="left" />
+</colgroup>
+    <tr>
+        <td style="width: 250px;">&nbsp;</td>
+        <td id="item1" style="width: 100px; text-align:right;"><strong><item data="DPStages.n.m." expression="IIF([PassFail] <> true,'INNER HTML', '')"><span class="errorStyle">Stage <item data="DPStages.n.m.StageNumber" /><br />FAILED</span></item><item data="DPStages.n.m." expression="IIF([PassFail] = true,'INNER HTML', '')">Stage <item data="DPStages.n.m.StageNumber" /></item></strong></td>
+        <td style="width: 75px;">&nbsp;</td>
+    </tr>
+    <tr>
+        <td style="color: #333399; text-align:right;">Pressure Loss at <item data="ProductItem.n.MeterMaxFlow" format="flow" /> <item data="ProductItem.n.MeterMaxFlowUnits" /></td>
+        <td id="item2" style="text-align:right"><item data="DPStages.n.m.DPAtMeterMax" format="DP" empty="-" /></td>
+        <td><item data="ProductItem.n.DPUnits" /></td>
+    </tr>
+    <item data="ProductItem.n." expression="IIF([FluidCategory] <> 1,'INNER HTML', '')">
+    <tr> <!-- this for gas or mixture -->
+        <td style="color: #333399; text-align: right;">Device</td>
+        <td id="item3" style="text-align:right"><item data="DPStages.n.m.CalculationApproach" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    </item>
+    <item data="ProductItem.n." expression="IIF([FluidCategory] = 2,'INNER HTML', '')">
+        <tr> <!-- this is for gasses only (liquid/mixture pipe can't change) -->
+            <td style="color: #333399; text-align: right;">Pipe I.D.</td>
+            <td id="item4" style="text-align: right"><item data="DPStages.n.m.PipeID" format="Length" empty="-"/></td>
+            <td><item data="ProductItem.n.PipeIDUnits"/></td>
+        </tr>
+        <tr>
+            <td style="color: #333399; text-align: right;">Pipe wall thickness</td>
+            <td id="item5" style="text-align: right"><item data="DPStages.n.m.PipeWT" format="Length" empty="-"/></td>
+            <td><item data="ProductItem.n.PipeWTUnits"/></td>
+        </tr>
+    </item>
+    <tr>
+        <td style="color: #333399; text-align: right;">Pipe I.D. @ Op temp</td>
+        <td id="item7" style="text-align:right"><item data="DPStages.n.m.PipeIDOperatingTemp" format="Length" empty="-" /></td>
+        <td><item data="ProductItem.n.PipeIDUnits" /></td>
+    </tr> 
+    <tr>
+        <td style="color: #333399; text-align: right;">Diameter Ratio (Beta)</td>
+       <td id="item8" style="text-align:right"><item data="DPStages.n.m.Beta" format="0.000000" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td style="color: #333399; text-align: right;">Discharge Co-efficient (C)</td>
+        <td id="item9" style="text-align:right"><item data="DPStages.n.m.CoefficientDischarge" format="0.000000" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    <item data="ProductItem.n." expression="IIF([FluidCategory] = 2,'INNER HTML', '')">
+    <tr> <!--- gas only; temperature can change -->
+        <td style="color: #333399; text-align: right;">Outlet Temperature</td>
+        <td id="item10" style="text-align:right"><item data="DPStages.n.m.OutletTemperature" format="Temperature" empty="-" /></td>
+        <td><item data="ProductItem.n.OperatingTemperatureUnits" /></td>
+    </tr>
+<!--
+    <tr>
+        <td style="color: #333399; text-align: right;">Correction Factor</td>
+        <td id="item11" style="text-align:right"><item data="DPStages.n.m.CorrectionFactor" format="0.000000" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+-->
+    <tr>
+        <td style="color: #333399; text-align: right;">Critical Flow Factor</td>
+        <td id="item12" style="text-align:right"><item data="DPStages.n.m.CriticalFlowFactor" format="0.000000" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td style="color: #333399; text-align: right;">Min DP (for choking)</td>
+        <td id="item13" style="text-align:right"><item data="DPStages.n.m.MaxDPBeforeCritPress" format="DP" empty="-" /></td>
+        <td><item data="ProductItem.n.DPUnits" /></td>
+    </tr>
+    <tr>
+        <td style="color: #333399; text-align: right;">Gas Expansion Factor</td>
+        <td id="item14" style="text-align:right"><item data="DPStages.n.m.GasExpansionFactor" format="0.000000" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    </item>
+    <tr>
+        <td style="color: #333399; text-align: right;"><item data="ProductItem.n." expression="IIF([FluidCategory] = 3,'Combined ', '')" />Pipe Velocity</td>
+        <td id="item15" style="text-align:right"><item data="DPStages.n.m.VelocityMeterMaxFlow" format="Velocity" empty="-" /></td>
+        <td><item data="ProductItem.n.VelocityOutputUnits" /></td>
+    </tr>
+    <item data="ProductItem.n." expression="IIF([FluidCategory] = 1,'INNER HTML', '')">
+    <tr> <!-- only liquids cavitate -->
+        <td style="color: #333399; text-align: right;">Cavitation Number</td>
+        <td id="item16" style="text-align:right"><item data="DPStages.n.m.CavitationNumber" format="#,##0.00" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    </item>
+    <item data="ProductItem.n." expression="IIF([FluidCategory] <> 2,'INNER HTML', '')">
+    <tr> <!-- quality correction factor for both liquid and mixtures -->
+        <td style="color: #333399; text-align: right;">Quality correction factor F<sub>x</sub></td>
+        <td id="item17" style="text-align:right"><item data="DPStages.n.m.QualityCorrectionFactor" format="#,##0.00" empty="-" /></td>
+        <td>&nbsp;</td>
+    </tr>
+    </item>
+    <tr>
+        <td style="color: #333399; text-align: right;">Calc'd bore @ operating temp</td>
+        <td id="item18" style="text-align:right"><item data="DPStages.n.m.OperatingBore" format="Length" empty="-" /></td>
+        <td><item data="ProductItem.n.LengthOutputUnits" /></td>
+    </tr>
+    <tr>
+        <td style="color: #333399; text-align: right;">Minimum deflecting thickness</td>
+        <td id="item19" style="text-align:right"><item data="DPStages.n.m.PlateThicknessMin" format="Length" empty="-" /></td>
+        <td><item data="ProductItem.n.LengthOutputUnits" /></td>
+    </tr>
+<!--
+    <tr>
+        <td style="color: #333399; text-align: right;">Plate Thickness (actual)</td>
+        <td id="item20" style="text-align:right"><item data="DPStages.n.m.ActualPlateThickness" format="Length" empty="-" /></td>
+        <td><item data="ProductItem.n.LengthOutputUnits" /></td>
+    </tr>
+-->
+    <tr>
+        <td style="color: #333399; text-align: right;"><b>Orifice bore @ factory temp</b></td>
+        <td id="item21" style="text-align:right"><b><item data="DPStages.n.m.MachinedBore" format="Length" empty="-"/></b></td>
+        <td><b><item data="ProductItem.n.LengthOutputUnits" /></b></td>
+    </tr>
+    <item data="ProductItem.n." expression="IIF([NoiseTest] = true,'INNER HTML', '')">
+        <tr>
+            <td style="color: #333399; text-align: right;">Noise</td>
+            <td id="item22" style="text-align:right"><item data="DPStages.n.m.Noise_dBA" format="Noise" /></td>
+            <td>dBA</td>
+        </tr>
+        <tr>
+            <td style="color: #333399; text-align: right;">Mach No</td>
+            <td id="item23" style="text-align:right"><item data="DPStages.n.m.MachNo" format="Noise" /></td>
+            <td>&nbsp;</td>
+        </tr>
+    </item>
+    <tr>
+        <td style="color: #333399; text-align: right; font-style: italic;">Stage information</td>
+        <td id="item24" style="text-align:right"><item data="DPStages.n.m." expression="IIF([PassFail] <> true,'INNER HTML', '')"><span class="errorStyle"><item data="DPStages.n.m.Narrative" format="HTML" /></span></item><item data="DPStages.n.m." expression="IIF([PassFail] = true,'INNER HTML', '')"><item data="DPStages.n.m.Narrative" format="HTML" /></item></td>
+        <td>&nbsp;</td>
+    </tr>
+    <item data="ProductItem.n." expression="IIF([NoiseTest] = true,'INNER HTML', '')">
+        <item data="ProductItem.n." expression="IIF([NoiseTestAtVent] = true,'INNER HTML', '')">
+            <tr>
+                <td style="color: #333399; text-align: right;">Noise at vent</td>
+                <td id="item25" style="text-align:right"><item data="DPStages.n.m.NoiseAtVent_dBA" format="Noise" empty="-" /></td>
+                <td>dBA</td>
+            </tr>
+        </item>
+    </item>
+<!--
+    <item data="ProductItem.n." expression="IIF([MaximumFlow] IS NOT NULL,'INNER HTML', '')">
+        <tr>
+            <td style="color: #333399; text-align: right;">Pressure loss at <item data="ProductItem.n.MaximumFlow" format="flow" /> <item data="ProductItem.n.MaximumFlowUnits" /></td>
+            <td id="item26" style="text-align:right"><item data="DPStages.n.m.DPmaxflow" format="DP" /></td>
+            <td><item data="ProductItem.n.DPUnits" /></td>
+        </tr>
+    </item>
+    <item data="ProductItem.n." expression="IIF([NormalFlow] IS NOT NULL,'INNER HTML', '')">
+        <tr>
+            <td style="color: #333399; text-align: right;">Pressure loss at <item data="ProductItem.n.NormalFlow" format="flow" /> <item data="ProductItem.n.NormalFlowUnits" /></td>
+            <td id="item27" style="text-align:right"><item data="DPStages.n.m.DPnormalflow" format="DP" /></td>
+            <td><item data="ProductItem.n.DPUnits" /></td>
+        </tr>
+    </item>
+    <item data="ProductItem.n." expression="IIF([MinimumFlow] IS NOT NULL,'INNER HTML', '')">
+        <tr>
+            <td style="color: #333399; text-align: right;">Pressure loss at <item data="ProductItem.n.MinimumFlow" format="flow" /> <item data="ProductItem.n.MinimumFlowUnits" /></td>
+            <td id="item28" style="text-align:right"><item data="DPStages.n.m.DPminflow" format="DP" /></td>
+            <td><item data="ProductItem.n.DPUnits" /></td>
+        </tr>
+    </item>
+-->
+</table>

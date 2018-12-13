@@ -1,0 +1,129 @@
+ColumnName,Value,Units,UnitsType,Notes,Expression
+GADrawing1,FPD350.1,,,121,Exp1 AND Exp2
+GADrawing1,FPD350.2,,,122,Exp1 AND Exp3
+GADrawing1,FPD350.3,,,123,Exp1 AND Exp4
+GADrawing1,FPD350.4,,,301,Exp1 AND Exp5 AND Exp13 AND Exp15
+GADrawing1,FPD350.5,,,311,Exp1 AND Exp5 AND Exp13 AND Exp17
+GADrawing1,FPD350.6,,,401 NRTB,Exp1 AND Exp6 AND Exp13 AND Exp15 AND Exp20 
+GADrawing1,FPD350.7,,,401,Exp1 AND Exp6 AND Exp13 AND Exp15 
+GADrawing1,FPD350.8,,,402 NRTB,Exp1 AND Exp6 AND Exp14 AND Exp16 AND Exp20
+GADrawing1,FPD350.9,,,402,Exp1 AND Exp6 AND Exp14 AND Exp16
+GADrawing1,FPD350.10,,,411 NRTB,Exp1 AND Exp6 AND Exp13 AND Exp17 AND Exp20
+GADrawing1,FPD350.11,,,411,Exp1 AND Exp6 AND Exp13 AND Exp17
+GADrawing1,FPD350.12,,,412 FE,Exp1 AND Exp6 AND Exp14 AND Exp19
+GADrawing1,FPD350.13,,,412 NRTB FE,Exp1 AND Exp6 AND Exp14 AND Exp19 AND Exp20
+GADrawing1,FPD350.14,,,412 NRTB,Exp1 AND Exp6 AND Exp14 AND Exp18 AND Exp20
+GADrawing1,FPD350.15,,,412,Exp1 AND Exp6 AND Exp14 AND Exp18 
+GADrawing1,FPD350.16,,,511 FS NRTB,Exp1 AND Exp7 AND Exp13 AND Exp17 AND Exp20
+GADrawing1,FPD350.17,,,511,Exp1 AND Exp7 AND Exp13 AND Exp17 
+GADrawing1,FPD350.18,,,512 FS ENDCUP NRTB,Exp1 AND Exp7 AND Exp14 AND Exp18 AND Exp20
+GADrawing1,FPD350.19,,,512 FS FE NRTB,Exp1 AND Exp7 AND Exp14 AND Exp19 AND Exp20
+GADrawing1,FPD350.20,,,512FS FE,Exp1 AND Exp7 AND Exp14 AND Exp19
+GADrawing1,FPD350.21,,,512,Exp1 AND Exp7 AND Exp14 AND Exp18
+GADrawing1,FPD350.22,,,H701,Exp1 AND Exp11 AND Exp13 AND Exp15
+GADrawing1,FPD350.23,,,H701 NRTB,Exp1 AND Exp11 AND Exp13 AND Exp15 AND Exp20
+GADrawing1,FPD350.24,,,H702 TES NRTB,Exp1 AND Exp11 AND Exp14 AND Exp16 AND Exp20
+GADrawing1,FPD350.25,,,H702,Exp1 AND Exp11 AND Exp14 AND Exp16
+GADrawing1,FPD350.26,,,H711 FS,Exp1 AND Exp11 AND Exp13 AND Exp17
+GADrawing1,FPD350.27,,,H711 ,Exp1 AND Exp11 AND Exp13 AND Exp17 AND Exp20
+GADrawing1,FPD350.28,,,H712 FS EC NRTB,Exp1 AND Exp11 AND Exp14 AND Exp18 AND Exp20
+GADrawing1,FPD350.29,,,H712 FS FE NRTB,Exp1 AND Exp11 AND Exp14 AND Exp19 AND Exp20
+GADrawing1,FPD350.30,,,H712 FS FE ,Exp1 AND Exp11 AND Exp14 AND Exp19
+GADrawing1,FPD350.31,,,H712,Exp1 AND Exp11 AND Exp14 AND Exp18
+GADrawing1,FPD350.32,,,H811 FS NRTB,Exp1 AND Exp12 AND Exp13 AND Exp17 AND Exp20
+GADrawing1,FPD350.33,,,H811 FS ,Exp1 AND Exp12 AND Exp13 AND Exp17
+GADrawing1,FPD350.34,,,H812 FS EC NRTB,Exp1 AND Exp12 AND Exp14 AND Exp18 AND Exp20
+GADrawing1,FPD350.35,,,H812 FS FE NRTB,Exp1 AND Exp12 AND Exp14 AND Exp19 AND Exp20
+GADrawing1,FPD350.36,,,H812 FS FE,Exp1 AND Exp12 AND Exp14 AND Exp19
+GADrawing1,FPD350.37,,,H812,Exp1 AND Exp12 AND Exp14 AND Exp18
+GADrawing1,FPD350.38,,,L701 NRTB,Exp1 AND Exp10 AND Exp13 AND Exp15 AND Exp20
+GADrawing1,FPD350.39,,,L701,Exp1 AND Exp10 AND Exp13 AND Exp15
+GADrawing2,FPD350.40,,,GEAR RETRACT,Exp1 AND Exp11 AND Exp21 
+GADrawing2,FPD350.40,,,GEAR RETRACT,Exp1 AND Exp12 AND Exp21
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp6 AND Exp14 AND Exp19
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp6 AND Exp14 AND Exp19 AND Exp20
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp7 AND Exp14 AND Exp19 AND Exp20
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp7 AND Exp14 AND Exp19
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp11 AND Exp14 AND Exp19 AND Exp20
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp11 AND Exp14 AND Exp19
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp12 AND Exp14 AND Exp19 AND Exp20
+GADrawing3,FPD350.41,,,External Flange End Support,Exp1 AND Exp12 AND Exp14 AND Exp19
+GADimensionY,12.7,mm,length,O/DIA = 12.7MM,Exp1 AND Exp5
+GADimensionY,25.4,mm,length,O/DIA = 25.4MM,Exp1 AND Exp6
+GADimensionY,60.3,mm,length,O/DIA = 60.3MM,Exp1 AND Exp7
+GADimensionY,12.7,mm,length,O/DIA = 12.7MM,Exp1 AND Exp8
+GADimensionY,12.7,mm,length,O/DIA = 12.7MM,Exp1 AND Exp9
+GADimensionY,25.4,mm,length,O/DIA = 25.4MM,Exp1 AND Exp10
+GADimensionY,25.4,mm,length,O/DIA = 25.4MM,Exp1 AND Exp11
+GADimensionY,60.3,mm,length,O/DIA = 60.3MM,Exp1 AND Exp12
+GADimensionNL,100,mm,length,Neck Length = 100mm,Exp1 AND Exp5 AND Exp13 AND Exp15 
+GADimensionNL,150,mm,length,Neck Length = 150mm,Exp1 AND Exp6 AND Exp13 AND Exp15 
+GADimensionNL,150,mm,length,Neck Length = 150mm,Exp1 AND Exp6 AND Exp14 AND Exp16
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp5 AND Exp13 AND Exp17
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp5 AND Exp13 AND Exp16
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp6 AND Exp13 AND Exp17
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp6 AND Exp14 AND Exp18 
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp7 AND Exp13 AND Exp17 
+GADimensionNL,120,mm,length,Neck Length = 120mm,Exp1 AND Exp7 AND Exp14 AND Exp18
+GADimensionNL,340,mm,length,Neck Length = 340mm,Exp1 AND Exp6 AND Exp13 AND Exp15 AND Exp20 
+GADimensionNL,340,mm,length,Neck Length = 340mm,Exp1 AND Exp6 AND Exp14 AND Exp16 AND Exp20
+GADimensionNL,280,mm,length,Neck Length = 280mm,Exp1 AND Exp6 AND Exp13 AND Exp17 AND Exp20
+GADimensionNL,280,mm,length,Neck Length = 280mm,Exp1 AND Exp6 AND Exp14 AND Exp18 AND Exp20
+GADimensionNL,280,mm,length,Neck Length = 280mm,Exp1 AND Exp7 AND Exp13 AND Exp17 AND Exp20
+GADimensionNL,280,mm,length,Neck Length = 280mm,Exp1 AND Exp7 AND Exp14 AND Exp18 AND Exp20
+GADimensionNL,288,mm,length,Neck Length = 288mm,Exp1 AND Exp10 AND Exp13 AND Exp15
+GADimensionNL,275,mm,length,Neck Length = 275mm,Exp1 AND Exp11 AND Exp13 AND Exp15
+GADimensionNL,275,mm,length,Neck Length = 275mm,Exp1 AND Exp11 AND Exp14 AND Exp16
+GADimensionNL,100,mm,length,Neck Length = 100mm,Exp1 AND Exp11 AND Exp13 AND Exp17 
+GADimensionNL,100,mm,length,Neck Length = 100mm,Exp1 AND Exp11 AND Exp14 AND Exp18
+GADimensionNL,80,mm,length,Neck Length = 80mm,Exp1 AND Exp12 AND Exp13 AND Exp17
+GADimensionNL,80,mm,length,Neck Length = 80mm,Exp1 AND Exp12 AND Exp14 AND Exp18
+GADimensionNL,587,mm,length,Neck Length = 587mm,Exp1 AND Exp10 AND Exp13 AND Exp15 AND Exp20
+GADimensionNL,755,mm,length,Neck Length = 755mm,Exp1 AND Exp11 AND Exp13 AND Exp15 AND Exp20
+GADimensionNL,755,mm,length,Neck Length = 755mm,Exp1 AND Exp11 AND Exp14 AND Exp16 AND Exp20
+GADimensionNL,255,mm,length,Neck Length = 255mm,Exp1 AND Exp11 AND Exp13 AND Exp17 AND Exp20
+GADimensionNL,255,mm,length,Neck Length = 255mm,Exp1 AND Exp11 AND Exp14 AND Exp19 AND Exp20
+GADimensionNL,255,mm,length,Neck Length = 255mm,Exp1 AND Exp12 AND Exp13 AND Exp17 AND Exp20
+GADimensionNL,255,mm,length,Neck Length = 255mm,Exp1 AND Exp12 AND Exp14 AND Exp19 AND Exp20
+GADimensionC,60,mm,length,End Cup= 60mm,Exp1 AND Exp6 AND Exp14 AND Exp19
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp7 AND Exp14 AND Exp18 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp7 AND Exp14 AND Exp19 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp7 AND Exp14 AND Exp19
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp7 AND Exp14 AND Exp18
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp11 AND Exp14 AND Exp18 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp11 AND Exp14 AND Exp19 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp11 AND Exp14 AND Exp19
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp11 AND Exp14 AND Exp18
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp12 AND Exp14 AND Exp18 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp12 AND Exp14 AND Exp19 AND Exp20
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp12 AND Exp14 AND Exp19
+GADimensionC,100,mm,length,End Cup= 100mm,Exp1 AND Exp12 AND Exp14 AND Exp18
+GADimensionC,80,mm,length,End Cup= 80mm,Exp1 AND Exp6 AND Exp14 AND Exp16 AND Exp20
+GADimensionC,80,mm,length,End Cup= 80mm,Exp1 AND Exp6 AND Exp14 AND Exp16
+GADimensionC,80,mm,length,End Cup= 80mm,Exp1 AND Exp11 AND Exp14 AND Exp16 AND Exp20
+GADimensionC,80,mm,length,End Cup= 80mm,Exp1 AND Exp11 AND Exp14 AND Exp16
+GADimensionHL,38,mm,length,Head Length = 38mm Approximately ,Exp22 AND Exp22
+GADimensionHL,35,mm,length,Head Length = 35mm Approximately ,Exp1 AND Exp23
+UniqueExpression,Exp1,,,TORBAR FPD350 ,"('[ProductCode]' IN ('FPD350_1', 'FPD350_3', 'FPD350_4', 'FPD350_5', 'FPD350_L6', 'FPD350_H6', 'FPD350_L7', 'FPD350_H7', 'FPD350_H8'))"
+UniqueExpression,Exp2,,,Inline Torbar - Welded Ends,([SelectedItem]{CH/FPD/TORBAR/TYPE} IN ('W1'))
+UniqueExpression,Exp3,,,Inline Torbar - Threaded Ends,([SelectedItem]{CH/FPD/TORBAR/TYPE} IN ('T1'))
+UniqueExpression,Exp4,,,Inline Torbar - Flanged Ends,([SelectedItem]{CH/FPD/TORBAR/TYPE} IN ('F1'))
+UniqueExpression,Exp5,,,P.I.T - 13mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('T3'))
+UniqueExpression,Exp6,,,P.I.T - 25mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('T4'))
+UniqueExpression,Exp7,,,P.I.T - 60mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('T5'))
+UniqueExpression,Exp8,,,L.P.W.T 13mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('L6'))
+UniqueExpression,Exp9,,,H.P.W.T 13mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('H6'))
+UniqueExpression,Exp10,,,L.P.W.T 25mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('L7'))
+UniqueExpression,Exp11,,,H.P.W.T 25mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('H7'))
+UniqueExpression,Exp12,,,H.P.W.T 60mm OD Probe,([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('H8'))
+UniqueExpression,Exp13,,,Unsupported version,([SelectedItem]{CH/FPD/END/SUPT} IN ('E1'))
+UniqueExpression,Exp14,,,Supported version,([SelectedItem]{CH/FPD/END/SUPT} IN ('E2'))
+UniqueExpression,Exp15,,,Threaded connection without end support,([SelectedItem]{CH/FPD/MOUNTING} IN ('T1'))
+UniqueExpression,Exp16,,,Threaded connection with threaded end support,([SelectedItem]{CH/FPD/MOUNTING} IN ('T2'))
+UniqueExpression,Exp17,,,Flange standoff without end support,([SelectedItem]{CH/FPD/MOUNTING} IN ('F1'))
+UniqueExpression,Exp18,,,Flange standoff with weld cup end support,([SelectedItem]{CH/FPD/MOUNTING} IN ('F2'))
+UniqueExpression,Exp19,,,"2 x Flange standoff with external flanged  end support ""2 x Flange standoff with internal flanged  end support""""External flange end support""""Internal flange end support""","([SelectedItem]{CH/FPD/MOUNTING} IN ('F3','F4','F5','F6'))"
+UniqueExpression,Exp20,,,"Temperature element ""NRTB""","([SelectedItem]{CH/FPD/TEMP} IN ('T1','T2','T3','T4','T5','T6'))"
+UniqueExpression,Exp21,,,Gear Retract,([SelectedItem]{CH/FPD/TORBAR/DES} IN ('TP4'))
+UniqueExpression,Exp22,,,Tapping Type Valved / Flanged 38mm,"([SelectedItem]{CH/FPD/TAPPING/TYPE} IN ('F1','W1','T1','V1','V2','V3','V4','V5'))"
+UniqueExpression,Exp23,,,Tapping Type DM 35mm,"([SelectedItem]{CH/FPD/TAPPING/TYPE} IN ('D1','D2','D3','D4','D5'))"

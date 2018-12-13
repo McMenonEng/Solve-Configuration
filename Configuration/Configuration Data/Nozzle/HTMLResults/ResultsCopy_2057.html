@@ -1,0 +1,373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//Ddiv HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>%APPLICATIONTITLE% Results</title>
+	    <style type="text/css">
+	        .background
+	        {
+	            font-family: arial, Helvetica, sans-serif;
+	            font-size: 10pt;
+                text-align: left;
+                margin: 0;
+                padding: 0;
+	        }
+	        .logo
+	        {
+                width: auto;
+	            height: 64px;
+	        }
+	        .greyheader
+	        {
+                padding-left: 5px;
+                width: auto;
+                height: 41px;
+                line-height: 41px;
+	            color: #686868;
+	            background-color: #EEEEEE;
+	            border-style: solid none solid none;
+	            border-color: #C8C8C8;
+	            border-top-width: 2px;
+	            border-bottom-width: 2px;
+	            font-size: 14pt;    
+                vertical-align: middle;
+	        }
+	        .grpheader
+	        {
+                padding-left: 5px;
+                padding-top: 20px;
+                padding-bottom: 2px;
+                font-weight: bold;
+                width: auto;
+                clear: both;
+	            border-style: none none solid none;
+                border-color: #000000;
+                border-bottom-width: 1px; 
+	        }
+	        .grpheadererror
+	        {
+                padding-left: 5px;
+                padding-top: 20px;
+                padding-bottom: 2px;
+                font-weight: bold;
+                color: red;
+                width: auto;
+                clear: both;
+	            border-style: none none solid none;
+                border-color: #000000;
+                border-bottom-width: 1px; 
+	        }
+	        .row
+	        {
+                padding-top: 5px;
+	            overflow: hidden;
+                clear: both;
+	        }
+	        .column1
+	        {
+                padding-left: 5px;
+	            width: 200px;
+                float: left;
+                white-space: nowrap;
+            }
+	        .column2
+	        {
+	            width: 50px; 
+                float: left;
+                text-align:left;
+	        }
+	        .column3
+	        {
+	            width: 15px;
+                float: left;
+                text-align:center;
+	        }
+	        .column4
+	        {
+                width: auto;
+                float: left;
+	            word-wrap: break-word;
+	        }
+	        .grpfooter
+	        {
+                padding-left:5px; 
+                padding-top: 5px; 
+                width: auto;
+	        }
+	        .grpfootererror
+	        {
+                padding-left:5px; 
+                padding-top: 5px; 
+                width: auto;
+                color: red;
+	        }
+	        .grpfooternopad
+	        {
+                width: auto;
+	        }
+	        .grpunderlinedotted
+	        {
+	            border-style: none none dotted none;
+                border-color: #000000;
+                border-bottom-width: 1px; 
+                font-size: 1pt;
+                clear: both;
+                height: 1px;
+                width: auto;
+	        }
+	        .footer
+	        {
+	            padding-top: 10px;
+                padding-right: 2px;
+	            text-align: right;
+	            font-size: 7pt;
+	        }
+        </style>
+	</head>
+	<body class="background">
+        <div class="logo"><item data="Image.Logo_Company_Right" format="Image" layout="style='float: right; border=0;'"/></div>
+        <div class="greyheader"><item data="ProductItem.n.ProductName" /></div>
+        
+        <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'','INNER HTML')">
+        <!-- Results -->
+	    <div class="grpheader">Calculation results</div>
+        <div class="row"><!-- DP @ meter max-->
+            <div class="column1">DP @ meter max</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.DPAtMeterMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
+        </div>
+        <item data="ProductItem.n." expression="IIF([MaximumFlow] IS NULL,'','INNER HTML')">
+            <div class="row"><!-- DP @ maximum-->
+                <div class="column1">DP @ maximum</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4"><item data="ProductItem.n.DPatMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
+            </div>
+        </item>
+        <item data="ProductItem.n." expression="IIF([NormalFlow] IS NULL,'','INNER HTML')">
+            <div class="row"><!-- DP @ normal-->
+                <div class="column1">DP @ normal</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4"><item data="ProductItem.n.DPatNormal" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
+            </div>
+        </item>
+        <item data="ProductItem.n." expression="IIF([MinimumFlow] IS NULL,'','INNER HTML')">
+            <div class="row"><!-- DP @ minimum-->
+                <div class="column1">DP @ minimum</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4"><item data="ProductItem.n.DPatMin" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
+            </div>
+        </item>
+        <div class="row"><!-- Pressure loss @ meter max -->
+            <div class="column1">Pressure loss @ meter max</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PressureLossatMeterMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
+        </div>
+        <div class="row"><!-- pipe ID -->
+            <div class="column1">Pipe ID @ <item data="ProductItem.n.OperatingTemperature" format="temperature" />&nbsp;<item data="ProductItem.n.OperatingTemperatureUnits" /></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeIDOperatingTemp" format="Length" />&nbsp;<item data="ProductItem.n.PipeIDUnits" /></div>
+        </div>
+        <div class="row"><!-- flow velocity -->
+            <div class="column1">Flow Velocity</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.VelocityMeterMaxFlow" format="Velocity" />&nbsp;<item data="ProductItem.n.VelocityOutputUnits" /></div>
+        </div>
+        <div class="row"><!-- Operating bore -->
+            <div class="column1">Beta</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.Beta" format="0.0###" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Coefficient of discharge -->
+            <div class="column1">Coefficient of Discharge</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.Coefficientdischarge" format="0.0###" />&nbsp;&plusmn;<item data="ProductItem.n.UncertaintyC" format="0.0#%" /></div>
+        </div>
+        <div class="row"><!-- Expansibility factor -->
+            <div class="column1">Expansibility Factor</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.ExpansibilityFactor" format="0.0###" />&nbsp;&plusmn;<item data="ProductItem.n.RelativeUncertaintyY" format="0.0#%" /></div>
+        </div>
+        <div class="row"><!-- Reynolds number @ meter max -->
+            <div class="column1">Reynolds Number @ meter max</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.ReynoldsNoAtMeterMax" format="Reynolds" />&nbsp;</div>
+        </div>
+        <item data="ProductItem.n." expression="IIF([ReynoldsNoAtNormal] IS NOT NULL,'INNER HTML','')">
+            <div class="row"><!-- Reynolds number @ normal -->
+                <div class="column1">Reynolds Number @ normal</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4"><item data="ProductItem.n.ReynoldsNoAtNormal" format="Reynolds"/>&nbsp;
+                </div>
+            </div>
+        </item>
+        <div class="row"><!-- Operating bore -->
+            <div class="column1">Bore at Operating Temperature</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.OperatingBore" format="Length" />&nbsp;<item data="ProductItem.n.LengthOutputUnits" /></div>
+        </div>
+        <div class="row"><!-- Machined bore -->
+            <div class="column1"><b>Machined Bore</b></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><b><item data="ProductItem.n.MachinedBore" format="Length" />&nbsp;<item data="ProductItem.n.LengthOutputUnits" />
+                <item data="ProductItem.n." expression="IIF([MachinedBore] <> [MachinedBore_mm],'INNER HTML','')">&nbsp;(<item data="ProductItem.n.MachinedBore_mm" format="Length" />&nbsp;mm)</item></b></div>
+        </div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+        </item> <!-- SelectionOnlyItem -->
+
+        <!-- Selection only item; so no results -->
+        <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'INNER HTML','')">
+        <div class="grpheader">No (or incomplete) process data available</div>
+        <div><i>Therefore:</i>
+        <ul><li>No calculations undertaken</li>
+            <li>No suitability checks performed</li>
+            <li>Selections and dimensions as per customer instructions</li></ul></div>
+        <div class="row"><!-- Machined bore -->
+            <div class="column1"><b>Machined Bore</b></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><b><item data="ProductItem.n.MachinedBore" format="Length" />&nbsp;<item data="ProductItem.n.LengthOutputUnits" />
+                <item data="ProductItem.n." expression="IIF([MachinedBore] <> [MachinedBore_mm],'INNER HTML','')">&nbsp;(<item data="ProductItem.n.MachinedBore_mm" format="Length" />&nbsp;mm)</item></b></div>
+        </div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+        </item> <!-- SelectionOnlyItem -->
+            
+        <!-- messages -->
+        <item data="ProductItem.n." expression="IIF(LEN([StopMessages]) = 0,'','INNER HTML')">
+            <div class="grpheadererror">STOP: unable to compute a valid solution</div>
+            <!-- STOP messages -->
+            <div class="grpfootererror"><item data="ProductItem.n.StopMessages" format="HTML" /></div>
+            <div class="grpunderlinedotted">&nbsp;</div>
+        </item>
+        <item data="ProductItem.n." expression="IIF(LEN([ErrorMessages]) = 0,'','INNER HTML')">
+            <div class="grpheadererror">Error</div>
+            <!-- Error messages -->
+            <div class="grpfootererror"><item data="ProductItem.n.ErrorMessages" format="HTML" /></div>
+            <div class="grpunderlinedotted">&nbsp;</div>
+        </item>
+        <item data="ProductItem.n." expression="IIF(LEN([WarningMessages]) = 0,'','INNER HTML')">
+            <div class="grpheader">Warning</div>
+            <!-- Warning messages -->
+            <div class="grpfooter"><item data="ProductItem.n.WarningMessages" format="HTML" /></div>
+            <div class="grpunderlinedotted">&nbsp;</div>
+        </item>
+        <item data="ProductItem.n." expression="IIF(LEN([InfoMessages]) = 0,'','INNER HTML')">
+            <div class="grpheader">Information</div>
+            <!-- information messages -->
+            <div class="grpfooter"><item data="ProductItem.n.InfoMessages" format="HTML" /></div>
+            <div class="grpunderlinedotted">&nbsp;</div>
+        </item>
+
+	    <!-- Product details -->
+        <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'','INNER HTML')">
+	    <div class="grpheader">Product Details</div>
+        <!-- product code breakdown -->
+        <div class="grpfooternopad"><item data="ProductItem.n.PurchaseCodeDescriptionHTML" /></div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+        </item>
+	    <!-- or not! -->
+        <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'INNER HTML','')">
+	    <div class="grpheader">No Product Details</div>
+        <div><i>Therefore</i> this item cannot be used for quotation purposes</div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+	    </item>
+
+        <!-- Inputs -->
+        <div class="grpheader">Calculation data</div>
+        <div class="row"><!-- Fluid(s) -->
+            <div class="column1">Fluid</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="Fluids.n.Fluid" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Operating pressure -->
+            <div class="column1">Operating pressure</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.OperatingPressure" format="Pressure" />&nbsp;<item data="ProductItem.n.OperatingPressureUnits" /></div>
+        </div>
+        <div class="row"><!-- Operating temperature -->
+            <div class="column1">Operating temperature</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.OperatingTemperature" format="Temperature" />&nbsp;<item data="ProductItem.n.OperatingTemperatureUnits" /></div>
+        </div>
+        <div class="row"><!-- Operating density -->
+            <div class="column1">Operating density</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.OperatingDensity" format="Density" />&nbsp;<item data="ProductItem.n.OperatingDensityUnits" /></div>
+        </div>
+        <div class="row"><!-- Operating viscosity -->
+            <div class="column1">Operating viscosity</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.OperatingViscosity" format="Viscosity" />&nbsp;<item data="ProductItem.n.OperatingViscosityUnits" /></div>
+        </div>
+        <div class="row"><!-- Isentropic index -->
+            <div class="column1">Isentropic index</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.IsentropicIndex" format="IsentropicIndex" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Z Factor -->
+            <div class="column1">ZFactor</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.ZFactor" format="ZFactor" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Pipe -->
+            <div class="column1">Pipe</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeNB" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Pipe -->
+            <div class="column1">Pipe ID</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeID" format="Length" />&nbsp;<item data="ProductItem.n.PipeIDUnits" /></div>
+        </div>
+        <div class="row"><!-- Pipe -->
+            <div class="column1">Pipe OD</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeOD" format="Length" />&nbsp;<item data="ProductItem.n.PipeODUnits" /></div>
+            <div class="column4"><item data="ProductItem.n.PipeWT" format="Length" />&nbsp;<item data="ProductItem.n.PipeWTUnits" /></div>
+        </div>
+        <div class="row"><!-- support diameter -->
+            <div class="column1">Pipe support diameter</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeSupportDia" format="Length" />&nbsp;<item data="ProductItem.n.PipeSupportDiaUnits" /></div>
+        </div>
+        <div class="row"><!-- Pipe CofE -->
+            <div class="column1">Pipe CofE</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PipeCofE" format="CofE" />&nbsp;</div>
+        </div>
+        <div class="row"><!-- Element CofE -->
+            <div class="column1">Element CofE</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.ElementCofE" format="CofE" />&nbsp;</div>
+        </div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+            
+        <!-- footer; date/time -->
+        <div class="footer">Last updated <item data="System.DateTime" /></div>
+	</body>
+</html>
