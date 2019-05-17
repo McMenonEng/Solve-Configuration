@@ -3,7 +3,7 @@ FPD300,CH/FPD/PRODUCT/DES,1,V1,1,TRUE,FALSE,,Machined Venturi,Machined Venturi,M
 FPD300,CH/FPD/PRODUCT/DES,1,V2,2,TRUE,FALSE,,Fabricated Venturi,Fabricated Venturi,Fabricated,,,,,,,,,,
 FPD300,CH/FPD/CUST/STD,2,A1,1,TRUE,FALSE,,Standard (15° Outlet Cone),Standard (15° Outlet Cone),15,,,,,,,,,,
 FPD300,CH/FPD/CUST/STD,2,L1,2,TRUE,FALSE,,Long Pattern (7° Outlet Cone),Long Pattern (7° Outlet Cone),7,,,,,,,,,,
-FPD300,CH/FPD/CUST/STD,2,A2,3,TRUE,FALSE,,Bi-directional (10.5° Inlet/Outlet Cones),Bi-directional (10.5° Inlet/Outlet Cones),10.5,,,,,,,,,,
+FPD300,CH/FPD/CUST/STD,2,A2,3,TRUE,FALSE,,Bi-directional (10.5° Inlet/Outlet Cones),Bi-directional (10.5° Inlet/Outlet Cones),10.5/bidirectional,,,,,,,,,,
 FPD300,CH/FPD/CUST/STD,2,Z9,4,TRUE,FALSE,,Others,Others,,,,,,,,,,,
 FPD300,CH/FPD/ORIFICE/DESIGN,3,Y0,1,TRUE,FALSE,,Standard - Direct,Standard - Direct,,,,,,,,,,,
 FPD300,CH/FPD/ORIFICE/DESIGN,3,AR,2,TRUE,FALSE,,Annular Ring,Annular Ring,,,,,,,,,,,
