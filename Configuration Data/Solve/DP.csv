@@ -1,16 +1,16 @@
-UnitName,Active,ConvertToBar,EnglishUS,French,German,Spanish,Russian
-mPa,TRUE,1.00E-08,,,,,
-Pa,TRUE,1.00E-05,,,,,
-kPa,TRUE,0.01,,,,,
-N/m²,TRUE,1.00E-05,,,,,
-kN/m²,TRUE,0.01,,,,,
-bar,TRUE,1,,,,,
-mbar,TRUE,0.001,,,,,
-atm,TRUE,1.01325,,,,,
-lb/ft²,TRUE,0.000478803,,,,,
-psi,TRUE,0.0689,,,,,
-in wg @ 4°C,TRUE,0.002490889,,,,,
-mm wg @ 4°C,TRUE,0.0000980665,,,,,
-in wg @ 20°C,TRUE,0.0024864,,,,,
-mm wg @ 20°C,TRUE,9.78897e-5,,,,,
-kgf/cm²,TRUE,0.980665,,,,,
+"UnitName","Active","ConvertToBar","EnglishUS","French","German","Spanish","Russian"
+"mPa",True,1E-08,"","","","",""
+"Pa",True,1E-05,"","","","",""
+"kPa",True,0.01,"","","","",""
+"N/m²",True,1E-05,"","","","",""
+"kN/m²",True,0.01,"","","","",""
+"bar",True,1,"","","","",""
+"mbar",True,0.001,"","","","",""
+"atm",True,1.01325,"","","","",""
+"lb/ft²",True,0.000478803,"","","","",""
+"psi",True,0.0689,"","","","",""
+"in wg @ 4°C",True,0.002490889,"","","","",""
+"mm wg @ 4°C",True,9.80665E-05,"","","","",""
+"in wg @ 20°C",True,0.0024864,"","","","",""
+"mm wg @ 20°C",True,9.78897E-05,"","","","",""
+"kgf/cm²",True,0.980665,"","","","",""
