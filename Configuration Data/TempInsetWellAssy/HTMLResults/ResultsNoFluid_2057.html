@@ -129,19 +129,14 @@
 
         <!-- Results -->
         <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'','INNER HTML')">
-        <div class="grpheader">Calculation results</div>
-        <p><i>Results will appear once sufficient data inputs entered for calculation.</i></p>
-        <div class="grpunderlinedotted">&nbsp;</div>
+            <div class="grpheader">No process data available</div>
+            <div class="grpunderlinedotted">&nbsp;</div>
         </item> <!-- SelectionOnlyItem -->
 
         <!-- Selection only item; so no results -->
         <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'INNER HTML','')">
-        <div class="grpheader">No (or incomplete) process data available</div>
-        <div><i>Therefore:</i>
-        <ul><li>No calculations undertaken</li>
-            <li>No suitability checks performed</li>
-            <li>Selections and dimensions as per customer instructions</li></ul></div>
-        <div class="grpunderlinedotted">&nbsp;</div>
+            <div class="grpheader">No process data available</div>
+            <div class="grpunderlinedotted">&nbsp;</div>
         </item> <!-- SelectionOnlyItem -->
             
         <!-- messages -->

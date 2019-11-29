@@ -129,93 +129,14 @@
         
         <!-- Results -->
         <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'','INNER HTML')">
-        <div class="grpheader">Calculation results</div>
-        <div class="row"><!-- DP @ meter max-->
-            <div class="column1">DP @ meter max</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.DPAtMeterMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
-        </div>
-        <item data="ProductItem.n." expression="IIF([MaximumFlow] IS NULL,'','INNER HTML')">
-            <div class="row"><!-- DP @ maximum-->
-                <div class="column1">DP @ maximum</div>
-                <div class="column2">&nbsp;</div>
-                <div class="column3">&nbsp;</div>
-                <div class="column4"><item data="ProductItem.n.DPatMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
-            </div>
-        </item>
-        <item data="ProductItem.n." expression="IIF([NormalFlow] IS NULL,'','INNER HTML')">
-            <div class="row"><!-- DP @ normal-->
-                <div class="column1">DP @ normal</div>
-                <div class="column2">&nbsp;</div>
-                <div class="column3">&nbsp;</div>
-                <div class="column4"><item data="ProductItem.n.DPatNormal" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
-            </div>
-        </item>
-        <item data="ProductItem.n." expression="IIF([MinimumFlow] IS NULL,'','INNER HTML')">
-            <div class="row"><!-- DP @ minimum-->
-                <div class="column1">DP @ minimum</div>
-                <div class="column2">&nbsp;</div>
-                <div class="column3">&nbsp;</div>
-                <div class="column4"><item data="ProductItem.n.DPatMin" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
-            </div>
-        </item>
-        <div class="row"><!-- Pressure loss @ meter max -->
-            <div class="column1">Pressure loss @ meter max</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.PressureLossatMeterMax" format="DP" />&nbsp;<item data="ProductItem.n.DPUnits" /></div>
-        </div>
-        <div class="row"><!-- pipe ID -->
-            <div class="column1">Pipe ID @ <item data="ProductItem.n.OperatingTemperature" format="temperature" />&nbsp;<item data="ProductItem.n.OperatingTemperatureUnits" /></div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.PipeIDOperatingTemp" format="Length" />&nbsp;<item data="ProductItem.n.PipeIDUnits" /></div>
-        </div>
-        <div class="row"><!-- H/D Ratio -->
-            <div class="column1">H/D Ratio</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.HDRatio" format="0.0" />&nbsp;</div>
-        </div>
-        <div class="row"><!-- KD2 factor -->
-            <div class="column1">Kd<sup>2</sup> Factor</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.KFactor" format="kfactor" />&nbsp;</div>
-        </div>
-        <div class="row"><!-- velocity -->
-            <div class="column1">Flow velocity @ meter max</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.VelocityMeterMaxFlow" format="velocity" />&nbsp;<item data="ProductItem.n.VelocityOutputUnits" /></div>
-        </div>
-        <div class="row"><!-- Reynolds number @ meter max -->
-            <div class="column1">Reynolds Number @ meter max</div>
-            <div class="column2">&nbsp;</div>
-            <div class="column3">&nbsp;</div>
-            <div class="column4"><item data="ProductItem.n.ReynoldsNoAtMeterMax" format="Reynolds" />&nbsp;</div>
-        </div>
-        <item data="ProductItem.n." expression="IIF([ReynoldsNoAtNormal] IS NOT NULL,'INNER HTML','')">
-            <div class="row"><!-- Reynolds number @ normal -->
-                <div class="column1">Reynolds Number @ normal</div>
-                <div class="column2">&nbsp;</div>
-                <div class="column3">&nbsp;</div>
-                <div class="column4"><item data="ProductItem.n.ReynoldsNoAtNormal" format="Reynolds"/>&nbsp;
-                </div>
-            </div>
-        </item>
-        <div class="grpunderlinedotted">&nbsp;</div>
+            <div class="grpheader">No process data available</div>
+            <div class="grpunderlinedotted">&nbsp;</div>
         </item> <!-- SelectionOnlyItem -->
 
         <!-- Selection only item; so no results -->
         <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'INNER HTML','')">
-        <div class="grpheader">No (or incomplete) process data available</div>
-        <div><i>Therefore:</i>
-        <ul><li>No calculations undertaken</li>
-            <li>No suitability checks performed</li>
-            <li>Selections and dimensions as per customer instructions</li></ul></div>
-        <div class="grpunderlinedotted">&nbsp;</div>
+            <div class="grpheader">No process data available</div>
+            <div class="grpunderlinedotted">&nbsp;</div>
         </item> <!-- SelectionOnlyItem -->
             
         <!-- messages -->
