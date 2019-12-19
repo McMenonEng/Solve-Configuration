@@ -1,16 +1,13 @@
 ColumnName,Value,Units,UnitsType,Notes,Expression
-GADrawing1,FPD150.R1.1,,,FPD150.R1.1,Exp2 AND Exp3 AND Exp5 AND Exp24 AND Exp86
-GADrawing1,FPD150.R1.2,,,FPD150.R1.2,Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp86
-GADrawing1,FPD150.R1.3,,,FPD150.R1.3,Exp2 AND Exp3 AND Exp5 AND Exp24 AND Exp87
-GADrawing1,FPD150.R1.4,,,FPD150.R1.4,Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp87
-GADrawing1,FPD150.R1.5,,,FPD150.R1.5,Exp2 AND Exp3 AND Exp5 AND Exp24 AND Exp88
-GADrawing1,FPD150.R1.6,,,FPD150.R1.6,Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp88
-GADrawing1,FPD150.R1.7,,,FPD150.R1.7,Exp2 AND Exp3 AND Exp5 AND Exp24 AND Exp89
-GADrawing1,FPD150.R1.8,,,FPD150.R1.8,Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp89
-GADrawing2,FPD160.1,,,FPD160.1,Exp18 AND Exp19 AND Exp3 AND Exp20 AND Exp21
-GADrawing2,FPD160.2,,,FPD160.2,Exp18 AND Exp19 AND Exp3 AND Exp22 AND Exp21
-GADrawing2,FPD160.3,,,FPD160.3,Exp18 AND Exp84 AND Exp3 AND Exp20 AND Exp12
-GADrawing2,FPD160.4,,,FPD160.4,Exp18 AND Exp84 AND Exp3 AND Exp22 AND Exp12
+GADrawing1,FPD150.R1.1,,,FPD150.R1.1,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 AND Exp86
+GADrawing1,FPD150.R1.2,,,FPD150.R1.2,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp86
+GADrawing1,FPD150.R1.3,,,FPD150.R1.3,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 AND Exp87
+GADrawing1,FPD150.R1.4,,,FPD150.R1.4,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp87
+GADrawing1,FPD150.R1.5,,,FPD150.R1.5,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 AND Exp88
+GADrawing1,FPD150.R1.6,,,FPD150.R1.6,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp88
+GADrawing1,FPD150.R1.7,,,FPD150.R1.7,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 AND Exp89
+GADrawing1,FPD150.R1.8,,,FPD150.R1.8,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp89
+GADrawing1,FPD160.R1.1,,,FPD160.R1.1,Exp18 AND Exp2 AND Exp3 AND Exp22 AND Exp86 AND Exp28 AND Exp80 AND Exp91
 PlateODiaA,47.6,mm,length,"DN15 RF CL150",Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp27
 PlateODiaA,54,mm,length,"DN15 RF CL300,400,600",Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp28
 PlateODiaA,63.5,mm,length,"DN15 RF CL900,1500",Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp29
@@ -3911,6 +3908,7 @@ UniqueExpression,Exp14,,,Exp14,([SelectedItem]{CH/FPD/PRODUCT/DES} = 'C6')
 UniqueExpression,Exp15,,,Exp15,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'C2')
 UniqueExpression,Exp16,,,Exp16,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('E2','E3'))"
 UniqueExpression,Exp17,,,Exp17,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'U2')
+UniqueExpression,Exp25,,,Exp25,('[ProductCode]' = 'FPD150')
 UniqueExpression,Exp18,,,Exp18,('[ProductCode]' = 'FPD160_SS')
 UniqueExpression,Exp19,,,Exp19,([SelectedItem]{CH/FPD/PRODUCT/DES} = 'F1')
 UniqueExpression,Exp20,,,Exp20,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C1','L1','E1','U1'))"
@@ -3981,3 +3979,4 @@ UniqueExpression,Exp87,,,Exp87,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('100','150
 UniqueExpression,Exp88,,,Exp88,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('250','300','350','400'))"
 UniqueExpression,Exp89,,,Exp89,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('450','500','600','700','800','900'))"
 UniqueExpression,Exp90,,,Exp90,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C5','C6'))"
+UniqueExpression,Exp91,,,Exp91,([SelectedItem]{CH/FPD/TAPPING/TYPE} = 'TT1')
