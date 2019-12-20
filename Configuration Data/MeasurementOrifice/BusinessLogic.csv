@@ -3282,60 +3282,71 @@ RTJRingNumber,R47,,,"DN150 CL2500",Exp23 AND Exp47 AND Exp30
 RTJRingNumber,R51,,,"DN200 CL2500",Exp23 AND Exp48 AND Exp30
 RTJRingNumber,R55,,,"DN250 CL2500",Exp23 AND Exp49 AND Exp30
 RTJRingNumber,R60,,,"DN300 CL2500",Exp23 AND Exp50 AND Exp30
-GADimensionB,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp26 AND Exp83
-GADimensionB,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp31 AND Exp83
-GADimensionB,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp32 AND Exp83
-GADimensionB,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp33 AND Exp83
-GADimensionB,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp34 AND Exp83
-GADimensionB,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp35 AND Exp83
-GADimensionB,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp36 AND Exp83
-GADimensionB,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp37 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp43 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp47 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp48 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp49 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp50 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp51 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp52 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp53 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp54 AND Exp83
-GADimensionB,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp55 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp26 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp31 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp32 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp33 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp34 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp35 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp36 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp37 AND Exp83
-GADimensionC,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp43 AND Exp83
-GADimensionC,127,mm,length,127,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp47 AND Exp83
-GADimensionC,127,mm,length,127,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp48 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp49 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp50 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp51 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp52 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp53 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp54 AND Exp83
-GADimensionC,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp55 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp26 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp31 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp32 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp33 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp34 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp35 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp36 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp37 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp43 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp47 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp48 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp49 AND Exp83
-GADimensionG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp50 AND Exp83
-GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp51 AND Exp83
-GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp52 AND Exp83
-GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp53 AND Exp83
-GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp54 AND Exp83
-GADimensionG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp24 AND Exp10 AND Exp55 AND Exp83
+TabHandleC,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp26
+TabHandleC,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp31
+TabHandleC,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp32
+TabHandleC,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp33
+TabHandleC,25,mm,length,25,Exp1 AND Exp2 AND Exp3 AND Exp34
+TabHandleC,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp35
+TabHandleC,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp36
+TabHandleC,30,mm,length,30,Exp1 AND Exp2 AND Exp3 AND Exp37
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp43
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp47
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp48
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp49
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp50
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp51
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp52
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp53
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp54
+TabHandleC,40,mm,length,40,Exp1 AND Exp2 AND Exp3 AND Exp55
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp26 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp31 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp32 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp33 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp34 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp35 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp36 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp37 AND Exp83
+TabHandleB,102,mm,length,102,Exp1 AND Exp2 AND Exp3 AND Exp43 AND Exp83
+TabHandleB,127,mm,length,127,Exp1 AND Exp2 AND Exp3 AND Exp47 AND Exp83
+TabHandleB,127,mm,length,127,Exp1 AND Exp2 AND Exp3 AND Exp48 AND Exp83
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp26 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp31 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp32 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp33 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp34 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp35 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp36 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp37 AND Exp92
+TabHandleB,100,mm,length,100,Exp1 AND Exp2 AND Exp3 AND Exp43 AND Exp92
+TabHandleB,125,mm,length,125,Exp1 AND Exp2 AND Exp3 AND Exp47 AND Exp92
+TabHandleB,125,mm,length,125,Exp1 AND Exp2 AND Exp3 AND Exp48 AND Exp92
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp49
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp50
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp51
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp52
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp53
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp54
+TabHandleB,150,mm,length,150,Exp1 AND Exp2 AND Exp3 AND Exp55
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp26
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp31
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp32
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp33
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp34
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp35
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp36
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp37
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp43
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp47
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp48
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp49
+TabHandleG,3,mm,length,3,Exp1 AND Exp2 AND Exp3 AND Exp50
+TabHandleG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp51
+TabHandleG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp52
+TabHandleG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp53
+TabHandleG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp54
+TabHandleG,6,mm,length,6,Exp1 AND Exp2 AND Exp3 AND Exp55
 BoltHolesN,4,,,,Exp26 AND Exp27 
 BoltHolesN,4,,,,Exp31 AND Exp27 
 BoltHolesN,4,,,,Exp32 AND Exp27 
@@ -3971,7 +3982,7 @@ UniqueExpression,Exp79,,,Exp79,([SelectedItem]{CH/FPD/PLATE/THICK} = 'T11')
 UniqueExpression,Exp80,,,Exp80,"([SelectedItem]{CH/FPD/GASKET} IN ('GT2','GT3','GT4'))"
 UniqueExpression,Exp81,,,Exp81,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'J1')
 UniqueExpression,Exp82,,,Exp82,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'J3')
-UniqueExpression,Exp83,,,Exp83,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A3','A4','A6','A7','A8','A9'))"
+UniqueExpression,Exp83,,,Exp83,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A1','A3','A4','A6','A7','A8','A9'))"
 UniqueExpression,Exp84,,,Exp84,"([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('F2','F3'))"
 UniqueExpression,Exp85,,,Exp85,"([SelectedItem]{CH/FPD/DRAIN/VENT} IN ('HT1','HT2'))"
 UniqueExpression,Exp86,,,Exp86,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('015','020','025','032','040','050','065','080'))"
@@ -3980,3 +3991,4 @@ UniqueExpression,Exp88,,,Exp88,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('250','300
 UniqueExpression,Exp89,,,Exp89,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('450','500','600','700','800','900'))"
 UniqueExpression,Exp90,,,Exp90,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C5','C6'))"
 UniqueExpression,Exp91,,,Exp91,([SelectedItem]{CH/FPD/TAPPING/TYPE} = 'TT1')
+UniqueExpression,Exp92,,,Exp92,"([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('D0','D1','D2','D3','D4','D5','D6','D7'))"
