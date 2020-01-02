@@ -40,4 +40,4 @@
 "UnitDefaultVelocityFormat","6","Default unit format for Velocity"
 "UnitDefaultViscosityFormat","4","Default unit format for Viscosity"
 "UnitDefaultZFactorFormat","5","Default unit format for Z Factor"
-"SuggestionsURL","http://www.abbcmaster.com/DPEngTool/TF/EngFB.php?name=%UserDisplayName%&email=%UserEmailAddress%&sw=%ApplicationName%&swv=%ApplicationVersion%","Product feedback website"
+"SuggestionsURL","https://www.mcmenon.com/solve-feedback/?username=%UserDisplayName%&email=%UserEmailAddress%&sw=%ApplicationName%&swv=%ApplicationVersion%","Product feedback website"
