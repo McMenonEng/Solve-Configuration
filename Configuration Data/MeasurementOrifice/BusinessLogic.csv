@@ -7,7 +7,12 @@ GADrawing1,FPD150.R1.5,,,FPD150.R1.5,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 A
 GADrawing1,FPD150.R1.6,,,FPD150.R1.6,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp88
 GADrawing1,FPD150.R1.7,,,FPD150.R1.7,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp4 AND Exp89
 GADrawing1,FPD150.R1.8,,,FPD150.R1.8,Exp25 AND Exp2 AND Exp3 AND Exp5 AND Exp90 AND Exp89
-GADrawing1,FPD160.R1.1,,,FPD160.R1.1,Exp18 AND Exp2 AND Exp3 AND Exp22 AND Exp86 AND Exp28 AND Exp91
+GADrawing1,FPD160.R1.1,,,FPD160.R1.1,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp86 AND Exp28 AND Exp91
+GADrawing1,FPD160.R1.2,,,FPD160.R1.2,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp86 AND Exp29 AND Exp91
+GADrawing1,FPD160.R1.3,,,FPD160.R1.3,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp87 AND Exp28 AND Exp91
+GADrawing1,FPD160.R1.4,,,FPD160.R1.4,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp87 AND Exp29 AND Exp91
+GADrawing1,FPD160.R1.5,,,FPD160.R1.5,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp88 AND Exp28 AND Exp91
+GADrawing1,FPD160.R1.6,,,FPD160.R1.6,Exp18 AND Exp2 AND Exp3 AND Exp4 AND Exp22 AND Exp88 AND Exp29 AND Exp91
 PlateODiaA,47.6,mm,length,DN15 RF CL150,Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp27
 PlateODiaA,54,mm,length,"DN15 RF CL300,400,600",Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp28
 PlateODiaA,63.5,mm,length,"DN15 RF CL900,1500",Exp2 AND Exp3 AND Exp5 AND Exp26 AND Exp29
@@ -1434,9 +1439,9 @@ UniqueExpression,Exp13,,,Integral RTJ,"([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('
 UniqueExpression,Exp23,,,ALL RTJ,"([SelectedItem]{CH/FPD/PRODUCT/DES} IN ('F2','F3','P2','P3'))"
 UniqueExpression,Exp3,,,Standard,([SelectedItem]{CH/FPD/CUST/STD} = 'A1')
 UniqueExpression,Exp4,,,CSE,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C1','C2','C3'))"
-UniqueExpression,Exp20,,,All Corner Taps no Multi-H,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C1','L1','E1','U1'))"
-UniqueExpression,Exp22,,,All Flange Taps no Multi-H,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C2','E2','E3','U2','S2'))"
-UniqueExpression,Exp90,,,Multi-H,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C5','C6'))"
+UniqueExpression,Exp20,,,Corner Taps,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C1','L1','E1','U1','C6'))"
+UniqueExpression,Exp22,,,Flange Taps,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C2','E2','E3','U2','S2','C5'))"
+UniqueExpression,Exp90,,,Multi-Hole,"([SelectedItem]{CH/FPD/ORIFICE/DESIGN} IN ('C5','C6'))"
 UniqueExpression,Exp5,,,RF Flange,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'R1')
 UniqueExpression,Exp10,,,FF Flange,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'F1')
 UniqueExpression,Exp12,,,RTJ Flange,"([SelectedItem]{CH/FPD/END/CONN/TYPE} IN ('J1','J3'))"
