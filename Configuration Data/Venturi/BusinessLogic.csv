@@ -1,26 +1,30 @@
 ColumnName,Value,Units,UnitsType,Notes,Expression
 GADrawing1,MachinedFlangedVenturi,,,Machined with Flanges,Exp1 AND Exp6
 GADrawing1,MachinedPreppedVenturi,,,Machined with Prepped ends,Exp1 AND Exp5
-GADrawing1,FabricatedFlangedVenturi,,,Fabricated with Flanges,Exp2 AND Exp6
-GADrawing1,FabricatedPreppedVenturi,,,Fabricated with Prepped ends,Exp2 AND Exp5
+GADrawing1,FPD300.V2.1,,,Fabricated Weld Prepared - DN300-400 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp11 AND Exp14
+GADrawing1,FPD300.V2.2,,,Fabricated Weld Prepared - DN450-700 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp12 AND Exp14
+GADrawing1,FPD300.V2.3,,,Fabricated Weld Prepared - DN800-1050 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp13 AND Exp14
+GADrawing1,FPD300.V2.7,,,Fabricated Flanged CL150-600 - DN300-400 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp11 AND Exp14 AND Exp16
+GADrawing1,FPD300.V2.8,,,Fabricated Flanged CL150-600 - DN450-700 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp12 AND Exp14 AND Exp16
+GADrawing1,FPD300.V2.9,,,Fabricated Flanged CL150-600 - DN800-1050 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp13 AND Exp14 AND Exp16
 AdditionalUpstreamLength,0,mm,length,No additional length,
 ParallelDownstreamLength,10,mm,length,Machined + prepped,Exp1 AND Exp5
 ParallelDownstreamLength,10,mm,length,Machined + flanged,Exp1 AND Exp6
-ParallelDownstreamLength,0,mm,length,Fabricated + prepped,Exp2 AND Exp5
-ParallelDownstreamLength,150,mm,length,Fabricated + flanged,Exp2 AND Exp6
+ParallelDownstreamLength,100,mm,length,Fabricated + prepped,Exp2 AND Exp5
+ParallelDownstreamLength,0,mm,length,Fabricated + flanged,Exp2 AND Exp6
 UpstreamTappingDiameter,"=IIF(isnull([PipeID]{length,PipeIDUnits},0)*0.1>0.01,0.01,convert(isnull([PipeID]{length,PipeIDUnits},0)*0.1*1000.0,'System.Int32')/1000.0)",m,length,,Exp7
 UpstreamTappingDiameter,"=convert(isnull([PipeID]{length,PipeIDUnits},0)*0.1*1000.0,'System.Int32')/1000.0",m,length,,Exp8
 ThroatTappingDiameter,"=IIF(isnull([MachinedBore]{length,LengthOutputUnits},0)*0.13>0.01,0.01,convert(isnull([MachinedBore]{length,LengthOutputUnits},0)*0.13*1000.0,'System.Int32')/1000.0)",m,length,,Exp7
 ThroatTappingDiameter,"=convert(isnull([MachinedBore]{length,LengthOutputUnits},0)*0.13*1000.0,'System.Int32')/1000.0",m,length,,Exp8
-GADimensionA,"=isnull([PipeID]{length,PipeIDUnits},0)+isnull([AdditionalUpstreamLength]{length,LengthOutputUnits},0)",m,length,Upstream length,
-GADimensionB,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)*5.3955172",m,length,Convergent length,
-GADimensionC,"=isnull([MachinedBore]{length,LengthOutputUnits},0)",m,length,Throat length,
-GADimensionE,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)/0.0611626201504843",m,length,"Divergent length, 7 degree cone",Exp3
-GADimensionE,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)/0.131652497587396",m,length,"Divergent length, 15 degree cone",Exp4
-GADimensionX,"=isnull([ParallelDownstreamLength]{length,LengthOutputUnits},0)",m,length,Downstream length,
-GADimensionL1,"=isnull([GADimensionA]{length,LengthOutputUnits},0)+isnull([GADimensionB]{length,LengthOutputUnits},0)+isnull([GADimensionC]{length,LengthOutputUnits},0)+isnull([GADimensionE]{length,LengthOutputUnits},0)+isnull([GADimensionX]{length,LengthOutputUnits},0)",m,length,Overall (ex. Flanges),
-GADimensionL,"=isnull([GADimensionL1]{length,LengthOutputUnits},0)+(2.0*isnull([FlangeLength]{length,LengthOutputUnits},0))",m,length,Overall (incl. Flanges),
-GADimensionTS,"=isnull([MachinedBore]{length,LengthOutputUnits},0)*10.0",,,"Throat surface finish in micro-metres; maths works as the conversion m to micro m is 10^6",
+VenturiUpPipeA,"=isnull([PipeID]{length,PipeIDUnits},0)+isnull([AdditionalUpstreamLength]{length,LengthOutputUnits},0)",m,length,Upstream length,
+VenturiUpConeB,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)*5.3955172",m,length,Convergent length,
+VenturiThroatC,"=isnull([MachinedBore]{length,LengthOutputUnits},0)",m,length,Throat length,
+VenturiDnConeE,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)/0.0611626201504843",m,length,"Divergent length, 7 degree cone",Exp3
+VenturiDnConeE,"=((isnull([PipeID]{length,PipeIDUnits},0)-isnull([MachinedBore]{length,LengthOutputUnits},0))/2.0)/0.131652497587396",m,length,"Divergent length, 15 degree cone",Exp4
+VenturiDnPipeX,"=isnull([ParallelDownstreamLength]{length,LengthOutputUnits},0)",m,length,Downstream length,
+VenturiLengthL1,"=isnull([VenturiUpPipeA]{length,LengthOutputUnits},0)+isnull([VenturiUpConeB]{length,LengthOutputUnits},0)+isnull([VenturiThroatC]{length,LengthOutputUnits},0)+isnull([VenturiDnConeE]{length,LengthOutputUnits},0)+isnull([VenturiDnPipeX]{length,LengthOutputUnits},0)",m,length,Overall (ex. Flanges),
+VenturiLengthL,"=isnull([VenturiLengthL1]{length,LengthOutputUnits},0)+(2.0*isnull([FlangeLength]{length,LengthOutputUnits},0))",m,length,Overall (incl. Flanges),
+VenturiThroatSF,"=isnull([MachinedBore]{length,LengthOutputUnits},0)*10.0",,,"Throat surface finish in micro-metres; maths works as the conversion m to micro m is 10^6",
 UniqueExpression,Exp1,,,Machined,([SelectedItem]{CH/FPD/PRODUCT/DES} = 'V1')
 UniqueExpression,Exp2,,,Fabricated,([SelectedItem]{CH/FPD/PRODUCT/DES} = 'V2')
 UniqueExpression,Exp3,,,7 degree cone,([SelectedItem]{CH/FPD/CUST/STD} = 'L1')
@@ -29,3 +33,12 @@ UniqueExpression,Exp5,,,Prepped,([SelectedItem]{CH/FPD/END/CONN/TYPE} = 'P1')
 UniqueExpression,Exp6,,,Flanged,"([SelectedItem]{CH/FPD/END/CONN/TYPE} IN ('S1','S2','R2','R3','J2','F2','F3'))"
 UniqueExpression,Exp7,,,Tapping dia bore limit,"(isnull([MachinedBore]{length,LengthOutputUnits},0)>=0.0333)"
 UniqueExpression,Exp8,,,Tapping dia bore limit,"(isnull([MachinedBore]{length,LengthOutputUnits},0)<0.0333)"
+UniqueExpression,Exp9,,,Line Sizes - 2in. to 4in.,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('050','065','080','100'))"
+UniqueExpression,Exp10,,,Line Sizes - 6in. to 12in.,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('150','200','250','300'))"
+UniqueExpression,Exp11,,,Line Sizes - 12in. to 16in.,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('300','350','400'))"
+UniqueExpression,Exp12,,,Line Sizes - 18in. to 28in.,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('450','500','600','700'))"
+UniqueExpression,Exp13,,,Line Sizes - 30in. to 42in.,"([SelectedItem]{CH/FPD/LINE/SIZE} IN ('800','900','1000','1050'))"
+UniqueExpression,Exp14,,,Direct Taps,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'Y0')
+UniqueExpression,Exp15,,,Annular Ring,([SelectedItem]{CH/FPD/ORIFICE/DESIGN} = 'AR')
+UniqueExpression,Exp16,,,CL150-600,([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A1','A3','A6'))
+UniqueExpression,Exp17,,,CL900-2500,([SelectedItem]{CH/FPD/END/CONN/RAT} IN ('A7','A8','A9'))
