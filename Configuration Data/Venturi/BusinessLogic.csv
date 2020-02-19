@@ -1,9 +1,9 @@
 ColumnName,Value,Units,UnitsType,Notes,Expression
 GADrawing1,MachinedFlangedVenturi,,,Machined with Flanges,Exp1 AND Exp6
 GADrawing1,MachinedPreppedVenturi,,,Machined with Prepped ends,Exp1 AND Exp5
-GADrawing1,FPD300.V2.1,,,Fabricated Weld Prepared - DN300-400 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp11 AND Exp14
-GADrawing1,FPD300.V2.2,,,Fabricated Weld Prepared - DN450-700 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp12 AND Exp14
-GADrawing1,FPD300.V2.3,,,Fabricated Weld Prepared - DN800-1050 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp13 AND Exp14
+GADrawing1,FPD300.V2.1,,,Fabricated Weld Prepared - DN300-400 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp5 AND Exp11 AND Exp14
+GADrawing1,FPD300.V2.2,,,Fabricated Weld Prepared - DN450-700 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp5 AND Exp12 AND Exp14
+GADrawing1,FPD300.V2.3,,,Fabricated Weld Prepared - DN800-1050 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp5 AND Exp13 AND Exp14
 GADrawing1,FPD300.V2.7,,,Fabricated Flanged CL150-600 - DN300-400 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp11 AND Exp14 AND Exp16
 GADrawing1,FPD300.V2.8,,,Fabricated Flanged CL150-600 - DN450-700 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp12 AND Exp14 AND Exp16
 GADrawing1,FPD300.V2.9,,,Fabricated Flanged CL150-600 - DN800-1050 - Direct NPT Taps - 15Cone,Exp2 AND Exp4 AND Exp6 AND Exp13 AND Exp14 AND Exp16
