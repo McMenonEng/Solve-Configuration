@@ -1,125 +1,136 @@
-ProductCode,SelectionGroup,GrpOrder,PartNumber,Order,Active,DefaultItem,ExclusionRule,Cost,Name,Description,AdditionalData,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-TAI,CH/HAZARD,1,Y0,1,TRUE,FALSE,,0,Safe Area - Non certified,Safe Area - Non certified,,,,,,,,,,,
-TAI,CH/HAZARD,1,A0,2,TRUE,FALSE,,0,ATEX Ex i - With installed certified transmitter,ATEX Ex i - With installed certified transmitter,,,,,,,,,,,
-TAI,CH/HAZARD,1,A1,3,TRUE,FALSE,,0,ATEX Ex d,ATEX Ex d,,,,,,,,,,,
-TAI,CH/HAZARD,1,A2,4,TRUE,FALSE,,0,ATEX Ex n,ATEX Ex n,,,,,,,,,,,
-TAI,CH/HAZARD,1,B0,5,TRUE,FALSE,,0,IECEx i - With installed certified transmitter,IECEx i - With installed certified transmitter,,,,,,,,,,,
-TAI,CH/HAZARD,1,B1,6,TRUE,FALSE,,0,IECEx d,IECEx d,,,,,,,,,,,
-TAI,CH/HAZARD,1,F0,7,TRUE,FALSE,,0,FM Intrinsically Safe - With installed certified transmitter,FM Intrinsically Safe - With installed certified transmitter,,,,,,,,,,,
-TAI,CH/HAZARD,1,S0,8,TRUE,FALSE,,0,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,,,,,,,,,,,
-TAI,CH/TX,2,Y0,1,TRUE,FALSE,CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0,0,None,None,,,,,,,,,,,
-TAI,CH/TX,2,Z9,2,TRUE,FALSE,,0,Customer Specific,Customer Specific,,,,,,,,,,,
-TAI,CH/TX,2,A2,3,TRUE,FALSE,,0,"TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,,,,,,,,,,
-TAI,CH/TX,2,A3,4,TRUE,FALSE,,0,"TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,,,,,,,,,,
-TAI,CH/COMMS,3,Y0,1,TRUE,FALSE,NOT(CH/TX=Y0),0,None,None,,,,,,,,,,,
-TAI,CH/COMMS,3,H5,2,TRUE,FALSE,CH/TX=Y0,0,HART 5 (4...20 mA),HART 5 (4...20 mA),,,,,,,,,,,
-TAI,CH/COMMS,3,H7,3,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,HART 7 (4...20 mA),HART 7 (4...20 mA),,,,,,,,,,,
-TAI,CH/COMMS,3,P1,4,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Profibus PA,Profibus PA,,,,,,,,,,,
-TAI,CH/COMMS,3,F1,5,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Foundation Fieldbus - H1,Foundation Fieldbus - H1,,,,,,,,,,,
-TAI,CH/UNUSED,4,00,1,FALSE,FALSE,,0,Unused,Unused,,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L1,1,TRUE,FALSE,,0,"AGL - Aluminium Epoxy Coated, Std Blind Lid","AGL - Aluminium Epoxy Coated, Std Blind Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L2,2,TRUE,FALSE,,0,"AGL H - Aluminium Epoxy Coated, High Blind Lid","AGL H - Aluminium Epoxy Coated, High Blind Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L3,3,TRUE,FALSE,,0,"AGL HD - Aluminium Epoxy Coated, High Window Lid","AGL HD - Aluminium Epoxy Coated, High Window Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S1,4,TRUE,FALSE,,0,"AGS - 316L St Steel, Natural Finish, Std Blind Lid","AGS - 316L St Steel, Natural Finish, Std Blind Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S2,5,TRUE,FALSE,,0,"AGS H - 316L St Steel, Natural Finish, High Blind Lid","AGS H - 316L St Steel, Natural Finish, High Blind Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S3,6,TRUE,FALSE,,0,"AGS HD - 316L St Steel, Natural Finish, High Window Lid","AGS HD - 316L St Steel, Natural Finish, High Window Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L4,7,TRUE,FALSE,,0,"AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L5,8,TRUE,FALSE,,0,"AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,L6,9,TRUE,FALSE,,0,"AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S4,10,TRUE,FALSE,,0,"AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S5,11,TRUE,FALSE,,0,"AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S6,12,TRUE,FALSE,,0,"AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,B1,13,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,"BUZ - Aluminium, Painted, Hinged Lid","BUZ - Aluminium, Painted, Hinged Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,B2,14,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,"BUZ H - Aluminium Painted, High Hinged Lid","BUZ H - Aluminium Painted, High Hinged Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,K1,15,TRUE,FALSE,,0,"KNE - Aluminium Painted, Screwed Lid","KNE - Aluminium Painted, Screwed Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,K2,16,TRUE,FALSE,,0,"KI - Cast Iron, Painted, Screwed Lid","KI - Cast Iron, Painted, Screwed Lid",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,H8,17,TRUE,FALSE,,0,"H8 - Aluminium Painted - Form B Head","H8 - Aluminium Painted - Form B Head",,,,,,,,,,,
-TAI,CH/HEADTYPE,5,S7,18,TRUE,FALSE,,0,"LS - 316 St Steel, Screwed Lid","LS - 316 St Steel, Screwed Lid",,,,,,,,,,,
-TAI,CH/DISPLAY,6,Y0,1,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TAI,CH/DISPLAY,6,Z9,2,TRUE,FALSE,"CH/TX IN (Y0,A2,A3) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,Customer Specific,Customer Specific,,,,,,,,,,,
-TAI,CH/DISPLAY,6,L1,3,TRUE,FALSE,"CH/TX IN (Y0,Z9,A2) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,"Type A - Configurator HMI Display, TTH300 Only","Type A - Configurator HMI Display, TTH300 Only",,,,,,,,,,,
-TAI,CH/DISPLAY,6,L2,4,TRUE,FALSE,"CH/TX IN (Y0,Z9) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,Type AS - Basic Display TTH200 & TTH300,Type AS - Basic Display TTH200 & TTH300,,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,A,1,TRUE,FALSE,,0,"1 x M20X1.5 ISO","1 x M20X1.5 ISO",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,B,2,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20X1.5 ISO","2 x M20X1.5 ISO",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,C,3,TRUE,FALSE,,0,"1 x M20 + ½ in. NPT Adaptor, Brass","1 x M20 + ½ in. NPT Adaptor, Brass",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,D,4,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + ½ in. NPT Adaptor, Brass","2 x M20 + ½ in. NPT Adaptor, Brass",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,E,5,TRUE,FALSE,,0,"1 x M20 + ½ in. NPT Adaptor, St Steel","1 x M20 + ½ in. NPT Adaptor, St Steel",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,F,6,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + ½ in. NPT Adaptor, St Steel","2 x M20 + ½ in. NPT Adaptor, St Steel",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,G,7,TRUE,FALSE,,0,"1 x ½ in. NPT","1 x ½ in. NPT",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,H,8,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x ½ in. NPT","2 x ½ in. NPT",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,J,9,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + 1 x Blind Plug, Brass","2 x M20 + 1 x Blind Plug, Brass",,,,,,,,,,,
-TAI,CH/HEADCABLECON,7,K,10,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + 1 x Blind Plug, St Steel","2 x M20 + 1 x Blind Plug, St Steel",,,,,,,,,,,
-TAI,CH/HEADCON,8,A,1,TRUE,FALSE,,0,"M24X1.5(F)","M24X1.5(F)",,,,,,,,,,,
-TAI,CH/HEADCON,8,B,2,TRUE,FALSE,,0,"½ in. BSP(F)","½ in. BSP(F)",,,,,,,,,,,
-TAI,CH/HEADCON,8,C,3,TRUE,FALSE,,0,"¾ in. BSP(F)","¾ in. BSP(F)",,,,,,,,,,,
-TAI,CH/HEADCON,8,D,4,TRUE,FALSE,,0,"½ in. NPT(F)","½ in. NPT(F)",,,,,,,,,,,
-TAI,CH/HEADCON,8,E,5,TRUE,FALSE,,0,"¾ in. NPT(F)","¾ in. NPT(F)",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E1,1,TRUE,FALSE,,0,"Nipple/Union/Nipple - 150 mm Std","Nipple/Union/Nipple - 150 mm Std",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E2,2,TRUE,FALSE,,0,"Nipple 34 mm / 50 mm / 75 mm","Nipple 34 mm / 50 mm / 75 mm",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E3,3,TRUE,FALSE,,0,"E6 Extension","E6 Extension",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E4,4,TRUE,FALSE,,0,"E4 Extension","E4 Extension",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E5,5,TRUE,FALSE,,0,"Nipple C/W Oil Seal","Nipple C/W Oil Seal",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E6,6,TRUE,FALSE,,0,"Nipple and flange","Nipple and flange",,,,,,,,,,,
-TAI,CH/EXTENSION,9,E7,7,TRUE,FALSE,,0,"Adjustable Extension (TOTAL)","Adjustable Extension (TOTAL)",,,,,,,,,,,
-TAI,CH/EXTENSION,9,V1,8,TRUE,FALSE,,0,"Nipple/Union/Nipple - Variable, Non Std","Nipple/Union/Nipple - Variable, Non Std",,,,,,,,,,,
-TAI,CH/EXTENSION,9,V2,9,TRUE,FALSE,,0,"Single Nipple - Variable, Non Std","Single Nipple - Variable, Non Std",,,,,,,,,,,
-TAI,CH/EXTENSION,9,S1,10,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Nipple","Oil Seal Nipple/Union/Nipple",,,,,,,,,,,
-TAI,CH/EXTENSION,9,S2,11,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Oil Seal Nipple","Oil Seal Nipple/Union/Oil Seal Nipple",,,,,,,,,,,
-TAI,CH/EXTENSION,9,V3,12,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Nipple - Variable","Oil Seal Nipple/Union/Nipple - Variable",,,,,,,,,,,
-TAI,CH/EXTENSION,9,M1,13,TRUE,FALSE,,0,"M24 Head / ½ in. NPT Extension","M24 Head / ½ in. NPT Extension",,,,,,,,,,,
-TAI,CH/EXTENSION,9,M2,14,TRUE,FALSE,,0,"M24 Head / ½ in. BSP Extension","M24 Head / ½ in. BSP Extension",,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,S1,1,TRUE,FALSE,,0,1 x PT100 - Standard Range Thin Film,1 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,S2,2,TRUE,FALSE,,0,2 x PT100 - Standard Range Thin Film,2 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,P1,3,TRUE,FALSE,,0,1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,P2,4,TRUE,FALSE,,0,2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,J1,5,TRUE,FALSE,,0,1 x Type J - Fe/CuNi,1 x Type J - Fe/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,K1,6,TRUE,FALSE,,0,1 x Type K - NiCr/NiAl,1 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,T1,7,TRUE,FALSE,,0,1 x Type T - Cu/CuNi,1 x Type T - Cu/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,E1,8,TRUE,FALSE,,0,1 x Type E - NiCr/CuNi,1 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,N1,9,TRUE,FALSE,,0,1 x Type N - NiCrSi/NiSi,1 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,J2,10,TRUE,FALSE,,0,2 x Type J - Fe/CuNi,2 x Type J - Fe/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,K2,11,TRUE,FALSE,,0,2 x Type K - NiCr/NiAl,2 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,T2,12,TRUE,FALSE,,0,2 x Type T - Cu/CuNi,2 x Type T - Cu/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,E2,13,TRUE,FALSE,,0,2 x Type E - NiCr/CuNi,2 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,N2,14,TRUE,FALSE,,0,2 x Type N - NiCrSi/NiSi,2 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,J3,15,TRUE,FALSE,,0,3 x Type J - Fe/CuNi,3 x Type J - Fe/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,K3,16,TRUE,FALSE,,0,3 x Type K - NiCr/NiAl,3 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,T3,17,TRUE,FALSE,,0,3 x Type T - Cu/CuNi,3 x Type T - Cu/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,E3,18,TRUE,FALSE,,0,3 x Type E - NiCr/CuNi,3 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAI,CH/SENSORTYPE,10,N3,19,TRUE,FALSE,,0,3 x Type N - NiCrSi/NiSi,3 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAI,CH/SENSORTOL,11,A,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'A' IEC 60751,Class 'A' IEC 60751,,,,,,,,,,,
-TAI,CH/SENSORTOL,11,B,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'B' IEC 60751,Class 'B' IEC 60751,,,,,,,,,,
-TAI,CH/SENSORTOL,11,C,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'AA' IEC 60751,Class 'AA' IEC 60751,,,,,,,,,,
-TAI,CH/SENSORTOL,11,1,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '1' IEC 60751,Class '1' IEC 60751,,,,,,,,,,
-TAI,CH/SENSORTOL,11,2,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '2' IEC 60751,Class '2' IEC 60751,,,,,,,,,,
-TAI,CH/SENSORTOL,11,6,6,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,MC-96.1 Standard Class,MC-96.1 Standard Class,,,,,,,,,,
-TAI,CH/SENSORCON,12,2,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,2 Wire PT Sensor,2 Wire PT Sensor,,,,,,,,,,,
-TAI,CH/SENSORCON,12,3,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,3 Wire PT Sensor,3 Wire PT Sensor,,,,,,,,,,,
-TAI,CH/SENSORCON,12,4,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0),0,4 Wire PT Sensor,4 Wire PT Sensor,,,,,,,,,,,
-TAI,CH/SENSORCON,12,I,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Insulated Thermocouple Hot Junction,Insulated Thermocouple Hot Junction,,,,,,,,,,,
-TAI,CH/SENSORCON,12,B,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Bonded Thermocouple Hot Junction,Bonded Thermocouple Hot Junction,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D1,1,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,1.5 mm,1.5 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,3 mm,3 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D3,3,TRUE,FALSE,,0,4.5 mm,4.5 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D4,4,TRUE,FALSE,,0,6 mm,6 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D5,4,TRUE,FALSE,,0,8 mm,8 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D6,5,TRUE,FALSE,,0,10 mm,10 mm,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D7,6,TRUE,FALSE,,0,6 mm with 10 mm tip,6 mm with 10 mm tip,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D8,7,TRUE,FALSE,,0,6 mm swaged to 4.5 mm x 20 mm long,6 mm swaged to 4.5 mm x 20 mm long,,,,,,,,,,,
-TAI,CH/SENSORDIA,13,D9,8,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,6 mm swaged to 3 mm x 20 mm long,6 mm swaged to 3 mm x 20 mm long,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,S4,1,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,304 Stainless Steel,304 Stainless Steel,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,S2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,321 Stainless Steel,321 Stainless Steel,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,S1,3,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,310 Stainless Steel,310 Stainless Steel,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,S6,4,TRUE,FALSE,,0,316 Stainless Steel,316 Stainless Steel,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,U6,5,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 600,Alloy 600,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,U8,6,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 800,Alloy 800,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,U4,7,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 446,Alloy 446,,,,,,,,,,,
-TAI,CH/SHEATHMAT,14,C2,8,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Hastelloy X,Hastelloy X,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,T1,1,TRUE,FALSE,NOT(CH/TX=Y0),0,Ceramic Terminal Block - Spring Loaded,Ceramic Terminal Block - Spring Loaded,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,F1,2,TRUE,FALSE,CH/TX=Y0,0,Transmitter Flange and Transmitter Tails - Spring Loaded,Transmitter Flange and Transmitter Tails - Spring Loaded,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,S1,3,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Spring Loaded For M20 Cable Entry (requires back stop),Spring Loaded For M20 Cable Entry (requires back stop),,,,,,,,,,,
-TAI,CH/SENSORTERM,15,S2,4,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Shell Std For Spring Loading in Union,Shell Std For Spring Loading in Union,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,P1,5,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Std Plain Pot Seal,Std Plain Pot Seal,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,P2,6,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Screwed Pot Seal,Screwed Pot Seal,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,R1,7,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Strain Relief Spring Assembly,Strain Relief Spring Assembly,,,,,,,,,,,
-TAI,CH/SENSORTERM,15,C1,8,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Plain Crimp Tube,Plain Crimp Tube,,,,,,,,,,,
+"ProductCode","SelectionGroup","PartNumber","Order","Active","DefaultItem","Cost","ExclusionRule","Name","Description","AdditionalData","InShortenedList"
+"TAI","CH/HAZARD","Y0",1,True,False,0,"","Safe Area - Non certified","Safe Area - Non certified",,False
+"TAI","CH/HAZARD","A0",2,True,False,0,"","ATEX Ex i - With installed certified transmitter","ATEX Ex i - With installed certified transmitter",,False
+"TAI","CH/HAZARD","A1",3,True,False,0,"","ATEX Ex d","ATEX Ex d",,False
+"TAI","CH/HAZARD","A2",4,True,False,0,"","ATEX Ex n","ATEX Ex n",,False
+"TAI","CH/HAZARD","B0",5,True,False,0,"","IECEx i - With installed certified transmitter","IECEx i - With installed certified transmitter",,False
+"TAI","CH/HAZARD","B1",6,True,False,0,"","IECEx d","IECEx d",,False
+"TAI","CH/HAZARD","F0",7,True,False,0,"","FM Intrinsically Safe - With installed certified transmitter","FM Intrinsically Safe - With installed certified transmitter",,False
+"TAI","CH/HAZARD","S0",8,True,False,0,"","Simple Apparatus Equipment - For intrinsically safe installations without transmitter","Simple Apparatus Equipment - For intrinsically safe installations without transmitter",,False
+"TAI","CH/TX","Y0",1,True,False,0,"CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0","None","None",,False
+"TAI","CH/TX","Z9",2,True,False,0,"","Customer Specific","Customer Specific",,False
+"TAI","CH/TX","A2",3,True,False,0,"","TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,False
+"TAI","CH/TX","A3",4,True,False,0,"","TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,False
+"TAI","CH/COMMS","Y0",1,True,False,0,"NOT(CH/TX=Y0)","None","None",,False
+"TAI","CH/COMMS","H5",2,True,False,0,"CH/TX=Y0","HART 5 (4...20 mA)","HART 5 (4...20 mA)",,False
+"TAI","CH/COMMS","H7",3,True,False,0,"CH/TX=Y0 OR CH/TX=A2","HART 7 (4...20 mA)","HART 7 (4...20 mA)",,False
+"TAI","CH/COMMS","P1",4,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Profibus PA","Profibus PA",,False
+"TAI","CH/COMMS","F1",5,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Foundation Fieldbus - H1","Foundation Fieldbus - H1",,False
+"TAI","CH/UNUSED","00",1,False,False,0,"","Unused","Unused",,False
+"TAI","CH/HEADTYPE","L1",1,True,False,0,"","AGL - Aluminium Epoxy Coated, Std Blind Lid","AGL - Aluminium Epoxy Coated, Std Blind Lid",,False
+"TAI","CH/HEADTYPE","L2",2,True,False,0,"","AGL H - Aluminium Epoxy Coated, High Blind Lid","AGL H - Aluminium Epoxy Coated, High Blind Lid",,False
+"TAI","CH/HEADTYPE","L3",3,True,False,0,"","AGL HD - Aluminium Epoxy Coated, High Window Lid","AGL HD - Aluminium Epoxy Coated, High Window Lid",,False
+"TAI","CH/HEADTYPE","S1",4,True,False,0,"","AGS - 316L St Steel, Natural Finish, Std Blind Lid","AGS - 316L St Steel, Natural Finish, Std Blind Lid",,False
+"TAI","CH/HEADTYPE","S2",5,True,False,0,"","AGS H - 316L St Steel, Natural Finish, High Blind Lid","AGS H - 316L St Steel, Natural Finish, High Blind Lid",,False
+"TAI","CH/HEADTYPE","S3",6,True,False,0,"","AGS HD - 316L St Steel, Natural Finish, High Window Lid","AGS HD - 316L St Steel, Natural Finish, High Window Lid",,False
+"TAI","CH/HEADTYPE","L4",7,True,False,0,"","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","L5",8,True,False,0,"","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","L6",9,True,False,0,"","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","S4",10,True,False,0,"","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","S5",11,True,False,0,"","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","S6",12,True,False,0,"","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing",,False
+"TAI","CH/HEADTYPE","B1",13,True,False,0,"CH/HAZARD IN (A1,B1)","BUZ - Aluminium, Painted, Hinged Lid","BUZ - Aluminium, Painted, Hinged Lid",,False
+"TAI","CH/HEADTYPE","B2",14,True,False,0,"CH/HAZARD IN (A1,B1)","BUZ H - Aluminium Painted, High Hinged Lid","BUZ H - Aluminium Painted, High Hinged Lid",,False
+"TAI","CH/HEADTYPE","K1",15,True,False,0,"","KNE - Aluminium Painted, Screwed Lid","KNE - Aluminium Painted, Screwed Lid",,False
+"TAI","CH/HEADTYPE","K2",16,True,False,0,"","KI - Cast Iron, Painted, Screwed Lid","KI - Cast Iron, Painted, Screwed Lid",,False
+"TAI","CH/HEADTYPE","H8",17,True,False,0,"","H8 - Aluminium Painted - Form B Head","H8 - Aluminium Painted - Form B Head",,False
+"TAI","CH/HEADTYPE","S7",18,True,False,0,"","LS - 316 St Steel, Screwed Lid","LS - 316 St Steel, Screwed Lid",,False
+"TAI","CH/DISPLAY","Y0",1,True,False,0,"","None","None",,False
+"TAI","CH/DISPLAY","Z9",2,True,False,0,"CH/TX IN (Y0,A2,A3) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Customer Specific","Customer Specific",,False
+"TAI","CH/DISPLAY","L1",3,True,False,0,"CH/TX IN (Y0,Z9,A2) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Type A - Configurator HMI Display, TTH300 Only","Type A - Configurator HMI Display, TTH300 Only",,False
+"TAI","CH/DISPLAY","L2",4,True,False,0,"CH/TX IN (Y0,Z9) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Type AS - Basic Display TTH200 & TTH300","Type AS - Basic Display TTH200 & TTH300",,False
+"TAI","CH/HEADCABLECON","A",1,True,False,0,"","1 x M20X1.5 ISO","1 x M20X1.5 ISO",,False
+"TAI","CH/HEADCABLECON","B",2,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20X1.5 ISO","2 x M20X1.5 ISO",,False
+"TAI","CH/HEADCABLECON","C",3,True,False,0,"","1 x M20 + ½ in. NPT Adaptor, Brass","1 x M20 + ½ in. NPT Adaptor, Brass",,False
+"TAI","CH/HEADCABLECON","D",4,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + ½ in. NPT Adaptor, Brass","2 x M20 + ½ in. NPT Adaptor, Brass",,False
+"TAI","CH/HEADCABLECON","E",5,True,False,0,"","1 x M20 + ½ in. NPT Adaptor, St Steel","1 x M20 + ½ in. NPT Adaptor, St Steel",,False
+"TAI","CH/HEADCABLECON","F",6,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + ½ in. NPT Adaptor, St Steel","2 x M20 + ½ in. NPT Adaptor, St Steel",,False
+"TAI","CH/HEADCABLECON","G",7,True,False,0,"","1 x ½ in. NPT","1 x ½ in. NPT",,False
+"TAI","CH/HEADCABLECON","H",8,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x ½ in. NPT","2 x ½ in. NPT",,False
+"TAI","CH/HEADCABLECON","J",9,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + 1 x Blind Plug, Brass","2 x M20 + 1 x Blind Plug, Brass",,False
+"TAI","CH/HEADCABLECON","K",10,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + 1 x Blind Plug, St Steel","2 x M20 + 1 x Blind Plug, St Steel",,False
+"TAI","CH/HEADCON","A",1,True,False,0,"","M24X1.5(F)","M24X1.5(F)",,False
+"TAI","CH/HEADCON","B",2,True,False,0,"","½ in. BSP(F)","½ in. BSP(F)",,False
+"TAI","CH/HEADCON","C",3,True,False,0,"","¾ in. BSP(F)","¾ in. BSP(F)",,False
+"TAI","CH/HEADCON","D",4,True,False,0,"","½ in. NPT(F)","½ in. NPT(F)",,False
+"TAI","CH/HEADCON","E",5,True,False,0,"","¾ in. NPT(F)","¾ in. NPT(F)",,False
+"TAI","CH/EXTENSION","E1",1,True,False,0,"","Nipple/Union/Nipple - 150 mm Std","Nipple/Union/Nipple - 150 mm Std",,False
+"TAI","CH/EXTENSION","E2",2,True,False,0,"","Nipple 34 mm / 50 mm / 75 mm","Nipple 34 mm / 50 mm / 75 mm",,False
+"TAI","CH/EXTENSION","E3",3,True,False,0,"","E6 Extension","E6 Extension",,False
+"TAI","CH/EXTENSION","E4",4,True,False,0,"","E4 Extension","E4 Extension",,False
+"TAI","CH/EXTENSION","E5",5,True,False,0,"","Nipple C/W Oil Seal","Nipple C/W Oil Seal",,False
+"TAI","CH/EXTENSION","E6",6,True,False,0,"","Nipple and flange","Nipple and flange",,False
+"TAI","CH/EXTENSION","E7",7,True,False,0,"","Adjustable Extension (TOTAL)","Adjustable Extension (TOTAL)",,False
+"TAI","CH/EXTENSION","V1",8,True,False,0,"","Nipple/Union/Nipple - Variable, Non Std","Nipple/Union/Nipple - Variable, Non Std",,False
+"TAI","CH/EXTENSION","V2",9,True,False,0,"","Single Nipple - Variable, Non Std","Single Nipple - Variable, Non Std",,False
+"TAI","CH/EXTENSION","S1",10,True,False,0,"","Oil Seal Nipple/Union/Nipple","Oil Seal Nipple/Union/Nipple",,False
+"TAI","CH/EXTENSION","S2",11,True,False,0,"","Oil Seal Nipple/Union/Oil Seal Nipple","Oil Seal Nipple/Union/Oil Seal Nipple",,False
+"TAI","CH/EXTENSION","V3",12,True,False,0,"","Oil Seal Nipple/Union/Nipple - Variable","Oil Seal Nipple/Union/Nipple - Variable",,False
+"TAI","CH/EXTENSION","M1",13,True,False,0,"","M24 Head / ½ in. NPT Extension","M24 Head / ½ in. NPT Extension",,False
+"TAI","CH/EXTENSION","M2",14,True,False,0,"","M24 Head / ½ in. BSP Extension","M24 Head / ½ in. BSP Extension",,False
+"TAI","CH/EXTENSIONLEN","Min",0,True,False,0,"","Min length","Min length","0",False
+"TAI","CH/EXTENSIONLEN","Max",1,True,False,0,"","Max length","Max length","2000",False
+"TAI","CH/EXTENSIONLEN","Digits",2,True,False,0,"","Digits","Digits","4",False
+"TAI","CH/EXTENSIONLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAI","CH/EXTENSIONLEN","Value",4,True,False,0,"NOT(CH/EXTENSION=E1)","Default value when E1 extension selected","","150",False
+"TAI","CH/EXTENSIONLEN","Units",5,True,False,0,"","Units","Units for exentsion length","mm",False
+"TAI","CH/SENSORTYPE","S1",1,True,False,0,"","1 x PT100 - Standard Range Thin Film","1 x PT100 - Standard Range Thin Film",,False
+"TAI","CH/SENSORTYPE","S2",2,True,False,0,"","2 x PT100 - Standard Range Thin Film","2 x PT100 - Standard Range Thin Film",,False
+"TAI","CH/SENSORTYPE","P1",3,True,False,0,"","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TAI","CH/SENSORTYPE","P2",4,True,False,0,"","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TAI","CH/SENSORTYPE","J1",5,True,False,0,"","1 x Type J - Fe/CuNi","1 x Type J - Fe/CuNi",,False
+"TAI","CH/SENSORTYPE","K1",6,True,False,0,"","1 x Type K - NiCr/NiAl","1 x Type K - NiCr/NiAl",,False
+"TAI","CH/SENSORTYPE","T1",7,True,False,0,"","1 x Type T - Cu/CuNi","1 x Type T - Cu/CuNi",,False
+"TAI","CH/SENSORTYPE","E1",8,True,False,0,"","1 x Type E - NiCr/CuNi","1 x Type E - NiCr/CuNi",,False
+"TAI","CH/SENSORTYPE","N1",9,True,False,0,"","1 x Type N - NiCrSi/NiSi","1 x Type N - NiCrSi/NiSi",,False
+"TAI","CH/SENSORTYPE","J2",10,True,False,0,"","2 x Type J - Fe/CuNi","2 x Type J - Fe/CuNi",,False
+"TAI","CH/SENSORTYPE","K2",11,True,False,0,"","2 x Type K - NiCr/NiAl","2 x Type K - NiCr/NiAl",,False
+"TAI","CH/SENSORTYPE","T2",12,True,False,0,"","2 x Type T - Cu/CuNi","2 x Type T - Cu/CuNi",,False
+"TAI","CH/SENSORTYPE","E2",13,True,False,0,"","2 x Type E - NiCr/CuNi","2 x Type E - NiCr/CuNi",,False
+"TAI","CH/SENSORTYPE","N2",14,True,False,0,"","2 x Type N - NiCrSi/NiSi","2 x Type N - NiCrSi/NiSi",,False
+"TAI","CH/SENSORTYPE","J3",15,True,False,0,"","3 x Type J - Fe/CuNi","3 x Type J - Fe/CuNi",,False
+"TAI","CH/SENSORTYPE","K3",16,True,False,0,"","3 x Type K - NiCr/NiAl","3 x Type K - NiCr/NiAl",,False
+"TAI","CH/SENSORTYPE","T3",17,True,False,0,"","3 x Type T - Cu/CuNi","3 x Type T - Cu/CuNi",,False
+"TAI","CH/SENSORTYPE","E3",18,True,False,0,"","3 x Type E - NiCr/CuNi","3 x Type E - NiCr/CuNi",,False
+"TAI","CH/SENSORTYPE","N3",19,True,False,0,"","3 x Type N - NiCrSi/NiSi","3 x Type N - NiCrSi/NiSi",,False
+"TAI","CH/SENSORTOL","A",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'A' IEC 60751","Class 'A' IEC 60751",,False
+"TAI","CH/SENSORTOL","B",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'B' IEC 60751","Class 'B' IEC 60751",,False
+"TAI","CH/SENSORTOL","C",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'AA' IEC 60751","Class 'AA' IEC 60751",,False
+"TAI","CH/SENSORTOL","1",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '1' IEC 60751","Class '1' IEC 60751",,False
+"TAI","CH/SENSORTOL","2",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '2' IEC 60751","Class '2' IEC 60751",,False
+"TAI","CH/SENSORTOL","6",6,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","MC-96.1 Standard Class","MC-96.1 Standard Class",,False
+"TAI","CH/SENSORCON","2",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","2 Wire PT Sensor","2 Wire PT Sensor",,False
+"TAI","CH/SENSORCON","3",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","3 Wire PT Sensor","3 Wire PT Sensor",,False
+"TAI","CH/SENSORCON","4",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0)","4 Wire PT Sensor","4 Wire PT Sensor",,False
+"TAI","CH/SENSORCON","I",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Insulated Thermocouple Hot Junction","Insulated Thermocouple Hot Junction",,False
+"TAI","CH/SENSORCON","B",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Bonded Thermocouple Hot Junction","Bonded Thermocouple Hot Junction",,False
+"TAI","CH/IMMERSIONLEN","Min",0,True,False,0,"","Min length","Min length","[SelectedItem]{CH/EXTENSIONLEN}+45",False
+"TAI","CH/IMMERSIONLEN","Max",1,True,False,0,"","Max length","Max length","30000",False
+"TAI","CH/IMMERSIONLEN","Digits",2,True,False,0,"","Digits","Digits","5",False
+"TAI","CH/IMMERSIONLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAI","CH/IMMERSIONLEN","Units",4,True,False,0,"","Units","Units for immersion length","mm",False
+"TAI","CH/SENSORDIA","D1",1,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","1.5 mm","1.5 mm",,False
+"TAI","CH/SENSORDIA","D2",2,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","3 mm","3 mm",,False
+"TAI","CH/SENSORDIA","D3",3,True,False,0,"","4.5 mm","4.5 mm",,False
+"TAI","CH/SENSORDIA","D4",4,True,False,0,"","6 mm","6 mm",,False
+"TAI","CH/SENSORDIA","D5",4,True,False,0,"","8 mm","8 mm",,False
+"TAI","CH/SENSORDIA","D6",5,True,False,0,"","10 mm","10 mm",,False
+"TAI","CH/SENSORDIA","D7",6,True,False,0,"","6 mm with 10 mm tip","6 mm with 10 mm tip",,False
+"TAI","CH/SENSORDIA","D8",7,True,False,0,"","6 mm swaged to 4.5 mm x 20 mm long","6 mm swaged to 4.5 mm x 20 mm long",,False
+"TAI","CH/SENSORDIA","D9",8,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","6 mm swaged to 3 mm x 20 mm long","6 mm swaged to 3 mm x 20 mm long",,False
+"TAI","CH/SHEATHMAT","S4",1,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","304 Stainless Steel","304 Stainless Steel",,False
+"TAI","CH/SHEATHMAT","S2",2,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","321 Stainless Steel","321 Stainless Steel",,False
+"TAI","CH/SHEATHMAT","S1",3,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","310 Stainless Steel","310 Stainless Steel",,False
+"TAI","CH/SHEATHMAT","S6",4,True,False,0,"","316 Stainless Steel","316 Stainless Steel",,False
+"TAI","CH/SHEATHMAT","U6",5,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 600","Alloy 600",,False
+"TAI","CH/SHEATHMAT","U8",6,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 800","Alloy 800",,False
+"TAI","CH/SHEATHMAT","U4",7,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 446","Alloy 446",,False
+"TAI","CH/SHEATHMAT","C2",8,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Hastelloy X","Hastelloy X",,False
+"TAI","CH/SENSORTERM","T1",1,True,False,0,"NOT(CH/TX=Y0)","Ceramic Terminal Block - Spring Loaded","Ceramic Terminal Block - Spring Loaded",,False
+"TAI","CH/SENSORTERM","F1",2,True,False,0,"CH/TX=Y0","Transmitter Flange and Transmitter Tails - Spring Loaded","Transmitter Flange and Transmitter Tails - Spring Loaded",,False
+"TAI","CH/SENSORTERM","S1",3,True,False,0,"CH/HAZARD IN (A1,B1)","Spring Loaded For M20 Cable Entry (requires back stop)","Spring Loaded For M20 Cable Entry (requires back stop)",,False
+"TAI","CH/SENSORTERM","S2",4,True,False,0,"CH/HAZARD IN (A1,B1)","Shell Std For Spring Loading in Union","Shell Std For Spring Loading in Union",,False
+"TAI","CH/SENSORTERM","P1",5,True,False,0,"CH/HAZARD IN (A1,B1)","Std Plain Pot Seal","Std Plain Pot Seal",,False
+"TAI","CH/SENSORTERM","P2",6,True,False,0,"CH/HAZARD IN (A1,B1)","Screwed Pot Seal","Screwed Pot Seal",,False
+"TAI","CH/SENSORTERM","R1",7,True,False,0,"CH/HAZARD IN (A1,B1)","Strain Relief Spring Assembly","Strain Relief Spring Assembly",,False
+"TAI","CH/SENSORTERM","C1",8,True,False,0,"CH/HAZARD IN (A1,B1)","Plain Crimp Tube","Plain Crimp Tube",,False

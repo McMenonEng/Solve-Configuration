@@ -1,2 +1,2 @@
-"UnitName","Active","ConvertTo_Secs","ConvertTo_m","EnglishUS","French","German","Spanish","Russian"
-"mg/m³",True,1,1,"","","","",""
+"UnitName","Active","ConvertTo_Secs","ConvertTo_m","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
+"mg/m³",True,1,1,True,True,True

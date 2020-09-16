@@ -1,6 +1,6 @@
-"UnitName","Active","ConvertTo_m","Type","EnglishUS","French","German","Spanish","Russian"
-"m",True,1,"Metric","","","","",""
-"cm",True,0.01,"Metric","","","","",""
-"mm",True,0.001,"Metric","","","","",""
-"ft",True,0.3048,"Imperial","","","","",""
-"in",True,0.0254,"Imperial","","","","",""
+"UnitName","Active","ConvertTo_m","Type","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
+"m",True,1,"Metric",True,True,True
+"cm",True,0.01,"Metric",True,True,True
+"mm",True,0.001,"Metric",True,True,True
+"ft",True,0.3048,"Imperial",True,True,True
+"in",True,0.0254,"Imperial",True,True,True

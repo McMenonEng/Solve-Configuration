@@ -1,5 +1,5 @@
-"UnitName","Active","EquationToDegC","EquationFromDegC","EquationToK","EquationFromK","EnglishUS","French","German","Spanish","Russian"
-"°C",True,"TEMP_USER","TEMP_USER","TEMP_USER+273.15","TEMP_USER-273.15","","","","",""
-"°F",True,"(TEMP_USER-32)*5/9","(TEMP_USER*9/5)+32","((TEMP_USER-32)*5/9)+273.15","((TEMP_USER-273.15)*9/5)+32","","","","",""
-"K",True,"TEMP_USER-273.15","TEMP_USER+273.15","TEMP_USER","TEMP_USER","","","","",""
-"R",True,"(TEMP_USER*5/9)-273.15","(TEMP_USER+273.15)*9/5","TEMP_USER*5/9","TEMP_USER*9/5","","","","",""
+"UnitName","Active","EquationToDegC","EquationFromDegC","EquationToK","EquationFromK","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
+"°C",True,"TEMP_USER","TEMP_USER","TEMP_USER+273.15","TEMP_USER-273.15",True,True,True
+"°F",True,"(TEMP_USER-32)*5/9","(TEMP_USER*9/5)+32","((TEMP_USER-32)*5/9)+273.15","((TEMP_USER-273.15)*9/5)+32",True,True,True
+"K",True,"TEMP_USER-273.15","TEMP_USER+273.15","TEMP_USER","TEMP_USER",True,True,True
+"R",True,"(TEMP_USER*5/9)-273.15","(TEMP_USER+273.15)*9/5","TEMP_USER*5/9","TEMP_USER*9/5",True,True,True

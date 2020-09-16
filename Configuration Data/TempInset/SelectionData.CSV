@@ -1,74 +1,78 @@
-ProductCode,SelectionGroup,GrpOrder,PartNumber,Order,Active,DefaultItem,ExclusionRule,Cost,Name,Description,AdditionalData,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-TIN,CH/HAZARD,1,Y0,1,TRUE,FALSE,,0,Safe Area - Non certified,Safe Area - Non certified,,,,,,,,,,,
-TIN,CH/HAZARD,1,A0,2,TRUE,FALSE,,0,ATEX Ex i - With installed certified transmitter,ATEX Ex i - With installed certified transmitter,,,,,,,,,,,
-TIN,CH/HAZARD,1,A1,3,TRUE,FALSE,,0,ATEX Ex d,ATEX Ex d,,,,,,,,,,,
-TIN,CH/HAZARD,1,A2,4,TRUE,FALSE,,0,ATEX Ex n,ATEX Ex n,,,,,,,,,,,
-TIN,CH/HAZARD,1,B0,5,TRUE,FALSE,,0,IECEx i - With installed certified transmitter,IECEx i - With installed certified transmitter,,,,,,,,,,,
-TIN,CH/HAZARD,1,B1,6,TRUE,FALSE,,0,IECEx d,IECEx d,,,,,,,,,,,
-TIN,CH/HAZARD,1,F0,7,TRUE,FALSE,,0,FM Intrinsically Safe - With installed certified transmitter,FM Intrinsically Safe - With installed certified transmitter,,,,,,,,,,,
-TIN,CH/HAZARD,1,S0,8,TRUE,FALSE,,0,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,,,,,,,,,,,
-TIN,CH/TX,2,Y0,1,TRUE,FALSE,CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0,0,None,None,,,,,,,,,,,
-TIN,CH/TX,2,Z9,2,TRUE,FALSE,,0,Customer Specific,Customer Specific,,,,,,,,,,,
-TIN,CH/TX,2,A2,3,TRUE,FALSE,,0,"TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,,,,,,,,,,
-TIN,CH/TX,2,A3,4,TRUE,FALSE,,0,"TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,,,,,,,,,,
-TIN,CH/COMMS,3,Y0,1,TRUE,FALSE,NOT(CH/TX=Y0),0,None,None,,,,,,,,,,,
-TIN,CH/COMMS,3,H5,2,TRUE,FALSE,CH/TX=Y0,0,HART 5 (4...20 mA),HART 5 (4...20 mA),,,,,,,,,,,
-TIN,CH/COMMS,3,H7,3,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,HART 7 (4...20 mA),HART 7 (4...20 mA),,,,,,,,,,,
-TIN,CH/COMMS,3,P1,4,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Profibus PA,Profibus PA,,,,,,,,,,,
-TIN,CH/COMMS,3,F1,5,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Foundation Fieldbus - H1,Foundation Fieldbus - H1,,,,,,,,,,,
-TIN,CH/UNUSED,4,00,1,FALSE,FALSE,,0,Unused,Unused,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,S1,1,TRUE,FALSE,,0,1 x PT100 - Standard Range Thin Film,1 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,S2,2,TRUE,FALSE,,0,2 x PT100 - Standard Range Thin Film,2 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,P1,3,TRUE,FALSE,,0,1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,P2,4,TRUE,FALSE,,0,2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,J1,5,TRUE,FALSE,,0,1 x Type J - Fe/CuNi,1 x Type J - Fe/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,K1,6,TRUE,FALSE,,0,1 x Type K - NiCr/NiAl,1 x Type K - NiCr/NiAl,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,T1,7,TRUE,FALSE,,0,1 x Type T - Cu/CuNi,1 x Type T - Cu/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,E1,8,TRUE,FALSE,,0,1 x Type E - NiCr/CuNi,1 x Type E - NiCr/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,N1,9,TRUE,FALSE,,0,1 x Type N - NiCrSi/NiSi,1 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,J2,10,TRUE,FALSE,,0,2 x Type J - Fe/CuNi,2 x Type J - Fe/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,K2,11,TRUE,FALSE,,0,2 x Type K - NiCr/NiAl,2 x Type K - NiCr/NiAl,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,T2,12,TRUE,FALSE,,0,2 x Type T - Cu/CuNi,2 x Type T - Cu/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,E2,13,TRUE,FALSE,,0,2 x Type E - NiCr/CuNi,2 x Type E - NiCr/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,N2,14,TRUE,FALSE,,0,2 x Type N - NiCrSi/NiSi,2 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,J3,15,TRUE,FALSE,,0,3 x Type J - Fe/CuNi,3 x Type J - Fe/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,K3,16,TRUE,FALSE,,0,3 x Type K - NiCr/NiAl,3 x Type K - NiCr/NiAl,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,T3,17,TRUE,FALSE,,0,3 x Type T - Cu/CuNi,3 x Type T - Cu/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,E3,18,TRUE,FALSE,,0,3 x Type E - NiCr/CuNi,3 x Type E - NiCr/CuNi,,,,,,,,,,,
-TIN,CH/SENSORTYPE,5,N3,19,TRUE,FALSE,,0,3 x Type N - NiCrSi/NiSi,3 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TIN,CH/SENSORTOL,6,A,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'A' IEC 60751,Class 'A' IEC 60751,,,,,,,,,,,
-TIN,CH/SENSORTOL,6,B,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'B' IEC 60751,Class 'B' IEC 60751,,,,,,,,,,
-TIN,CH/SENSORTOL,6,C,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'AA' IEC 60751,Class 'AA' IEC 60751,,,,,,,,,,
-TIN,CH/SENSORTOL,6,1,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '1' IEC 60751,Class '1' IEC 60751,,,,,,,,,,
-TIN,CH/SENSORTOL,6,2,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '2' IEC 60751,Class '2' IEC 60751,,,,,,,,,,
-TIN,CH/SENSORTOL,6,6,6,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,MC-96.1 Standard Class,MC-96.1 Standard Class,,,,,,,,,,
-TIN,CH/SENSORCON,7,2,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,2 Wire PT Sensor,2 Wire PT Sensor,,,,,,,,,,,
-TIN,CH/SENSORCON,7,3,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,3 Wire PT Sensor,3 Wire PT Sensor,,,,,,,,,,,
-TIN,CH/SENSORCON,7,4,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0),0,4 Wire PT Sensor,4 Wire PT Sensor,,,,,,,,,,,
-TIN,CH/SENSORCON,7,I,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Insulated Thermocouple Hot Junction,Insulated Thermocouple Hot Junction,,,,,,,,,,,
-TIN,CH/SENSORCON,7,B,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Bonded Thermocouple Hot Junction,Bonded Thermocouple Hot Junction,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D1,1,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,1.5 mm,1.5 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,3 mm,3 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D3,3,TRUE,FALSE,,0,4.5 mm,4.5 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D4,4,TRUE,FALSE,,0,6 mm,6 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D5,4,TRUE,FALSE,,0,8 mm,8 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D6,5,TRUE,FALSE,,0,10 mm,10 mm,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D7,6,TRUE,FALSE,,0,6 mm with 10 mm tip,6 mm with 10 mm tip,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D8,7,TRUE,FALSE,,0,6 mm swaged to 4.5 mm x 20 mm long,6 mm swaged to 4.5 mm x 20 mm long,,,,,,,,,,,
-TIN,CH/SENSORDIA,8,D9,8,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,6 mm swaged to 3 mm x 20 mm long,6 mm swaged to 3 mm x 20 mm long,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,S4,1,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,304 Stainless Steel,304 Stainless Steel,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,S2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,321 Stainless Steel,321 Stainless Steel,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,S1,3,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,310 Stainless Steel,310 Stainless Steel,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,S6,4,TRUE,FALSE,,0,316 Stainless Steel,316 Stainless Steel,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,U6,5,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 600,Alloy 600,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,U8,6,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 800,Alloy 800,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,U4,7,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 446,Alloy 446,,,,,,,,,,,
-TIN,CH/SHEATHMAT,9,C2,8,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Hastelloy X,Hastelloy X,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,T1,1,TRUE,FALSE,NOT(CH/TX=Y0),0,Ceramic Terminal Block - Spring Loaded,Ceramic Terminal Block - Spring Loaded,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,F1,2,TRUE,FALSE,CH/TX=Y0,0,Transmitter Flange and Transmitter Tails - Spring Loaded,Transmitter Flange and Transmitter Tails - Spring Loaded,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,S1,3,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Spring Loaded For M20 Cable Entry (requires back stop),Spring Loaded For M20 Cable Entry (requires back stop),,,,,,,,,,,
-TIN,CH/SENSORTERM,10,S2,4,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Shell Std For Spring Loading in Union,Shell Std For Spring Loading in Union,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,P1,5,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Std Plain Pot Seal,Std Plain Pot Seal,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,P2,6,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Screwed Pot Seal,Screwed Pot Seal,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,R1,7,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Strain Relief Spring Assembly,Strain Relief Spring Assembly,,,,,,,,,,,
-TIN,CH/SENSORTERM,10,C1,8,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Plain Crimp Tube,Plain Crimp Tube,,,,,,,,,,,
+"ProductCode","SelectionGroup","PartNumber","Order","Active","DefaultItem","Cost","ExclusionRule","Name","Description","AdditionalData","InShortenedList"
+"TIN","CH/HAZARD","Y0",1,True,False,0,"","Safe Area - Non certified","Safe Area - Non certified",,False
+"TIN","CH/HAZARD","A0",2,True,False,0,"","ATEX Ex i - With installed certified transmitter","ATEX Ex i - With installed certified transmitter",,False
+"TIN","CH/HAZARD","A1",3,True,False,0,"","ATEX Ex d","ATEX Ex d",,False
+"TIN","CH/HAZARD","A2",4,True,False,0,"","ATEX Ex n","ATEX Ex n",,False
+"TIN","CH/HAZARD","B0",5,True,False,0,"","IECEx i - With installed certified transmitter","IECEx i - With installed certified transmitter",,False
+"TIN","CH/HAZARD","B1",6,True,False,0,"","IECEx d","IECEx d",,False
+"TIN","CH/HAZARD","F0",7,True,False,0,"","FM Intrinsically Safe - With installed certified transmitter","FM Intrinsically Safe - With installed certified transmitter",,False
+"TIN","CH/HAZARD","S0",8,True,False,0,"","Simple Apparatus Equipment - For intrinsically safe installations without transmitter","Simple Apparatus Equipment - For intrinsically safe installations without transmitter",,False
+"TIN","CH/TX","Y0",1,True,False,0,"CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0","None","None",,False
+"TIN","CH/TX","Z9",2,True,False,0,"","Customer Specific","Customer Specific",,False
+"TIN","CH/TX","A2",3,True,False,0,"","TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,False
+"TIN","CH/TX","A3",4,True,False,0,"","TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,False
+"TIN","CH/COMMS","Y0",1,True,False,0,"NOT(CH/TX=Y0)","None","None",,False
+"TIN","CH/COMMS","H5",2,True,False,0,"CH/TX=Y0","HART 5 (4...20 mA)","HART 5 (4...20 mA)",,False
+"TIN","CH/COMMS","H7",3,True,False,0,"CH/TX=Y0 OR CH/TX=A2","HART 7 (4...20 mA)","HART 7 (4...20 mA)",,False
+"TIN","CH/COMMS","P1",4,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Profibus PA","Profibus PA",,False
+"TIN","CH/COMMS","F1",5,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Foundation Fieldbus - H1","Foundation Fieldbus - H1",,False
+"TIN","CH/UNUSED","00",1,False,False,0,"","Unused","Unused",,False
+"TIN","CH/SENSORTYPE","S1",1,True,False,0,"","1 x PT100 - Standard Range Thin Film","1 x PT100 - Standard Range Thin Film",,False
+"TIN","CH/SENSORTYPE","S2",2,True,False,0,"","2 x PT100 - Standard Range Thin Film","2 x PT100 - Standard Range Thin Film",,False
+"TIN","CH/SENSORTYPE","P1",3,True,False,0,"","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TIN","CH/SENSORTYPE","P2",4,True,False,0,"","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TIN","CH/SENSORTYPE","J1",5,True,False,0,"","1 x Type J - Fe/CuNi","1 x Type J - Fe/CuNi",,False
+"TIN","CH/SENSORTYPE","K1",6,True,False,0,"","1 x Type K - NiCr/NiAl","1 x Type K - NiCr/NiAl",,False
+"TIN","CH/SENSORTYPE","T1",7,True,False,0,"","1 x Type T - Cu/CuNi","1 x Type T - Cu/CuNi",,False
+"TIN","CH/SENSORTYPE","E1",8,True,False,0,"","1 x Type E - NiCr/CuNi","1 x Type E - NiCr/CuNi",,False
+"TIN","CH/SENSORTYPE","N1",9,True,False,0,"","1 x Type N - NiCrSi/NiSi","1 x Type N - NiCrSi/NiSi",,False
+"TIN","CH/SENSORTYPE","J2",10,True,False,0,"","2 x Type J - Fe/CuNi","2 x Type J - Fe/CuNi",,False
+"TIN","CH/SENSORTYPE","K2",11,True,False,0,"","2 x Type K - NiCr/NiAl","2 x Type K - NiCr/NiAl",,False
+"TIN","CH/SENSORTYPE","T2",12,True,False,0,"","2 x Type T - Cu/CuNi","2 x Type T - Cu/CuNi",,False
+"TIN","CH/SENSORTYPE","E2",13,True,False,0,"","2 x Type E - NiCr/CuNi","2 x Type E - NiCr/CuNi",,False
+"TIN","CH/SENSORTYPE","N2",14,True,False,0,"","2 x Type N - NiCrSi/NiSi","2 x Type N - NiCrSi/NiSi",,False
+"TIN","CH/SENSORTYPE","J3",15,True,False,0,"","3 x Type J - Fe/CuNi","3 x Type J - Fe/CuNi",,False
+"TIN","CH/SENSORTYPE","K3",16,True,False,0,"","3 x Type K - NiCr/NiAl","3 x Type K - NiCr/NiAl",,False
+"TIN","CH/SENSORTYPE","T3",17,True,False,0,"","3 x Type T - Cu/CuNi","3 x Type T - Cu/CuNi",,False
+"TIN","CH/SENSORTYPE","E3",18,True,False,0,"","3 x Type E - NiCr/CuNi","3 x Type E - NiCr/CuNi",,False
+"TIN","CH/SENSORTYPE","N3",19,True,False,0,"","3 x Type N - NiCrSi/NiSi","3 x Type N - NiCrSi/NiSi",,False
+"TIN","CH/SENSORTOL","A",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'A' IEC 60751","Class 'A' IEC 60751",,False
+"TIN","CH/SENSORTOL","B",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'B' IEC 60751","Class 'B' IEC 60751",,False
+"TIN","CH/SENSORTOL","C",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'AA' IEC 60751","Class 'AA' IEC 60751",,False
+"TIN","CH/SENSORTOL","1",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '1' IEC 60751","Class '1' IEC 60751",,False
+"TIN","CH/SENSORTOL","2",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '2' IEC 60751","Class '2' IEC 60751",,False
+"TIN","CH/SENSORTOL","6",6,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","MC-96.1 Standard Class","MC-96.1 Standard Class",,False
+"TIN","CH/SENSORCON","2",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","2 Wire PT Sensor","2 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","3",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","3 Wire PT Sensor","3 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","4",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0)","4 Wire PT Sensor","4 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","I",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Insulated Thermocouple Hot Junction","Insulated Thermocouple Hot Junction",,False
+"TIN","CH/SENSORCON","B",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Bonded Thermocouple Hot Junction","Bonded Thermocouple Hot Junction",,False
+"TIN","CH/IMMERSIONLEN","Min",0,True,False,0,"","Min immersion length","min immersion length","100",False
+"TIN","CH/IMMERSIONLEN","Max",1,True,False,0,"","Max immersion length","max immersion length","30000",False
+"TIN","CH/IMMERSIONLEN","Digits",2,True,False,0,"","Number of digits","Number of digits","5",False
+"TIN","CH/IMMERSIONLEN","Units",3,True,False,0,"","Units","Units for immersion length","mm",False
+"TIN","CH/SENSORDIA","D1",1,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","1.5 mm","1.5 mm",,False
+"TIN","CH/SENSORDIA","D2",2,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","3 mm","3 mm",,False
+"TIN","CH/SENSORDIA","D3",3,True,False,0,"","4.5 mm","4.5 mm",,False
+"TIN","CH/SENSORDIA","D4",4,True,False,0,"","6 mm","6 mm",,False
+"TIN","CH/SENSORDIA","D5",4,True,False,0,"","8 mm","8 mm",,False
+"TIN","CH/SENSORDIA","D6",5,True,False,0,"","10 mm","10 mm",,False
+"TIN","CH/SENSORDIA","D7",6,True,False,0,"","6 mm with 10 mm tip","6 mm with 10 mm tip",,False
+"TIN","CH/SENSORDIA","D8",7,True,False,0,"","6 mm swaged to 4.5 mm x 20 mm long","6 mm swaged to 4.5 mm x 20 mm long",,False
+"TIN","CH/SENSORDIA","D9",8,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","6 mm swaged to 3 mm x 20 mm long","6 mm swaged to 3 mm x 20 mm long",,False
+"TIN","CH/SHEATHMAT","S4",1,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","304 Stainless Steel","304 Stainless Steel",,False
+"TIN","CH/SHEATHMAT","S2",2,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","321 Stainless Steel","321 Stainless Steel",,False
+"TIN","CH/SHEATHMAT","S1",3,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","310 Stainless Steel","310 Stainless Steel",,False
+"TIN","CH/SHEATHMAT","S6",4,True,False,0,"","316 Stainless Steel","316 Stainless Steel",,False
+"TIN","CH/SHEATHMAT","U6",5,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 600","Alloy 600",,False
+"TIN","CH/SHEATHMAT","U8",6,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 800","Alloy 800",,False
+"TIN","CH/SHEATHMAT","U4",7,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 446","Alloy 446",,False
+"TIN","CH/SHEATHMAT","C2",8,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Hastelloy X","Hastelloy X",,False
+"TIN","CH/SENSORTERM","T1",1,True,False,0,"NOT(CH/TX=Y0)","Ceramic Terminal Block - Spring Loaded","Ceramic Terminal Block - Spring Loaded",,False
+"TIN","CH/SENSORTERM","F1",2,True,False,0,"CH/TX=Y0","Transmitter Flange and Transmitter Tails - Spring Loaded","Transmitter Flange and Transmitter Tails - Spring Loaded",,False
+"TIN","CH/SENSORTERM","S1",3,True,False,0,"CH/HAZARD IN (A1,B1)","Spring Loaded For M20 Cable Entry (requires back stop)","Spring Loaded For M20 Cable Entry (requires back stop)",,False
+"TIN","CH/SENSORTERM","S2",4,True,False,0,"CH/HAZARD IN (A1,B1)","Shell Std For Spring Loading in Union","Shell Std For Spring Loading in Union",,False
+"TIN","CH/SENSORTERM","P1",5,True,False,0,"CH/HAZARD IN (A1,B1)","Std Plain Pot Seal","Std Plain Pot Seal",,False
+"TIN","CH/SENSORTERM","P2",6,True,False,0,"CH/HAZARD IN (A1,B1)","Screwed Pot Seal","Screwed Pot Seal",,False
+"TIN","CH/SENSORTERM","R1",7,True,False,0,"CH/HAZARD IN (A1,B1)","Strain Relief Spring Assembly","Strain Relief Spring Assembly",,False
+"TIN","CH/SENSORTERM","C1",8,True,False,0,"CH/HAZARD IN (A1,B1)","Plain Crimp Tube","Plain Crimp Tube",,False

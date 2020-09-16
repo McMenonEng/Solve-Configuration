@@ -1,5 +1,5 @@
-"UnitName","Active","ConvertTo_kg_per_m3","IsSpecificGravity","IsMolecularWeight","EnglishUS","French","German","Spanish","Russian"
-"kg/m³",True,1,False,False,"","","","",""
-"lb/ft³",True,16.01846337,False,False,"","","","",""
-"lb/UKG",True,99.77637266,False,False,"","","","",""
-"M.W.",True,1,False,True,"","","","",""
+"UnitName","Active","ConvertTo_kg_per_m3","IsSpecificGravity","IsMolecularWeight","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
+"kg/m³",True,1,False,False,True,True,True
+"lb/ft³",True,16.01846337,False,False,True,True,True
+"lb/UKG",True,99.77637266,False,False,True,True,True
+"M.W.",True,1,False,True,True,True,True

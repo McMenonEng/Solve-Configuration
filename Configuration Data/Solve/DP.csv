@@ -1,16 +1,16 @@
-"UnitName","Active","ConvertToBar","EnglishUS","French","German","Spanish","Russian"
-"mPa",True,1E-08,"","","","",""
-"Pa",True,1E-05,"","","","",""
-"kPa",True,0.01,"","","","",""
-"N/m²",True,1E-05,"","","","",""
-"kN/m²",True,0.01,"","","","",""
-"bar",True,1,"","","","",""
-"mbar",True,0.001,"","","","",""
-"atm",True,1.01325,"","","","",""
-"lb/ft²",True,0.000478803,"","","","",""
-"psi",True,0.0689,"","","","",""
-"in wg @ 4°C",True,0.002490889,"","","","",""
-"mm wg @ 4°C",True,9.80665E-05,"","","","",""
-"in wg @ 20°C",True,0.0024864,"","","","",""
-"mm wg @ 20°C",True,9.78897E-05,"","","","",""
-"kgf/cm²",True,0.980665,"","","","",""
+"UnitName","Active","ConvertToBar","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
+"mPa",True,1E-08,True,True,True
+"Pa",True,1E-05,True,True,True
+"kPa",True,0.01,True,True,True
+"N/m²",True,1E-05,True,True,True
+"kN/m²",True,0.01,True,True,True
+"bar",True,1,True,True,True
+"mbar",True,0.001,True,True,True
+"atm",True,1.01325,True,True,True
+"lb/ft²",True,0.000478803,True,True,True
+"psi",True,0.0689,True,True,True
+"in wg @ 4°C",True,0.002490889,True,True,True
+"mm wg @ 4°C",True,9.80665E-05,True,True,True
+"in wg @ 20°C",True,0.0024864,True,True,True
+"mm wg @ 20°C",True,9.78897E-05,True,True,True
+"kgf/cm²",True,0.980665,True,True,True

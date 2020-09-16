@@ -1,6 +1,7 @@
-ListName,ItemName,ItemOrder,Active,ShortName,Description,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-CalculationStatus,ForInfo,1,TRUE,For info,,,,,,,,,,,
-CalculationStatus,AsQuoted,2,TRUE,As Quoted,,,,,,,,,,,
-CalculationStatus,AsSold,3,TRUE,As Sold,,,,,,,,,,,
-ProductGroup,Flow,1,TRUE,DP Flow,,,,,,,,,,,
-ProductGroup,Temp,2,TRUE,Temperature,,,,,,,,,,,
+ListName,ItemName,ItemOrder,Active,ShortName,Description
+CalculationStatus,ForInfo,1,TRUE,For info
+CalculationStatus,AsQuoted,2,TRUE,As Quoted
+CalculationStatus,AsSold,3,TRUE,As Sold
+ProductGroup,Flow,1,TRUE,DP Flow
+ProductGroup,Temp,2,TRUE,Temperature
+ProductGroup,VA,3,TRUE,VA Meters
