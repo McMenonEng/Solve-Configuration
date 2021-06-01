@@ -1,42 +1,45 @@
-MaterialCode,Name,Description,CofE_Lookup,ModulusElasticity_Lookup,YieldStress_MNm2
-S6,316/316L Stainless Steel,316/316L Stainless Steel,Austenitic Steel,Austenitic Steel,172.37
-H6,316H Stainless Steel,316H Stainless Steel,Austenitic Steel,Austenitic Steel,205
-S4,304/304L Stainless Steel,304/304L Stainless Steel,Austenitic Steel,Austenitic Steel,172.37
-H4,304H Stainless Steel,304H Stainless Steel,Austenitic Steel,Austenitic Steel,205
-C3,Carbon Steel,Carbon Steel,Carbon Steel,Carbon Steel,248.21
-C4,Low Temp Carbon Steel,Low Temp Carbon Steel,Carbon Steel,Carbon Steel,248.21
-C5,High Yield Carbon Steel (Gr 55),High Yield Carbon Steel (Gr 52),Carbon Steel,Carbon Steel,206.84
-C6,High Yield Carbon Steel (Gr 65),High Yield Carbon Steel (Gr 65),Carbon Steel,Carbon Steel,241.32
-C7,High Yield Carbon Steel (Gr 60),High Yield Carbon Steel (Gr 60),Carbon Steel,Carbon Steel,220.63
-S3,310 Stainless Steel,310 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S2,321 Stainless Steel,321 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S1,321H Stainless Steel,321H Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S5,347 Stainless Steel,347 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S7,347H Stainless Steel,347H Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S8,317/317L Stainless Steel,317/317L Stainless Steel,Austenitic Steel,Austenitic Steel,206.84
-S9,904L Stainless Steel (UNS N08904),904L Stainless Steel,Austenitic Steel,Austenitic Steel,220
-D1,22% Cr Duplex (UNS S31803),22% Cr Duplex (UNS S31803),Austenitic Steel,Austenitic Steel,448.16
-D2,25% Cr Super Duplex (UNS S32750),25% Cr Super Duplex (UNS S32750),Austenitic Steel,Austenitic Steel,551.58
-D3,25% Cr Super Duplex (UNS S32760),25% Cr Super Duplex (UNS S32760),Austenitic Steel,Austenitic Steel,551.58
-M1,6% Mo SS (UNS S31254),6% Mo SS (UNS S31254),UNS S31254,UNS S31254,300
-U1,Alloy 20 (UNS N08020),Alloy 20 (UNS N08020),UNS N08XXX,UNS N08020,241.32
-U2,Alloy 200 (UNS N02200),Alloy 200 (UNS N02200),UNS N02200,UNS N06625,103.42
-M4,Alloy 400 (UNS N04400),Alloy 400 (UNS N04400),UNS N04400,UNS N04400,275.79
-U3,Alloy 600 (UNS N06600),Alloy 600 (UNS N06600),UNS N06XXX,UNS N06600,241.32
-N2,Alloy 625 (UNS N06625),Alloy 625 (UNS N06625),UNS N06XXX,UNS N06625,379.21
-U4,Alloy 800 (UNS N08800),Alloy 800 (UNS N08800),UNS N08XXX,UNS N08XXX,206.84
-U5,Alloy 825 (UNS N08825),Alloy 825 (UNS N08825),UNS N08XXX,UNS N08XXX,241.32
-U6,Alloy C22  (UNS N06022),Alloy C22  (UNS N06022),UNS N06XXX,UNS N06022,310.26
-U7,Alloy C276 (UNS N10276),Alloy C276 (UNS N10276),Carbon Steel,UNS N10276,282.69
-K3,5Cr-½Mo Low Alloy F5 (UNS K41545),5Cr-½Mo Low Alloy F5 (UNS K41545),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",206.84
-F3,5Cr-½Mo Low Alloy F5 (UNS K41545),5Cr-½Mo Low Alloy F5 (UNS K41545),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",206.84
-F6,9Cr-1Mo Low Alloy F9 (UNS K90941),9Cr-1Mo Low Alloy F9 (UNS K90941),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",380
-F7,9Cr-1Mo-V Low Alloy F91 (UNS K91560),9Cr-1Mo-V Low Alloy F91 (UNS K91560),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",413.69
-K4,1¼Cr-½Mo Low Alloy F11 (UNS K11597),1¼Cr-½Mo Low Alloy F11 (UNS K11597),Carbon Steel,"Cr-Mo Steels, Cr ½% - 2%",241.32
-F4,1¼Cr-½Mo Low Alloy F11 (UNS K11597),1¼Cr-½Mo Low Alloy F11 (UNS K11597),Carbon Steel,"Cr-Mo Steels, Cr ½% - 2%",241.32
-K5,2¼Cr-1Mo Low Alloy F22 (UNS K21590),2¼Cr-1Mo Low Alloy F22 (UNS K21590),Carbon Steel,"Cr-Mo Steels, Cr 2¼% - 3%",206.84
-F5,2¼Cr-1Mo Low Alloy F22 (UNS K21590),2¼Cr-1Mo Low Alloy F22 (UNS K21590),Carbon Steel,"Cr-Mo Steels, Cr 2¼% - 3%",206.84
-P1,PTFE,PTFE,,,
-P2,90/10 CuNi (UNS C70600),90/10 CuNi (UNS C70600),,C70600,103.42
-P3,Soft Iron,Soft Iron,Ductile Iron,,
-P4,Titanium,Titanium,,Titanium,
+ï»¿MaterialCode,Active,Name,Description,CofE_Lookup,ModulusElasticity_Lookup,YieldStress_MNm2,MaterialClass,MassDensity_kgm3,ForgingMaxStress_Lookup,ForgingLimits_Lookup,B165_Lookup
+S6,TRUE,316/316L Stainless Steel,316/316L Stainless Steel,Austenitic Steel,Austenitic Steel,172.37,B,7950,S6,S6,2.2
+H6,TRUE,316H Stainless Steel,316H Stainless Steel,Austenitic Steel,Austenitic Steel,205,B,7950,H6,H6,2.2
+S4,TRUE,304/304L Stainless Steel,304/304L Stainless Steel,Austenitic Steel,Austenitic Steel,172.37,B,7950,S4,S4,2.1
+H4,TRUE,304H Stainless Steel,304H Stainless Steel,Austenitic Steel,Austenitic Steel,205,B,7950,H4,H4,2.1
+C3,TRUE,Carbon Steel,Carbon Steel,Carbon Steel,Carbon Steel,248.21,A,7860,C3,C3,1.1
+C4,TRUE,Low Temp Carbon Steel,Low Temp Carbon Steel,Carbon Steel,Carbon Steel,248.21,A,7860,C4,C4,1.1
+C5,TRUE,High Yield Carbon Steel (Gr 55),High Yield Carbon Steel (Gr 55),Carbon Steel,Carbon Steel,206.84,A,7860,,,
+C6,TRUE,High Yield Carbon Steel (Gr 65),High Yield Carbon Steel (Gr 65),Carbon Steel,Carbon Steel,241.32,A,7860,,,
+C7,TRUE,High Yield Carbon Steel (Gr 60),High Yield Carbon Steel (Gr 60),Carbon Steel,Carbon Steel,220.63,A,7860,,,
+S3,TRUE,310 Stainless Steel,310 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S3,S3,2.7
+S2,TRUE,321 Stainless Steel,321 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S2,S2,2.4
+S1,TRUE,321H Stainless Steel,321H Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S1,S1,2.4
+S5,TRUE,347 Stainless Steel,347 Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S5,S5,2.5
+S7,TRUE,347H Stainless Steel,347H Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S7,S7,2.5
+S8,TRUE,317/317L Stainless Steel,317/317L Stainless Steel,Austenitic Steel,Austenitic Steel,206.84,B,7950,S8,S8,2.2
+S9,TRUE,904L Stainless Steel (UNS N08904),904L Stainless Steel,Austenitic Steel,Austenitic Steel,220,B,7900,,,
+D1,TRUE,22% Cr Duplex (UNS S31803),22% Cr Duplex (UNS S31803),Austenitic Steel,Austenitic Steel,448.16,A,7800,D1,D1,2.8
+D2,TRUE,25% Cr Super Duplex (UNS S32750),25% Cr Super Duplex (UNS S32750),Austenitic Steel,Austenitic Steel,551.58,A,7800,D2,D2,2.8
+D3,TRUE,25% Cr Super Duplex (UNS S32760),25% Cr Super Duplex (UNS S32760),Austenitic Steel,Austenitic Steel,551.58,A,7800,D3,D3,2.8
+M1,TRUE,6% Mo SS (UNS S31254),6% Mo SS (UNS S31254),UNS S31254,UNS S31254,300,A,8000,M1,M1,2.8
+U1,TRUE,Alloy 20 (UNS N08020),Alloy 20 (UNS N08020),UNS N08XXX,UNS N08020,241.32,B,8082,,,
+U2,TRUE,Alloy 200 (UNS N02200),Alloy 200 (UNS N02200),UNS N02200,UNS N06625,103.42,B,8890,,,
+M4,TRUE,Alloy 400 (UNS N04400),Alloy 400 (UNS N04400),UNS N04400,UNS N04400,275.79,B,8800,M4,M4,3.4
+U3,TRUE,Alloy 600 (UNS N06600),Alloy 600 (UNS N06600),UNS N06XXX,UNS N06600,241.32,B,8470,,,
+U8,TRUE,Alloy 601 (UNS N06601),Alloy 601 (UNS N06601),UNS N06XXX,UNS N06600,205,B,8470,,,
+N2,TRUE,Alloy 625 (UNS N06625),Alloy 625 (UNS N06625),UNS N06XXX,UNS N06625,379.21,B,8440,N2,N2,3.8
+U4,TRUE,Alloy 800 (UNS N08800),Alloy 800 (UNS N08800),UNS N08XXX,UNS N08XXX,206.84,B,7940,U4,U4,3.6
+H7,TRUE,Alloy 800H (UNS N08810),Alloy 800H (UNS N08810),UNS N08XXX,UNS N08XXX,172,B,7940,H7,H7,
+H8,TRUE,Alloy 800HT (UNS N08811),Alloy 800HT (UNS N08811),UNS N08XXX,UNS N08XXX,172,B,7940,H8,H8,3.6
+U5,TRUE,Alloy 825 (UNS N08825),Alloy 825 (UNS N08825),UNS N08XXX,UNS N08XXX,241.32,B,8140,U5,U5,3.8
+U6,TRUE,Alloy C22  (UNS N06022),Alloy C22  (UNS N06022),UNS N06XXX,UNS N06022,310.26,B,8690,,,
+U7,TRUE,Alloy C276 (UNS N10276),Alloy C276 (UNS N10276),Carbon Steel,UNS N10276,282.69,B,8890,U7,U7,3.8
+K3,TRUE,5Cr-Â½Mo Low Alloy F5 (UNS K41545),5Cr-Â½Mo Low Alloy F5 (UNS K41545),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",206.84,A,7800,K3,K3,1.17
+F3,TRUE,5Cr-Â½Mo Low Alloy F5 (UNS K41545),5Cr-Â½Mo Low Alloy F5 (UNS K41545),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",206.84,A,7800,,,
+F6,TRUE,9Cr-1Mo Low Alloy F9 (UNS K90941),9Cr-1Mo Low Alloy F9 (UNS K90941),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",380,A,7800,F6,F6,1.14
+F7,TRUE,9Cr-1Mo-V Low Alloy F91 (UNS K91560),9Cr-1Mo-V Low Alloy F91 (UNS K91560),5Cr-Mo,"Cr-Mo Steels, Cr 5% - 9%",413.69,A,7800,F7,F7,1.15
+K4,TRUE,1Â¼Cr-Â½Mo Low Alloy F11 (UNS K11597),1Â¼Cr-Â½Mo Low Alloy F11 (UNS K11597),Carbon Steel,"Cr-Mo Steels, Cr Â½% - 2%",241.32,A,7800,K4,K4,1.9
+F4,TRUE,1Â¼Cr-Â½Mo Low Alloy F11 (UNS K11597),1Â¼Cr-Â½Mo Low Alloy F11 (UNS K11597),Carbon Steel,"Cr-Mo Steels, Cr Â½% - 2%",241.32,A,7800,,,
+K5,TRUE,2Â¼Cr-1Mo Low Alloy F22 (UNS K21590),2Â¼Cr-1Mo Low Alloy F22 (UNS K21590),Carbon Steel,"Cr-Mo Steels, Cr 2Â¼% - 3%",206.84,A,7800,K5,K5,1.1
+F5,TRUE,2Â¼Cr-1Mo Low Alloy F22 (UNS K21590),2Â¼Cr-1Mo Low Alloy F22 (UNS K21590),Carbon Steel,"Cr-Mo Steels, Cr 2Â¼% - 3%",206.84,A,7800,,,
+P1,TRUE,PTFE,PTFE,,,,,,,,
+P2,TRUE,90/10 CuNi (UNS C70600),90/10 CuNi (UNS C70600),UNS C070600,C70600,103.42,B,8940,,,
+P3,TRUE,Soft Iron,Soft Iron,Ductile Iron,,,A,,,,
+P4,TRUE,Titanium,Titanium,Titanium,Titanium,,A,4430,P4,P4,

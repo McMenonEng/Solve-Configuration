@@ -1,4 +1,4 @@
-"ProductCode","SelectionGroup","GrpOrder","InProductCode","MustSelect","SingleSelection","SpecialGroup","MustSelectRule","Name","Description","EnglishUS","EnglishUS_LongDesc","French","French_LongDesc","German","German_LongDesc","Spanish","Spanish_LongDesc","Russian","Russian_LongDesc"
-FPD320,CH/FPD/PRODUCT/DES,1,True,True,True,6,,"Product Design","Product Design","","","","","","","","","",""
-FPD320,CH/FPD/NONELEM/MAT,2,False,True,True,2,,"Pipework Material","Pipework Material","","","","","","","","","",""
-FPD320,CH/FPD/ELEM/MAT,3,False,True,True,3,,"Meter Material","Meter Material","","","","","","","","","",""
+"ProductCode","SelectionGroup","GrpOrder","InProductCode","MustSelect","SingleSelection","SpecialGroup","MustSelectRule","Name","Description"
+"FPD320","CH/FPD/PRODUCT/DES",1,True,True,True,6,"","Product Design","Product Design"
+"FPD320","CH/FPD/NONELEM/MAT",2,False,True,True,2,"","Pipework Material","Pipework Material"
+"FPD320","CH/FPD/ELEM/MAT",3,False,True,True,3,"","Meter Material","Meter Material"

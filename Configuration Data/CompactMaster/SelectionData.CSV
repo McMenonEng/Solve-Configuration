@@ -1,325 +1,325 @@
-"ProductCode","SelectionGroup","GrpOrder","PartNumber","Order","Active","DefaultItem","ExclusionRule","Name","Description","AdditionalData","EnglishUS","EnglishUS_LongDesc","French","French_LongDesc","German","German_LongDesc","Spanish","Spanish_LongDesc","Russian","Russian_LongDesc"
-FPD500,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","Volume Flow Fixed Plate (266DSH)","Volume Flow Fixed Plate (266DSH)",,"","","","","","","","","",""
-FPD500,CH/FPD5/MODEL/DESIGN,1,"V4",2,True,False,"CH/FPD5/METER/SIZE=10 OR CH/FPD5/METER/SIZE=15 OR CH/FPD5/METER/SIZE=20 OR CH/FPD5/METER/SIZE=30","Volume Flow Removable Plate (266DSH)","Volume Flow Removable Plate (266DSH)",,"","","","","","","","","",""
-FPD500,CH/FPD5/MODEL/DESIGN,1,"M2",3,True,False,"","Mass Flow Fixed Plate (266CSH)","Mass Flow Fixed Plate (266CSH)",,"","","","","","","","","",""
-FPD500,CH/FPD5/MODEL/DESIGN,1,"M4",4,True,False,"","Mass Flow Removable Plate (266CSH)","Mass Flow Removable Plate (266CSH)",,"","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"10",1,True,False,"","1""","1 in. (25 mm)","1""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"15",2,True,False,"","1½""","1-1/2 in. (40 mm)","1½""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"20",3,True,False,"","2""","2 in. (50 mm)","2""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"30",4,True,False,"","3""","3 in. (80 mm)","3""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"40",5,True,False,"","4""","4 in. (100 mm)","4""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"60",6,True,False,"","6""","6 in. (150 mm)","6""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"80",7,True,False,"","8""","8 in. (200 mm)","8""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"90",8,True,False,"","10""","10 in. (250 mm)","10""","","","","","","","","","",""
-FPD500,CH/FPD5/METER/SIZE,2,"92",9,True,False,"","12""","12 in. (300 mm)","12""","","","","","","","","","",""
-FPD500,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1,"","","","","","","","","",""
-FPD500,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2,"","","","","","","","","",""
-FPD500,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated steam","Saturated steam",3,"","","","","","","","","",""
-FPD500,CH/FPD5/BETA/RATIO,4,"B1",1,True,False,"","0.4","0.4",,"","","","","","","","","",""
-FPD500,CH/FPD5/BETA/RATIO,4,"B2",2,True,False,"","0.65","0.65",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"A1",1,True,False,"","ASME CL 150","ASME CL 150",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"A3",2,True,False,"","ASME CL 300","ASME CL 300",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"A6",3,True,False,"","ASME CL 600","ASME CL 600",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D1",4,True,False,"","PN 10","PN 10",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D2",5,True,False,"","PN 16","PN 16",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D3",6,True,False,"","PN 25","PN 25",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D4",7,True,False,"","PN 40","PN 40",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D5",8,True,False,"","PN 63","PN 63",,"","","","","","","","","",""
-FPD500,CH/FPD5/PRESS/RAT,5,"D6",9,True,False,"","PN 100","PN 100",,"","","","","","","","","",""
-FPD500,CH/FPD5/ORIEN,6,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",,"","","","","","","","","",""
-FPD500,CH/FPD5/ORIEN,6,"V",2,True,False,"CH/FPD5/FLUID=S","Vertical","Vertical",,"","","","","","","","","",""
-FPD500,CH/FPD5/MANIFOLD,7,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",,"","","","","","","","","",""
-FPD500,CH/FPD5/MANIFOLD,7,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.2 ... 4 kPa / 2 ... 40 mbar / 0.8 ... 16 in. H2O","0.2 ... 4 kPa / 2 ... 40 mbar / 0.8 ... 16 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.27 ... 16 kPa / 2.7 ... 160 mbar / 1.08 ... 64 in. H2O","0.27 ... 16 kPa / 2.7 ... 160 mbar / 1.08 ... 64 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPAN/LIMITS,8,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",,"","","","","","","","","",""
-FPD500,CH/FPD5/SEAL/MAT,9,"3",1,True,False,"","Viton","Viton",,"","","","","","","","","",""
-FPD500,CH/FPD5/SEAL/MAT,9,"4",2,True,False,"","PTFE","PTFE",,"","","","","","","","","",""
-FPD500,CH/FPD5/SEAL/MAT,9,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","EPDM","EPDM",,"","","","","","","","","",""
-FPD500,CH/FPD5/SEAL/MAT,9,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Perbunan","Perbunan",,"","","","","","","","","",""
-FPD500,CH/FPD5/HOUSE/MAT,10,"A",1,True,False,"","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",,"","","","","","","","","",""
-FPD500,CH/FPD5/HOUSE/MAT,10,"B",2,True,False,"","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",,"","","","","","","","","",""
-FPD500,CH/FPD5/HOUSE/MAT,10,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD500,CH/FPD5/HOUSE/MAT,10,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD500,CH/FPD5/DISPL,11,"0",1,True,False,"","None (blind)","None (blind)",,"","","","","","","","","",""
-FPD500,CH/FPD5/DISPL,11,"1",2,True,False,"","LCD display","LCD display",,"","","","","","","","","",""
-FPD500,CH/FPD5/DISPL,11,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",,"","","","","","","","","",""
-FPD500,CH/FPD5/OUT/SIGNAL,12,"H1",1,True,False,"","Advanced HART digital communication and 4 ... 20 mA","Advanced HART digital communication and 4 ... 20 mA",,"","","","","","","","","",""
-FPD500,CH/FPD5/OUT/SIGNAL,12,"H2",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",,"","","","","","","","","",""
-FPD500,CH/FPD5/OUT/SIGNAL,12,"P1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","PROFIBUS PA","PROFIBUS PA",,"","","","","","","","","",""
-FPD500,CH/FPD5/OUT/SIGNAL,12,"F1",5,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","FOUNDATION fieldbus","FOUNDATION fieldbus",,"","","","","","","","","",""
-FPD500,CH/FPD5/TEMP/ELEM,13,"AT",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Integral","Integral",,"","","","","","","","","",""
-FPD500,CH/FPD5/TEMP/ELEM,13,"AR",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Remote (element not included)","Remote (element not included)",,"","","","","","","","","",""
-FPD500,CH/FPD5/TEMP/ELEM,13,"AY",3,True,False,"","None","None",,"","","","","","","","","",""
-FPD500,CH/FPD5/CALIBRATION,14,"CZ",2,True,False,"","Others","Others",,"","","","","","","","","",""
-FPD500,CH/FPD5/CERTIFICATE,15,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD500,CH/FPD5/CERTIFICATE,15,"CN",2,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD500,CH/FPD5/EX/CERT,16,"EN",1,True,False,"","ATEX + FM + CSA","ATEX + FM + CSA",,"","","","","","","","","",""
-FPD500,CH/FPD5/EX/CERT,16,"EA",2,True,False,"","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",,"","","","","","","","","",""
-FPD500,CH/FPD5/EX/CERT,16,"EB",3,True,False,"","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",,"","","","","","","","","",""
-FPD500,CH/FPD5/EX/CERT,16,"EW",4,True,False,"","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M1",1,True,False,"","German","German",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M2",2,True,False,"","Italian","Italian",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M3",3,True,False,"","Spanish","Spanish",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M4",4,True,False,"","French","French",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M5",5,True,False,"","English (standard)","English (standard)",,"","","","","","","","","",""
-FPD500,CH/FPD5/DOC/LANG,17,"M6",6,True,False,"","Chinese","Chinese",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPECIAL/APP,18,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4) AND (CH/FPD5/SEAL/MAT=4)) OR ((CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B))","Degreased (Oil- & Grease-free) with inert capsule filling, for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling, for Oxygen applications",,"","","","","","","","","",""
-FPD500,CH/FPD5/SPECIAL/APP,18,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4","Prepared for Hydrogen applications","Prepared for Hydrogen applications",,"","","","","","","","","",""
-FPD500,OriMasterMaterial,,"CS",1,True,False,"","Carbon Steel Pipe","Carbon Steel Pipe",C3/S6,"","","","","","","","","",""
-FPD500,OriMasterMaterial,,"SS",2,True,False,"","Stainless Steel Pipe","Stainless Steel Pipe",S6/S6,"","","","","","","","","",""
-FPD510,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","IOMaster V, for Volume Flow, Design Level 2 (266DSH)","IOMaster V, for Volume Flow, Design Level 2 (266DSH)",,"","","","","","","","","",""
-FPD510,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","IOMaster M, for Mass Flow (266CSH)","IOMaster M, for Mass Flow (266CSH)",,"","","","","","","","","",""
-FPD510,CH/FPD5/METER/SIZE,2,"015",1,True,False,"","½""","15 mm (1/2 in.)","½""","","","","","","","","","",""
-FPD510,CH/FPD5/METER/SIZE,2,"025",2,True,False,"","1""","25 mm (1 in.)","1""","","","","","","","","","",""
-FPD510,CH/FPD5/METER/SIZE,2,"040",3,True,False,"","1½""","40 mm (1-1/2 in.)","1½""","","","","","","","","","",""
-FPD510,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1,"","","","","","","","","",""
-FPD510,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2,"","","","","","","","","",""
-FPD510,CH/FPD5/FIT/MAT,4,"S6",1,True,False,"","AISI 316 SST (1.4401) / AISI 316 SST (1.4401)","AISI 316 SST (1.4401) / AISI 316 SST (1.4401)",S6/S6,"","","","","","","","","",""
-FPD510,CH/FPD5/FIT/MAT,4,"H4",2,True,False,"","AISI 316 SST (1.4401) / Hastelloy C","AISI 316 SST (1.4401) / Hastelloy C",S6/U7,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"A5",1,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","0.51 mm (0.020 in.)","0.51 mm (0.020 in.)",0.51,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"A8",2,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","0.89 mm (0.035 in.)","0.89 mm (0.035 in.)",0.89,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"B2",3,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","1.65 mm (0.065 in.)","1.65 mm (0.065 in.)",1.65,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"B5",4,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","2.87 mm (0.113 in.)","2.87 mm (0.113 in.)",2.87,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"B8",5,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","3.81 mm (0.150 in.)","3.81 mm (0.150 in.)",3.81,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"C2",6,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","4.98 mm (0.196 in.)","4.98 mm (0.196 in.)",4.98,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"C5",7,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","6.86 mm (0.270 in.)","6.86 mm (0.270 in.)",6.86,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"C8",8,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","8.64 mm (0.340 in.)","8.64 mm (0.340 in.)",8.64,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"D2",9,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040)","12.7 mm (0.500 in.)","12.7 mm (0.500 in.)",12.7,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"D5",10,True,False,"NOT(CH/FPD5/METER/SIZE=040)","15.54 mm (0.612 in.)","15.54 mm (0.612 in.)",15.54,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"D8",11,True,False,"NOT(CH/FPD5/METER/SIZE=025)","18.67 mm (0.735 in.)","18.67 mm (0.735 in.)",18.67,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"E2",12,True,False,"NOT(CH/FPD5/METER/SIZE=040)","19.05 mm (0.750 in.)","19.05 mm (0.750 in.)",19.05,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"E5",13,True,False,"NOT(CH/FPD5/METER/SIZE=040)","23.32 mm (0.918 in.)","23.32 mm (0.918 in.)",23.32,"","","","","","","","","",""
-FPD510,CH/FPD5/BORE/SIZE,5,"E8",14,True,False,"NOT(CH/FPD5/METER/SIZE=040)","28.63 mm (1.127 in.)","28.63 mm (1.127 in.)",28.63,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"Y0",1,True,False,"","No pipe / flanges","No pipe / flanges",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"A1",2,True,False,"","ASME CL 150 with Sch 40 pipework","ASME CL 150 with Sch 40 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"B1",3,True,False,"","ASME CL 150 with Sch 80 pipework","ASME CL 150 with Sch 80 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"A3",4,True,False,"","ASME CL 300 with Sch 40 pipework","ASME CL 300 with Sch 40 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"B3",5,True,False,"","ASME CL 300 with Sch 80 pipework","ASME CL 300 with Sch 80 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"D2",6,True,False,"","ISO7005 PN 16 with Sch 40 pipework","ISO7005 PN 16 with Sch 40 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"F2",7,True,False,"","ISO7005 PN 16 with Sch 80 pipework","ISO7005 PN 16 with Sch 80 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"D4",8,True,False,"","ISO7005 PN 40 with Sch 40 pipework","ISO7005 PN 40 with Sch 40 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/PRESS/RAT,6,"F4",9,True,False,"","ISO7005 PN 40 with Sch 80 pipework","ISO7005 PN 40 with Sch 80 pipework",,"","","","","","","","","",""
-FPD510,CH/FPD5/ORIEN,7,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",,"","","","","","","","","",""
-FPD510,CH/FPD5/ORIEN,7,"V",2,True,False,"","Vertical Pipe","Vertical Pipe",,"","","","","","","","","",""
-FPD510,CH/FPD5/MANIFOLD,8,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",,"","","","","","","","","",""
-FPD510,CH/FPD5/MANIFOLD,8,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.16 ... 16 kPa / 1.6 ... 160 mbar / 0.64 ... 64 in. H2O","0.16 ... 16 kPa / 1.6 ... 160 mbar / 0.64 ... 64 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPAN/LIMITS,9,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",,"","","","","","","","","",""
-FPD510,CH/FPD5/SEAL/MAT,10,"3",1,True,False,"","Viton","Viton",,"","","","","","","","","",""
-FPD510,CH/FPD5/SEAL/MAT,10,"4",2,True,False,"","PTFE","PTFE",,"","","","","","","","","",""
-FPD510,CH/FPD5/SEAL/MAT,10,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",,"","","","","","","","","",""
-FPD510,CH/FPD5/SEAL/MAT,10,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"A",1,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"B",2,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD510,CH/FPD5/HOUSE/MAT,11,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD510,CH/FPD5/DISPL,12,"0",1,True,False,"","None (blind)","None (blind)",,"","","","","","","","","",""
-FPD510,CH/FPD5/DISPL,12,"1",2,True,False,"","LCD display","LCD display",,"","","","","","","","","",""
-FPD510,CH/FPD5/DISPL,12,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","PROFIBUS PA","PROFIBUS PA",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"F1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","FOUNDATION fieldbus","FOUNDATION fieldbus",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",,"","","","","","","","","",""
-FPD510,CH/FPD5/OUT/SIGNAL,13,"W1",6,True,False,"","Wireless HART","Wireless HART",,"","","","","","","","","",""
-FPD510,CH/FPD5/TEMP/ELEM,14,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",,"","","","","","","","","",""
-FPD510,CH/FPD5/TEMP/ELEM,14,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",,"","","","","","","","","",""
-FPD510,CH/FPD5/TEMP/ELEM,14,"AY",3,True,False,"","None","None",,"","","","","","","","","",""
-FPD510,CH/FPD5/CALIBRATION,15,"CW",1,True,False,"","Standard water calibration at reference conditions","Standard water calibration at reference conditions",,"","","","","","","","","",""
-FPD510,CH/FPD5/CALIBRATION,15,"CZ",2,True,False,"","Others","Others",,"","","","","","","","","",""
-FPD510,CH/FPD5/CERTIFICATE,16,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD510,CH/FPD5/CERTIFICATE,16,"C9",2,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",,"","","","","","","","","",""
-FPD510,CH/FPD5/CERTIFICATE,16,"CB",3,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",,"","","","","","","","","",""
-FPD510,CH/FPD5/CERTIFICATE,16,"CN",4,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD510,CH/FPD5/CERTIFICATE,16,"CP",5,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",,"","","","","","","","","",""
-FPD510,CH/FPD5/EX/CERT,17,"EA",1,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",,"","","","","","","","","",""
-FPD510,CH/FPD5/EX/CERT,17,"EB",2,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T) AND (CH/FPD5/OUT/SIGNAL=W1))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",,"","","","","","","","","",""
-FPD510,CH/FPD5/EX/CERT,17,"EE",3,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) OR (NOT(CH/FPD5/HOUSE/MAT=A OR CH/FPD5/HOUSE/MAT=S)) OR (CH/FPD5/OUT/SIGNAL=W1)","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",,"","","","","","","","","",""
-FPD510,CH/FPD5/EX/CERT,17,"EN",4,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",,"","","","","","","","","",""
-FPD510,CH/FPD5/EX/CERT,17,"EW",5,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) AND (CH/FPD5/OUT/SIGNAL=F1 OR CH/FPD5/OUT/SIGNAL=W1)","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M1",1,True,False,"","German","German",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M2",2,True,False,"","Italian","Italian",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M3",3,True,False,"","Spanish","Spanish",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M4",4,True,False,"","French","French",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M5",5,True,False,"","English","English",,"","","","","","","","","",""
-FPD510,CH/FPD5/DOC/LANG,18,"M6",6,True,False,"","Chinese","Chinese",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPECIAL/APP,19,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/SEAL/MAT=4 OR CH/FPD5/SEAL/MAT=5 OR CH/FPD5/SEAL/MAT=6)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B)) OR ((CH/FPD5/MODEL/DESIGN=V1))","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",,"","","","","","","","","",""
-FPD510,CH/FPD5/SPECIAL/APP,19,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",,"","","","","","","","","",""
-FPD550,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","PitoMaster V, for Volume Flow, Design Level 2 (266DSH)","PitoMaster V, for Volume Flow, Design Level 2 (266DSH)",,"","","","","","","","","",""
-FPD550,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","PitoMaster M, for Mass Flow (266CSH)","PitoMaster M, for Mass Flow (266CSH)",,"","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"100",1,True,False,"","100 mm (4 in.) nominal inside diameter (specify actual id which must be in range 88….111 mm)","DN 100 (4 in.) nominal inside diameter (specify actual id which must be in range 88 … 111 mm)","4""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"125",2,True,False,"","125 mm (5 in.) nominal inside diameter (specify actual id which must be in range 112….137 mm)","DN 125 (5 in.) nominal inside diameter (specify actual id which must be in range 112 … 137 mm)","5""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"150",3,True,False,"","150 mm (6 in.) nominal inside diameter (specify actual id which must be in range 138….174 mm)","DN 150 (6 in.) nominal inside diameter (specify actual id which must be in range 138 … 174 mm)","6""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"200",4,True,False,"","200 mm (8 in.) nominal inside diameter (specify actual id which must be in range 175….224 mm)","DN 200 (8 in.) nominal inside diameter (specify actual id which must be in range 175 … 224 mm)","8""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"250",5,True,False,"","250 mm (10 in.) nominal inside diameter (specify actual id which must be in range 225….274 mm)","DN 250 (10 in.) nominal inside diameter (specify actual id which must be in range 225 … 274 mm)","10""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"300",6,True,False,"","300 mm (12 in.) nominal inside diameter (specify actual id which must be in range 275….324 mm)","DN 300 (12 in.) nominal inside diameter (specify actual id which must be in range 275 … 324 mm)","12""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"350",7,True,False,"","350 mm (14 in.) nominal inside diameter (specify actual id which must be in range 325….374 mm)","DN 350 (14 in.) nominal inside diameter (specify actual id which must be in range 325 … 374 mm)","14""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"400",8,True,False,"","400 mm (16 in.) nominal inside diameter (specify actual id which must be in range 375….424 mm)","DN 400 (16 in.) nominal inside diameter (specify actual id which must be in range 375 … 424 mm)","16""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"450",9,True,False,"","450 mm (18 in.) nominal inside diameter (specify actual id which must be in range 425….474 mm)","DN 450 (18 in.) nominal inside diameter (specify actual id which must be in range 425 … 474 mm)","18""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"500",10,True,False,"","500 mm (20 in.) nominal inside diameter (specify actual id which must be in range 475….549 mm)","DN 500 (20 in.) nominal inside diameter (specify actual id which must be in range 475 … 549 mm)","20""","","","","","","","","","",""
-FPD550,CH/FPD5/METER/SIZE,2,"600",11,True,False,"","600 mm (24 in.) nominal inside diameter (specify actual id which must be in range 550….674 mm)","DN 600 (24 in.) nominal inside diameter (specify actual id which must be in range 550 … 674 mm)","24""","","","","","","","","","",""
-FPD550,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1,"","","","","","","","","",""
-FPD550,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2,"","","","","","","","","",""
-FPD550,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated Steam","Saturated Steam",,"","","","","","","","","",""
-FPD550,CH/FPD5/FIT/MAT,4,"C1",1,True,False,"","316L probe / A105 CS pipe fitting","316L probe / A105 CS pipe fitting",S6/C3,"","","","","","","","","",""
-FPD550,CH/FPD5/FIT/MAT,4,"S6",2,True,False,"","316L probe / 316L SS pipe fitting","316L probe / 316L SS pipe fitting",S6/S6,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"B3",1,True,False,"","Threaded 1 in. BSPT Process connection with weld fitting","Threaded 1 in. BSPT Process connection with weld fitting",,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"B4",2,True,False,"","Threaded 1 in. BSPT Process connection with weld fitting and weld cup End Support","Threaded 1 in. BSPT Process connection with weld fitting and weld cup End Support",,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"N3",3,True,False,"","Threaded 1 in. NPT Process connection with weld fitting","Threaded 1 in. NPT Process connection with weld fitting",,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"N4",4,True,False,"","Threaded 1 in. NPT Process connection with weld fitting and weld cup End Support","Threaded 1 in. NPT Process connection with weld fitting and weld cup End Support",,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"F3",5,True,False,"","Flanged Process connection DN40 (1-1/2 in.) with flanged standoff and nuts/bolts/gaskets","Flanged Process connection DN40 (1-1/2 in.) with flanged standoff and nuts/bolts/gaskets",,"","","","","","","","","",""
-FPD550,CH/FPD5/CONN/TYPE,5,"F4",6,True,False,"","Flanged Process connection  DN40 (1-1/2 in.) with flanged standoff, nuts/bolts/gaskets and weld cup End Support","Flanged Process connection  DN40 (1-1/2 in.) with flanged standoff, nuts/bolts/gaskets and weld cup End Support",,"","","","","","","","","",""
-FPD550,CH/FPD5/PRESS/RAT,6,"Y0",1,True,False,"NOT(CH/FPD5/CONN/TYPE=B3 OR CH/FPD5/CONN/TYPE=B4 OR CH/FPD5/CONN/TYPE=N3 OR CH/FPD5/CONN/TYPE=N4)","Threaded","Threaded",,"","","","","","","","","",""
-FPD550,CH/FPD5/PRESS/RAT,6,"A1",2,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","ASME CL 150","ASME CL 150",,"","","","","","","","","",""
-FPD550,CH/FPD5/PRESS/RAT,6,"A3",3,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","ASME CL 300","ASME CL 300",,"","","","","","","","","",""
-FPD550,CH/FPD5/PRESS/RAT,6,"D1",4,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","PN 10 / 16","PN 10 / 16",,"","","","","","","","","",""
-FPD550,CH/FPD5/PRESS/RAT,6,"D3",5,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","PN 25 / 40","PN 25 / 40",,"","","","","","","","","",""
-FPD550,CH/FPD5/ORIEN,7,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",,"","","","","","","","","",""
-FPD550,CH/FPD5/ORIEN,7,"V",2,True,False,"CH/FPD5/FLUID=S","Vertical Pipe","Vertical Pipe",,"","","","","","","","","",""
-FPD550,CH/FPD5/MANIFOLD,8,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",,"","","","","","","","","",""
-FPD550,CH/FPD5/MANIFOLD,8,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O (static pressure rating limited to 6 Bar on ""M1"" models)","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O (static pressure rating limited to 6 Bar on ""M1"" models)",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","16 kPa / 160 mbar / 64 in. H2O (max)","16 kPa / 160 mbar / 64 in. H2O (max)",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPAN/LIMITS,9,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",,"","","","","","","","","",""
-FPD550,CH/FPD5/SEAL/MAT,10,"3",1,True,False,"","Viton","Viton",,"","","","","","","","","",""
-FPD550,CH/FPD5/SEAL/MAT,10,"4",2,True,False,"","PTFE","PTFE",,"","","","","","","","","",""
-FPD550,CH/FPD5/SEAL/MAT,10,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",,"","","","","","","","","",""
-FPD550,CH/FPD5/SEAL/MAT,10,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"A",1,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"B",2,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD550,CH/FPD5/HOUSE/MAT,11,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD550,CH/FPD5/DISPL,12,"0",1,True,False,"","None (blind)","None (blind)",,"","","","","","","","","",""
-FPD550,CH/FPD5/DISPL,12,"1",2,True,False,"","LCD display","LCD display",,"","","","","","","","","",""
-FPD550,CH/FPD5/DISPL,12,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","PROFIBUS PA","PROFIBUS PA",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"F1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","FOUNDATION fieldbus","FOUNDATION fieldbus",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",,"","","","","","","","","",""
-FPD550,CH/FPD5/OUT/SIGNAL,13,"W1",6,True,False,"","Wireless HART","Wireless HART",,"","","","","","","","","",""
-FPD550,CH/FPD5/TEMP/ELEM,14,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",,"","","","","","","","","",""
-FPD550,CH/FPD5/TEMP/ELEM,14,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",,"","","","","","","","","",""
-FPD550,CH/FPD5/TEMP/ELEM,14,"AY",3,True,False,"","None","None",,"","","","","","","","","",""
-FPD550,CH/FPD5/CERTIFICATE,15,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD550,CH/FPD5/CERTIFICATE,15,"C9",2,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",,"","","","","","","","","",""
-FPD550,CH/FPD5/CERTIFICATE,15,"CB",3,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",,"","","","","","","","","",""
-FPD550,CH/FPD5/CERTIFICATE,15,"CN",4,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD550,CH/FPD5/CERTIFICATE,15,"CP",5,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",,"","","","","","","","","",""
-FPD550,CH/FPD5/EX/CERT,16,"EA",1,True,False,"((CH/FPD5/MODEL/DESIGN=V1)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",,"","","","","","","","","",""
-FPD550,CH/FPD5/EX/CERT,16,"EB",2,True,False,"((CH/FPD5/MODEL/DESIGN=V1)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",,"","","","","","","","","",""
-FPD550,CH/FPD5/EX/CERT,16,"EE",3,True,False,"((CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",,"","","","","","","","","",""
-FPD550,CH/FPD5/EX/CERT,16,"EN",4,True,False,"(CH/FPD5/MODEL/DESIGN=M1) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",,"","","","","","","","","",""
-FPD550,CH/FPD5/EX/CERT,16,"EW",5,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=F1)) OR ((CH/FPD5/OUT/SIGNAL=W1))","ATEX Ex ia + ATEX EEx d + ATEX Ex nL","ATEX Ex ia + ATEX EEx d + ATEX Ex nL",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M1",1,True,False,"","German","German",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M2",2,True,False,"","Italian","Italian",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M3",3,True,False,"","Spanish","Spanish",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M4",4,True,False,"","French","French",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M5",5,True,False,"","English","English",,"","","","","","","","","",""
-FPD550,CH/FPD5/DOC/LANG,17,"M6",6,True,False,"","Chinese","Chinese",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPECIAL/APP,18,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SEAL/MAT=4)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B)) OR ((CH/FPD5/MODEL/DESIGN=V1))","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",,"","","","","","","","","",""
-FPD550,CH/FPD5/SPECIAL/APP,18,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",,"","","","","","","","","",""
-FPD570,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","WedgeMaster V, for Volume Flow, Design Level 2 (266DSH)","WedgeMaster V, for Volume Flow, Design Level 2 (266DSH)",,"","","","","","","","","",""
-FPD570,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","WedgeMaster M, for Mass Flow (266CSH)","WedgeMaster M, for Mass Flow (266CSH)",,"","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"025",1,True,False,"","1""","DN 25 (1 in.)","1""","","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"040",2,True,False,"","1½""","DN 40 (1½ in.)","1½""","","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"050",3,True,False,"","2""","DN 50 (2 in.)","2""","","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"080",4,True,False,"","3""","DN 80 (3 in.)","3""","","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"100",5,True,False,"","4""","DN 100 (4 in.)","4""","","","","","","","","","",""
-FPD570,CH/FPD5/METER/SIZE,2,"150",6,True,False,"","6""","DN 150 (6 in.)","6""","","","","","","","","","",""
-FPD570,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1,"","","","","","","","","",""
-FPD570,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2,"","","","","","","","","",""
-FPD570,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated Steam","Saturated Steam",3,"","","","","","","","","",""
-FPD570,CH/FPD5/BORE/SIZE,4,"H2",1,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080)","0.2 H/D","0.2 H/D",0.2,"","","","","","","","","",""
-FPD570,CH/FPD5/BORE/SIZE,4,"H3",2,True,False,"","0.3 H/D","0.3 H/D",0.3,"","","","","","","","","",""
-FPD570,CH/FPD5/BORE/SIZE,4,"H4",3,True,False,"","0.4 H/D","0.4 H/D",0.4,"","","","","","","","","",""
-FPD570,CH/FPD5/BORE/SIZE,4,"H5",4,True,False,"","0.5 H/D","0.5 H/D",0.5,"","","","","","","","","",""
-FPD570,CH/FPD5/FIT/MAT,5,"A1",1,True,False,"","Carbon Steel / Carbon Steel","Carbon Steel / Carbon Steel",C3/C3,"","","","","","","","","",""
-FPD570,CH/FPD5/FIT/MAT,5,"A2",2,True,False,"","Carbon steel / 316 SST","Carbon steel / 316 SST",C3/S6,"","","","","","","","","",""
-FPD570,CH/FPD5/FIT/MAT,5,"S6",3,True,False,"","AISI 316 SST / 316SST","AISI 316 SST / 316SST",S6/S6,"","","","","","","","","",""
-FPD570,CH/FPD5/CONN/TYPE,6,"R1",1,True,False,"","RFWN standard face","RFWN standard face",,"","","","","","","","","",""
-FPD570,CH/FPD5/CONN/TYPE,6,"R2",2,True,False,"","RFWN smooth face","RFWN smooth face",,"","","","","","","","","",""
-FPD570,CH/FPD5/CONN/TYPE,6,"T2",3,True,False,"NOT(CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080)","RTJ weld neck","RTJ weld neck",,"","","","","","","","","",""
-FPD570,CH/FPD5/CONN/TYPE,6,"W1",4,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080 OR CH/FPD5/METER/SIZE=100)","Wafer","Wafer",,"","","","","","","","","",""
-FPD570,CH/FPD5/PRESS/RAT,7,"A3",1,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 300","ASME CL 300",,"","","","","","","","","",""
-FPD570,CH/FPD5/PRESS/RAT,7,"A6",2,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 600","ASME CL 600",,"","","","","","","","","",""
-FPD570,CH/FPD5/PRESS/RAT,7,"A7",3,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 900","ASME CL 900",,"","","","","","","","","",""
-FPD570,CH/FPD5/PRESS/RAT,7,"A8",4,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=T2)","ASME CL 1500","ASME CL 1500",,"","","","","","","","","",""
-FPD570,CH/FPD5/PRESS/RAT,7,"A9",5,True,False,"(NOT(CH/FPD5/CONN/TYPE=T2)) OR (NOT(CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080))","ASME CL 2500","ASME CL 2500",,"","","","","","","","","",""
-FPD570,CH/FPD5/ORIEN,8,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",,"","","","","","","","","",""
-FPD570,CH/FPD5/MANIFOLD,9,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",,"","","","","","","","","",""
-FPD570,CH/FPD5/MANIFOLD,9,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","16 kPa / 160 mbar / 64 in. H2O (max)","16 kPa / 160 mbar / 64 in. H2O (max)",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"F",6,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"G",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"H",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPAN/LIMITS,10,"L",9,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",,"","","","","","","","","",""
-FPD570,CH/FPD5/SEAL/MAT,11,"0",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","Without seal","Without seal",,"","","","","","","","","",""
-FPD570,CH/FPD5/SEAL/MAT,11,"3",1,True,False,"","Viton","Viton",,"","","","","","","","","",""
-FPD570,CH/FPD5/SEAL/MAT,11,"4",2,True,False,"","PTFE","PTFE",,"","","","","","","","","",""
-FPD570,CH/FPD5/SEAL/MAT,11,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",,"","","","","","","","","",""
-FPD570,CH/FPD5/SEAL/MAT,11,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"A",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",,"","","","","","","","","",""
-FPD570,CH/FPD5/HOUSE/MAT,12,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",,"","","","","","","","","",""
-FPD570,CH/FPD5/DISPL,13,"0",1,True,False,"","None (blind)","None (blind)",,"","","","","","","","","",""
-FPD570,CH/FPD5/DISPL,13,"1",2,True,False,"","LCD display","LCD display",,"","","","","","","","","",""
-FPD570,CH/FPD5/DISPL,13,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","PROFIBUS PA","PROFIBUS PA",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"F1",4,True,False,"((NOT( CH/FPD5/MODEL/DESIGN=V2 OR  CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/HOUSE/MAT=S OR CH/FPD5/HOUSE/MAT=T) AND (CH/FPD5/MODEL/DESIGN=M1))","FOUNDATION Fieldbus","FOUNDATION Fieldbus",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",,"","","","","","","","","",""
-FPD570,CH/FPD5/OUT/SIGNAL,14,"W1",6,True,False,"","Wireless HART","Wireless HART",,"","","","","","","","","",""
-FPD570,CH/FPD5/TEMP/ELEM,15,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",,"","","","","","","","","",""
-FPD570,CH/FPD5/TEMP/ELEM,15,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",,"","","","","","","","","",""
-FPD570,CH/FPD5/TEMP/ELEM,15,"AY",3,True,False,"","None","None",,"","","","","","","","","",""
-FPD570,CH/FPD5/CALIBRATION,16,"CM",1,True,False,"","Bi-directional water calibration","Bi-directional water calibration",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"C4",2,True,False,"","Certificate of conformance","Certificate of conformance",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"C8",3,True,False,"","X-Ray NDE of welds","X-Ray NDE of welds",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"C9",4,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"CA",5,True,False,"","Positive Material Identification (PMI)","Positive Material Identification (PMI)",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"CB",6,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"CN",7,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",,"","","","","","","","","",""
-FPD570,CH/FPD5/CERTIFICATE,17,"CP",8,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",,"","","","","","","","","",""
-FPD570,CH/FPD5/EX/CERT,18,"EA",1,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",,"","","","","","","","","",""
-FPD570,CH/FPD5/EX/CERT,18,"EB",2,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",,"","","","","","","","","",""
-FPD570,CH/FPD5/EX/CERT,18,"EE",3,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) OR (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T) OR (CH/FPD5/OUT/SIGNAL=W1)","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",,"","","","","","","","","",""
-FPD570,CH/FPD5/EX/CERT,18,"EN",4,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",,"","","","","","","","","",""
-FPD570,CH/FPD5/EX/CERT,18,"EW",5,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=F1)) OR ((CH/FPD5/OUT/SIGNAL=W1))","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M1",1,True,False,"","German","German",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M2",2,True,False,"","Italian","Italian",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M3",3,True,False,"","Spanish","Spanish",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M4",4,True,False,"","French","French",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M5",5,True,False,"","English","English",,"","","","","","","","","",""
-FPD570,CH/FPD5/DOC/LANG,19,"M6",6,True,False,"","Chinese","Chinese",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPECIAL/APP,20,"P1",1,True,False,"(CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B) OR (CH/FPD5/SEAL/MAT=4 OR CH/FPD5/SEAL/MAT=5 OR CH/FPD5/SEAL/MAT=6)","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",,"","","","","","","","","",""
-FPD570,CH/FPD5/SPECIAL/APP,20,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",,"","","","","","","","","",""
+"ProductCode","SelectionGroup","GrpOrder","PartNumber","Order","Active","DefaultItem","ExclusionRule","Name","Description","AdditionalData"
+FPD500,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","Volume Flow Fixed Plate (266DSH)","Volume Flow Fixed Plate (266DSH)",
+FPD500,CH/FPD5/MODEL/DESIGN,1,"V4",2,True,False,"CH/FPD5/METER/SIZE=10 OR CH/FPD5/METER/SIZE=15 OR CH/FPD5/METER/SIZE=20 OR CH/FPD5/METER/SIZE=30","Volume Flow Removable Plate (266DSH)","Volume Flow Removable Plate (266DSH)",
+FPD500,CH/FPD5/MODEL/DESIGN,1,"M2",3,True,False,"","Mass Flow Fixed Plate (266CSH)","Mass Flow Fixed Plate (266CSH)",
+FPD500,CH/FPD5/MODEL/DESIGN,1,"M4",4,True,False,"","Mass Flow Removable Plate (266CSH)","Mass Flow Removable Plate (266CSH)",
+FPD500,CH/FPD5/METER/SIZE,2,"10",1,True,False,"","1""","1 in. (25 mm)","1"""
+FPD500,CH/FPD5/METER/SIZE,2,"15",2,True,False,"","1½""","1-1/2 in. (40 mm)","1½"""
+FPD500,CH/FPD5/METER/SIZE,2,"20",3,True,False,"","2""","2 in. (50 mm)","2"""
+FPD500,CH/FPD5/METER/SIZE,2,"30",4,True,False,"","3""","3 in. (80 mm)","3"""
+FPD500,CH/FPD5/METER/SIZE,2,"40",5,True,False,"","4""","4 in. (100 mm)","4"""
+FPD500,CH/FPD5/METER/SIZE,2,"60",6,True,False,"","6""","6 in. (150 mm)","6"""
+FPD500,CH/FPD5/METER/SIZE,2,"80",7,True,False,"","8""","8 in. (200 mm)","8"""
+FPD500,CH/FPD5/METER/SIZE,2,"90",8,True,False,"","10""","10 in. (250 mm)","10"""
+FPD500,CH/FPD5/METER/SIZE,2,"92",9,True,False,"","12""","12 in. (300 mm)","12"""
+FPD500,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1
+FPD500,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2
+FPD500,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated steam","Saturated steam",3
+FPD500,CH/FPD5/BETA/RATIO,4,"B1",1,True,False,"","0.4","0.4",
+FPD500,CH/FPD5/BETA/RATIO,4,"B2",2,True,False,"","0.65","0.65",
+FPD500,CH/FPD5/PRESS/RAT,5,"A1",1,True,False,"","ASME CL 150","ASME CL 150",
+FPD500,CH/FPD5/PRESS/RAT,5,"A3",2,True,False,"","ASME CL 300","ASME CL 300",
+FPD500,CH/FPD5/PRESS/RAT,5,"A6",3,True,False,"","ASME CL 600","ASME CL 600",
+FPD500,CH/FPD5/PRESS/RAT,5,"D1",4,True,False,"","PN 10","PN 10",
+FPD500,CH/FPD5/PRESS/RAT,5,"D2",5,True,False,"","PN 16","PN 16",
+FPD500,CH/FPD5/PRESS/RAT,5,"D3",6,True,False,"","PN 25","PN 25",
+FPD500,CH/FPD5/PRESS/RAT,5,"D4",7,True,False,"","PN 40","PN 40",
+FPD500,CH/FPD5/PRESS/RAT,5,"D5",8,True,False,"","PN 63","PN 63",
+FPD500,CH/FPD5/PRESS/RAT,5,"D6",9,True,False,"","PN 100","PN 100",
+FPD500,CH/FPD5/ORIEN,6,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",
+FPD500,CH/FPD5/ORIEN,6,"V",2,True,False,"CH/FPD5/FLUID=S","Vertical","Vertical",
+FPD500,CH/FPD5/MANIFOLD,7,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",
+FPD500,CH/FPD5/MANIFOLD,7,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.2 ... 4 kPa / 2 ... 40 mbar / 0.8 ... 16 in. H2O","0.2 ... 4 kPa / 2 ... 40 mbar / 0.8 ... 16 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.27 ... 16 kPa / 2.7 ... 160 mbar / 1.08 ... 64 in. H2O","0.27 ... 16 kPa / 2.7 ... 160 mbar / 1.08 ... 64 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",
+FPD500,CH/FPD5/SPAN/LIMITS,8,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",
+FPD500,CH/FPD5/SEAL/MAT,9,"3",1,True,False,"","Viton","Viton",
+FPD500,CH/FPD5/SEAL/MAT,9,"4",2,True,False,"","PTFE","PTFE",
+FPD500,CH/FPD5/SEAL/MAT,9,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","EPDM","EPDM",
+FPD500,CH/FPD5/SEAL/MAT,9,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Perbunan","Perbunan",
+FPD500,CH/FPD5/HOUSE/MAT,10,"A",1,True,False,"","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",
+FPD500,CH/FPD5/HOUSE/MAT,10,"B",2,True,False,"","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",
+FPD500,CH/FPD5/HOUSE/MAT,10,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",
+FPD500,CH/FPD5/HOUSE/MAT,10,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",
+FPD500,CH/FPD5/DISPL,11,"0",1,True,False,"","None (blind)","None (blind)",
+FPD500,CH/FPD5/DISPL,11,"1",2,True,False,"","LCD display","LCD display",
+FPD500,CH/FPD5/DISPL,11,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",
+FPD500,CH/FPD5/OUT/SIGNAL,12,"H1",1,True,False,"","Advanced HART digital communication and 4 ... 20 mA","Advanced HART digital communication and 4 ... 20 mA",
+FPD500,CH/FPD5/OUT/SIGNAL,12,"H2",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",
+FPD500,CH/FPD5/OUT/SIGNAL,12,"P1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","PROFIBUS PA","PROFIBUS PA",
+FPD500,CH/FPD5/OUT/SIGNAL,12,"F1",5,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4)","FOUNDATION fieldbus","FOUNDATION fieldbus",
+FPD500,CH/FPD5/TEMP/ELEM,13,"AT",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Integral","Integral",
+FPD500,CH/FPD5/TEMP/ELEM,13,"AR",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4)","Remote (element not included)","Remote (element not included)",
+FPD500,CH/FPD5/TEMP/ELEM,13,"AY",3,True,False,"","None","None",
+FPD500,CH/FPD5/CALIBRATION,14,"CZ",2,True,False,"","Others","Others",
+FPD500,CH/FPD5/CERTIFICATE,15,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",
+FPD500,CH/FPD5/CERTIFICATE,15,"CN",2,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",
+FPD500,CH/FPD5/EX/CERT,16,"EN",1,True,False,"","ATEX + FM + CSA","ATEX + FM + CSA",
+FPD500,CH/FPD5/EX/CERT,16,"EA",2,True,False,"","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",
+FPD500,CH/FPD5/EX/CERT,16,"EB",3,True,False,"","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",
+FPD500,CH/FPD5/EX/CERT,16,"EW",4,True,False,"","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",
+FPD500,CH/FPD5/DOC/LANG,17,"M1",1,True,False,"","German","German",
+FPD500,CH/FPD5/DOC/LANG,17,"M2",2,True,False,"","Italian","Italian",
+FPD500,CH/FPD5/DOC/LANG,17,"M3",3,True,False,"","Spanish","Spanish",
+FPD500,CH/FPD5/DOC/LANG,17,"M4",4,True,False,"","French","French",
+FPD500,CH/FPD5/DOC/LANG,17,"M5",5,True,False,"","English (standard)","English (standard)",
+FPD500,CH/FPD5/DOC/LANG,17,"M6",6,True,False,"","Chinese","Chinese",
+FPD500,CH/FPD5/SPECIAL/APP,18,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M2 OR CH/FPD5/MODEL/DESIGN=M4) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4) AND (CH/FPD5/SEAL/MAT=4)) OR ((CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B))","Degreased (Oil- & Grease-free) with inert capsule filling, for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling, for Oxygen applications",
+FPD500,CH/FPD5/SPECIAL/APP,18,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=V4","Prepared for Hydrogen applications","Prepared for Hydrogen applications",
+FPD500,OriMasterMaterial,,"CS",1,True,False,"","Carbon Steel Pipe","Carbon Steel Pipe",C3/S6
+FPD500,OriMasterMaterial,,"SS",2,True,False,"","Stainless Steel Pipe","Stainless Steel Pipe",S6/S6
+FPD510,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","IOMaster V, for Volume Flow, Design Level 2 (266DSH)","IOMaster V, for Volume Flow, Design Level 2 (266DSH)",
+FPD510,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","IOMaster M, for Mass Flow (266CSH)","IOMaster M, for Mass Flow (266CSH)",
+FPD510,CH/FPD5/METER/SIZE,2,"015",1,True,False,"","½""","15 mm (1/2 in.)","½"""
+FPD510,CH/FPD5/METER/SIZE,2,"025",2,True,False,"","1""","25 mm (1 in.)","1"""
+FPD510,CH/FPD5/METER/SIZE,2,"040",3,True,False,"","1½""","40 mm (1-1/2 in.)","1½"""
+FPD510,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1
+FPD510,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2
+FPD510,CH/FPD5/FIT/MAT,4,"S6",1,True,False,"","AISI 316 SST (1.4401) / AISI 316 SST (1.4401)","AISI 316 SST (1.4401) / AISI 316 SST (1.4401)",S6/S6
+FPD510,CH/FPD5/FIT/MAT,4,"H4",2,True,False,"","AISI 316 SST (1.4401) / Hastelloy C","AISI 316 SST (1.4401) / Hastelloy C",S6/U7
+FPD510,CH/FPD5/BORE/SIZE,5,"A5",1,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","0.51 mm (0.020 in.)","0.51 mm (0.020 in.)",0.51
+FPD510,CH/FPD5/BORE/SIZE,5,"A8",2,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","0.89 mm (0.035 in.)","0.89 mm (0.035 in.)",0.89
+FPD510,CH/FPD5/BORE/SIZE,5,"B2",3,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","1.65 mm (0.065 in.)","1.65 mm (0.065 in.)",1.65
+FPD510,CH/FPD5/BORE/SIZE,5,"B5",4,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","2.87 mm (0.113 in.)","2.87 mm (0.113 in.)",2.87
+FPD510,CH/FPD5/BORE/SIZE,5,"B8",5,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","3.81 mm (0.150 in.)","3.81 mm (0.150 in.)",3.81
+FPD510,CH/FPD5/BORE/SIZE,5,"C2",6,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","4.98 mm (0.196 in.)","4.98 mm (0.196 in.)",4.98
+FPD510,CH/FPD5/BORE/SIZE,5,"C5",7,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","6.86 mm (0.270 in.)","6.86 mm (0.270 in.)",6.86
+FPD510,CH/FPD5/BORE/SIZE,5,"C8",8,True,False,"NOT(CH/FPD5/METER/SIZE=015 OR CH/FPD5/METER/SIZE=025)","8.64 mm (0.340 in.)","8.64 mm (0.340 in.)",8.64
+FPD510,CH/FPD5/BORE/SIZE,5,"D2",9,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040)","12.7 mm (0.500 in.)","12.7 mm (0.500 in.)",12.7
+FPD510,CH/FPD5/BORE/SIZE,5,"D5",10,True,False,"NOT(CH/FPD5/METER/SIZE=040)","15.54 mm (0.612 in.)","15.54 mm (0.612 in.)",15.54
+FPD510,CH/FPD5/BORE/SIZE,5,"D8",11,True,False,"NOT(CH/FPD5/METER/SIZE=025)","18.67 mm (0.735 in.)","18.67 mm (0.735 in.)",18.67
+FPD510,CH/FPD5/BORE/SIZE,5,"E2",12,True,False,"NOT(CH/FPD5/METER/SIZE=040)","19.05 mm (0.750 in.)","19.05 mm (0.750 in.)",19.05
+FPD510,CH/FPD5/BORE/SIZE,5,"E5",13,True,False,"NOT(CH/FPD5/METER/SIZE=040)","23.32 mm (0.918 in.)","23.32 mm (0.918 in.)",23.32
+FPD510,CH/FPD5/BORE/SIZE,5,"E8",14,True,False,"NOT(CH/FPD5/METER/SIZE=040)","28.63 mm (1.127 in.)","28.63 mm (1.127 in.)",28.63
+FPD510,CH/FPD5/PRESS/RAT,6,"Y0",1,True,False,"","No pipe / flanges","No pipe / flanges",
+FPD510,CH/FPD5/PRESS/RAT,6,"A1",2,True,False,"","ASME CL 150 with Sch 40 pipework","ASME CL 150 with Sch 40 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"B1",3,True,False,"","ASME CL 150 with Sch 80 pipework","ASME CL 150 with Sch 80 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"A3",4,True,False,"","ASME CL 300 with Sch 40 pipework","ASME CL 300 with Sch 40 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"B3",5,True,False,"","ASME CL 300 with Sch 80 pipework","ASME CL 300 with Sch 80 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"D2",6,True,False,"","ISO7005 PN 16 with Sch 40 pipework","ISO7005 PN 16 with Sch 40 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"F2",7,True,False,"","ISO7005 PN 16 with Sch 80 pipework","ISO7005 PN 16 with Sch 80 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"D4",8,True,False,"","ISO7005 PN 40 with Sch 40 pipework","ISO7005 PN 40 with Sch 40 pipework",
+FPD510,CH/FPD5/PRESS/RAT,6,"F4",9,True,False,"","ISO7005 PN 40 with Sch 80 pipework","ISO7005 PN 40 with Sch 80 pipework",
+FPD510,CH/FPD5/ORIEN,7,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",
+FPD510,CH/FPD5/ORIEN,7,"V",2,True,False,"","Vertical Pipe","Vertical Pipe",
+FPD510,CH/FPD5/MANIFOLD,8,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",
+FPD510,CH/FPD5/MANIFOLD,8,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.16 ... 16 kPa / 1.6 ... 160 mbar / 0.64 ... 64 in. H2O","0.16 ... 16 kPa / 1.6 ... 160 mbar / 0.64 ... 64 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",
+FPD510,CH/FPD5/SPAN/LIMITS,9,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",
+FPD510,CH/FPD5/SEAL/MAT,10,"3",1,True,False,"","Viton","Viton",
+FPD510,CH/FPD5/SEAL/MAT,10,"4",2,True,False,"","PTFE","PTFE",
+FPD510,CH/FPD5/SEAL/MAT,10,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",
+FPD510,CH/FPD5/SEAL/MAT,10,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",
+FPD510,CH/FPD5/HOUSE/MAT,11,"A",1,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",
+FPD510,CH/FPD5/HOUSE/MAT,11,"B",2,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",
+FPD510,CH/FPD5/HOUSE/MAT,11,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",
+FPD510,CH/FPD5/HOUSE/MAT,11,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",
+FPD510,CH/FPD5/HOUSE/MAT,11,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",
+FPD510,CH/FPD5/HOUSE/MAT,11,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",
+FPD510,CH/FPD5/DISPL,12,"0",1,True,False,"","None (blind)","None (blind)",
+FPD510,CH/FPD5/DISPL,12,"1",2,True,False,"","LCD display","LCD display",
+FPD510,CH/FPD5/DISPL,12,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","PROFIBUS PA","PROFIBUS PA",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"F1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","FOUNDATION fieldbus","FOUNDATION fieldbus",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",
+FPD510,CH/FPD5/OUT/SIGNAL,13,"W1",6,True,False,"","Wireless HART","Wireless HART",
+FPD510,CH/FPD5/TEMP/ELEM,14,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",
+FPD510,CH/FPD5/TEMP/ELEM,14,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",
+FPD510,CH/FPD5/TEMP/ELEM,14,"AY",3,True,False,"","None","None",
+FPD510,CH/FPD5/CALIBRATION,15,"CW",1,True,False,"","Standard water calibration at reference conditions","Standard water calibration at reference conditions",
+FPD510,CH/FPD5/CALIBRATION,15,"CZ",2,True,False,"","Others","Others",
+FPD510,CH/FPD5/CERTIFICATE,16,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",
+FPD510,CH/FPD5/CERTIFICATE,16,"C9",2,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",
+FPD510,CH/FPD5/CERTIFICATE,16,"CB",3,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",
+FPD510,CH/FPD5/CERTIFICATE,16,"CN",4,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",
+FPD510,CH/FPD5/CERTIFICATE,16,"CP",5,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",
+FPD510,CH/FPD5/EX/CERT,17,"EA",1,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",
+FPD510,CH/FPD5/EX/CERT,17,"EB",2,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T) AND (CH/FPD5/OUT/SIGNAL=W1))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",
+FPD510,CH/FPD5/EX/CERT,17,"EE",3,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) OR (NOT(CH/FPD5/HOUSE/MAT=A OR CH/FPD5/HOUSE/MAT=S)) OR (CH/FPD5/OUT/SIGNAL=W1)","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",
+FPD510,CH/FPD5/EX/CERT,17,"EN",4,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",
+FPD510,CH/FPD5/EX/CERT,17,"EW",5,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) AND (CH/FPD5/OUT/SIGNAL=F1 OR CH/FPD5/OUT/SIGNAL=W1)","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",
+FPD510,CH/FPD5/DOC/LANG,18,"M1",1,True,False,"","German","German",
+FPD510,CH/FPD5/DOC/LANG,18,"M2",2,True,False,"","Italian","Italian",
+FPD510,CH/FPD5/DOC/LANG,18,"M3",3,True,False,"","Spanish","Spanish",
+FPD510,CH/FPD5/DOC/LANG,18,"M4",4,True,False,"","French","French",
+FPD510,CH/FPD5/DOC/LANG,18,"M5",5,True,False,"","English","English",
+FPD510,CH/FPD5/DOC/LANG,18,"M6",6,True,False,"","Chinese","Chinese",
+FPD510,CH/FPD5/SPECIAL/APP,19,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/SEAL/MAT=4 OR CH/FPD5/SEAL/MAT=5 OR CH/FPD5/SEAL/MAT=6)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B)) OR ((CH/FPD5/MODEL/DESIGN=V1))","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",
+FPD510,CH/FPD5/SPECIAL/APP,19,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",
+FPD550,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","PitoMaster V, for Volume Flow, Design Level 2 (266DSH)","PitoMaster V, for Volume Flow, Design Level 2 (266DSH)",
+FPD550,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","PitoMaster M, for Mass Flow (266CSH)","PitoMaster M, for Mass Flow (266CSH)",
+FPD550,CH/FPD5/METER/SIZE,2,"100",1,True,False,"","100 mm (4 in.) nominal inside diameter (specify actual id which must be in range 88….111 mm)","DN 100 (4 in.) nominal inside diameter (specify actual id which must be in range 88 … 111 mm)","4"""
+FPD550,CH/FPD5/METER/SIZE,2,"125",2,True,False,"","125 mm (5 in.) nominal inside diameter (specify actual id which must be in range 112….137 mm)","DN 125 (5 in.) nominal inside diameter (specify actual id which must be in range 112 … 137 mm)","5"""
+FPD550,CH/FPD5/METER/SIZE,2,"150",3,True,False,"","150 mm (6 in.) nominal inside diameter (specify actual id which must be in range 138….174 mm)","DN 150 (6 in.) nominal inside diameter (specify actual id which must be in range 138 … 174 mm)","6"""
+FPD550,CH/FPD5/METER/SIZE,2,"200",4,True,False,"","200 mm (8 in.) nominal inside diameter (specify actual id which must be in range 175….224 mm)","DN 200 (8 in.) nominal inside diameter (specify actual id which must be in range 175 … 224 mm)","8"""
+FPD550,CH/FPD5/METER/SIZE,2,"250",5,True,False,"","250 mm (10 in.) nominal inside diameter (specify actual id which must be in range 225….274 mm)","DN 250 (10 in.) nominal inside diameter (specify actual id which must be in range 225 … 274 mm)","10"""
+FPD550,CH/FPD5/METER/SIZE,2,"300",6,True,False,"","300 mm (12 in.) nominal inside diameter (specify actual id which must be in range 275….324 mm)","DN 300 (12 in.) nominal inside diameter (specify actual id which must be in range 275 … 324 mm)","12"""
+FPD550,CH/FPD5/METER/SIZE,2,"350",7,True,False,"","350 mm (14 in.) nominal inside diameter (specify actual id which must be in range 325….374 mm)","DN 350 (14 in.) nominal inside diameter (specify actual id which must be in range 325 … 374 mm)","14"""
+FPD550,CH/FPD5/METER/SIZE,2,"400",8,True,False,"","400 mm (16 in.) nominal inside diameter (specify actual id which must be in range 375….424 mm)","DN 400 (16 in.) nominal inside diameter (specify actual id which must be in range 375 … 424 mm)","16"""
+FPD550,CH/FPD5/METER/SIZE,2,"450",9,True,False,"","450 mm (18 in.) nominal inside diameter (specify actual id which must be in range 425….474 mm)","DN 450 (18 in.) nominal inside diameter (specify actual id which must be in range 425 … 474 mm)","18"""
+FPD550,CH/FPD5/METER/SIZE,2,"500",10,True,False,"","500 mm (20 in.) nominal inside diameter (specify actual id which must be in range 475….549 mm)","DN 500 (20 in.) nominal inside diameter (specify actual id which must be in range 475 … 549 mm)","20"""
+FPD550,CH/FPD5/METER/SIZE,2,"600",11,True,False,"","600 mm (24 in.) nominal inside diameter (specify actual id which must be in range 550….674 mm)","DN 600 (24 in.) nominal inside diameter (specify actual id which must be in range 550 … 674 mm)","24"""
+FPD550,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1
+FPD550,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2
+FPD550,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated Steam","Saturated Steam",
+FPD550,CH/FPD5/FIT/MAT,4,"C1",1,True,False,"","316L probe / A105 CS pipe fitting","316L probe / A105 CS pipe fitting",S6/C3
+FPD550,CH/FPD5/FIT/MAT,4,"S6",2,True,False,"","316L probe / 316L SS pipe fitting","316L probe / 316L SS pipe fitting",S6/S6
+FPD550,CH/FPD5/CONN/TYPE,5,"B3",1,True,False,"","Threaded 1 in. BSPT Process connection with weld fitting","Threaded 1 in. BSPT Process connection with weld fitting",
+FPD550,CH/FPD5/CONN/TYPE,5,"B4",2,True,False,"","Threaded 1 in. BSPT Process connection with weld fitting and weld cup End Support","Threaded 1 in. BSPT Process connection with weld fitting and weld cup End Support",
+FPD550,CH/FPD5/CONN/TYPE,5,"N3",3,True,False,"","Threaded 1 in. NPT Process connection with weld fitting","Threaded 1 in. NPT Process connection with weld fitting",
+FPD550,CH/FPD5/CONN/TYPE,5,"N4",4,True,False,"","Threaded 1 in. NPT Process connection with weld fitting and weld cup End Support","Threaded 1 in. NPT Process connection with weld fitting and weld cup End Support",
+FPD550,CH/FPD5/CONN/TYPE,5,"F3",5,True,False,"","Flanged Process connection DN40 (1-1/2 in.) with flanged standoff and nuts/bolts/gaskets","Flanged Process connection DN40 (1-1/2 in.) with flanged standoff and nuts/bolts/gaskets",
+FPD550,CH/FPD5/CONN/TYPE,5,"F4",6,True,False,"","Flanged Process connection  DN40 (1-1/2 in.) with flanged standoff, nuts/bolts/gaskets and weld cup End Support","Flanged Process connection  DN40 (1-1/2 in.) with flanged standoff, nuts/bolts/gaskets and weld cup End Support",
+FPD550,CH/FPD5/PRESS/RAT,6,"Y0",1,True,False,"NOT(CH/FPD5/CONN/TYPE=B3 OR CH/FPD5/CONN/TYPE=B4 OR CH/FPD5/CONN/TYPE=N3 OR CH/FPD5/CONN/TYPE=N4)","Threaded","Threaded",
+FPD550,CH/FPD5/PRESS/RAT,6,"A1",2,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","ASME CL 150","ASME CL 150",
+FPD550,CH/FPD5/PRESS/RAT,6,"A3",3,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","ASME CL 300","ASME CL 300",
+FPD550,CH/FPD5/PRESS/RAT,6,"D1",4,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","PN 10 / 16","PN 10 / 16",
+FPD550,CH/FPD5/PRESS/RAT,6,"D3",5,True,False,"NOT(CH/FPD5/CONN/TYPE=F3 OR CH/FPD5/CONN/TYPE=F4)","PN 25 / 40","PN 25 / 40",
+FPD550,CH/FPD5/ORIEN,7,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",
+FPD550,CH/FPD5/ORIEN,7,"V",2,True,False,"CH/FPD5/FLUID=S","Vertical Pipe","Vertical Pipe",
+FPD550,CH/FPD5/MANIFOLD,8,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",
+FPD550,CH/FPD5/MANIFOLD,8,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O (static pressure rating limited to 6 Bar on ""M1"" models)","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O (static pressure rating limited to 6 Bar on ""M1"" models)",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","16 kPa / 160 mbar / 64 in. H2O (max)","16 kPa / 160 mbar / 64 in. H2O (max)",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"F",5,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"G",6,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"H",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",
+FPD550,CH/FPD5/SPAN/LIMITS,9,"L",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",
+FPD550,CH/FPD5/SEAL/MAT,10,"3",1,True,False,"","Viton","Viton",
+FPD550,CH/FPD5/SEAL/MAT,10,"4",2,True,False,"","PTFE","PTFE",
+FPD550,CH/FPD5/SEAL/MAT,10,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",
+FPD550,CH/FPD5/SEAL/MAT,10,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",
+FPD550,CH/FPD5/HOUSE/MAT,11,"A",1,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",
+FPD550,CH/FPD5/HOUSE/MAT,11,"B",2,True,False,"CH/FPD5/MODEL/DESIGN=V1","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",
+FPD550,CH/FPD5/HOUSE/MAT,11,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",
+FPD550,CH/FPD5/HOUSE/MAT,11,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",
+FPD550,CH/FPD5/HOUSE/MAT,11,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",
+FPD550,CH/FPD5/HOUSE/MAT,11,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",
+FPD550,CH/FPD5/DISPL,12,"0",1,True,False,"","None (blind)","None (blind)",
+FPD550,CH/FPD5/DISPL,12,"1",2,True,False,"","LCD display","LCD display",
+FPD550,CH/FPD5/DISPL,12,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","PROFIBUS PA","PROFIBUS PA",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"F1",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","FOUNDATION fieldbus","FOUNDATION fieldbus",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",
+FPD550,CH/FPD5/OUT/SIGNAL,13,"W1",6,True,False,"","Wireless HART","Wireless HART",
+FPD550,CH/FPD5/TEMP/ELEM,14,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",
+FPD550,CH/FPD5/TEMP/ELEM,14,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",
+FPD550,CH/FPD5/TEMP/ELEM,14,"AY",3,True,False,"","None","None",
+FPD550,CH/FPD5/CERTIFICATE,15,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",
+FPD550,CH/FPD5/CERTIFICATE,15,"C9",2,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",
+FPD550,CH/FPD5/CERTIFICATE,15,"CB",3,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",
+FPD550,CH/FPD5/CERTIFICATE,15,"CN",4,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",
+FPD550,CH/FPD5/CERTIFICATE,15,"CP",5,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",
+FPD550,CH/FPD5/EX/CERT,16,"EA",1,True,False,"((CH/FPD5/MODEL/DESIGN=V1)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",
+FPD550,CH/FPD5/EX/CERT,16,"EB",2,True,False,"((CH/FPD5/MODEL/DESIGN=V1)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",
+FPD550,CH/FPD5/EX/CERT,16,"EE",3,True,False,"((CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",
+FPD550,CH/FPD5/EX/CERT,16,"EN",4,True,False,"(CH/FPD5/MODEL/DESIGN=M1) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",
+FPD550,CH/FPD5/EX/CERT,16,"EW",5,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=F1)) OR ((CH/FPD5/OUT/SIGNAL=W1))","ATEX Ex ia + ATEX EEx d + ATEX Ex nL","ATEX Ex ia + ATEX EEx d + ATEX Ex nL",
+FPD550,CH/FPD5/DOC/LANG,17,"M1",1,True,False,"","German","German",
+FPD550,CH/FPD5/DOC/LANG,17,"M2",2,True,False,"","Italian","Italian",
+FPD550,CH/FPD5/DOC/LANG,17,"M3",3,True,False,"","Spanish","Spanish",
+FPD550,CH/FPD5/DOC/LANG,17,"M4",4,True,False,"","French","French",
+FPD550,CH/FPD5/DOC/LANG,17,"M5",5,True,False,"","English","English",
+FPD550,CH/FPD5/DOC/LANG,17,"M6",6,True,False,"","Chinese","Chinese",
+FPD550,CH/FPD5/SPECIAL/APP,18,"P1",1,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/SEAL/MAT=3)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SEAL/MAT=4)) OR ((CH/FPD5/MODEL/DESIGN=V2) AND (CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B)) OR ((CH/FPD5/MODEL/DESIGN=V1))","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",
+FPD550,CH/FPD5/SPECIAL/APP,18,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",
+FPD570,CH/FPD5/MODEL/DESIGN,1,"V2",1,True,False,"","WedgeMaster V, for Volume Flow, Design Level 2 (266DSH)","WedgeMaster V, for Volume Flow, Design Level 2 (266DSH)",
+FPD570,CH/FPD5/MODEL/DESIGN,1,"M2",2,True,False,"","WedgeMaster M, for Mass Flow (266CSH)","WedgeMaster M, for Mass Flow (266CSH)",
+FPD570,CH/FPD5/METER/SIZE,2,"025",1,True,False,"","1""","DN 25 (1 in.)","1"""
+FPD570,CH/FPD5/METER/SIZE,2,"040",2,True,False,"","1½""","DN 40 (1½ in.)","1½"""
+FPD570,CH/FPD5/METER/SIZE,2,"050",3,True,False,"","2""","DN 50 (2 in.)","2"""
+FPD570,CH/FPD5/METER/SIZE,2,"080",4,True,False,"","3""","DN 80 (3 in.)","3"""
+FPD570,CH/FPD5/METER/SIZE,2,"100",5,True,False,"","4""","DN 100 (4 in.)","4"""
+FPD570,CH/FPD5/METER/SIZE,2,"150",6,True,False,"","6""","DN 150 (6 in.)","6"""
+FPD570,CH/FPD5/FLUID,3,"L",1,True,False,"","Liquid","Liquid",1
+FPD570,CH/FPD5/FLUID,3,"G",2,True,False,"","Gas","Gas",2
+FPD570,CH/FPD5/FLUID,3,"S",3,True,False,"","Saturated Steam","Saturated Steam",3
+FPD570,CH/FPD5/BORE/SIZE,4,"H2",1,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080)","0.2 H/D","0.2 H/D",0.2
+FPD570,CH/FPD5/BORE/SIZE,4,"H3",2,True,False,"","0.3 H/D","0.3 H/D",0.3
+FPD570,CH/FPD5/BORE/SIZE,4,"H4",3,True,False,"","0.4 H/D","0.4 H/D",0.4
+FPD570,CH/FPD5/BORE/SIZE,4,"H5",4,True,False,"","0.5 H/D","0.5 H/D",0.5
+FPD570,CH/FPD5/FIT/MAT,5,"A1",1,True,False,"","Carbon Steel / Carbon Steel","Carbon Steel / Carbon Steel",C3/C3
+FPD570,CH/FPD5/FIT/MAT,5,"A2",2,True,False,"","Carbon steel / 316 SST","Carbon steel / 316 SST",C3/S6
+FPD570,CH/FPD5/FIT/MAT,5,"S6",3,True,False,"","AISI 316 SST / 316SST","AISI 316 SST / 316SST",S6/S6
+FPD570,CH/FPD5/CONN/TYPE,6,"R1",1,True,False,"","RFWN standard face","RFWN standard face",
+FPD570,CH/FPD5/CONN/TYPE,6,"R2",2,True,False,"","RFWN smooth face","RFWN smooth face",
+FPD570,CH/FPD5/CONN/TYPE,6,"T2",3,True,False,"NOT(CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080)","RTJ weld neck","RTJ weld neck",
+FPD570,CH/FPD5/CONN/TYPE,6,"W1",4,True,False,"NOT(CH/FPD5/METER/SIZE=025 OR CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080 OR CH/FPD5/METER/SIZE=100)","Wafer","Wafer",
+FPD570,CH/FPD5/PRESS/RAT,7,"A3",1,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 300","ASME CL 300",
+FPD570,CH/FPD5/PRESS/RAT,7,"A6",2,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 600","ASME CL 600",
+FPD570,CH/FPD5/PRESS/RAT,7,"A7",3,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=W1)","ASME CL 900","ASME CL 900",
+FPD570,CH/FPD5/PRESS/RAT,7,"A8",4,True,False,"NOT(CH/FPD5/CONN/TYPE=R1 OR CH/FPD5/CONN/TYPE=R2 OR CH/FPD5/CONN/TYPE=T2)","ASME CL 1500","ASME CL 1500",
+FPD570,CH/FPD5/PRESS/RAT,7,"A9",5,True,False,"(NOT(CH/FPD5/CONN/TYPE=T2)) OR (NOT(CH/FPD5/METER/SIZE=040 OR CH/FPD5/METER/SIZE=050 OR CH/FPD5/METER/SIZE=080))","ASME CL 2500","ASME CL 2500",
+FPD570,CH/FPD5/ORIEN,8,"H",1,True,False,"","Horizontal Pipe","Horizontal Pipe",
+FPD570,CH/FPD5/MANIFOLD,9,"3",1,True,False,"","Integral 3-valve manifold","Integral 3-valve manifold",
+FPD570,CH/FPD5/MANIFOLD,9,"5",2,True,False,"","Integral 5-valve manifold","Integral 5-valve manifold",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"A",1,True,False,"","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O","0.05 ... 1 kPa / 0.5 ... 10 mbar / 0.2 ... 4 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O","0.14 ... 4 kPa / 1.4 ... 40 mbar / 0.56 ... 16 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"C",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O","0.2 ... 6 kPa / 2 ... 60 mbar / 0.8 ... 24 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"E",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","16 kPa / 160 mbar / 64 in. H2O (max)","16 kPa / 160 mbar / 64 in. H2O (max)",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"F",6,True,False,"","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O","0.4 ... 40 kPa / 4 ... 400 mbar / 1.6 ... 160 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"G",7,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O","0.65 ... 65 kPa / 6.5 ... 650 mbar / 2.6 ... 260 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"H",8,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O","1.6 ... 160 kPa / 16 ... 1600 mbar / 6.4 ... 642 in. H2O",
+FPD570,CH/FPD5/SPAN/LIMITS,10,"L",9,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O","2.5 ... 250 kPa / 25 ... 2500 mbar / 10 ... 1000 in. H2O",
+FPD570,CH/FPD5/SEAL/MAT,11,"0",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","Without seal","Without seal",
+FPD570,CH/FPD5/SEAL/MAT,11,"3",1,True,False,"","Viton","Viton",
+FPD570,CH/FPD5/SEAL/MAT,11,"4",2,True,False,"","PTFE","PTFE",
+FPD570,CH/FPD5/SEAL/MAT,11,"5",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","EPDM","EPDM",
+FPD570,CH/FPD5/SEAL/MAT,11,"6",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=M2)","Perbunan","Perbunan",
+FPD570,CH/FPD5/HOUSE/MAT,12,"A",1,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","Aluminium alloy / 1/2-14 NPT","Aluminium alloy / 1/2-14 NPT",
+FPD570,CH/FPD5/HOUSE/MAT,12,"B",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","Aluminium alloy / M20 x 1.5","Aluminium alloy / M20 x 1.5",
+FPD570,CH/FPD5/HOUSE/MAT,12,"H",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / 1/2-14 NPT","AISI 304L SST / 1/2-14 NPT",
+FPD570,CH/FPD5/HOUSE/MAT,12,"L",4,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V1)","AISI 304L SST / M20 x 1.5","AISI 304L SST / M20 x 1.5",
+FPD570,CH/FPD5/HOUSE/MAT,12,"S",5,True,False,"","AISI 316L SST / 1/2-14 NPT","AISI 316L SST / 1/2-14 NPT",
+FPD570,CH/FPD5/HOUSE/MAT,12,"T",6,True,False,"","AISI 316L SST / M20 x 1.5","AISI 316L SST / M20 x 1.5",
+FPD570,CH/FPD5/DISPL,13,"0",1,True,False,"","None (blind)","None (blind)",
+FPD570,CH/FPD5/DISPL,13,"1",2,True,False,"","LCD display","LCD display",
+FPD570,CH/FPD5/DISPL,13,"5",4,True,False,"","TTG (Through The Glass) controlled Digital LCD Display","TTG (Through The Glass) controlled Digital LCD Display",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"H1",1,True,False,"","HART digital communication and 4 ... 20 mA","HART digital communication and 4 ... 20 mA",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"H2",2,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2)","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508","HART digital communication and 4 ... 20 mA, SIL2 and SIL3 certified to IEC 61508",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"P1",3,True,False,"NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1)","PROFIBUS PA","PROFIBUS PA",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"F1",4,True,False,"((NOT( CH/FPD5/MODEL/DESIGN=V2 OR  CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/HOUSE/MAT=S OR CH/FPD5/HOUSE/MAT=T) AND (CH/FPD5/MODEL/DESIGN=M1))","FOUNDATION Fieldbus","FOUNDATION Fieldbus",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"M1",5,True,False,"CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M2","MODBUS RS 485","MODBUS RS 485",
+FPD570,CH/FPD5/OUT/SIGNAL,14,"W1",6,True,False,"","Wireless HART","Wireless HART",
+FPD570,CH/FPD5/TEMP/ELEM,15,"AT",1,True,False,"CH/FPD5/MODEL/DESIGN=V2","Integral","Integral",
+FPD570,CH/FPD5/TEMP/ELEM,15,"AR",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Remote (element not included)","Remote (element not included)",
+FPD570,CH/FPD5/TEMP/ELEM,15,"AY",3,True,False,"","None","None",
+FPD570,CH/FPD5/CALIBRATION,16,"CM",1,True,False,"","Bi-directional water calibration","Bi-directional water calibration",
+FPD570,CH/FPD5/CERTIFICATE,17,"C2",1,True,False,"","Material monitoring with inspection certificate 3.1 acc. EN 10204","Material monitoring with inspection certificate 3.1 acc. EN 10204",
+FPD570,CH/FPD5/CERTIFICATE,17,"C4",2,True,False,"","Certificate of conformance","Certificate of conformance",
+FPD570,CH/FPD5/CERTIFICATE,17,"C8",3,True,False,"","X-Ray NDE of welds","X-Ray NDE of welds",
+FPD570,CH/FPD5/CERTIFICATE,17,"C9",4,True,False,"","Dye penetrant NDE of welds","Dye penetrant NDE of welds",
+FPD570,CH/FPD5/CERTIFICATE,17,"CA",5,True,False,"","Positive Material Identification (PMI)","Positive Material Identification (PMI)",
+FPD570,CH/FPD5/CERTIFICATE,17,"CB",6,True,False,"","Hydrostatic pressure test certificate","Hydrostatic pressure test certificate",
+FPD570,CH/FPD5/CERTIFICATE,17,"CN",7,True,False,"","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204","Material monitoring NACE MR 01-75 with inspection certificate 3.1 acc. EN 10204",
+FPD570,CH/FPD5/CERTIFICATE,17,"CP",8,True,False,"","PED certificate (Pressure Equipment Directive 97 / 23 / EC)","PED certificate (Pressure Equipment Directive 97 / 23 / EC)",
+FPD570,CH/FPD5/EX/CERT,18,"EA",1,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=M1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Intrinsically Safe","Factory Mutual (FM) - Intrinsically Safe",
+FPD570,CH/FPD5/EX/CERT,18,"EB",2,True,False,"((NOT(CH/FPD5/MODEL/DESIGN=V2 OR CH/FPD5/MODEL/DESIGN=M1))) OR ((CH/FPD5/OUT/SIGNAL=W1)) OR ((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T))","Factory Mutual (FM) - Explosion Proof","Factory Mutual (FM) - Explosion Proof",
+FPD570,CH/FPD5/EX/CERT,18,"EE",3,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=M1)) OR (CH/FPD5/HOUSE/MAT=B OR CH/FPD5/HOUSE/MAT=T) OR (CH/FPD5/OUT/SIGNAL=W1)","Canadian Standard Association - Explosion Proof","Canadian Standard Association - Explosion Proof",
+FPD570,CH/FPD5/EX/CERT,18,"EN",4,True,False,"(NOT(CH/FPD5/MODEL/DESIGN=V1 OR CH/FPD5/MODEL/DESIGN=V2)) OR (CH/FPD5/OUT/SIGNAL=W1)","ATEX + FM + CSA","ATEX + FM + CSA",
+FPD570,CH/FPD5/EX/CERT,18,"EW",5,True,False,"((CH/FPD5/MODEL/DESIGN=M1) AND (CH/FPD5/OUT/SIGNAL=F1)) OR ((CH/FPD5/OUT/SIGNAL=W1))","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL","ATEX II 1/2 GD EEx ia + ATEX II 1/2 GD EEx d + ATEX EEx nL",
+FPD570,CH/FPD5/DOC/LANG,19,"M1",1,True,False,"","German","German",
+FPD570,CH/FPD5/DOC/LANG,19,"M2",2,True,False,"","Italian","Italian",
+FPD570,CH/FPD5/DOC/LANG,19,"M3",3,True,False,"","Spanish","Spanish",
+FPD570,CH/FPD5/DOC/LANG,19,"M4",4,True,False,"","French","French",
+FPD570,CH/FPD5/DOC/LANG,19,"M5",5,True,False,"","English","English",
+FPD570,CH/FPD5/DOC/LANG,19,"M6",6,True,False,"","Chinese","Chinese",
+FPD570,CH/FPD5/SPECIAL/APP,20,"P1",1,True,False,"(CH/FPD5/SPAN/LIMITS=A OR CH/FPD5/SPAN/LIMITS=B) OR (CH/FPD5/SEAL/MAT=4 OR CH/FPD5/SEAL/MAT=5 OR CH/FPD5/SEAL/MAT=6)","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications","Degreased (Oil- & Grease-free) with inert capsule filling for Oxygen applications",
+FPD570,CH/FPD5/SPECIAL/APP,20,"P2",2,True,False,"CH/FPD5/MODEL/DESIGN=V2","Prepared for Hydrogen applications","Prepared for Hydrogen applications",

@@ -1,184 +1,377 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//Ddiv HTML 4.0 Transitional//EN">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <html>
-	<head>
-		<title>%APPLICATIONTITLE% Results</title>
-	    <style type="text/css">
-	        .background
-	        {
-	            font-family: arial, Helvetica, sans-serif;
-	            font-size: 10pt;
-                text-align: left;
-                margin: 0;
-                padding: 0;
-	        }
-	        .logo
-	        {
-                width: auto;
-	            height: 64px;
-	        }
-	        .greyheader
-	        {
-                padding-left: 5px;
-                width: auto;
-                height: 41px;
-                line-height: 41px;
-	            color: #686868;
-	            background-color: #EEEEEE;
-	            border-style: solid none solid none;
-	            border-color: #C8C8C8;
-	            border-top-width: 2px;
-	            border-bottom-width: 2px;
-	            font-size: 14pt;    
-                vertical-align: middle;
-	        }
-	        .grpheader
-	        {
-                padding-left: 5px;
-                padding-top: 20px;
-                padding-bottom: 2px;
-                font-weight: bold;
-                width: auto;
-                clear: both;
-	            border-style: none none solid none;
-                border-color: #000000;
-                border-bottom-width: 1px; 
-	        }
-	        .grpheadererror
-	        {
-                padding-left: 5px;
-                padding-top: 20px;
-                padding-bottom: 2px;
-                font-weight: bold;
-                color: red;
-                width: auto;
-                clear: both;
-	            border-style: none none solid none;
-                border-color: #000000;
-                border-bottom-width: 1px; 
-	        }
-	        .row
-	        {
-                padding-top: 5px;
-	            overflow: hidden;
-                clear: both;
-	        }
-	        .column1
-	        {
-                padding-left: 5px;
-	            width: 200px;
-                float: left;
-                white-space: nowrap;
-            }
-	        .column2
-	        {
-	            width: 50px; 
-                float: left;
-                text-align:left;
-	        }
-	        .column3
-	        {
-	            width: 15px;
-                float: left;
-                text-align:center;
-	        }
-	        .column4
-	        {
-                width: auto;
-                float: left;
-	            word-wrap: break-word;
-	        }
-	        .grpfooter
-	        {
-                padding-left:5px; 
-                padding-top: 5px; 
-                width: auto;
-	        }
-	        .grpfootererror
-	        {
-                padding-left:5px; 
-                padding-top: 5px; 
-                width: auto;
-                color: red;
-	        }
-	        .grpfooternopad
-	        {
-                width: auto;
-	        }
-	        .grpunderlinedotted
-	        {
-	            border-style: none none dotted none;
-                border-color: #000000;
-                border-bottom-width: 1px; 
-                font-size: 1pt;
-                clear: both;
-                height: 1px;
-                width: auto;
-	        }
-	        .footer
-	        {
-	            padding-top: 10px;
-                padding-right: 2px;
-	            text-align: right;
-	            font-size: 7pt;
-	        }
-        </style>
-	</head>
-	<body class="background">
-        <div class="logo"><item data="Image.Logo_Company_Right" format="Image" layout="style='float: right; border=0;'"/></div>
-        <div class="greyheader"><item data="ProductItem.n.ProductName" /></div>
-        
-        <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'','INNER HTML')">
-            <div class="grpheader">No process data available</div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item> <!-- SelectionOnlyItem -->
+<head>
+    <title>%APPLICATIONTITLE% Results</title>
+    <style type="text/css">
+        .background {
+            font-family: arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
 
-        <!-- Selection only item; so no results -->
-        <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'INNER HTML','')">
-            <div class="grpheader">No process data available</div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item> <!-- SelectionOnlyItem -->
-            
-        <!-- messages -->
-        <item data="ProductItem.n." expression="IIF(LEN([StopMessages]) = 0,'','INNER HTML')">
-            <div class="grpheadererror">STOP: unable to compute a valid solution</div>
-            <!-- STOP messages -->
-            <div class="grpfootererror"><item data="ProductItem.n.StopMessages" format="HTML" /></div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item>
-        <item data="ProductItem.n." expression="IIF(LEN([ErrorMessages]) = 0,'','INNER HTML')">
-            <div class="grpheadererror">Error</div>
-            <!-- Error messages -->
-            <div class="grpfootererror"><item data="ProductItem.n.ErrorMessages" format="HTML" /></div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item>
-        <item data="ProductItem.n." expression="IIF(LEN([WarningMessages]) = 0,'','INNER HTML')">
-            <div class="grpheader">Warning</div>
-            <!-- Warning messages -->
-            <div class="grpfooter"><item data="ProductItem.n.WarningMessages" format="HTML" /></div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item>
-        <item data="ProductItem.n." expression="IIF(LEN([InfoMessages]) = 0,'','INNER HTML')">
-            <div class="grpheader">Information</div>
-            <!-- information messages -->
-            <div class="grpfooter"><item data="ProductItem.n.InfoMessages" format="HTML" /></div>
-            <div class="grpunderlinedotted">&nbsp;</div>
-        </item>
+        .logo {
+            width: auto;
+            height: 64px;
+        }
 
-	    <!-- Product details -->
-        <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'','INNER HTML')">
-	    <div class="grpheader">Product Details</div>
+        .greyheader {
+            padding-left: 5px;
+            width: auto;
+            height: 41px;
+            line-height: 41px;
+            color: #686868;
+            background-color: #EEEEEE;
+            border-style: solid none solid none;
+            border-color: #C8C8C8;
+            border-top-width: 2px;
+            border-bottom-width: 2px;
+            font-size: 14pt;
+            vertical-align: middle;
+        }
+
+        .grpheader {
+            padding-left: 5px;
+            padding-top: 20px;
+            padding-bottom: 2px;
+            font-weight: bold;
+            width: auto;
+            clear: both;
+            border-style: none none solid none;
+            border-color: #000000;
+            border-bottom-width: 1px;
+        }
+
+        .grpheadererror {
+            padding-left: 5px;
+            padding-top: 20px;
+            padding-bottom: 2px;
+            font-weight: bold;
+            color: red;
+            width: auto;
+            clear: both;
+            border-style: none none solid none;
+            border-color: #000000;
+            border-bottom-width: 1px;
+        }
+
+        .row {
+            padding-top: 5px;
+            overflow: hidden;
+            clear: both;
+        }
+
+        .column1 {
+            padding-left: 5px;
+            width: 200px;
+            float: left;
+            white-space: nowrap;
+        }
+
+        .column2 {
+            width: 50px;
+            float: left;
+            text-align: left;
+        }
+
+        .column3 {
+            width: 15px;
+            float: left;
+            text-align: center;
+        }
+
+        .column4 {
+            width: auto;
+            float: left;
+            word-wrap: break-word;
+        }
+
+        .grpfooter {
+            padding-left: 5px;
+            padding-top: 5px;
+            width: auto;
+        }
+
+        .grpfootererror {
+            padding-left: 5px;
+            padding-top: 5px;
+            width: auto;
+            color: red;
+        }
+
+        .grpfooternopad {
+            width: auto;
+        }
+
+        .grpunderlinedotted {
+            border-style: none none dotted none;
+            border-color: #000000;
+            border-bottom-width: 1px;
+            font-size: 1pt;
+            clear: both;
+            height: 1px;
+            width: auto;
+        }
+
+        .footer {
+            padding-top: 10px;
+            padding-right: 2px;
+            text-align: right;
+            font-size: 7pt;
+        }
+    </style>
+</head>
+<body class="background">
+    <div class="logo"><item data="Image.Logo_Company_Right" format="Image" layout="style='float: right; border=0;'" /></div>
+    <div class="greyheader"><item data="ProductItem.n.ProductName" /></div>
+
+    <!-- Results -->
+    <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'','INNER HTML')">
+        <div class="grpheader">Calculation results</div>
+        <div class="row">
+            <!-- Natural frequency -->
+            <div class="column1">Natural Frequency, F<sub>n</sub><sup>c</sup></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.InSituNaturalFrequencyHz" format="#,##0.0#" />&nbsp;Hz</div>
+        </div>
+        <div class="row">
+            <!-- forced frequency -->
+            <div class="column1">Forced Frequency, F<sub>s</sub></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.FrequenceyOfVortextSheddingHz" format="#,##0.0#" />&nbsp;Hz</div>
+        </div>
+        <div class="row">
+            <!-- frequency ratio -->
+            <div class="column1">Frequency ratio, r</div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.TransverseLiftRatio" format="#,##0.0#" />&nbsp;</div>
+        </div>
+        <div class="row">
+            <!-- frequency ratio limit -->
+            <div class="column1">Frequency ratio limit, r<sub>max</sub></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.FrequencyRatioLimit" format="double" />&nbsp;</div>
+        </div>
+        <div class="row">
+            <!-- fatigue stress -->
+            <div class="column1">Fatigue stress, S<sub>o,max</sub></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.CombinedBendingStressAmplitudeMPa" format="double" />&nbsp;MPa</div>
+        </div>
+        <div class="row">
+            <!-- steady stress -->
+            <div class="column1">Steady stress, LHS<sub>VM</sub></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.LHSVonMisesCriteriaMPa" format="double" />&nbsp;MPa</div>
+        </div>
+        <div class="row">
+            <!-- pressure limit -->
+            <div class="column1">Pressure limit, P<sub>max</sub></div>
+            <div class="column2">&nbsp;</div>
+            <div class="column3">&nbsp;</div>
+            <div class="column4"><item data="ProductItem.n.PressureLimitPmax" format="pressure" /><item data="ProductItem.n.OperatingPressureUnits" /></div>
+        </div>
+        <item data="ProductItem.n." expression="IIF([ThermowellPassFail],'INNER HTML','')">
+            <div class="row">
+                <!-- pass/fail -->
+                <div class="column1">Thermowell Suitability</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4" style="font-size: 110%">Pass</div>
+            </div>
+        </item>
+        <item data="ProductItem.n." expression="IIF([ThermowellPassFail],'','INNER HTML')">
+            <div class="row">
+                <!-- pass/fail -->
+                <div class="column1">Thermowell Suitability</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4" style="font-size: 110%; color: red">FAIL</div>
+            </div>
+            <div class="row">
+                <!-- suitability -->
+                <div class="column1">&nbsp;</div>
+                <div class="column2">&nbsp;</div>
+                <div class="column3">&nbsp;</div>
+                <div class="column4"><item data="ProductItem.n.ThermowellSuitability" format="HTML" />&nbsp;</div>
+            </div>
+        </item>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item> <!-- SelectionOnlyItem -->
+    <!-- Selection only item; so no results -->
+    <item data="ProductItem.n." expression="IIF([SelectionOnlyItem],'INNER HTML','')">
+        <div class="grpheader">No process data available</div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item> <!-- SelectionOnlyItem -->
+    <!-- messages -->
+    <item data="ProductItem.n." expression="IIF(LEN([StopMessages]) = 0,'','INNER HTML')">
+        <div class="grpheadererror">STOP: unable to compute a valid solution</div>
+        <!-- STOP messages -->
+        <div class="grpfootererror"><item data="ProductItem.n.StopMessages" format="HTML" /></div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item>
+    <item data="ProductItem.n." expression="IIF(LEN([ErrorMessages]) = 0,'','INNER HTML')">
+        <div class="grpheadererror">Error</div>
+        <!-- Error messages -->
+        <div class="grpfootererror"><item data="ProductItem.n.ErrorMessages" format="HTML" /></div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item>
+    <item data="ProductItem.n." expression="IIF(LEN([WarningMessages]) = 0,'','INNER HTML')">
+        <div class="grpheader">Warning</div>
+        <!-- Warning messages -->
+        <div class="grpfooter"><item data="ProductItem.n.WarningMessages" format="HTML" /></div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item>
+    <item data="ProductItem.n." expression="IIF(LEN([InfoMessages]) = 0,'','INNER HTML')">
+        <div class="grpheader">Information</div>
+        <!-- information messages -->
+        <div class="grpfooter"><item data="ProductItem.n.InfoMessages" format="HTML" /></div>
+        <div class="grpunderlinedotted">&nbsp;</div>
+    </item>
+
+    <!-- Product details -->
+    <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'','INNER HTML')">
+        <div class="grpheader">Product Details</div>
         <!-- product code breakdown -->
         <div class="grpfooternopad"><item data="ProductItem.n.PurchaseCodeDescriptionHTML" /></div>
         <div class="grpunderlinedotted">&nbsp;</div>
-        </item>
-	    <!-- or not! -->
-        <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'INNER HTML','')">
-	    <div class="grpheader">No Product Details</div>
+    </item>
+    <!-- or not! -->
+    <item data="ProductItem.n." expression="IIF([SizingOnlyItem],'INNER HTML','')">
+        <div class="grpheader">No Product Details</div>
         <div><i>Therefore</i> this item cannot be used for quotation purposes</div>
         <div class="grpunderlinedotted">&nbsp;</div>
-	    </item>
+    </item>
 
-        <!-- footer; date/time -->
-        <div class="footer">Last updated <item data="System.DateTime" /></div>
-	</body>
+    <!-- Inputs -->
+    <div class="grpheader">Calculation data</div>
+    <div class="row">
+        <!-- Fluid(s) -->
+        <div class="column1">Fluid</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="Fluids.n.Fluid" />&nbsp;</div>
+    </div>
+    <div class="row">
+        <!-- Operating pressure -->
+        <div class="column1">Operating pressure</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.OperatingPressure" format="Pressure" />&nbsp;<item data="ProductItem.n.OperatingPressureUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- Operating temperature -->
+        <div class="column1">Operating temperature</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.OperatingTemperature" format="Temperature" />&nbsp;<item data="ProductItem.n.OperatingTemperatureUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- Operating velocity -->
+        <div class="column1">Operating density</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.OperatingVelocity" format="Velocity" />&nbsp;<item data="ProductItem.n.OperatingVelocityUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- Operating density -->
+        <div class="column1">Operating density</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.OperatingDensity" format="Density" />&nbsp;<item data="ProductItem.n.OperatingDensityUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- Operating viscosity -->
+        <div class="column1">Operating viscosity</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.OperatingViscosity" format="Viscosity" />&nbsp;<item data="ProductItem.n.OperatingViscosityUnits" /></div>
+    </div>
+    <div class="grpunderlinedotted">&nbsp;</div>
+    <div class="grpheader">Material Properties</div>
+    <div class="row">
+        <!-- Mod E at op temp -->
+        <div class="column1">Modulus of Elasticity</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.ModulusOfElasticityAtOperatingTemperature_GPa" format="double" />&nbsp;GPa at operating temperature</div>
+    </div>
+    <div class="row">
+        <!-- Mod E at ref temp -->
+        <div class="column1">Modulus of Elasticity</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.ModulusOfElasticityAtReferenceTemperature_GPa" format="double" />&nbsp;GPa at 20&deg;C</div>
+    </div>
+    <div class="row">
+        <!-- Max stress-->
+        <div class="column1">Max allowable working stress</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.MaximumAllowableWorkingStress_MPa" format="double" />&nbsp;MPa</div>
+    </div>
+    <div class="row">
+        <!-- fatigue endurance class -->
+        <div class="column1">Fatigue endurance class</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.FatigueEnduranceClass" />&nbsp;</div>
+    </div>
+    <div class="row">
+        <!-- mass density of thermowell -->
+        <div class="column1">Mass density of Thermowell</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.MassDensityOfThermowell_kgm3" format="density" />&nbsp;kg/m&sup3;</div>
+    </div>
+    <div class="grpunderlinedotted">&nbsp;</div>
+    <div class="grpheader">Additional inputs</div>
+    <div class="row">
+        <!-- Fillet radius -->
+        <div class="column1">Fillet radius</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.FilletRadiusb" format="Length" />&nbsp;<item data="ProductItem.n.FilletRadiusbUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- fillet radius at step shank -->
+        <div class="column1">Fillet radius at step shank</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.FilletRadiusAtStepShankbS" format="Length" />&nbsp;<item data="ProductItem.n.FilletRadiusAtStepShankbSUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- shielded? -->
+        <div class="column1">Shielded?</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.Shielded" format="BoolYN" />&nbsp;</div>
+    </div>
+    <div class="row">
+        <!-- shielded length -->
+        <div class="column1">Shielded length</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.ShieldedLength" format="Length" />&nbsp;<item data="ProductItem.n.ShieldedLengthUnits" /></div>
+    </div>
+    <div class="row">
+        <!-- sensor mass density -->
+        <div class="column1">Sensor mass density</div>
+        <div class="column2">&nbsp;</div>
+        <div class="column3">&nbsp;</div>
+        <div class="column4"><item data="ProductItem.n.SensorMassDensity" format="density" />&nbsp;<item data="ProductItem.n.SensorMassDensityUnits" /></div>
+    </div>
+    <div class="grpunderlinedotted">&nbsp;</div>
+
+    <!-- footer; date/time -->
+    <div class="footer">Last updated <item data="System.DateTime" /></div>
+</body>
 </html>

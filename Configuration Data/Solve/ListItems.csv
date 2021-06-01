@@ -1,7 +1,7 @@
-ListName,ItemName,ItemOrder,Active,ShortName,Description
-CalculationStatus,ForInfo,1,TRUE,For info
-CalculationStatus,AsQuoted,2,TRUE,As Quoted
-CalculationStatus,AsSold,3,TRUE,As Sold
-ProductGroup,Flow,1,TRUE,DP Flow
-ProductGroup,Temp,2,TRUE,Temperature
-ProductGroup,VA,3,TRUE,VA Meters
+"ListName","ItemName","ItemOrder","Active","ShortName","Description"
+"CalculationStatus","ForInfo",1,True,"For info",""
+"CalculationStatus","AsQuoted",2,True,"As Quoted",""
+"CalculationStatus","AsSold",3,True,"As Sold",""
+"ProductGroup","Flow",1,True,"DP Flow",""
+"ProductGroup","Temp",2,True,"Temperature",""
+"ProductGroup","VA",3,True,"VA Meters",""

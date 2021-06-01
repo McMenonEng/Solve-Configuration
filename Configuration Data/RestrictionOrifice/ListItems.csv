@@ -1,7 +1,7 @@
-ListName,ItemName,ItemOrder,Active,ShortName,Description,EnglishUS,French,German,Spanish,Russian
-RestrictionCalcMethod,SingleStageDP,1,TRUE,Single Stage (DP),,,,,,
-RestrictionCalcMethod,MultiStageAutoDP,2,TRUE,Multi-stage (auto) (DP),,,,,,
-RestrictionCalcMethod,MultiStageManualDP,3,TRUE,Multi-stage (manual) (DP),,,,,,
-RestrictionCalcMethod,SingleStageBore,4,TRUE,Single Stage (Bore),,,,,,
-ISO5167CriteriaOverrride,false,1,TRUE,Limit max beta to standard value,,,,,,
-ISO5167CriteriaOverrride,true,2,TRUE,Ignore max beta limits,,,,,,
+"ListName","ItemName","ItemOrder","Active","ShortName","Description"
+"RestrictionCalcMethod","SingleStageDP",1,True,"Single Stage (DP)",""
+"RestrictionCalcMethod","MultiStageAutoDP",2,True,"Multi-stage (auto) (DP)",""
+"RestrictionCalcMethod","MultiStageManualDP",3,True,"Multi-stage (manual) (DP)",""
+"RestrictionCalcMethod","SingleStageBore",4,True,"Single Stage (Bore)",""
+"ISO5167CriteriaOverrride","false",1,True,"Limit max beta to standard value",""
+"ISO5167CriteriaOverrride","true",2,True,"Ignore max beta limits",""

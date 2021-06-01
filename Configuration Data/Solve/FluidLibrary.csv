@@ -1,27 +1,27 @@
-"FluidCategory","Fluid","Active","LookupMethod","EnglishUS","French","German","Spanish","Russian"
-2,"Acetylene",True,1,"","","","",""
-2,"Air",True,1,"","","","",""
-2,"Ammonia",True,1,"","","","",""
-2,"Argon",True,1,"","","","",""
-2,"Butane",True,1,"","","","",""
-2,"Butene",True,1,"","","","",""
-2,"Carbon Dioxide",True,1,"","","","",""
-2,"Carbon Monoxide",True,1,"","","","",""
-2,"Chlorine",True,1,"","","","",""
-2,"Ethane",True,1,"","","","",""
-2,"Ethylene",True,1,"","","","",""
-2,"Helium",True,1,"","","","",""
-2,"Hydrogen",True,1,"","","","",""
-2,"Methane",True,1,"","","","",""
-2,"Neon",True,1,"","","","",""
-2,"Nitrogen",True,1,"","","","",""
-2,"Oxygen",True,1,"","","","",""
-2,"Propane",True,1,"","","","",""
-2,"Propene",True,1,"","","","",""
-2,"Other gas (specify below)",True,20,"","","","",""
-2,"Mixture of Gases",True,30,"","","","",""
-1,"Water",True,10,"","","","",""
-1,"Other liquid (specify below)",True,20,"","","","",""
-5,"Gas/Liquid mixture (specify below)",True,40,"","","","",""
-3,"Steam (Saturated)",True,11,"","","","",""
-4,"Steam (Superheated)",True,12,"","","","",""
+"FluidCategory","Fluid","Active","LookupMethod"
+2,"Acetylene",True,1
+2,"Air",True,1
+2,"Ammonia",True,1
+2,"Argon",True,1
+2,"Butane",True,1
+2,"Butene",True,1
+2,"Carbon Dioxide",True,1
+2,"Carbon Monoxide",True,1
+2,"Chlorine",True,1
+2,"Ethane",True,1
+2,"Ethylene",True,1
+2,"Helium",True,1
+2,"Hydrogen",True,1
+2,"Methane",True,1
+2,"Neon",True,1
+2,"Nitrogen",True,1
+2,"Oxygen",True,1
+2,"Propane",True,1
+2,"Propene",True,1
+2,"Actual conditions (gas - specify below)",True,20
+2,"Mixture of Gases",True,30
+1,"Water",True,10
+1,"Actual conditions (liquid - specify below)",True,20
+5,"Gas/Liquid mixture (specify below)",True,40
+3,"Steam (Saturated)",True,11
+4,"Steam (Superheated)",True,12

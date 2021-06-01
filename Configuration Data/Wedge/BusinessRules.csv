@@ -10,3 +10,4 @@ Max Reynolds for All products,([ReynoldsNoAtMeterMax] is not null) AND ([Reynold
 DP / transmitter warning,"[DPAtMeterMax]{DP,DPUnits} < 125",FALSE,3,Note: DP is low - check transmitter suitable for these conditions.,,,,,
 Design Pressure / Operating Pressure,"(([OperatingPressure]{Pressure,OperatingPressureUnits} > [PipeDesignPressure]{Pressure,PipeDesignPressureUnits}) AND ([UserPipeDesignPressure] = true))",FALSE,3,Pipe design pressure must be greater than operating pressure.,,,,,
 Isentropic Index Warning,([IsentropicIndex]<1 OR [IsentropicIndex]>3),FALSE,2,Isentropic index out of normal range.,,,,,
+Isentropic Index Missing,([IsentropicIndex] IS NULL AND [FluidCategory]=4),FALSE,1,Please supply isentropic index.,,,,,

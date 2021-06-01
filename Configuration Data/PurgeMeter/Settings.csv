@@ -7,3 +7,8 @@ CheckRuleForSpecialGroupAndMandatory,"Error","Check rule for special groups that
 CheckRuleForSpecialGroupNonMandatory,"None","Check rule for special groups that are optional"
 CheckRuleForMandatoryGroupNotSpecial,"Warning","Check rule for mandatory groups that aren't special groups"
 CheckRuleForOptionalGroupNotSpecial,"None","Check rule for optional groups that aren't special groups"
+PurgeMeterResultsGreat,"Great","Flow is very suitable for this meter"
+PurgeMeterResultsGood,"Good","Flow is suitable for this meter"
+PurgeMeterResultsPoor,"Poor","Flow is unsuitable for this meter"
+PurgeMeterResultsTooLow,"TooLow","Flow is below meter minimum"
+PurgeMeterResultsTooHigh,"TooHigh","Flow is above meter maximum"

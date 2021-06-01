@@ -1,49 +1,49 @@
-ProductCode,SelectionGroup,GrpOrder,InProductCode,MustSelect,SingleSelection,SpecialGroup,MustSelectRule,Name,Description,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-FPD150,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD150,CH/FPD/CUST/STD,2,TRUE,TRUE,TRUE,0,,Customer-specific Design,Customer-specific Design,,,,,,,,,,
-FPD150,CH/FPD/ORIFICE/DESIGN,3,TRUE,TRUE,TRUE,7,,Orifice Design,Orifice Design,,,,,,,,,,
-FPD150,CH/FPD/LINE/SIZE,4,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD150,CH/FPD/PIPE/SCH,5,TRUE,TRUE,TRUE,5,,Pipe Schedule,Pipe Schedule,,,,,,,,,,
-FPD150,CH/FPD/NONELEM/MAT,6,TRUE,TRUE,TRUE,2,,Pipe Material,Pipe Material,,,,,,,,,,
-FPD150,CH/FPD/ELEM/MAT,7,TRUE,TRUE,TRUE,3,,Element Material,Element Material,,,,,,,,,,
-FPD150,CH/FPD/PLATE/THICK,8,TRUE,TRUE,TRUE,0,,Orifice Plate Thickness,Orifice Plate Thickness,,,,,,,,,,
-FPD150,CH/FPD/END/CONN/TYPE,9,TRUE,TRUE,TRUE,0,,Flange Type,Flange Type,,,,,,,,,,
-FPD150,CH/FPD/END/CONN/RAT,10,TRUE,TRUE,TRUE,10,,Flange Rating,Flange Rating,,,,,,,,,,
-FPD150,CH/FPD/GASKET,11,TRUE,FALSE,TRUE,0,CH/FPD/PRODUCT/DES=P2 OR CH/FPD/PRODUCT/DES=P3,Gasket Material,Gasket Material,,,,,,,,,,
-FPD150,CH/FPD/ORI/SEALING/FACE,12,TRUE,FALSE,TRUE,0,,Orifice Sealing Face,Orifice Sealing Face,,,,,,,,,,
-FPD150,CH/FPD/DRAIN/VENT,13,TRUE,FALSE,TRUE,21,,Drain/Vent Hole,Drain/Vent Hole,,,,,,,,,,
-FPD150,CH/FPD/DRAIN/VENT/SIZE,14,TRUE,FALSE,TRUE,22,,Drain/Vent Hole Size,Drain/Vent Hole Size,,,,,,,,,,
-FPD150,CH/FPD/SURFACE/TREAT,15,TRUE,FALSE,FALSE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD150,CH/FPD/CERTIFICATION,16,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD150,CH/FPD/TESTING,17,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD150,CH/FPD/DOC/LANG,18,TRUE,FALSE,FALSE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD150,CH/FPD/ADD/REQ,19,TRUE,FALSE,FALSE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD150,CH/FPD/TAB/HANDLE,20,TRUE,FALSE,TRUE,0,,Tab Handle,Tab Handle,,,,,,,,,,
-FPD150,Calculation Type,99,FALSE,TRUE,TRUE,20,,Calculation Type,Calculation Type,,,,,,,,,,
-FPD160_SS,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD160_SS,CH/FPD/CUST/STD,2,TRUE,TRUE,TRUE,0,,Customer-specific Design,Customer-specific Design,,,,,,,,,,
-FPD160_SS,CH/FPD/ORIFICE/DESIGN,3,TRUE,TRUE,TRUE,7,,Orifice Design,Orifice Design,,,,,,,,,,
-FPD160_SS,CH/FPD/LINE/SIZE,4,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD160_SS,CH/FPD/PIPE/SCH,5,TRUE,TRUE,TRUE,5,,Pipe Schedule,Pipe Schedule,,,,,,,,,,
-FPD160_SS,CH/FPD/NONELEM/MAT,6,TRUE,TRUE,TRUE,2,,Flange Material,Flange Material,,,,,,,,,,
-FPD160_SS,CH/FPD/ELEM/MAT,7,TRUE,TRUE,TRUE,3,,Element Material,Element Material,,,,,,,,,,
-FPD160_SS,CH/FPD/PLATE/THICK,8,TRUE,TRUE,TRUE,0,,Orifice Plate Thickness,Orifice Plate Thickness,,,,,,,,,,
-FPD160_SS,CH/FPD/END/CONN/TYPE,9,TRUE,TRUE,TRUE,0,,Flange Type,Flange Type,,,,,,,,,,
-FPD160_SS,CH/FPD/END/CONN/RAT,10,TRUE,TRUE,TRUE,10,,Flange Rating,Flange Rating,,,,,,,,,,
-FPD160_SS,CH/FPD/BOLT/TYPE/MAT,11,TRUE,TRUE,TRUE,0,,Bolt Type & Material,Bolt Type & Material,,,,,,,,,,
-FPD160_SS,CH/FPD/GASKET,12,TRUE,TRUE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD160_SS,CH/FPD/ORI/SEALING/FACE,13,TRUE,FALSE,TRUE,0,,Orifice Sealing Face,Orifice Sealing Face,,,,,,,,,,
-FPD160_SS,CH/FPD/DRAIN/VENT,14,TRUE,FALSE,TRUE,21,,Drain/Vent Hole,Drain/Vent Hole,,,,,,,,,,
-FPD160_SS,CH/FPD/DRAIN/VENT/SIZE,15,TRUE,FALSE,TRUE,22,,Drain/Vent Hole Size,Drain/Vent Hole Size,,,,,,,,,,
-FPD160_SS,CH/FPD/SURFACE/TREAT,16,TRUE,FALSE,FALSE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD160_SS,CH/FPD/TAPPING/TYPE,17,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD160_SS,CH/FPD/TAPPING/RAT,18,TRUE,TRUE,TRUE,0,,Tapping Rating,Tapping Rating,,,,,,,,,,
-FPD160_SS,CH/FPD/TAPPING/SIZE,19,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD160_SS,CH/FPD/TAPPING/SETS,20,TRUE,TRUE,TRUE,0,,Tapping Sets,Tapping Sets,,,,,,,,,,
-FPD160_SS,CH/FPD/TAPPING/ORIENT,21,TRUE,FALSE,TRUE,0,,Tapping Orientation,Tapping Orientation,,,,,,,,,,
-FPD160_SS,CH/FPD/CERTIFICATION,22,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD160_SS,CH/FPD/TESTING,23,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD160_SS,CH/FPD/DOC/LANG,24,TRUE,FALSE,FALSE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD160_SS,CH/FPD/ADD/REQ,25,TRUE,FALSE,FALSE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD160_SS,CH/FPD/TAB/HANDLE,26,TRUE,FALSE,TRUE,0,,Tab Handle,Tab Handle,,,,,,,,,,
-FPD160_SS,Calculation Type,99,FALSE,TRUE,TRUE,20,,Calculation Type,Calculation Type,,,,,,,,,,
+"ProductCode","SelectionGroup","GrpOrder","InProductCode","MustSelect","SingleSelection","SpecialGroup","MustSelectRule","Name","Description"
+"FPD150","CH/FPD/PRODUCT/DES",1,True,True,True,6,"","Product Design","Product Design"
+"FPD150","CH/FPD/CUST/STD",2,True,True,True,0,"","Customer-specific Design","Customer-specific Design"
+"FPD150","CH/FPD/ORIFICE/DESIGN",3,True,True,True,7,"","Orifice Design","Orifice Design"
+"FPD150","CH/FPD/LINE/SIZE",4,True,True,True,4,"","Line Nominal Bore","Line Nominal Bore"
+"FPD150","CH/FPD/PIPE/SCH",5,True,True,True,5,"","Pipe Schedule","Pipe Schedule"
+"FPD150","CH/FPD/NONELEM/MAT",6,True,True,True,2,"","Pipe Material","Pipe Material"
+"FPD150","CH/FPD/ELEM/MAT",7,True,True,True,3,"","Element Material","Element Material"
+"FPD150","CH/FPD/PLATE/THICK",8,True,True,True,0,"","Orifice Plate Thickness","Orifice Plate Thickness"
+"FPD150","CH/FPD/END/CONN/TYPE",9,True,True,True,0,"","Flange Type","Flange Type"
+"FPD150","CH/FPD/END/CONN/RAT",10,True,True,True,10,"","Flange Rating","Flange Rating"
+"FPD150","CH/FPD/GASKET",11,True,False,True,0,"CH/FPD/PRODUCT/DES=P2 OR CH/FPD/PRODUCT/DES=P3","Gasket Material","Gasket Material"
+"FPD150","CH/FPD/ORI/SEALING/FACE",12,True,False,True,0,"","Orifice Sealing Face","Orifice Sealing Face"
+"FPD150","CH/FPD/DRAIN/VENT",13,True,False,True,21,"","Drain/Vent Hole","Drain/Vent Hole"
+"FPD150","CH/FPD/DRAIN/VENT/SIZE",14,True,False,True,22,"","Drain/Vent Hole Size","Drain/Vent Hole Size"
+"FPD150","CH/FPD/SURFACE/TREAT",15,True,False,False,0,"","Surface Treatment","Surface Treatment"
+"FPD150","CH/FPD/CERTIFICATION",16,True,False,False,0,"","Certification","Certification"
+"FPD150","CH/FPD/TESTING",17,True,False,False,0,"","Testing","Testing"
+"FPD150","CH/FPD/DOC/LANG",18,True,False,False,0,"","Documentation Language (default = English)","Documentation Language (default = English)"
+"FPD150","CH/FPD/ADD/REQ",19,True,False,False,0,"","Added Requirements","Added Requirements"
+"FPD150","CH/FPD/TAB/HANDLE",20,True,False,True,0,"","Tab Handle","Tab Handle"
+"FPD150","Calculation Type",99,False,True,True,20,"","Calculation Type","Calculation Type"
+"FPD160_SS","CH/FPD/PRODUCT/DES",1,True,True,True,6,"","Product Design","Product Design"
+"FPD160_SS","CH/FPD/CUST/STD",2,True,True,True,0,"","Customer-specific Design","Customer-specific Design"
+"FPD160_SS","CH/FPD/ORIFICE/DESIGN",3,True,True,True,7,"","Orifice Design","Orifice Design"
+"FPD160_SS","CH/FPD/LINE/SIZE",4,True,True,True,4,"","Line Nominal Bore","Line Nominal Bore"
+"FPD160_SS","CH/FPD/PIPE/SCH",5,True,True,True,5,"","Pipe Schedule","Pipe Schedule"
+"FPD160_SS","CH/FPD/NONELEM/MAT",6,True,True,True,2,"","Flange Material","Flange Material"
+"FPD160_SS","CH/FPD/ELEM/MAT",7,True,True,True,3,"","Element Material","Element Material"
+"FPD160_SS","CH/FPD/PLATE/THICK",8,True,True,True,0,"","Orifice Plate Thickness","Orifice Plate Thickness"
+"FPD160_SS","CH/FPD/END/CONN/TYPE",9,True,True,True,0,"","Flange Type","Flange Type"
+"FPD160_SS","CH/FPD/END/CONN/RAT",10,True,True,True,10,"","Flange Rating","Flange Rating"
+"FPD160_SS","CH/FPD/BOLT/TYPE/MAT",11,True,True,True,0,"","Bolt Type & Material","Bolt Type & Material"
+"FPD160_SS","CH/FPD/GASKET",12,True,True,True,0,"","Gasket Material","Gasket Material"
+"FPD160_SS","CH/FPD/ORI/SEALING/FACE",13,True,False,True,0,"","Orifice Sealing Face","Orifice Sealing Face"
+"FPD160_SS","CH/FPD/DRAIN/VENT",14,True,False,True,21,"","Drain/Vent Hole","Drain/Vent Hole"
+"FPD160_SS","CH/FPD/DRAIN/VENT/SIZE",15,True,False,True,22,"","Drain/Vent Hole Size","Drain/Vent Hole Size"
+"FPD160_SS","CH/FPD/SURFACE/TREAT",16,True,False,False,0,"","Surface Treatment","Surface Treatment"
+"FPD160_SS","CH/FPD/TAPPING/TYPE",17,True,True,True,0,"","Tapping Type","Tapping Type"
+"FPD160_SS","CH/FPD/TAPPING/RAT",18,True,True,True,0,"","Tapping Rating","Tapping Rating"
+"FPD160_SS","CH/FPD/TAPPING/SIZE",19,True,True,True,0,"","Tapping Size","Tapping Size"
+"FPD160_SS","CH/FPD/TAPPING/SETS",20,True,True,True,0,"","Tapping Sets","Tapping Sets"
+"FPD160_SS","CH/FPD/TAPPING/ORIENT",21,True,False,True,0,"","Tapping Orientation","Tapping Orientation"
+"FPD160_SS","CH/FPD/CERTIFICATION",22,True,False,False,0,"","Certification","Certification"
+"FPD160_SS","CH/FPD/TESTING",23,True,False,False,0,"","Testing","Testing"
+"FPD160_SS","CH/FPD/DOC/LANG",24,True,False,False,0,"","Documentation Language (default = English)","Documentation Language (default = English)"
+"FPD160_SS","CH/FPD/ADD/REQ",25,True,False,False,0,"","Added Requirements","Added Requirements"
+"FPD160_SS","CH/FPD/TAB/HANDLE",26,True,False,True,0,"","Tab Handle","Tab Handle"
+"FPD160_SS","Calculation Type",99,False,True,True,20,"","Calculation Type","Calculation Type"

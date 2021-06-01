@@ -1,131 +1,168 @@
-ProductCode,SelectionGroup,GrpOrder,PartNumber,Order,Active,DefaultItem,ExclusionRule,Cost,Name,Description,AdditionalData,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-TTW,CH/TW_MATERIAL,1,S6,1,TRUE,FALSE,,0,316/316L Stainless Steel,316/316L Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,H6,2,TRUE,FALSE,,0,316H Stainless Steel,316H Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S4,3,TRUE,FALSE,,0,304/304L Stainless Steel,304/304L Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,H4,4,TRUE,FALSE,,0,304H Stainless Steel,304H Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S3,5,TRUE,FALSE,,0,310 Stainless Steel,310 Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S2,6,TRUE,FALSE,,0,321 Stainless Steel,321 Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S1,7,TRUE,FALSE,,0,321H Stainless Steel,321H Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S5,8,TRUE,FALSE,,0,347 Stainless Steel,347 Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S7,9,TRUE,FALSE,,0,347H Stainless Steel,347H Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,S8,10,TRUE,FALSE,,0,317/317L Stainless Steel,317/317L Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,D1,11,TRUE,FALSE,,0,22% Cr Duplex (UNS S31803),22% Cr Duplex (UNS S31803),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,D2,12,TRUE,FALSE,,0,25% Cr Super Duplex (UNS S32750),25% Cr Super Duplex (UNS S32750),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,D3,13,TRUE,FALSE,,0,25% Cr Super Duplex (UNS S32760),25% Cr Super Duplex (UNS S32760),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U6,14,TRUE,FALSE,,0,Alloy C22 (UNS N06022),Alloy C22 (UNS N06022),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U7,15,TRUE,FALSE,,0,Alloy C276 (UNS N010276),Alloy C276 (UNS N010276),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,C3,16,TRUE,FALSE,,0,Carbon Steel,Carbon Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,C4,17,TRUE,FALSE,,0,Low Temp Carbon Steel,Low Temp Carbon Steel,,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,M1,18,TRUE,FALSE,,0,6% Mo SS (UNS S31254),6% Mo SS (UNS S31254),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U1,19,TRUE,FALSE,,0,Alloy 20 (UNS N08020),Alloy 20 (UNS N08020),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U2,20,TRUE,FALSE,,0,Alloy 200 (UNS N02200),Alloy 200 (UNS N02200),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,M4,21,TRUE,FALSE,,0,Alloy 400 (UNS N04400),Alloy 400 (UNS N04400),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U3,22,TRUE,FALSE,,0,Alloy 600 (UNS N06600),Alloy 600 (UNS N06600),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U8,23,TRUE,FALSE,,0,Alloy 601 (UNS N06601),Alloy 601 (UNS N06601),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,N2,24,TRUE,FALSE,,0,Alloy 625 (UNS N06625),Alloy 625 (UNS N06625),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U4,25,TRUE,FALSE,,0,Alloy 800 (UNS N08800),Alloy 800 (UNS N08800),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,H7,26,TRUE,FALSE,,0,Alloy 800H (UNS N08810),Alloy 800H (UNS N08810),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,H8,27,TRUE,FALSE,,0,Alloy 800HT (UNS N08811),Alloy 800HT (UNS N08811),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,U5,28,TRUE,FALSE,,0,Alloy 825 (UNS N08825),Alloy 825 (UNS N08825),,,,,,,,,,,
-TTW,CH/TW_MATERIAL,1,P4,29,TRUE,FALSE,,0,Titanium,Titanium,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,A,1,TRUE,FALSE,,0,Fillet & Groove,Fillet & Groove,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,B,2,TRUE,FALSE,,0,Full Penetration,Full Penetration,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,C,3,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged,Forged,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,D,4,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - A105N Flange,Forged Van Stone - A105N Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,E,5,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - 316SS Flange,Forged Van Stone - 316SS Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,F,6,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - As Thermowell,Forged Van Stone - As Thermowell,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,G,7,TRUE,FALSE,,0,Round Bar Van Stone - A105N Flange,Round Bar Van Stone - A105N Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,H,8,TRUE,FALSE,,0,Round Bar Van Stone - 316SS Flange,Round Bar Van Stone - 316SS Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,I,9,TRUE,FALSE,,0,Round Bar Van Stone - Flange As Thermowell,Round Bar Van Stone - Flange As Thermowell,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,J,10,TRUE,FALSE,,0,Weld In,Weld In,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,K,11,TRUE,FALSE,,0,Screwed,Screwed,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,L,12,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange,Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,M,13,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange,Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,N,14,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material,Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,O,15,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - A105N Flange,BP Van Stone - A105N Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,P,16,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - 316SS Flange,BP Van Stone - 316SS Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,Q,17,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - Flange As Thermowell Material,BP Van Stone - Flange As Thermowell Material,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,R,18,TRUE,FALSE,,0,Threaded Flange,Threaded Flange,,,,,,,,,,,
-TTW,CH/TW_CONSTRUCTION,2,S,19,TRUE,FALSE,,0,Threaded and Seal Welded Flange,Threaded and Seal Welded Flange,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,Y0,1,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (A,B,C,D,E,F,G,H,I,L,M,N,O,P,Q,R,S)",0,Not Flanged,Not Flanged,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R2,2,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 20 (¾ in.),Raised Face DN 20 (¾ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R3,3,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 25 (1 in.),Raised Face DN 25 (1 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R4,4,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 40 (1½ in.),Raised Face DN 40 (1½ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R5,5,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 50 (2 in.),Raised Face DN 50 (2 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R8,6,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 65 (2½ in.),Raised Face DN 65 (2½ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R6,7,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 80 (3 in.),Raised Face DN 80 (3 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,R7,8,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 100 (4 in.),Raised Face DN 100 (4 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J2,9,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 20 (¾ in.),Ring Type Joint DN 20 (¾ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J3,10,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 25 (1 in.),Ring Type Joint DN 25 (1 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J4,11,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 40 (1½ in.),Ring Type Joint DN 40 (1½ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J5,12,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 50 (2 in.),Ring Type Joint DN 50 (2 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J8,13,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 65 (2½ in.),Ring Type Joint DN 65 (2½ in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J6,14,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 80 (3 in.),Ring Type Joint DN 80 (3 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_TYPE,3,J7,15,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 100 (4 in.),Ring Type Joint DN 100 (4 in.),,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A1,1,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 150,ASME Class 150,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A3,2,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 300,ASME Class 300,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A6,3,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 600,ASME Class 600,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A7,4,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 900,ASME Class 900,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A8,5,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 1500,ASME Class 1500,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,A9,6,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 2500,ASME Class 2500,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D0,7,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 6,DIN PN 6,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D1,8,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 10,DIN PN 10,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D2,9,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 16,DIN PN 16,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D3,10,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 25,DIN PN 25,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D4,11,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 40,DIN PN 40,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D5,12,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 63,DIN PN 63,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D6,13,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 100,DIN PN 100,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D7,14,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 160,DIN PN 160,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,D8,15,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 250,DIN PN 250,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,G1,16,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. BSP P,½ in. BSP P,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,G2,17,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. BSP P,¾ in. BSP P,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,G3,18,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. BSP P,1 in. BSP P,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,G4,19,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. BSP P,1¼ in. BSP P,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,B1,20,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. BSP T,½ in. BSP T,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,B2,21,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. BSP T,¾ in. BSP T,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,B3,22,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. BSP T,1 in. BSP T,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,B4,23,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. BSP T,1¼ in. BSP T,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,N1,24,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. NPT,½ in. NPT,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,N2,25,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. NPT,¾ in. NPT,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,N3,26,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. NPT,1 in. NPT,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,N4,27,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. NPT,1¼ in. NPT,,,,,,,,,,,
-TTW,CH/TW_PROCCONN_DETAIL,4,W1,28,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = J),0,Weld In,Weld In,,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,G1,1,TRUE,FALSE,,0,½ in. BSP P (Female),½ in. BSP P (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,B1,2,TRUE,FALSE,,0,½ in. BSP T (Female),½ in. BSP T (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,G2,3,TRUE,FALSE,,0,¾ in. BSP P (Female),¾ in. BSP P (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,B2,4,TRUE,FALSE,,0,¾ in. BSP T (Female),¾ in. BSP T (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,N1,5,TRUE,FALSE,,0,½ in. NPT (Female),½ in. NPT (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,N2,6,TRUE,FALSE,,0,¾ in. NPT (Female),¾ in. NPT (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,M1,7,TRUE,FALSE,,0,M14 (Female),M14 (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,M2,8,TRUE,FALSE,,0,M18 (Female),M18 (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,M3,9,TRUE,FALSE,,0,M20 (Female),M20 (Female),,,,,,,,,,,
-TTW,CH/TW_INSTCONN,5,M4,10,TRUE,FALSE,,0,M24 (Female),M24 (Female),,,,,,,,,,,
-TTW,CH/TW_PROFILE,6,P,1,TRUE,FALSE,,0,Parallel,Parallel,,,,,,,,,,,
-TTW,CH/TW_PROFILE,6,T,2,TRUE,FALSE,,0,Tapered,Tapered,,,,,,,,,,,
-TTW,CH/TW_PROFILE,6,S,3,TRUE,FALSE,,0,Stepped,Stepped,,,,,,,,,,,
-TTW,CH/TW_BORE,7,A,1,TRUE,FALSE,,0,3.3 mm,3.3 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,B,2,TRUE,FALSE,,0,6.5 mm,6.5 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,C,3,TRUE,FALSE,,0,7.0 mm,7.0 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,D,4,TRUE,FALSE,,0,9.5 mm,9.5 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,E,5,TRUE,FALSE,,0,10.3 mm,10.3 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,F,6,TRUE,FALSE,,0,13.0 mm,13.0 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,G,7,TRUE,FALSE,,0,18.0 mm,18.0 mm,,,,,,,,,,,
-TTW,CH/TW_BORE,7,H,8,TRUE,FALSE,,0,25.4 mm,25.4 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T1,1,TRUE,FALSE,,0,3.0 mm,3.0 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T2,2,TRUE,FALSE,,0,5.5 mm,5.5 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T3,3,TRUE,FALSE,,0,6.0 mm,6.0 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T4,4,TRUE,FALSE,,0,6.35 mm,6.35 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T5,5,TRUE,FALSE,,0,9.5 mm,9.5 mm,,,,,,,,,,,
-TTW,CH/TW_TIPTHICK,8,T6,6,TRUE,FALSE,,0,12.0 mm,12.0 mm,,,,,,,,,,,
-TTW,CH/TW_VCOL,9,Y,1,TRUE,FALSE,,0,Yes,Yes,,,,,,,,,,,
-TTW,CH/TW_VCOL,9,N,2,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TTW,CH/TW_PLUG,10,N,1,TRUE,FALSE,,0,N/A,N/A,,,,,,,,,,,
-TTW,CH/TW_PLUG,10,B,2,TRUE,FALSE,,0,Brass,Brass,,,,,,,,,,,
-TTW,CH/TW_PLUG,10,S,3,TRUE,FALSE,,0,Stainless Steel,Stainless Steel,,,,,,,,,,,
-TTW,CH/TW_COATING,11,Y0,1,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TTW,CH/TW_COATING,11,TS,2,TRUE,FALSE,,0,Tantalum Sheath,Tantalum Sheath,,,,,,,,,,,
-TTW,CH/TW_COATING,11,SS,3,TRUE,FALSE,,0,Stellite Spray,Stellite Spray,,,,,,,,,,,
-TTW,CH/TW_COATING,11,SW,4,TRUE,FALSE,,0,Stellite Weld,Stellite Weld,,,,,,,,,,,
-TTW,CH/TW_COATING,11,TC,5,TRUE,FALSE,,0,Tungsten Carbide,Tungsten Carbide,,,,,,,,,,,
-TTW,CH/TW_COATING,11,PT,6,TRUE,FALSE,,0,PTFE,PTFE,,,,,,,,,,,
-TTW,CH/TW_COATING,11,C8,7,TRUE,FALSE,,0,COLMONOY 88,COLMONOY 88,,,,,,,,,,,
+"ProductCode","SelectionGroup","PartNumber","Order","Active","DefaultItem","Cost","ExclusionRule","Name","Description","AdditionalData","InShortenedList"
+"TTW","CH/TW_MATERIAL","S6",1,True,False,0,"","316/316L Stainless Steel","316/316L Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","H6",2,True,False,0,"","316H Stainless Steel","316H Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S4",3,True,False,0,"","304/304L Stainless Steel","304/304L Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","H4",4,True,False,0,"","304H Stainless Steel","304H Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S3",5,True,False,0,"","310 Stainless Steel","310 Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S2",6,True,False,0,"","321 Stainless Steel","321 Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S1",7,True,False,0,"","321H Stainless Steel","321H Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S5",8,True,False,0,"","347 Stainless Steel","347 Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S7",9,True,False,0,"","347H Stainless Steel","347H Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","S8",10,True,False,0,"","317/317L Stainless Steel","317/317L Stainless Steel",,False
+"TTW","CH/TW_MATERIAL","D1",11,True,False,0,"","22% Cr Duplex (UNS S31803)","22% Cr Duplex (UNS S31803)",,False
+"TTW","CH/TW_MATERIAL","D2",12,True,False,0,"","25% Cr Super Duplex (UNS S32750)","25% Cr Super Duplex (UNS S32750)",,False
+"TTW","CH/TW_MATERIAL","D3",13,True,False,0,"","25% Cr Super Duplex (UNS S32760)","25% Cr Super Duplex (UNS S32760)",,False
+"TTW","CH/TW_MATERIAL","U6",14,True,False,0,"","Alloy C22 (UNS N06022)","Alloy C22 (UNS N06022)",,False
+"TTW","CH/TW_MATERIAL","U7",15,True,False,0,"","Alloy C276 (UNS N010276)","Alloy C276 (UNS N010276)",,False
+"TTW","CH/TW_MATERIAL","C3",16,True,False,0,"","Carbon Steel","Carbon Steel",,False
+"TTW","CH/TW_MATERIAL","C4",17,True,False,0,"","Low Temp Carbon Steel","Low Temp Carbon Steel",,False
+"TTW","CH/TW_MATERIAL","M1",18,True,False,0,"","6% Mo SS (UNS S31254)","6% Mo SS (UNS S31254)",,False
+"TTW","CH/TW_MATERIAL","U1",19,True,False,0,"","Alloy 20 (UNS N08020)","Alloy 20 (UNS N08020)",,False
+"TTW","CH/TW_MATERIAL","U2",20,True,False,0,"","Alloy 200 (UNS N02200)","Alloy 200 (UNS N02200)",,False
+"TTW","CH/TW_MATERIAL","M4",21,True,False,0,"","Alloy 400 (UNS N04400)","Alloy 400 (UNS N04400)",,False
+"TTW","CH/TW_MATERIAL","U3",22,True,False,0,"","Alloy 600 (UNS N06600)","Alloy 600 (UNS N06600)",,False
+"TTW","CH/TW_MATERIAL","U8",23,True,False,0,"","Alloy 601 (UNS N06601)","Alloy 601 (UNS N06601)",,False
+"TTW","CH/TW_MATERIAL","N2",24,True,False,0,"","Alloy 625 (UNS N06625)","Alloy 625 (UNS N06625)",,False
+"TTW","CH/TW_MATERIAL","U4",25,True,False,0,"","Alloy 800 (UNS N08800)","Alloy 800 (UNS N08800)",,False
+"TTW","CH/TW_MATERIAL","H7",26,True,False,0,"","Alloy 800H (UNS N08810)","Alloy 800H (UNS N08810)",,False
+"TTW","CH/TW_MATERIAL","H8",27,True,False,0,"","Alloy 800HT (UNS N08811)","Alloy 800HT (UNS N08811)",,False
+"TTW","CH/TW_MATERIAL","U5",28,True,False,0,"","Alloy 825 (UNS N08825)","Alloy 825 (UNS N08825)",,False
+"TTW","CH/TW_MATERIAL","P4",29,True,False,0,"","Titanium","Titanium",,False
+"TTW","CH/TW_CONSTRUCTION","A",1,True,False,0,"","Fillet & Groove","Fillet & Groove","FFG",False
+"TTW","CH/TW_CONSTRUCTION","B",2,True,False,0,"","Full Penetration","Full Penetration","FFP",False
+"TTW","CH/TW_CONSTRUCTION","C",3,True,False,0,"CH/TW_MATERIAL = P4","Forged","Forged","F",False
+"TTW","CH/TW_CONSTRUCTION","D",4,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - A105N Flange","Forged Van Stone - A105N Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","E",5,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - 316SS Flange","Forged Van Stone - 316SS Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","F",6,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - As Thermowell","Forged Van Stone - As Thermowell","VS",False
+"TTW","CH/TW_CONSTRUCTION","G",7,True,False,0,"","Round Bar Van Stone - A105N Flange","Round Bar Van Stone - A105N Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","H",8,True,False,0,"","Round Bar Van Stone - 316SS Flange","Round Bar Van Stone - 316SS Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","I",9,True,False,0,"","Round Bar Van Stone - Flange As Thermowell","Round Bar Van Stone - Flange As Thermowell","VS",False
+"TTW","CH/TW_CONSTRUCTION","J",10,True,False,0,"","Weld In","Weld In","W",False
+"TTW","CH/TW_CONSTRUCTION","K",11,True,False,0,"","Screwed","Screwed","T",False
+"TTW","CH/TW_CONSTRUCTION","L",12,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange","Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","M",13,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange","Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","N",14,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material","Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material","VS",False
+"TTW","CH/TW_CONSTRUCTION","O",15,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - A105N Flange","BP Van Stone - A105N Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","P",16,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - 316SS Flange","BP Van Stone - 316SS Flange","VS",False
+"TTW","CH/TW_CONSTRUCTION","Q",17,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - Flange As Thermowell Material","BP Van Stone - Flange As Thermowell Material","VS",False
+"TTW","CH/TW_CONSTRUCTION","R",18,True,False,0,"","Threaded Flange","Threaded Flange","T",False
+"TTW","CH/TW_CONSTRUCTION","S",19,True,False,0,"","Threaded and Seal Welded Flange","Threaded and Seal Welded Flange","T",False
+"TTW","CH/TW_PROCCONN_TYPE","Y0",1,True,False,0,"CH/TW_CONSTRUCTION IN (A,B,C,D,E,F,G,H,I,L,M,N,O,P,Q,R,S)","Not Flanged","Not Flanged",,False
+"TTW","CH/TW_PROCCONN_TYPE","R2",2,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 20 (¾ in.)","Raised Face DN 20 (¾ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R3",3,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 25 (1 in.)","Raised Face DN 25 (1 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R4",4,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 40 (1½ in.)","Raised Face DN 40 (1½ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R5",5,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 50 (2 in.)","Raised Face DN 50 (2 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R8",6,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 65 (2½ in.)","Raised Face DN 65 (2½ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R6",7,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 80 (3 in.)","Raised Face DN 80 (3 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","R7",8,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 100 (4 in.)","Raised Face DN 100 (4 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J2",9,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 20 (¾ in.)","Ring Type Joint DN 20 (¾ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J3",10,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 25 (1 in.)","Ring Type Joint DN 25 (1 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J4",11,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 40 (1½ in.)","Ring Type Joint DN 40 (1½ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J5",12,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 50 (2 in.)","Ring Type Joint DN 50 (2 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J8",13,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 65 (2½ in.)","Ring Type Joint DN 65 (2½ in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J6",14,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 80 (3 in.)","Ring Type Joint DN 80 (3 in.)",,False
+"TTW","CH/TW_PROCCONN_TYPE","J7",15,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 100 (4 in.)","Ring Type Joint DN 100 (4 in.)",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A1",1,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 150","ASME Class 150",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A3",2,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 300","ASME Class 300",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A6",3,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 600","ASME Class 600",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A7",4,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 900","ASME Class 900",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A8",5,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 1500","ASME Class 1500",,False
+"TTW","CH/TW_PROCCONN_DETAIL","A9",6,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 2500","ASME Class 2500",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D0",7,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 6","DIN PN 6",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D1",8,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 10","DIN PN 10",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D2",9,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 16","DIN PN 16",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D3",10,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 25","DIN PN 25",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D4",11,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 40","DIN PN 40",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D5",12,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 63","DIN PN 63",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D6",13,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 100","DIN PN 100",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D7",14,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 160","DIN PN 160",,False
+"TTW","CH/TW_PROCCONN_DETAIL","D8",15,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 250","DIN PN 250",,False
+"TTW","CH/TW_PROCCONN_DETAIL","G1",16,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. BSP P","½ in. BSP P",,False
+"TTW","CH/TW_PROCCONN_DETAIL","G2",17,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. BSP P","¾ in. BSP P",,False
+"TTW","CH/TW_PROCCONN_DETAIL","G3",18,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. BSP P","1 in. BSP P",,False
+"TTW","CH/TW_PROCCONN_DETAIL","G4",19,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. BSP P","1¼ in. BSP P",,False
+"TTW","CH/TW_PROCCONN_DETAIL","B1",20,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. BSP T","½ in. BSP T",,False
+"TTW","CH/TW_PROCCONN_DETAIL","B2",21,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. BSP T","¾ in. BSP T",,False
+"TTW","CH/TW_PROCCONN_DETAIL","B3",22,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. BSP T","1 in. BSP T",,False
+"TTW","CH/TW_PROCCONN_DETAIL","B4",23,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. BSP T","1¼ in. BSP T",,False
+"TTW","CH/TW_PROCCONN_DETAIL","N1",24,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. NPT","½ in. NPT",,False
+"TTW","CH/TW_PROCCONN_DETAIL","N2",25,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. NPT","¾ in. NPT",,False
+"TTW","CH/TW_PROCCONN_DETAIL","N3",26,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. NPT","1 in. NPT",,False
+"TTW","CH/TW_PROCCONN_DETAIL","N4",27,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. NPT","1¼ in. NPT",,False
+"TTW","CH/TW_PROCCONN_DETAIL","W1",28,True,False,0,"NOT(CH/TW_CONSTRUCTION = J)","Weld In","Weld In",,False
+"TTW","CH/TW_INSTCONN","G1",1,True,False,0,"","½ in. BSP P (Female)","½ in. BSP P (Female)",,False
+"TTW","CH/TW_INSTCONN","B1",2,True,False,0,"","½ in. BSP T (Female)","½ in. BSP T (Female)",,False
+"TTW","CH/TW_INSTCONN","G2",3,True,False,0,"","¾ in. BSP P (Female)","¾ in. BSP P (Female)",,False
+"TTW","CH/TW_INSTCONN","B2",4,True,False,0,"","¾ in. BSP T (Female)","¾ in. BSP T (Female)",,False
+"TTW","CH/TW_INSTCONN","N1",5,True,False,0,"","½ in. NPT (Female)","½ in. NPT (Female)",,False
+"TTW","CH/TW_INSTCONN","N2",6,True,False,0,"","¾ in. NPT (Female)","¾ in. NPT (Female)",,False
+"TTW","CH/TW_INSTCONN","M1",7,True,False,0,"","M14 (Female)","M14 (Female)",,False
+"TTW","CH/TW_INSTCONN","M2",8,True,False,0,"","M18 (Female)","M18 (Female)",,False
+"TTW","CH/TW_INSTCONN","M3",9,True,False,0,"","M20 (Female)","M20 (Female)",,False
+"TTW","CH/TW_INSTCONN","M4",10,True,False,0,"","M24 (Female)","M24 (Female)",,False
+"TTW","CH/TW_PROFILE","P",1,True,False,0,"","Parallel","Parallel",,False
+"TTW","CH/TW_PROFILE","T",2,True,False,0,"","Tapered","Tapered",,False
+"TTW","CH/TW_PROFILE","S",3,True,False,0,"","Stepped","Stepped",,False
+"TTW","CH/TW_ROOT_DIA","Min",0,True,False,0,"","Min diameter","Min diameter",,False
+"TTW","CH/TW_ROOT_DIA","Max",1,True,False,0,"","Max diameter","Max diameter","100",False
+"TTW","CH/TW_ROOT_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/TW_ROOT_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/TW_ROOT_DIA","Units",4,True,False,0,"","Units for root diameter","Units for root diameter","mm",False
+"TTW","CH/TW_TIP_DIA","Min",0,True,False,0,"","Min diameter","Min diameter",,False
+"TTW","CH/TW_TIP_DIA","Max",1,True,False,0,"","Max diameter","Max diameter","[SelectedItem]{CH/TW_ROOT_DIA}",False
+"TTW","CH/TW_TIP_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/TW_TIP_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/TW_TIP_DIA","Units",4,True,False,0,"","Units for tip diameter","Units for tip diameter","mm",False
+"TTW","CH/TW_TIP_DIA","Value",5,True,False,0,"NOT(CH/TW_PROFILE=P)","Same as root when parallel","Same as root when parallel","[SelectedItem]{CH/TW_ROOT_DIA}",False
+"TTW","CH/TW_STEP","Min",0,True,False,0,"","Minimum","Minimum",,False
+"TTW","CH/TW_STEP","Max",1,True,False,0,"","Maximum","Maximum",,False
+"TTW","CH/TW_STEP","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/TW_STEP","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/TW_STEP","Units",4,True,False,0,"","Units for step position","Units for step position","mm",False
+"TTW","CH/TW_STEP","Value",5,True,False,0,"NOT(CH/TW_PROFILE=P)","Zero when Parallel","Zero when Parallel","0",False
+"TTW","CH/TW_BORE","A",1,True,False,0,"","3.3 mm","3.3 mm","3.3",False
+"TTW","CH/TW_BORE","B",2,True,False,0,"","6.5 mm","6.5 mm","6.5",False
+"TTW","CH/TW_BORE","C",3,True,False,0,"","7.0 mm","7.0 mm","7",False
+"TTW","CH/TW_BORE","D",4,True,False,0,"","9.5 mm","9.5 mm","9.5",False
+"TTW","CH/TW_BORE","E",5,True,False,0,"","10.3 mm","10.3 mm","10.3",False
+"TTW","CH/TW_BORE","F",6,True,False,0,"","13.0 mm","13.0 mm","13",False
+"TTW","CH/TW_BORE","G",7,True,False,0,"","18.0 mm","18.0 mm","18",False
+"TTW","CH/TW_BORE","H",8,True,False,0,"","25.4 mm","25.4 mm","25.4",False
+"TTW","CH/TW_TIP_THICK","T1",1,True,False,0,"","3.0 mm","3.0 mm","3",False
+"TTW","CH/TW_TIP_THICK","T2",2,True,False,0,"","5.5 mm","5.5 mm","5.5",False
+"TTW","CH/TW_TIP_THICK","T3",3,True,False,0,"","6.0 mm","6.0 mm","6",False
+"TTW","CH/TW_TIP_THICK","T4",4,True,False,0,"","6.35 mm","6.35 mm","6.35",False
+"TTW","CH/TW_TIP_THICK","T5",5,True,False,0,"","9.5 mm","9.5 mm","9.5",False
+"TTW","CH/TW_TIP_THICK","T6",6,True,False,0,"","12.0 mm","12.0 mm","12",False
+"TTW","CH/IMMERSIONLEN","Min",0,True,False,0,"","Min length","Min length","[SelectedItem]{CH/EXTENSIONLEN}+41",False
+"TTW","CH/IMMERSIONLEN","Max",1,True,False,0,"","Max length","Max length","3000",False
+"TTW","CH/IMMERSIONLEN","Digits",2,True,False,0,"","Digits","Digits","4",False
+"TTW","CH/IMMERSIONLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/IMMERSIONLEN","Units",4,True,False,0,"","Units for immersion length","Units for immersion length","mm",False
+"TTW","CH/LAGGINGLEN","Min",0,True,False,0,"","Min length","Min length",,False
+"TTW","CH/LAGGINGLEN","Max",1,True,False,0,"","Max length","Max length","100",False
+"TTW","CH/LAGGINGLEN","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/LAGGINGLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/LAGGINGLEN","Units",4,True,False,0,"","Units for lagging length","Units for lagging length","mm",False
+"TTW","CH/TW_VCOL","Y",1,True,False,0,"","Yes","Yes",,False
+"TTW","CH/TW_VCOL","N",2,True,False,0,"","No","No",,False
+"TTW","CH/TW_VCOL_DIA","Min",0,True,False,0,"","Min dia","Min dia",,False
+"TTW","CH/TW_VCOL_DIA","Max",1,True,False,0,"","Max dia","Max dia","100",False
+"TTW","CH/TW_VCOL_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/TW_VCOL_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/TW_VCOL_DIA","Units",4,True,False,0,"","Units for vcol dia","Units for vcol dia","mm",False
+"TTW","CH/TW_VCOL_POS","Min",0,True,False,0,"","Min","Min",,False
+"TTW","CH/TW_VCOL_POS","Max",1,True,False,0,"","Max","Max","100",False
+"TTW","CH/TW_VCOL_POS","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TTW","CH/TW_VCOL_POS","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TTW","CH/TW_VCOL_POS","Units",4,True,False,0,"","Units for vcol position","Units for vcol position","mm",False
+"TTW","CH/TW_PLUG","N",1,True,False,0,"","N/A","N/A",,False
+"TTW","CH/TW_PLUG","B",2,True,False,0,"","Brass","Brass",,False
+"TTW","CH/TW_PLUG","S",3,True,False,0,"","Stainless Steel","Stainless Steel",,False
+"TTW","CH/TW_COATING","Y0",1,True,False,0,"","None","None",,False
+"TTW","CH/TW_COATING","TS",2,True,False,0,"","Tantalum Sheath","Tantalum Sheath",,False
+"TTW","CH/TW_COATING","SS",3,True,False,0,"","Stellite Spray","Stellite Spray",,False
+"TTW","CH/TW_COATING","SW",4,True,False,0,"","Stellite Weld","Stellite Weld",,False
+"TTW","CH/TW_COATING","TC",5,True,False,0,"","Tungsten Carbide","Tungsten Carbide",,False
+"TTW","CH/TW_COATING","PT",6,True,False,0,"","PTFE","PTFE",,False
+"TTW","CH/TW_COATING","C8",7,True,False,0,"","COLMONOY 88","COLMONOY 88",,False

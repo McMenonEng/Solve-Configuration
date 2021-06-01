@@ -1,5 +1,9 @@
-"UnitName","Active","ConvertTo_kg_per_m3","IsSpecificGravity","IsMolecularWeight","AppliesToFlowProducts","AppliesToTempProducts","AppliesToVAProducts"
-"kg/m³",True,1,False,False,True,True,True
-"lb/ft³",True,16.01846337,False,False,True,True,True
-"lb/UKG",True,99.77637266,False,False,True,True,True
-"M.W.",True,1,False,True,True,True,True
+UnitName,Active,ConvertTo_kg_per_m3,IsSpecificGravity,IsMolecularWeight,AppliesToFlowProducts,AppliesToTempProducts,AppliesToVAProducts
+kg/m³,TRUE,1,FALSE,FALSE,TRUE,TRUE,TRUE
+lb/ft³,TRUE,16.01846337,FALSE,FALSE,TRUE,TRUE,TRUE
+lb/UKG,TRUE,99.77637266,FALSE,FALSE,TRUE,TRUE,TRUE
+M.W.,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE
+g/ml,TRUE,1000,FALSE,FALSE,FALSE,FALSE,TRUE
+g/cm³,TRUE,1000,FALSE,FALSE,FALSE,FALSE,TRUE
+kg/l,TRUE,1000,FALSE,FALSE,FALSE,FALSE,TRUE
+lb/USgal,TRUE,119.826,FALSE,FALSE,FALSE,FALSE,TRUE

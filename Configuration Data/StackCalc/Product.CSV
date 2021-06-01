@@ -1,4 +1,4 @@
-"ProductCode","CodeDisplay","Name","ProductOrder","EnglishUS","EnglishUS_LongDesc","French","French_LongDesc","German","German_LongDesc","Spanish","Spanish_LongDesc","Russian","Russian_LongDesc"
-FPD581,FPD581,FPD581 - Manual Control System,1,,,,,,,,,,
-FPD583,FPD583,FPD583 - MCERTS Manual Control System,2,,,,,,,,,,
-FPD585,FPD585,FPD585 - MCERTS Automatic Control System,3,,,,,,,,,,
+"ProductCode","CodeDisplay","Name","ProductOrder","Cost"
+"FPD581","FPD581","FPD581 - Manual Control System",1,0
+"FPD583","FPD583","FPD583 - MCERTS Manual Control System",2,0
+"FPD585","FPD585","FPD585 - MCERTS Automatic Control System",3,0

@@ -1,6 +1,8 @@
-"CharacteristicCode_Logic","MassEquation_kg","UnsupportedLengthEquation_m","KFactorGroup","MaxDPGroup","SensorDia_mm","CriticalVLFactor","CriticalVHFactor","MaxPressure_BarG","MaxTemperature_DegC","MinLength_mm","MaxLength_mm","SO"
-"CH/FPD58/PROBE/TYPE=F3","0.9+ID*0.002","ID+WALL+SO",3,3,25.4,1.843,2.84,200,0,200,1800,
-"CH/FPD58/PROBE/TYPE=F4","1.25+ID*0.002","ID+(2.0*WALL)+SO+0.05",3,4,25.4,8.08,12.44,200,0,200,5000,
-"CH/FPD58/PROBE/TYPE=F5","1.25+ID*0.002","ID+(2.0*WALL)+(2*SO)+0.07",3,4,25.4,8.08,12.44,200,0,200,5000,
-"CH/FPD58/PROBE/TYPE=G3","1.0+ID*0.0075","ID+WALL+SO",4,5,60,10.88,16.766,0,0,250,2000,
-"CH/FPD58/PROBE/TYPE=G5","5.5+ID*0.0075","ID+(2.0*WALL)+(2*SO)+0.09",4,6,60,47.65,73.43,0,0,400,8000,
+"CharacteristicCode_Logic","MassEquation_kg","UnsupportedLengthEquation_m","KFactorGroup","MaxDPGroup","SensorDia_mm","CriticalVLFactor","CriticalVHFactor","MaxPressure_BarG","MaxTemperature_DegC","MinLength_mm","MaxLength_mm","SO","CharacteristicCodeResult"
+"CH/FPD58/PROBE/TYPE=F3 AND NOT(CH/FPD58/PROBE/DES=TP2)","0.9+ID*0.002","ID+WALL+SO",3,3,25.4,1.843,2.84,200,0,200,1800,,False
+"CH/FPD58/PROBE/TYPE=F3 AND CH/FPD58/PROBE/DES=TP2","0.9+ID*0.001","(ID*0.3675)+WALL+SO",3,3,25.4,1.843,2.84,200,0,200,3600,,False
+"CH/FPD58/PROBE/TYPE=F4","1.25+ID*0.002","ID+(2.0*WALL)+SO+0.05",3,4,25.4,8.08,12.44,200,0,200,5000,,False
+"CH/FPD58/PROBE/TYPE=F5","1.25+ID*0.002","ID+(2.0*WALL)+(2*SO)+0.07",3,4,25.4,8.08,12.44,200,0,200,5000,,False
+"CH/FPD58/PROBE/TYPE=G3 AND NOT(CH/FPD58/PROBE/DES=TP2)","1.0+ID*0.0075","ID+WALL+SO",4,5,60,10.88,16.766,0,0,250,2000,,False
+"CH/FPD58/PROBE/TYPE=G3 AND CH/FPD58/PROBE/DES=TP2","1.0+ID*0.003","(ID*0.3675)+WALL+SO",4,5,60,10.88,16.766,0,0,250,6000,,False
+"CH/FPD58/PROBE/TYPE=G5","5.5+ID*0.0075","ID+(2.0*WALL)+(2*SO)+0.09",4,6,60,47.65,73.43,0,0,400,8000,,False

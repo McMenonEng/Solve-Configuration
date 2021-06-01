@@ -1,5 +1,5 @@
-"ProductCode","CodeDisplay","Name","ProductOrder","EnglishUS","EnglishUS_LongDesc","French","French_LongDesc","German","German_LongDesc","Spanish","Spanish_LongDesc","Russian","Russian_LongDesc"
-FPD510,FPD510,FPD510 - Compact Integral Orifice Flowmeter,1,,,,,,,,,,
-FPD570,FPD570,FPD570 - WedgeMaster Compact Wedge Flowmeter,2,,,,,,,,,,
-FPD500,FPD500,FPD500 - OriMaster Compact Orifice Flowmeter,3,,,,,,,,,,
-FPD550,FPD550,FPD550 - PitoMaster Compact Averaging Pitot Flowmeter,4,,,,,,,,,,
+"ProductCode","CodeDisplay","Name","ProductOrder"
+FPD510,FPD510,FPD510 - Compact Integral Orifice Flowmeter,1
+FPD570,FPD570,FPD570 - WedgeMaster Compact Wedge Flowmeter,2
+FPD500,FPD500,FPD500 - OriMaster Compact Orifice Flowmeter,3
+FPD550,FPD550,FPD550 - PitoMaster Compact Averaging Pitot Flowmeter,4

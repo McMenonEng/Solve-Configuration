@@ -1,1 +1,6 @@
-Notes,Expression,SelectionOnly,RuleType,ShortName,EnglishUS,French,German,Spanish,Russian
+"Expression","RuleType","SelectionOnly","ShortName","Notes"
+"[ModElasAtOpTempSetByUser]=true",1,False,"User supplied Modulus of Elasticity (at operating temperature)","User Mod E"
+"[ModElasAtRefTempSetByUser]=true",1,False,"User supplied Modulus of Elasticity (at reference temperature)","User Mod E"
+"[MaxStressSetByUser]=true",1,False,"User supplied Max allowable working stress","User Max stress"
+"[FatigueEndClassSetByUser]=true",1,False,"User supplied Fatigue Endurance class","User Fatigue endurance class"
+"[MassDenOfThermowellSetByUser]=true",1,False,"User supplied Thermowell mass density","User Mass density of Thermowell"

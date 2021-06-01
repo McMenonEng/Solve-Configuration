@@ -1,210 +1,210 @@
-ProductCode,SelectionGroup,GrpOrder,InProductCode,MustSelect,SingleSelection,SpecialGroup,MustSelectRule,Name,Description,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-FPD350_1,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_1,CH/FPD/TORBAR/TYPE,2,TRUE,TRUE,TRUE,7,,Torbar Type,Torbar Type,,,,,,,,,,
-FPD350_1,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_1,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_1,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_1,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_1,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_1,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_1,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_1,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_1,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_1,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_1,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_1,CH/FPD/BOLT/TYPE/MAT,14,TRUE,FALSE,TRUE,0,,Bolt Type and Material,Bolt Type and Material,,,,,,,,,,
-FPD350_1,CH/FPD/GASKET,15,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_1,CH/FPD/SURFACE/TREAT,16,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_1,CH/FPD/CERTIFICATION,17,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_1,CH/FPD/TESTING,18,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_1,CH/FPD/DOC/LANG,19,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_1,CH/FPD/ADD/REQ,20,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_3,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_3,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_3,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_3,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_3,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_3,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_3,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_3,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_3,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_3,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_3,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_3,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_3,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_3,CH/FPD/TAPPING/SETS,14,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_3,CH/FPD/BOLT/TYPE/MAT,15,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_3,CH/FPD/GASKET,16,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_3,CH/FPD/FITT/ACC,17,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_3,CH/FPD/SURFACE/TREAT,18,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_3,CH/FPD/CERTIFICATION,19,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_3,CH/FPD/TESTING,20,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_3,CH/FPD/DOC/LANG,21,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_3,CH/FPD/ADD/REQ,22,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_4,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_4,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_4,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_4,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_4,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_4,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_4,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_4,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_4,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_4,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_4,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_4,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_4,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_4,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options,,,,,,,,,,
-FPD350_4,CH/FPD/TAPPING/SETS,15,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_4,CH/FPD/BOLT/TYPE/MAT,16,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_4,CH/FPD/GASKET,17,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_4,CH/FPD/TEMP,18,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element,,,,,,,,,,
-FPD350_4,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_4,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_4,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_4,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_4,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_4,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_5,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_5,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_5,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_5,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_5,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_5,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_5,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_5,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_5,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_5,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_5,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_5,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_5,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_5,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options,,,,,,,,,,
-FPD350_5,CH/FPD/TAPPING/SETS,15,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_5,CH/FPD/BOLT/TYPE/MAT,16,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_5,CH/FPD/GASKET,17,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_5,CH/FPD/TEMP,18,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element,,,,,,,,,,
-FPD350_5,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_5,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_5,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_5,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_5,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_5,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_H6,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_H6,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_H6,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_H6,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_H6,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_H6,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_H6,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_H6,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_H6,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_H6,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_H6,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_H6,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_H6,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_H6,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options,,,,,,,,,,
-FPD350_H6,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material,,,,,,,,,,
-FPD350_H6,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_H6,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_H6,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_H6,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_H6,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_H6,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_H6,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_H6,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_H6,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_H7,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_H7,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_H7,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_H7,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_H7,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_H7,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_H7,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_H7,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_H7,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_H7,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_H7,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_H7,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_H7,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_H7,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options,,,,,,,,,,
-FPD350_H7,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material,,,,,,,,,,
-FPD350_H7,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_H7,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_H7,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_H7,CH/FPD/TEMP,19,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element,,,,,,,,,,
-FPD350_H7,CH/FPD/FITT/ACC,20,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_H7,CH/FPD/SURFACE/TREAT,21,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_H7,CH/FPD/CERTIFICATION,22,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_H7,CH/FPD/TESTING,23,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_H7,CH/FPD/DOC/LANG,24,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_H7,CH/FPD/ADD/REQ,25,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_H8,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_H8,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_H8,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_H8,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_H8,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_H8,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_H8,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_H8,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_H8,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_H8,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_H8,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_H8,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_H8,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_H8,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options,,,,,,,,,,
-FPD350_H8,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material,,,,,,,,,,
-FPD350_H8,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_H8,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material,,,,,,,,,,
-FPD350_H8,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material,,,,,,,,,,
-FPD350_H8,CH/FPD/TEMP,19,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element,,,,,,,,,,
-FPD350_H8,CH/FPD/FITT/ACC,20,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_H8,CH/FPD/SURFACE/TREAT,21,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_H8,CH/FPD/CERTIFICATION,22,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_H8,CH/FPD/TESTING,23,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_H8,CH/FPD/DOC/LANG,24,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_H8,CH/FPD/ADD/REQ,25,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_L6,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_L6,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_L6,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_L6,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_L6,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_L6,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_L6,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_L6,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_L6,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_L6,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_L6,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_L6,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_L6,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_L6,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options,,,,,,,,,,
-FPD350_L6,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material,,,,,,,,,,
-FPD350_L6,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_L6,CH/FPD/FITT/ACC,17,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_L6,CH/FPD/SURFACE/TREAT,18,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_L6,CH/FPD/CERTIFICATION,19,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_L6,CH/FPD/TESTING,20,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_L6,CH/FPD/DOC/LANG,21,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_L6,CH/FPD/ADD/REQ,22,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
-FPD350_L7,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design,,,,,,,,,,
-FPD350_L7,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support,,,,,,,,,,
-FPD350_L7,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore,,,,,,,,,,
-FPD350_L7,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material,,,,,,,,,,
-FPD350_L7,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material,,,,,,,,,,
-FPD350_L7,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type,,,,,,,,,,
-FPD350_L7,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type,,,,,,,,,,
-FPD350_L7,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating,,,,,,,,,,
-FPD350_L7,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type,,,,,,,,,,
-FPD350_L7,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size,,,,,,,,,,
-FPD350_L7,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material,,,,,,,,,,
-FPD350_L7,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape,,,,,,,,,,
-FPD350_L7,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve,,,,,,,,,,
-FPD350_L7,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options,,,,,,,,,,
-FPD350_L7,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material,,,,,,,,,,
-FPD350_L7,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets,,,,,,,,,,
-FPD350_L7,CH/FPD/TEMP,17,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element,,,,,,,,,,
-FPD350_L7,CH/FPD/FITT/ACC,18,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories,,,,,,,,,,
-FPD350_L7,CH/FPD/SURFACE/TREAT,19,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment,,,,,,,,,,
-FPD350_L7,CH/FPD/CERTIFICATION,20,TRUE,FALSE,FALSE,0,,Certification,Certification,,,,,,,,,,
-FPD350_L7,CH/FPD/TESTING,21,TRUE,FALSE,FALSE,0,,Testing,Testing,,,,,,,,,,
-FPD350_L7,CH/FPD/DOC/LANG,22,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English),,,,,,,,,,
-FPD350_L7,CH/FPD/ADD/REQ,23,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements,,,,,,,,,,
+ProductCode,SelectionGroup,GrpOrder,InProductCode,MustSelect,SingleSelection,SpecialGroup,MustSelectRule,Name,Description
+FPD350_1,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_1,CH/FPD/TORBAR/TYPE,2,TRUE,TRUE,TRUE,7,,Torbar Type,Torbar Type
+FPD350_1,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_1,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_1,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_1,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_1,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_1,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_1,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_1,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_1,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_1,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_1,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_1,CH/FPD/BOLT/TYPE/MAT,14,TRUE,FALSE,TRUE,0,,Bolt Type and Material,Bolt Type and Material
+FPD350_1,CH/FPD/GASKET,15,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_1,CH/FPD/SURFACE/TREAT,16,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_1,CH/FPD/CERTIFICATION,17,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_1,CH/FPD/TESTING,18,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_1,CH/FPD/DOC/LANG,19,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_1,CH/FPD/ADD/REQ,20,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_3,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_3,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_3,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_3,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_3,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_3,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_3,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_3,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_3,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_3,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_3,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_3,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_3,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_3,CH/FPD/TAPPING/SETS,14,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_3,CH/FPD/BOLT/TYPE/MAT,15,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_3,CH/FPD/GASKET,16,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_3,CH/FPD/FITT/ACC,17,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_3,CH/FPD/SURFACE/TREAT,18,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_3,CH/FPD/CERTIFICATION,19,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_3,CH/FPD/TESTING,20,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_3,CH/FPD/DOC/LANG,21,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_3,CH/FPD/ADD/REQ,22,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_4,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_4,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_4,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_4,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_4,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_4,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_4,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_4,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_4,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_4,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_4,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_4,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_4,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_4,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options
+FPD350_4,CH/FPD/TAPPING/SETS,15,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_4,CH/FPD/BOLT/TYPE/MAT,16,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_4,CH/FPD/GASKET,17,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_4,CH/FPD/TEMP,18,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element
+FPD350_4,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_4,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_4,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_4,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_4,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_4,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_5,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_5,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_5,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_5,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_5,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_5,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_5,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_5,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_5,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_5,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_5,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_5,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_5,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_5,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options
+FPD350_5,CH/FPD/TAPPING/SETS,15,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_5,CH/FPD/BOLT/TYPE/MAT,16,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_5,CH/FPD/GASKET,17,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_5,CH/FPD/TEMP,18,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element
+FPD350_5,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_5,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_5,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_5,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_5,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_5,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_H6,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_H6,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_H6,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_H6,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_H6,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_H6,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_H6,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_H6,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_H6,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_H6,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_H6,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_H6,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_H6,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_H6,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options
+FPD350_H6,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material
+FPD350_H6,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_H6,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_H6,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_H6,CH/FPD/FITT/ACC,19,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_H6,CH/FPD/SURFACE/TREAT,20,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_H6,CH/FPD/CERTIFICATION,21,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_H6,CH/FPD/TESTING,22,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_H6,CH/FPD/DOC/LANG,23,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_H6,CH/FPD/ADD/REQ,24,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_H7,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_H7,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_H7,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_H7,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_H7,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_H7,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_H7,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_H7,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_H7,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_H7,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_H7,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_H7,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_H7,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_H7,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options
+FPD350_H7,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material
+FPD350_H7,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_H7,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_H7,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_H7,CH/FPD/TEMP,19,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element
+FPD350_H7,CH/FPD/FITT/ACC,20,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_H7,CH/FPD/SURFACE/TREAT,21,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_H7,CH/FPD/CERTIFICATION,22,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_H7,CH/FPD/TESTING,23,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_H7,CH/FPD/DOC/LANG,24,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_H7,CH/FPD/ADD/REQ,25,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_H8,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_H8,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_H8,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_H8,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_H8,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_H8,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_H8,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_H8,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_H8,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_H8,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_H8,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_H8,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_H8,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_H8,CH/FPD/TORBAR/DES,14,TRUE,FALSE,TRUE,0,,Design options,Design options
+FPD350_H8,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material
+FPD350_H8,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_H8,CH/FPD/BOLT/TYPE/MAT,17,TRUE,FALSE,TRUE,0,,Bolt type and material,Bolt type and material
+FPD350_H8,CH/FPD/GASKET,18,TRUE,FALSE,TRUE,0,,Gasket Material,Gasket Material
+FPD350_H8,CH/FPD/TEMP,19,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element
+FPD350_H8,CH/FPD/FITT/ACC,20,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_H8,CH/FPD/SURFACE/TREAT,21,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_H8,CH/FPD/CERTIFICATION,22,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_H8,CH/FPD/TESTING,23,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_H8,CH/FPD/DOC/LANG,24,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_H8,CH/FPD/ADD/REQ,25,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_L6,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_L6,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_L6,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_L6,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_L6,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_L6,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_L6,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_L6,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_L6,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_L6,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_L6,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_L6,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_L6,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_L6,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options
+FPD350_L6,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material
+FPD350_L6,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_L6,CH/FPD/FITT/ACC,17,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_L6,CH/FPD/SURFACE/TREAT,18,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_L6,CH/FPD/CERTIFICATION,19,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_L6,CH/FPD/TESTING,20,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_L6,CH/FPD/DOC/LANG,21,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_L6,CH/FPD/ADD/REQ,22,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements
+FPD350_L7,CH/FPD/PRODUCT/DES,1,TRUE,TRUE,TRUE,6,,Product Design,Product Design
+FPD350_L7,CH/FPD/END/SUPT,2,TRUE,TRUE,TRUE,7,,End Support,End Support
+FPD350_L7,CH/FPD/LINE/SIZE,3,TRUE,TRUE,TRUE,4,,Line Nominal Bore,Line Nominal Bore
+FPD350_L7,CH/FPD/ELEM/MAT,4,TRUE,TRUE,TRUE,3,,Probe Material,Probe Material
+FPD350_L7,CH/FPD/NONELEM/MAT,5,TRUE,TRUE,TRUE,2,,Pipe Fitting Material,Pipe Fitting Material
+FPD350_L7,CH/FPD/MOUNTING,6,TRUE,TRUE,TRUE,31,,Mounting Type,Mounting Type
+FPD350_L7,CH/FPD/END/CONN/TYPE,7,TRUE,TRUE,TRUE,0,,Process Connection Type,Process Connection Type
+FPD350_L7,CH/FPD/END/CONN/RAT,8,TRUE,TRUE,TRUE,10,,Process Connection Rating,Process Connection Rating
+FPD350_L7,CH/FPD/TAPPING/TYPE,9,TRUE,TRUE,TRUE,0,,Tapping Type,Tapping Type
+FPD350_L7,CH/FPD/TAPPING/SIZE,10,TRUE,TRUE,TRUE,0,,Tapping Size,Tapping Size
+FPD350_L7,CH/FPD/VALVE/MAT,11,TRUE,TRUE,TRUE,0,,Tapping/Valve Material,Tapping/Valve Material
+FPD350_L7,CH/FPD/PIPE/ORIENT,12,TRUE,TRUE,TRUE,30,,Pipe Orientation and shape,Pipe Orientation and shape
+FPD350_L7,CH/FPD/ISO/VALVE,13,TRUE,TRUE,TRUE,0,,Process Isolation Valve,Process Isolation Valve
+FPD350_L7,CH/FPD/TORBAR/DES,14,TRUE,FALSE,FALSE,0,,Design options,Design options
+FPD350_L7,CH/FPD/PACK/GLND/MAT,15,TRUE,FALSE,TRUE,0,,Packing Gland Material,Packing Gland Material
+FPD350_L7,CH/FPD/TAPPING/SETS,16,TRUE,FALSE,TRUE,0,,Number of Tapping Sets,Number of Tapping Sets
+FPD350_L7,CH/FPD/TEMP,17,TRUE,FALSE,TRUE,0,,Temperature Element,Temperature Element
+FPD350_L7,CH/FPD/FITT/ACC,18,TRUE,FALSE,TRUE,0,,Fitting Accessories,Fitting Accessories
+FPD350_L7,CH/FPD/SURFACE/TREAT,19,TRUE,FALSE,TRUE,0,,Surface Treatment,Surface Treatment
+FPD350_L7,CH/FPD/CERTIFICATION,20,TRUE,FALSE,FALSE,0,,Certification,Certification
+FPD350_L7,CH/FPD/TESTING,21,TRUE,FALSE,FALSE,0,,Testing,Testing
+FPD350_L7,CH/FPD/DOC/LANG,22,TRUE,FALSE,TRUE,0,,Documentation Language (default = English),Documentation Language (default = English)
+FPD350_L7,CH/FPD/ADD/REQ,23,TRUE,FALSE,TRUE,0,,Added Requirements,Added Requirements

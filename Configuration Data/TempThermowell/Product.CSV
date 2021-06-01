@@ -1,2 +1,2 @@
-"ProductCode","CodeDisplay","Name","ProductOrder","Cost","EnglishUS","EnglishUS_LongDesc","French","French_LongDesc","German","German_LongDesc","Spanish","Spanish_LongDesc","Russian","Russian_LongDesc"
-TTW,TTW,TTW - Thermowell,1,,,,,,,,,,,
+"ProductCode","CodeDisplay","Name","ProductOrder","Cost"
+"TTW","TTW","TTW - Thermowell",1,0

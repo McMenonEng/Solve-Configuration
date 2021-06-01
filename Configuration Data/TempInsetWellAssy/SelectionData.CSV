@@ -1,255 +1,318 @@
-ProductCode,SelectionGroup,GrpOrder,PartNumber,Order,Active,DefaultItem,ExclusionRule,Cost,Name,Description,AdditionalData,EnglishUS,EnglishUS_LongDesc,French,French_LongDesc,German,German_LongDesc,Spanish,Spanish_LongDesc,Russian,Russian_LongDesc
-TAW,CH/HAZARD,1,Y0,1,TRUE,FALSE,,0,Safe Area - Non certified,Safe Area - Non certified,,,,,,,,,,,
-TAW,CH/HAZARD,1,A0,2,TRUE,FALSE,,0,ATEX Ex i - With installed certified transmitter,ATEX Ex i - With installed certified transmitter,,,,,,,,,,,
-TAW,CH/HAZARD,1,A1,3,TRUE,FALSE,,0,ATEX Ex d,ATEX Ex d,,,,,,,,,,,
-TAW,CH/HAZARD,1,A2,4,TRUE,FALSE,,0,ATEX Ex n,ATEX Ex n,,,,,,,,,,,
-TAW,CH/HAZARD,1,B0,5,TRUE,FALSE,,0,IECEx i - With installed certified transmitter,IECEx i - With installed certified transmitter,,,,,,,,,,,
-TAW,CH/HAZARD,1,B1,6,TRUE,FALSE,,0,IECEx d,IECEx d,,,,,,,,,,,
-TAW,CH/HAZARD,1,F0,7,TRUE,FALSE,,0,FM Intrinsically Safe - With installed certified transmitter,FM Intrinsically Safe - With installed certified transmitter,,,,,,,,,,,
-TAW,CH/HAZARD,1,S0,8,TRUE,FALSE,,0,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,Simple Apparatus Equipment - For intrinsically safe installations without transmitter,,,,,,,,,,,
-TAW,CH/TX,2,Y0,1,TRUE,FALSE,CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0,0,None,None,,,,,,,,,,,
-TAW,CH/TX,2,Z9,2,TRUE,FALSE,,0,Customer Specific,Customer Specific,,,,,,,,,,,
-TAW,CH/TX,2,A2,3,TRUE,FALSE,,0,"TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,,,,,,,,,,
-TAW,CH/TX,2,A3,4,TRUE,FALSE,,0,"TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,,,,,,,,,,
-TAW,CH/COMMS,3,Y0,1,TRUE,FALSE,NOT(CH/TX=Y0),0,None,None,,,,,,,,,,,
-TAW,CH/COMMS,3,H5,2,TRUE,FALSE,CH/TX=Y0,0,HART 5 (4...20 mA),HART 5 (4...20 mA),,,,,,,,,,,
-TAW,CH/COMMS,3,H7,3,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,HART 7 (4...20 mA),HART 7 (4...20 mA),,,,,,,,,,,
-TAW,CH/COMMS,3,P1,4,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Profibus PA,Profibus PA,,,,,,,,,,,
-TAW,CH/COMMS,3,F1,5,TRUE,FALSE,CH/TX=Y0 OR CH/TX=A2,0,Foundation Fieldbus - H1,Foundation Fieldbus - H1,,,,,,,,,,,
-TAW,CH/UNUSED,5,00,1,FALSE,FALSE,,0,Unused,Unused,,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L1,1,TRUE,FALSE,,0,"AGL - Aluminium Epoxy Coated, Std Blind Lid","AGL - Aluminium Epoxy Coated, Std Blind Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L2,2,TRUE,FALSE,,0,"AGL H - Aluminium Epoxy Coated, High Blind Lid","AGL H - Aluminium Epoxy Coated, High Blind Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L3,3,TRUE,FALSE,,0,"AGL HD - Aluminium Epoxy Coated, High Window Lid","AGL HD - Aluminium Epoxy Coated, High Window Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S1,4,TRUE,FALSE,,0,"AGS - 316L St Steel, Natural Finish, Std Blind Lid","AGS - 316L St Steel, Natural Finish, Std Blind Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S2,5,TRUE,FALSE,,0,"AGS H - 316L St Steel, Natural Finish, High Blind Lid","AGS H - 316L St Steel, Natural Finish, High Blind Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S3,6,TRUE,FALSE,,0,"AGS HD - 316L St Steel, Natural Finish, High Window Lid","AGS HD - 316L St Steel, Natural Finish, High Window Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L4,7,TRUE,FALSE,,0,"AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L5,8,TRUE,FALSE,,0,"AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,L6,9,TRUE,FALSE,,0,"AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S4,10,TRUE,FALSE,,0,"AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S5,11,TRUE,FALSE,,0,"AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S6,12,TRUE,FALSE,,0,"AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,B1,13,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,"BUZ - Aluminium, Painted, Hinged Lid","BUZ - Aluminium, Painted, Hinged Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,B2,14,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,"BUZ H - Aluminium Painted, High Hinged Lid","BUZ H - Aluminium Painted, High Hinged Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,K1,15,TRUE,FALSE,,0,"KNE - Aluminium Painted, Screwed Lid","KNE - Aluminium Painted, Screwed Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,K2,16,TRUE,FALSE,,0,"KI - Cast Iron, Painted, Screwed Lid","KI - Cast Iron, Painted, Screwed Lid",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,H8,17,TRUE,FALSE,,0,"H8 - Aluminium Painted - Form B Head","H8 - Aluminium Painted - Form B Head",,,,,,,,,,,
-TAW,CH/HEADTYPE,5,S7,18,TRUE,FALSE,,0,"LS - 316 St Steel, Screwed Lid","LS - 316 St Steel, Screwed Lid",,,,,,,,,,,
-TAW,CH/DISPLAY,6,Y0,1,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TAW,CH/DISPLAY,6,Z9,2,TRUE,FALSE,"CH/TX IN (Y0,A2,A3) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,Customer Specific,Customer Specific,,,,,,,,,,,
-TAW,CH/DISPLAY,6,L1,3,TRUE,FALSE,"CH/TX IN (Y0,Z9,A2) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,"Type A - Configurator HMI Display, TTH300 Only","Type A - Configurator HMI Display, TTH300 Only",,,,,,,,,,,
-TAW,CH/DISPLAY,6,L2,4,TRUE,FALSE,"CH/TX IN (Y0,Z9) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))",0,Type AS - Basic Display TTH200 & TTH300,Type AS - Basic Display TTH200 & TTH300,,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,A,1,TRUE,FALSE,,0,"1 x M20X1.5 ISO","1 x M20X1.5 ISO",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,B,2,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20X1.5 ISO","2 x M20X1.5 ISO",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,C,3,TRUE,FALSE,,0,"1 x M20 + ½ in. NPT Adaptor, Brass","1 x M20 + ½ in. NPT Adaptor, Brass",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,D,4,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + ½ in. NPT Adaptor, Brass","2 x M20 + ½ in. NPT Adaptor, Brass",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,E,5,TRUE,FALSE,,0,"1 x M20 + ½ in. NPT Adaptor, St Steel","1 x M20 + ½ in. NPT Adaptor, St Steel",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,F,6,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + ½ in. NPT Adaptor, St Steel","2 x M20 + ½ in. NPT Adaptor, St Steel",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,G,7,TRUE,FALSE,,0,"1 x ½ in. NPT","1 x ½ in. NPT",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,H,8,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x ½ in. NPT","2 x ½ in. NPT",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,J,9,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + 1 x Blind Plug, Brass","2 x M20 + 1 x Blind Plug, Brass",,,,,,,,,,,
-TAW,CH/HEADCABLECON,7,K,10,TRUE,FALSE,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))",0,"2 x M20 + 1 x Blind Plug, St Steel","2 x M20 + 1 x Blind Plug, St Steel",,,,,,,,,,,
-TAW,CH/HEADCON,8,A,1,TRUE,FALSE,,0,"M24X1.5(F)","M24X1.5(F)",,,,,,,,,,,
-TAW,CH/HEADCON,8,B,2,TRUE,FALSE,,0,"½ in. BSP(F)","½ in. BSP(F)",,,,,,,,,,,
-TAW,CH/HEADCON,8,C,3,TRUE,FALSE,,0,"¾ in. BSP(F)","¾ in. BSP(F)",,,,,,,,,,,
-TAW,CH/HEADCON,8,D,4,TRUE,FALSE,,0,"½ in. NPT(F)","½ in. NPT(F)",,,,,,,,,,,
-TAW,CH/HEADCON,8,E,5,TRUE,FALSE,,0,"¾ in. NPT(F)","¾ in. NPT(F)",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E1,1,TRUE,FALSE,,0,"Nipple/Union/Nipple - 150 mm Std","Nipple/Union/Nipple - 150 mm Std",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E2,2,TRUE,FALSE,,0,"Nipple 34 mm / 50 mm / 75 mm","Nipple 34 mm / 50 mm / 75 mm",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E3,3,TRUE,FALSE,,0,"E6 Extension","E6 Extension",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E4,4,TRUE,FALSE,,0,"E4 Extension","E4 Extension",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E5,5,TRUE,FALSE,,0,"Nipple C/W Oil Seal","Nipple C/W Oil Seal",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E6,6,TRUE,FALSE,,0,"Nipple and flange","Nipple and flange",,,,,,,,,,,
-TAW,CH/EXTENSION,9,E7,7,TRUE,FALSE,,0,"Adjustable Extension (TOTAL)","Adjustable Extension (TOTAL)",,,,,,,,,,,
-TAW,CH/EXTENSION,9,V1,8,TRUE,FALSE,,0,"Nipple/Union/Nipple - Variable, Non Std","Nipple/Union/Nipple - Variable, Non Std",,,,,,,,,,,
-TAW,CH/EXTENSION,9,V2,9,TRUE,FALSE,,0,"Single Nipple - Variable, Non Std","Single Nipple - Variable, Non Std",,,,,,,,,,,
-TAW,CH/EXTENSION,9,S1,10,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Nipple","Oil Seal Nipple/Union/Nipple",,,,,,,,,,,
-TAW,CH/EXTENSION,9,S2,11,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Oil Seal Nipple","Oil Seal Nipple/Union/Oil Seal Nipple",,,,,,,,,,,
-TAW,CH/EXTENSION,9,V3,12,TRUE,FALSE,,0,"Oil Seal Nipple/Union/Nipple - Variable","Oil Seal Nipple/Union/Nipple - Variable",,,,,,,,,,,
-TAW,CH/EXTENSION,9,M1,13,TRUE,FALSE,,0,"M24 Head / ½ in. NPT Extension","M24 Head / ½ in. NPT Extension",,,,,,,,,,,
-TAW,CH/EXTENSION,9,M2,14,TRUE,FALSE,,0,"M24 Head / ½ in. BSP Extension","M24 Head / ½ in. BSP Extension",,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,S1,1,TRUE,FALSE,,0,1 x PT100 - Standard Range Thin Film,1 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,S2,2,TRUE,FALSE,,0,2 x PT100 - Standard Range Thin Film,2 x PT100 - Standard Range Thin Film,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,P1,3,TRUE,FALSE,,0,1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,P2,4,TRUE,FALSE,,0,2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C),,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,J1,5,TRUE,FALSE,,0,1 x Type J - Fe/CuNi,1 x Type J - Fe/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,K1,6,TRUE,FALSE,,0,1 x Type K - NiCr/NiAl,1 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,T1,7,TRUE,FALSE,,0,1 x Type T - Cu/CuNi,1 x Type T - Cu/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,E1,8,TRUE,FALSE,,0,1 x Type E - NiCr/CuNi,1 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,N1,9,TRUE,FALSE,,0,1 x Type N - NiCrSi/NiSi,1 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,J2,10,TRUE,FALSE,,0,2 x Type J - Fe/CuNi,2 x Type J - Fe/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,K2,11,TRUE,FALSE,,0,2 x Type K - NiCr/NiAl,2 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,T2,12,TRUE,FALSE,,0,2 x Type T - Cu/CuNi,2 x Type T - Cu/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,E2,13,TRUE,FALSE,,0,2 x Type E - NiCr/CuNi,2 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,N2,14,TRUE,FALSE,,0,2 x Type N - NiCrSi/NiSi,2 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,J3,15,TRUE,FALSE,,0,3 x Type J - Fe/CuNi,3 x Type J - Fe/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,K3,16,TRUE,FALSE,,0,3 x Type K - NiCr/NiAl,3 x Type K - NiCr/NiAl,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,T3,17,TRUE,FALSE,,0,3 x Type T - Cu/CuNi,3 x Type T - Cu/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,E3,18,TRUE,FALSE,,0,3 x Type E - NiCr/CuNi,3 x Type E - NiCr/CuNi,,,,,,,,,,,
-TAW,CH/SENSORTYPE,10,N3,19,TRUE,FALSE,,0,3 x Type N - NiCrSi/NiSi,3 x Type N - NiCrSi/NiSi,,,,,,,,,,,
-TAW,CH/SENSORTOL,11,A,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'A' IEC 60751,Class 'A' IEC 60751,,,,,,,,,,,
-TAW,CH/SENSORTOL,11,B,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'B' IEC 60751,Class 'B' IEC 60751,,,,,,,,,,
-TAW,CH/SENSORTOL,11,C,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2),0,Class 'AA' IEC 60751,Class 'AA' IEC 60751,,,,,,,,,,
-TAW,CH/SENSORTOL,11,1,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '1' IEC 60751,Class '1' IEC 60751,,,,,,,,,,
-TAW,CH/SENSORTOL,11,2,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,Class '2' IEC 60751,Class '2' IEC 60751,,,,,,,,,,
-TAW,CH/SENSORTOL,11,6,6,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2,0,MC-96.1 Standard Class,MC-96.1 Standard Class,,,,,,,,,,
-TAW,CH/SENSORCON,12,2,1,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,2 Wire PT Sensor,2 Wire PT Sensor,,,,,,,,,,,
-TAW,CH/SENSORCON,12,3,2,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2),0,3 Wire PT Sensor,3 Wire PT Sensor,,,,,,,,,,,
-TAW,CH/SENSORCON,12,4,3,TRUE,FALSE,NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0),0,4 Wire PT Sensor,4 Wire PT Sensor,,,,,,,,,,,
-TAW,CH/SENSORCON,12,I,4,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Insulated Thermocouple Hot Junction,Insulated Thermocouple Hot Junction,,,,,,,,,,,
-TAW,CH/SENSORCON,12,B,5,TRUE,FALSE,CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2,0,Bonded Thermocouple Hot Junction,Bonded Thermocouple Hot Junction,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D1,1,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,1.5 mm,1.5 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,3 mm,3 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D3,3,TRUE,FALSE,,0,4.5 mm,4.5 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D4,4,TRUE,FALSE,,0,6 mm,6 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D5,4,TRUE,FALSE,,0,8 mm,8 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D6,5,TRUE,FALSE,,0,10 mm,10 mm,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D7,6,TRUE,FALSE,,0,6 mm with 10 mm tip,6 mm with 10 mm tip,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D8,7,TRUE,FALSE,,0,6 mm swaged to 4.5 mm x 20 mm long,6 mm swaged to 4.5 mm x 20 mm long,,,,,,,,,,,
-TAW,CH/SENSORDIA,13,D9,8,TRUE,FALSE,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)",0,6 mm swaged to 3 mm x 20 mm long,6 mm swaged to 3 mm x 20 mm long,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,S4,1,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,304 Stainless Steel,304 Stainless Steel,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,S2,2,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,321 Stainless Steel,321 Stainless Steel,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,S1,3,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,310 Stainless Steel,310 Stainless Steel,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,S6,4,TRUE,FALSE,,0,316 Stainless Steel,316 Stainless Steel,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,U6,5,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 600,Alloy 600,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,U8,6,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 800,Alloy 800,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,U4,7,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Alloy 446,Alloy 446,,,,,,,,,,,
-TAW,CH/SHEATHMAT,14,C2,8,TRUE,FALSE,"CH/SENSORTYPE IN (S1,S2,P1,P2)",0,Hastelloy X,Hastelloy X,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,T1,1,TRUE,FALSE,NOT(CH/TX=Y0),0,Ceramic Terminal Block - Spring Loaded,Ceramic Terminal Block - Spring Loaded,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,F1,2,TRUE,FALSE,CH/TX=Y0,0,Transmitter Flange and Transmitter Tails - Spring Loaded,Transmitter Flange and Transmitter Tails - Spring Loaded,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,S1,3,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Spring Loaded For M20 Cable Entry (requires back stop),Spring Loaded For M20 Cable Entry (requires back stop),,,,,,,,,,,
-TAW,CH/SENSORTERM,15,S2,4,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Shell Std For Spring Loading in Union,Shell Std For Spring Loading in Union,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,P1,5,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Std Plain Pot Seal,Std Plain Pot Seal,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,P2,6,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Screwed Pot Seal,Screwed Pot Seal,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,R1,7,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Strain Relief Spring Assembly,Strain Relief Spring Assembly,,,,,,,,,,,
-TAW,CH/SENSORTERM,15,C1,8,TRUE,FALSE,"CH/HAZARD IN (A1,B1)",0,Plain Crimp Tube,Plain Crimp Tube,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S6,1,TRUE,FALSE,,0,316/316L Stainless Steel,316/316L Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,H6,2,TRUE,FALSE,,0,316H Stainless Steel,316H Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S4,3,TRUE,FALSE,,0,304/304L Stainless Steel,304/304L Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,H4,4,TRUE,FALSE,,0,304H Stainless Steel,304H Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S3,5,TRUE,FALSE,,0,310 Stainless Steel,310 Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S2,6,TRUE,FALSE,,0,321 Stainless Steel,321 Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S1,7,TRUE,FALSE,,0,321H Stainless Steel,321H Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S5,8,TRUE,FALSE,,0,347 Stainless Steel,347 Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S7,9,TRUE,FALSE,,0,347H Stainless Steel,347H Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,S8,10,TRUE,FALSE,,0,317/317L Stainless Steel,317/317L Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,D1,11,TRUE,FALSE,,0,22% Cr Duplex (UNS S31803),22% Cr Duplex (UNS S31803),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,D2,12,TRUE,FALSE,,0,25% Cr Super Duplex (UNS S32750),25% Cr Super Duplex (UNS S32750),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,D3,13,TRUE,FALSE,,0,25% Cr Super Duplex (UNS S32760),25% Cr Super Duplex (UNS S32760),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U6,14,TRUE,FALSE,,0,Alloy C22 (UNS N06022),Alloy C22 (UNS N06022),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U7,15,TRUE,FALSE,,0,Alloy C276 (UNS N010276),Alloy C276 (UNS N010276),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,C3,16,TRUE,FALSE,,0,Carbon Steel,Carbon Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,C4,17,TRUE,FALSE,,0,Low Temp Carbon Steel,Low Temp Carbon Steel,,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,M1,18,TRUE,FALSE,,0,6% Mo SS (UNS S31254),6% Mo SS (UNS S31254),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U1,19,TRUE,FALSE,,0,Alloy 20 (UNS N08020),Alloy 20 (UNS N08020),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U2,20,TRUE,FALSE,,0,Alloy 200 (UNS N02200),Alloy 200 (UNS N02200),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,M4,21,TRUE,FALSE,,0,Alloy 400 (UNS N04400),Alloy 400 (UNS N04400),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U3,22,TRUE,FALSE,,0,Alloy 600 (UNS N06600),Alloy 600 (UNS N06600),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U8,23,TRUE,FALSE,,0,Alloy 601 (UNS N06601),Alloy 601 (UNS N06601),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,N2,24,TRUE,FALSE,,0,Alloy 625 (UNS N06625),Alloy 625 (UNS N06625),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U4,25,TRUE,FALSE,,0,Alloy 800 (UNS N08800),Alloy 800 (UNS N08800),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,H7,26,TRUE,FALSE,,0,Alloy 800H (UNS N08810),Alloy 800H (UNS N08810),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,H8,27,TRUE,FALSE,,0,Alloy 800HT (UNS N08811),Alloy 800HT (UNS N08811),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,U5,28,TRUE,FALSE,,0,Alloy 825 (UNS N08825),Alloy 825 (UNS N08825),,,,,,,,,,,
-TAW,CH/TW_MATERIAL,16,P4,29,TRUE,FALSE,,0,Titanium,Titanium,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,A,1,TRUE,FALSE,,0,Fillet & Groove,Fillet & Groove,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,B,2,TRUE,FALSE,,0,Full Penetration,Full Penetration,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,C,3,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged,Forged,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,D,4,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - A105N Flange,Forged Van Stone - A105N Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,E,5,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - 316SS Flange,Forged Van Stone - 316SS Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,F,6,TRUE,FALSE,CH/TW_MATERIAL = P4,0,Forged Van Stone - As Thermowell,Forged Van Stone - As Thermowell,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,G,7,TRUE,FALSE,,0,Round Bar Van Stone - A105N Flange,Round Bar Van Stone - A105N Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,H,8,TRUE,FALSE,,0,Round Bar Van Stone - 316SS Flange,Round Bar Van Stone - 316SS Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,I,9,TRUE,FALSE,,0,Round Bar Van Stone - Flange As Thermowell,Round Bar Van Stone - Flange As Thermowell,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,J,10,TRUE,FALSE,,0,Weld In,Weld In,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,K,11,TRUE,FALSE,,0,Screwed,Screwed,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,L,12,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange,Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,M,13,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange,Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,N,14,TRUE,FALSE,,0,Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material,Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,O,15,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - A105N Flange,BP Van Stone - A105N Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,P,16,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - 316SS Flange,BP Van Stone - 316SS Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,Q,17,TRUE,FALSE,CH/TW_MATERIAL = P4,0,BP Van Stone - Flange As Thermowell Material,BP Van Stone - Flange As Thermowell Material,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,R,18,TRUE,FALSE,,0,Threaded Flange,Threaded Flange,,,,,,,,,,,
-TAW,CH/TW_CONSTRUCTION,17,S,19,TRUE,FALSE,,0,Threaded and Seal Welded Flange,Threaded and Seal Welded Flange,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,Y0,1,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (A,B,C,D,E,F,G,H,I,L,M,N,O,P,Q,R,S)",0,Not Flanged,Not Flanged,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R2,2,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 20 (¾ in.),Raised Face DN 20 (¾ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R3,3,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 25 (1 in.),Raised Face DN 25 (1 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R4,4,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 40 (1½ in.),Raised Face DN 40 (1½ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R5,5,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 50 (2 in.),Raised Face DN 50 (2 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R8,6,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 65 (2½ in.),Raised Face DN 65 (2½ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R6,7,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 80 (3 in.),Raised Face DN 80 (3 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,R7,8,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Raised Face DN 100 (4 in.),Raised Face DN 100 (4 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J2,9,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 20 (¾ in.),Ring Type Joint DN 20 (¾ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J3,10,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 25 (1 in.),Ring Type Joint DN 25 (1 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J4,11,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 40 (1½ in.),Ring Type Joint DN 40 (1½ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J5,12,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 50 (2 in.),Ring Type Joint DN 50 (2 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J8,13,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 65 (2½ in.),Ring Type Joint DN 65 (2½ in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J6,14,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 80 (3 in.),Ring Type Joint DN 80 (3 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_TYPE,18,J7,15,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,Ring Type Joint DN 100 (4 in.),Ring Type Joint DN 100 (4 in.),,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A1,1,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 150,ASME Class 150,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A3,2,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 300,ASME Class 300,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A6,3,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 600,ASME Class 600,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A7,4,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 900,ASME Class 900,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A8,5,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 1500,ASME Class 1500,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,A9,6,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,ASME Class 2500,ASME Class 2500,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D0,7,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 6,DIN PN 6,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D1,8,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 10,DIN PN 10,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D2,9,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 16,DIN PN 16,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D3,10,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 25,DIN PN 25,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D4,11,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 40,DIN PN 40,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D5,12,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 63,DIN PN 63,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D6,13,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 100,DIN PN 100,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D7,14,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 160,DIN PN 160,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,D8,15,TRUE,FALSE,"CH/TW_CONSTRUCTION IN (J,K)",0,DIN PN 250,DIN PN 250,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,G1,16,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. BSP P,½ in. BSP P,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,G2,17,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. BSP P,¾ in. BSP P,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,G3,18,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. BSP P,1 in. BSP P,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,G4,19,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. BSP P,1¼ in. BSP P,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,B1,20,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. BSP T,½ in. BSP T,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,B2,21,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. BSP T,¾ in. BSP T,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,B3,22,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. BSP T,1 in. BSP T,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,B4,23,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. BSP T,1¼ in. BSP T,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,N1,24,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,½ in. NPT,½ in. NPT,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,N2,25,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,¾ in. NPT,¾ in. NPT,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,N3,26,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1 in. NPT,1 in. NPT,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,N4,27,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = K),0,1¼ in. NPT,1¼ in. NPT,,,,,,,,,,,
-TAW,CH/TW_PROCCONN_DETAIL,19,W1,28,TRUE,FALSE,NOT(CH/TW_CONSTRUCTION = J),0,Weld In,Weld In,,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,G1,1,TRUE,FALSE,CH/EXTENSION = M1,0,½ in. BSP P (Female),½ in. BSP P (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,B1,2,TRUE,FALSE,CH/EXTENSION = M1,0,½ in. BSP T (Female),½ in. BSP T (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,G2,3,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,¾ in. BSP P (Female),¾ in. BSP P (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,B2,4,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,¾ in. BSP T (Female),¾ in. BSP T (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,N1,5,TRUE,FALSE,CH/EXTENSION = M2,0,½ in. NPT (Female),½ in. NPT (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,N2,6,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,¾ in. NPT (Female),¾ in. NPT (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,M1,7,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,M14 (Female),M14 (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,M2,8,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,M18 (Female),M18 (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,M3,9,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,M20 (Female),M20 (Female),,,,,,,,,,,
-TAW,CH/TW_INSTCONN,20,M4,10,TRUE,FALSE,"CH/EXTENSION IN (M1,M2)",0,M24 (Female),M24 (Female),,,,,,,,,,,
-TAW,CH/TW_PROFILE,21,P,1,TRUE,FALSE,,0,Parallel,Parallel,,,,,,,,,,,
-TAW,CH/TW_PROFILE,21,T,2,TRUE,FALSE,,0,Tapered,Tapered,,,,,,,,,,,
-TAW,CH/TW_PROFILE,21,S,3,TRUE,FALSE,,0,Stepped,Stepped,,,,,,,,,,,
-TAW,CH/TW_BORE,22,A,1,TRUE,FALSE,,0,3.3 mm,3.3 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,B,2,TRUE,FALSE,,0,6.5 mm,6.5 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,C,3,TRUE,FALSE,,0,7.0 mm,7.0 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,D,4,TRUE,FALSE,,0,9.5 mm,9.5 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,E,5,TRUE,FALSE,,0,10.3 mm,10.3 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,F,6,TRUE,FALSE,,0,13.0 mm,13.0 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,G,7,TRUE,FALSE,,0,18.0 mm,18.0 mm,,,,,,,,,,,
-TAW,CH/TW_BORE,22,H,8,TRUE,FALSE,,0,25.4 mm,25.4 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T1,1,TRUE,FALSE,,0,3.0 mm,3.0 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T2,2,TRUE,FALSE,,0,5.5 mm,5.5 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T3,3,TRUE,FALSE,,0,6.0 mm,6.0 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T4,4,TRUE,FALSE,,0,6.35 mm,6.35 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T5,5,TRUE,FALSE,,0,9.5 mm,9.5 mm,,,,,,,,,,,
-TAW,CH/TW_TIPTHICK,23,T6,6,TRUE,FALSE,,0,12.0 mm,12.0 mm,,,,,,,,,,,
-TAW,CH/TW_VCOL,24,Y,1,TRUE,FALSE,,0,Yes,Yes,,,,,,,,,,,
-TAW,CH/TW_VCOL,24,N,2,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TAW,CH/TW_PLUG,25,N,1,TRUE,FALSE,,0,N/A,N/A,,,,,,,,,,,
-TAW,CH/TW_PLUG,25,B,2,TRUE,FALSE,,0,Brass,Brass,,,,,,,,,,,
-TAW,CH/TW_PLUG,25,S,3,TRUE,FALSE,,0,Stainless Steel,Stainless Steel,,,,,,,,,,,
-TAW,CH/TW_COATING,26,Y0,1,TRUE,FALSE,,0,None,None,,,,,,,,,,,
-TAW,CH/TW_COATING,26,TS,2,TRUE,FALSE,,0,Tantalum Sheath,Tantalum Sheath,,,,,,,,,,,
-TAW,CH/TW_COATING,26,SS,3,TRUE,FALSE,,0,Stellite Spray,Stellite Spray,,,,,,,,,,,
-TAW,CH/TW_COATING,26,SW,4,TRUE,FALSE,,0,Stellite Weld,Stellite Weld,,,,,,,,,,,
-TAW,CH/TW_COATING,26,TC,5,TRUE,FALSE,,0,Tungsten Carbide,Tungsten Carbide,,,,,,,,,,,
-TAW,CH/TW_COATING,26,PT,6,TRUE,FALSE,,0,PTFE,PTFE,,,,,,,,,,,
-TAW,CH/TW_COATING,26,C8,7,TRUE,FALSE,,0,COLMONOY 88,COLMONOY 88,,,,,,,,,,,
+"ProductCode","SelectionGroup","PartNumber","Order","Active","DefaultItem","Cost","ExclusionRule","Name","Description","AdditionalData","InShortenedList"
+"TAW","CH/HAZARD","Y0",1,True,False,0,"","Safe Area - Non certified","Safe Area - Non certified",,False
+"TAW","CH/HAZARD","A0",2,True,False,0,"","ATEX Ex i - With installed certified transmitter","ATEX Ex i - With installed certified transmitter",,False
+"TAW","CH/HAZARD","A1",3,True,False,0,"","ATEX Ex d","ATEX Ex d",,False
+"TAW","CH/HAZARD","A2",4,True,False,0,"","ATEX Ex n","ATEX Ex n",,False
+"TAW","CH/HAZARD","B0",5,True,False,0,"","IECEx i - With installed certified transmitter","IECEx i - With installed certified transmitter",,False
+"TAW","CH/HAZARD","B1",6,True,False,0,"","IECEx d","IECEx d",,False
+"TAW","CH/HAZARD","F0",7,True,False,0,"","FM Intrinsically Safe - With installed certified transmitter","FM Intrinsically Safe - With installed certified transmitter",,False
+"TAW","CH/HAZARD","S0",8,True,False,0,"","Simple Apparatus Equipment - For intrinsically safe installations without transmitter","Simple Apparatus Equipment - For intrinsically safe installations without transmitter",,False
+"TAW","CH/TX","Y0",1,True,False,0,"CH/HAZARD IN (A0,B0,F0)","None","None",,False
+"TAW","CH/TX","Y1",2,True,False,0,"CH/HAZARD IN (A0,B0,F0,S0)","Customer Free Issue","Customer Free Issue",,False
+"TAW","CH/TX","Y2",3,True,False,0,"CH/HAZARD IN (A0,B0,F0,S0)","Customer to Install Own Transmitter","Customer to Install Own Transmitter",,False
+"TAW","CH/TX","A2",4,True,False,0,"CH/HAZARD=S0","ABB TTH200 - Smart HART, single sensor input","ABB TTH200 - Smart HART, single sensor input",,False
+"TAW","CH/TX","A3",5,True,False,0,"CH/HAZARD=S0","ABB TTH300 - Smart HART, extended functionality, dual sensor input","ABB TTH300 - Smart HART, extended functionality, dual sensor input",,False
+"TAW","CH/TX","Z9",6,True,False,0,"","Customer Specific","Customer Specific",,False
+"TAW","CH/COMMS","Y0",1,True,False,0,"NOT(CH/TX=Y0)","None","None",,False
+"TAW","CH/COMMS","H5",2,True,False,0,"CH/TX=Y0","HART 5 (4...20 mA)","HART 5 (4...20 mA)",,False
+"TAW","CH/COMMS","H7",3,True,False,0,"CH/TX=Y0 OR CH/TX=A2","HART 7 (4...20 mA)","HART 7 (4...20 mA)",,False
+"TAW","CH/COMMS","P1",4,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Profibus PA","Profibus PA",,False
+"TAW","CH/COMMS","F1",5,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Foundation Fieldbus - H1","Foundation Fieldbus - H1",,False
+"TAW","CH/HEADTYPE","L1",1,True,False,0,"","AGL - Aluminium Epoxy Coated, Std Blind Lid","AGL - Aluminium Epoxy Coated, Std Blind Lid",,False
+"TAW","CH/HEADTYPE","L2",2,True,False,0,"","AGL H - Aluminium Epoxy Coated, High Blind Lid","AGL H - Aluminium Epoxy Coated, High Blind Lid",,False
+"TAW","CH/HEADTYPE","L3",3,True,False,0,"","AGL HD - Aluminium Epoxy Coated, High Window Lid","AGL HD - Aluminium Epoxy Coated, High Window Lid",,False
+"TAW","CH/HEADTYPE","S1",4,True,False,0,"","AGS - 316L St Steel, Natural Finish, Std Blind Lid","AGS - 316L St Steel, Natural Finish, Std Blind Lid",,False
+"TAW","CH/HEADTYPE","S2",5,True,False,0,"","AGS H - 316L St Steel, Natural Finish, High Blind Lid","AGS H - 316L St Steel, Natural Finish, High Blind Lid",,False
+"TAW","CH/HEADTYPE","S3",6,True,False,0,"","AGS HD - 316L St Steel, Natural Finish, High Window Lid","AGS HD - 316L St Steel, Natural Finish, High Window Lid",,False
+"TAW","CH/HEADTYPE","L4",7,True,False,0,"","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing","AGL F - Aluminium Epoxy Coated, Std Blind Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","L5",8,True,False,0,"","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing","AGL FH - Aluminium Epoxy Coated, High Blind Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","L6",9,True,False,0,"","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing","AGL FD - Aluminium Epoxy Coated, Window Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","S4",10,True,False,0,"","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing","AGS F - 316L St Steel, Natural Finish, Std Blind Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","S5",11,True,False,0,"","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing","AGS FH - 316L St Steel, Natural Finish, High Blind Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","S6",12,True,False,0,"","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing","AGS FD - 316L St Steel, Natural Finish, Window Lid, Field Housing",,False
+"TAW","CH/HEADTYPE","B1",13,True,False,0,"CH/HAZARD IN (A1,B1)","BUZ - Aluminium, Painted, Hinged Lid","BUZ - Aluminium, Painted, Hinged Lid",,False
+"TAW","CH/HEADTYPE","B2",14,True,False,0,"CH/HAZARD IN (A1,B1)","BUZ H - Aluminium Painted, High Hinged Lid","BUZ H - Aluminium Painted, High Hinged Lid",,False
+"TAW","CH/HEADTYPE","K1",15,True,False,0,"","KNE - Aluminium Painted, Screwed Lid","KNE - Aluminium Painted, Screwed Lid",,False
+"TAW","CH/HEADTYPE","K2",16,True,False,0,"","KI - Cast Iron, Painted, Screwed Lid","KI - Cast Iron, Painted, Screwed Lid",,False
+"TAW","CH/HEADTYPE","H8",17,True,False,0,"","H8 - Aluminium Painted - Form B Head","H8 - Aluminium Painted - Form B Head",,False
+"TAW","CH/HEADTYPE","S7",18,True,False,0,"","LS - 316 St Steel, Screwed Lid","LS - 316 St Steel, Screwed Lid",,False
+"TAW","CH/DISPLAY","Y0",1,True,False,0,"","None","None",,False
+"TAW","CH/DISPLAY","Z9",2,True,False,0,"CH/TX IN (Y0,A2,A3) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Customer Specific","Customer Specific",,False
+"TAW","CH/DISPLAY","L1",3,True,False,0,"CH/TX IN (Y0,Z9,A2) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Type A - Configurator HMI Display, TTH300 Only","Type A - Configurator HMI Display, TTH300 Only",,False
+"TAW","CH/DISPLAY","L2",4,True,False,0,"CH/TX IN (Y0,Z9) OR NOT(CH/HEADTYPE IN (L3,S3,L5,L6,S5,S6))","Type AS - Basic Display TTH200 & TTH300","Type AS - Basic Display TTH200 & TTH300",,False
+"TAW","CH/HEADCABLECON","A",1,True,False,0,"","1 x M20X1.5 ISO","1 x M20X1.5 ISO",,False
+"TAW","CH/HEADCABLECON","B",2,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20X1.5 ISO","2 x M20X1.5 ISO",,False
+"TAW","CH/HEADCABLECON","C",3,True,False,0,"","1 x M20 + ½ in. NPT Adaptor, Brass","1 x M20 + ½ in. NPT Adaptor, Brass",,False
+"TAW","CH/HEADCABLECON","D",4,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + ½ in. NPT Adaptor, Brass","2 x M20 + ½ in. NPT Adaptor, Brass",,False
+"TAW","CH/HEADCABLECON","E",5,True,False,0,"","1 x M20 + ½ in. NPT Adaptor, St Steel","1 x M20 + ½ in. NPT Adaptor, St Steel",,False
+"TAW","CH/HEADCABLECON","F",6,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + ½ in. NPT Adaptor, St Steel","2 x M20 + ½ in. NPT Adaptor, St Steel",,False
+"TAW","CH/HEADCABLECON","G",7,True,False,0,"","1 x ½ in. NPT","1 x ½ in. NPT",,False
+"TAW","CH/HEADCABLECON","H",8,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x ½ in. NPT","2 x ½ in. NPT",,False
+"TAW","CH/HEADCABLECON","J",9,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + 1 x Blind Plug, Brass","2 x M20 + 1 x Blind Plug, Brass",,False
+"TAW","CH/HEADCABLECON","K",10,True,False,0,"NOT(CH/HEADTYPE IN (L1,L2,L3,S1,S2,S3,L4,L5,L6,S4,S5,S6))","2 x M20 + 1 x Blind Plug, St Steel","2 x M20 + 1 x Blind Plug, St Steel",,False
+"TAW","CH/HEADCON","A",1,True,False,0,"","M24X1.5(F)","M24X1.5(F)",,False
+"TAW","CH/HEADCON","B",2,True,False,0,"","½ in. BSP(F)","½ in. BSP(F)",,False
+"TAW","CH/HEADCON","C",3,True,False,0,"","¾ in. BSP(F)","¾ in. BSP(F)",,False
+"TAW","CH/HEADCON","D",4,True,False,0,"","½ in. NPT(F)","½ in. NPT(F)",,False
+"TAW","CH/HEADCON","E",5,True,False,0,"","¾ in. NPT(F)","¾ in. NPT(F)",,False
+"TAW","CH/EXTENSION","E1",1,True,False,0,"","Nipple/Union/Nipple - 150 mm Std","Nipple/Union/Nipple - 150 mm Std",,False
+"TAW","CH/EXTENSION","E2",2,True,False,0,"NOT(CH/HEADCON IN (B,C))","E2 - Single Nipple ½ in. NPT Well Connection - 34 mm","E2 - Single Nipple ½ in. NPT Well Connection - 34 mm",,False
+"TAW","CH/EXTENSION","E3",3,True,False,0,"NOT(CH/HEADCON IN (B,C))","E3 - Single Nipple ½ in. NPT Well Connection - 50 mm","E3 - Single Nipple ½ in. NPT Well Connection - 50 mm",,False
+"TAW","CH/EXTENSION","E4",4,True,False,0,"NOT(CH/HEADCON IN (B,C))","E4 - Single Nipple ½ in. NPT Well Connection - 75 mm","E4 - Single Nipple ½ in. NPT Well Connection - 75 mm",,False
+"TAW","CH/EXTENSION","E5",5,True,False,0,"","Nipple C/W Oil Seal","Nipple C/W Oil Seal",,False
+"TAW","CH/EXTENSION","E6",6,True,False,0,"","Nipple and flange","Nipple and flange",,False
+"TAW","CH/EXTENSION","E7",7,True,False,0,"","Adjustable Extension (TOTAL)","Adjustable Extension (TOTAL)",,False
+"TAW","CH/EXTENSION","V1",8,True,False,0,"","Nipple/Union/Nipple - Variable, Non Std","Nipple/Union/Nipple - Variable, Non Std",,False
+"TAW","CH/EXTENSION","V2",9,True,False,0,"","Single Nipple - Variable, Non Std","Single Nipple - Variable, Non Std",,False
+"TAW","CH/EXTENSION","S1",10,True,False,0,"","Oil Seal Nipple/Union/Nipple","Oil Seal Nipple/Union/Nipple",,False
+"TAW","CH/EXTENSION","S2",11,True,False,0,"","Oil Seal Nipple/Union/Oil Seal Nipple","Oil Seal Nipple/Union/Oil Seal Nipple",,False
+"TAW","CH/EXTENSION","V3",12,True,False,0,"","Oil Seal Nipple/Union/Nipple - Variable","Oil Seal Nipple/Union/Nipple - Variable",,False
+"TAW","CH/EXTENSION","M1",13,True,False,0,"","M24 Head / ½ in. NPT Extension","M24 Head / ½ in. NPT Extension",,False
+"TAW","CH/EXTENSION","M2",14,True,False,0,"","M24 Head / ½ in. BSP Extension","M24 Head / ½ in. BSP Extension",,False
+"TAW","CH/EXTENSIONLEN","Min",0,True,False,0,"","Min length","Min length","0",False
+"TAW","CH/EXTENSIONLEN","Max",1,True,False,0,"","Max length","Max length","1000",False
+"TAW","CH/EXTENSIONLEN","Digits",2,True,False,0,"","Digits","Digits","4",False
+"TAW","CH/EXTENSIONLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/EXTENSIONLEN","Value01",4,True,False,0,"NOT(CH/EXTENSION=E1)","Default value when E1 extension selected","","150",False
+"TAW","CH/EXTENSIONLEN","Value02",5,True,False,0,"NOT(CH/EXTENSION=E2)","Default value when E2 extension selected","","34",False
+"TAW","CH/EXTENSIONLEN","Value03",6,True,False,0,"NOT(CH/EXTENSION=E3)","Default value when E3 extension selected","","50",False
+"TAW","CH/EXTENSIONLEN","Value04",7,True,False,0,"NOT(CH/EXTENSION=E4)","Default value when E4 extension selected","","75",False
+"TAW","CH/EXTENSIONLEN","Units",8,True,False,0,"","Units","Units for exentsion length","mm",False
+"TAW","CH/SENSORTYPE","S1",1,True,False,0,"","1 x PT100 - Standard Range Thin Film","1 x PT100 - Standard Range Thin Film",,False
+"TAW","CH/SENSORTYPE","S2",2,True,False,0,"","2 x PT100 - Standard Range Thin Film","2 x PT100 - Standard Range Thin Film",,False
+"TAW","CH/SENSORTYPE","P1",3,True,False,0,"","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TAW","CH/SENSORTYPE","P2",4,True,False,0,"","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","2 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
+"TAW","CH/SENSORTYPE","J1",5,True,False,0,"","1 x Type J - Fe/CuNi","1 x Type J - Fe/CuNi",,False
+"TAW","CH/SENSORTYPE","K1",6,True,False,0,"","1 x Type K - NiCr/NiAl","1 x Type K - NiCr/NiAl",,False
+"TAW","CH/SENSORTYPE","T1",7,True,False,0,"","1 x Type T - Cu/CuNi","1 x Type T - Cu/CuNi",,False
+"TAW","CH/SENSORTYPE","E1",8,True,False,0,"","1 x Type E - NiCr/CuNi","1 x Type E - NiCr/CuNi",,False
+"TAW","CH/SENSORTYPE","N1",9,True,False,0,"","1 x Type N - NiCrSi/NiSi","1 x Type N - NiCrSi/NiSi",,False
+"TAW","CH/SENSORTYPE","J2",10,True,False,0,"","2 x Type J - Fe/CuNi","2 x Type J - Fe/CuNi",,False
+"TAW","CH/SENSORTYPE","K2",11,True,False,0,"","2 x Type K - NiCr/NiAl","2 x Type K - NiCr/NiAl",,False
+"TAW","CH/SENSORTYPE","T2",12,True,False,0,"","2 x Type T - Cu/CuNi","2 x Type T - Cu/CuNi",,False
+"TAW","CH/SENSORTYPE","E2",13,True,False,0,"","2 x Type E - NiCr/CuNi","2 x Type E - NiCr/CuNi",,False
+"TAW","CH/SENSORTYPE","N2",14,True,False,0,"","2 x Type N - NiCrSi/NiSi","2 x Type N - NiCrSi/NiSi",,False
+"TAW","CH/SENSORTYPE","J3",15,True,False,0,"","3 x Type J - Fe/CuNi","3 x Type J - Fe/CuNi",,False
+"TAW","CH/SENSORTYPE","K3",16,True,False,0,"","3 x Type K - NiCr/NiAl","3 x Type K - NiCr/NiAl",,False
+"TAW","CH/SENSORTYPE","T3",17,True,False,0,"","3 x Type T - Cu/CuNi","3 x Type T - Cu/CuNi",,False
+"TAW","CH/SENSORTYPE","E3",18,True,False,0,"","3 x Type E - NiCr/CuNi","3 x Type E - NiCr/CuNi",,False
+"TAW","CH/SENSORTYPE","N3",19,True,False,0,"","3 x Type N - NiCrSi/NiSi","3 x Type N - NiCrSi/NiSi",,False
+"TAW","CH/SENSORTOL","A",1,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'A' IEC 60751","Class 'A' IEC 60751",,False
+"TAW","CH/SENSORTOL","B",2,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'B' IEC 60751","Class 'B' IEC 60751",,False
+"TAW","CH/SENSORTOL","C",3,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'AA' IEC 60751","Class 'AA' IEC 60751",,False
+"TAW","CH/SENSORTOL","1",4,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Class '1' IEC 60751","Class '1' IEC 60751",,False
+"TAW","CH/SENSORTOL","2",5,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Class '2' IEC 60751","Class '2' IEC 60751",,False
+"TAW","CH/SENSORTOL","6",6,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","MC-96.1 Standard Class","MC-96.1 Standard Class",,False
+"TAW","CH/SENSORCON","2",1,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1,S2,P2))","2 Wire PT Sensor","2 Wire PT Sensor",,False
+"TAW","CH/SENSORCON","3",2,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1,S2,P2))","3 Wire PT Sensor","3 Wire PT Sensor",,False
+"TAW","CH/SENSORCON","4",3,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1)) AND NOT(CH/SENSORTYPE IN (S2,P2) AND CH/HAZARD IN (Y0,A0,B0,F0,S0))","4 Wire PT Sensor","4 Wire PT Sensor",,False
+"TAW","CH/SENSORCON","I",4,True,False,0,"CH/SENSORTYPE IN (S1,P1,S2,P2)","Insulated Thermocouple Hot Junction","Insulated Thermocouple Hot Junction",,False
+"TAW","CH/SENSORCON","B",5,True,False,0,"CH/SENSORTYPE IN (S1,P1,S2,P2)","Bonded Thermocouple Hot Junction","Bonded Thermocouple Hot Junction",,False
+"TAW","CH/SENSORDIA","D1",1,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","1.5 mm","1.5 mm",,False
+"TAW","CH/SENSORDIA","D2",2,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","3 mm","3 mm",,False
+"TAW","CH/SENSORDIA","D3",3,True,False,0,"","4.5 mm","4.5 mm",,False
+"TAW","CH/SENSORDIA","D4",4,True,False,0,"","6 mm","6 mm",,False
+"TAW","CH/SENSORDIA","D5",4,True,False,0,"","8 mm","8 mm",,False
+"TAW","CH/SENSORDIA","D6",5,True,False,0,"","10 mm","10 mm",,False
+"TAW","CH/SENSORDIA","D7",6,True,False,0,"","6 mm with 10 mm tip","6 mm with 10 mm tip",,False
+"TAW","CH/SENSORDIA","D8",7,True,False,0,"","6 mm swaged to 4.5 mm x 20 mm long","6 mm swaged to 4.5 mm x 20 mm long",,False
+"TAW","CH/SENSORDIA","D9",8,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","6 mm swaged to 3 mm x 20 mm long","6 mm swaged to 3 mm x 20 mm long",,False
+"TAW","CH/SHEATHMAT","S4",1,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","304 Stainless Steel","304 Stainless Steel",,False
+"TAW","CH/SHEATHMAT","S2",2,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","321 Stainless Steel","321 Stainless Steel",,False
+"TAW","CH/SHEATHMAT","S1",3,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","310 Stainless Steel","310 Stainless Steel",,False
+"TAW","CH/SHEATHMAT","S6",4,True,False,0,"","316 Stainless Steel","316 Stainless Steel",,False
+"TAW","CH/SHEATHMAT","U6",5,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 600","Alloy 600",,False
+"TAW","CH/SHEATHMAT","U8",6,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 800","Alloy 800",,False
+"TAW","CH/SHEATHMAT","U4",7,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 446","Alloy 446",,False
+"TAW","CH/SHEATHMAT","C2",8,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Hastelloy X","Hastelloy X",,False
+"TAW","CH/SENSORTERM","T1",1,True,False,0,"NOT(CH/TX=Y0)","Ceramic Terminal Block - Spring Loaded","Ceramic Terminal Block - Spring Loaded",,False
+"TAW","CH/SENSORTERM","F1",2,True,False,0,"CH/TX=Y0","Transmitter Flange and Transmitter Tails - Spring Loaded","Transmitter Flange and Transmitter Tails - Spring Loaded",,False
+"TAW","CH/SENSORTERM","S1",3,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Spring Loaded For M20 Cable Entry (requires back stop)","Spring Loaded For M20 Cable Entry (requires back stop)",,False
+"TAW","CH/SENSORTERM","S2",4,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Shell Std For Spring Loading in Union","Shell Std For Spring Loading in Union",,False
+"TAW","CH/SENSORTERM","P1",5,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Std Plain Pot Seal","Std Plain Pot Seal",,False
+"TAW","CH/SENSORTERM","P2",6,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Screwed Pot Seal","Screwed Pot Seal",,False
+"TAW","CH/SENSORTERM","R1",7,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Strain Relief Spring Assembly","Strain Relief Spring Assembly",,False
+"TAW","CH/SENSORTERM","C1",8,True,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Plain Crimp Tube","Plain Crimp Tube",,False
+"TAW","CH/TW_MATERIAL","S6",1,True,False,0,"","316/316L Stainless Steel","316/316L Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","H6",2,True,False,0,"","316H Stainless Steel","316H Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S4",3,True,False,0,"","304/304L Stainless Steel","304/304L Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","H4",4,True,False,0,"","304H Stainless Steel","304H Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S3",5,True,False,0,"","310 Stainless Steel","310 Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S2",6,True,False,0,"","321 Stainless Steel","321 Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S1",7,True,False,0,"","321H Stainless Steel","321H Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S5",8,True,False,0,"","347 Stainless Steel","347 Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S7",9,True,False,0,"","347H Stainless Steel","347H Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","S8",10,True,False,0,"","317/317L Stainless Steel","317/317L Stainless Steel",,False
+"TAW","CH/TW_MATERIAL","D1",11,True,False,0,"","22% Cr Duplex (UNS S31803)","22% Cr Duplex (UNS S31803)",,False
+"TAW","CH/TW_MATERIAL","D2",12,True,False,0,"","25% Cr Super Duplex (UNS S32750)","25% Cr Super Duplex (UNS S32750)",,False
+"TAW","CH/TW_MATERIAL","D3",13,True,False,0,"","25% Cr Super Duplex (UNS S32760)","25% Cr Super Duplex (UNS S32760)",,False
+"TAW","CH/TW_MATERIAL","U6",14,True,False,0,"","Alloy C22 (UNS N06022)","Alloy C22 (UNS N06022)",,False
+"TAW","CH/TW_MATERIAL","U7",15,True,False,0,"","Alloy C276 (UNS N010276)","Alloy C276 (UNS N010276)",,False
+"TAW","CH/TW_MATERIAL","C3",16,True,False,0,"","Carbon Steel","Carbon Steel",,False
+"TAW","CH/TW_MATERIAL","C4",17,True,False,0,"","Low Temp Carbon Steel","Low Temp Carbon Steel",,False
+"TAW","CH/TW_MATERIAL","M1",18,True,False,0,"","6% Mo SS (UNS S31254)","6% Mo SS (UNS S31254)",,False
+"TAW","CH/TW_MATERIAL","U1",19,True,False,0,"","Alloy 20 (UNS N08020)","Alloy 20 (UNS N08020)",,False
+"TAW","CH/TW_MATERIAL","U2",20,True,False,0,"","Alloy 200 (UNS N02200)","Alloy 200 (UNS N02200)",,False
+"TAW","CH/TW_MATERIAL","M4",21,True,False,0,"","Alloy 400 (UNS N04400)","Alloy 400 (UNS N04400)",,False
+"TAW","CH/TW_MATERIAL","U3",22,True,False,0,"","Alloy 600 (UNS N06600)","Alloy 600 (UNS N06600)",,False
+"TAW","CH/TW_MATERIAL","U8",23,True,False,0,"","Alloy 601 (UNS N06601)","Alloy 601 (UNS N06601)",,False
+"TAW","CH/TW_MATERIAL","N2",24,True,False,0,"","Alloy 625 (UNS N06625)","Alloy 625 (UNS N06625)",,False
+"TAW","CH/TW_MATERIAL","U4",25,True,False,0,"","Alloy 800 (UNS N08800)","Alloy 800 (UNS N08800)",,False
+"TAW","CH/TW_MATERIAL","H7",26,True,False,0,"","Alloy 800H (UNS N08810)","Alloy 800H (UNS N08810)",,False
+"TAW","CH/TW_MATERIAL","H8",27,True,False,0,"","Alloy 800HT (UNS N08811)","Alloy 800HT (UNS N08811)",,False
+"TAW","CH/TW_MATERIAL","U5",28,True,False,0,"","Alloy 825 (UNS N08825)","Alloy 825 (UNS N08825)",,False
+"TAW","CH/TW_MATERIAL","P4",29,True,False,0,"","Titanium","Titanium",,False
+"TAW","CH/TW_CONSTRUCTION","A",1,True,False,0,"","Fillet & Groove","Fillet & Groove","FFG",False
+"TAW","CH/TW_CONSTRUCTION","B",2,True,False,0,"","Full Penetration","Full Penetration","FFP",False
+"TAW","CH/TW_CONSTRUCTION","C",3,True,False,0,"CH/TW_MATERIAL = P4","Forged","Forged","F",False
+"TAW","CH/TW_CONSTRUCTION","D",4,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - A105N Flange","Forged Van Stone - A105N Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","E",5,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - 316SS Flange","Forged Van Stone - 316SS Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","F",6,True,False,0,"CH/TW_MATERIAL = P4","Forged Van Stone - As Thermowell","Forged Van Stone - As Thermowell","VS",False
+"TAW","CH/TW_CONSTRUCTION","G",7,True,False,0,"","Round Bar Van Stone - A105N Flange","Round Bar Van Stone - A105N Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","H",8,True,False,0,"","Round Bar Van Stone - 316SS Flange","Round Bar Van Stone - 316SS Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","I",9,True,False,0,"","Round Bar Van Stone - Flange As Thermowell","Round Bar Van Stone - Flange As Thermowell","VS",False
+"TAW","CH/TW_CONSTRUCTION","J",10,True,False,0,"","Weld In","Weld In","W",False
+"TAW","CH/TW_CONSTRUCTION","K",11,True,False,0,"","Screwed","Screwed","T",False
+"TAW","CH/TW_CONSTRUCTION","L",12,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange","Shell Van Stone S38.113 / S38.114 Round Bar - A105N Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","M",13,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange","Shell Van Stone S38.113 / S38.114 Round Bar - 316SS Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","N",14,True,False,0,"","Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material","Shell Van Stone S38.113 / S38.114 Round Bar - Flange As Thermowell Material","VS",False
+"TAW","CH/TW_CONSTRUCTION","O",15,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - A105N Flange","BP Van Stone - A105N Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","P",16,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - 316SS Flange","BP Van Stone - 316SS Flange","VS",False
+"TAW","CH/TW_CONSTRUCTION","Q",17,True,False,0,"CH/TW_MATERIAL = P4","BP Van Stone - Flange As Thermowell Material","BP Van Stone - Flange As Thermowell Material","VS",False
+"TAW","CH/TW_CONSTRUCTION","R",18,True,False,0,"","Threaded Flange","Threaded Flange","T",False
+"TAW","CH/TW_CONSTRUCTION","S",19,True,False,0,"","Threaded and Seal Welded Flange","Threaded and Seal Welded Flange","T",False
+"TAW","CH/TW_PROCCONN_TYPE","Y0",1,True,False,0,"CH/TW_CONSTRUCTION IN (A,B,C,D,E,F,G,H,I,L,M,N,O,P,Q,R,S)","Not Flanged","Not Flanged",,False
+"TAW","CH/TW_PROCCONN_TYPE","R2",2,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 20 (¾ in.)","Raised Face DN 20 (¾ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R3",3,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 25 (1 in.)","Raised Face DN 25 (1 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R4",4,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 40 (1½ in.)","Raised Face DN 40 (1½ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R5",5,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 50 (2 in.)","Raised Face DN 50 (2 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R8",6,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 65 (2½ in.)","Raised Face DN 65 (2½ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R6",7,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 80 (3 in.)","Raised Face DN 80 (3 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","R7",8,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Raised Face DN 100 (4 in.)","Raised Face DN 100 (4 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J2",9,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 20 (¾ in.)","Ring Type Joint DN 20 (¾ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J3",10,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 25 (1 in.)","Ring Type Joint DN 25 (1 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J4",11,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 40 (1½ in.)","Ring Type Joint DN 40 (1½ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J5",12,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 50 (2 in.)","Ring Type Joint DN 50 (2 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J8",13,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 65 (2½ in.)","Ring Type Joint DN 65 (2½ in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J6",14,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 80 (3 in.)","Ring Type Joint DN 80 (3 in.)",,False
+"TAW","CH/TW_PROCCONN_TYPE","J7",15,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","Ring Type Joint DN 100 (4 in.)","Ring Type Joint DN 100 (4 in.)",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A1",1,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 150","ASME Class 150",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A3",2,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 300","ASME Class 300",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A6",3,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 600","ASME Class 600",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A7",4,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 900","ASME Class 900",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A8",5,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 1500","ASME Class 1500",,False
+"TAW","CH/TW_PROCCONN_DETAIL","A9",6,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","ASME Class 2500","ASME Class 2500",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D0",7,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 6","DIN PN 6",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D1",8,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 10","DIN PN 10",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D2",9,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 16","DIN PN 16",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D3",10,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 25","DIN PN 25",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D4",11,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 40","DIN PN 40",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D5",12,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 63","DIN PN 63",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D6",13,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 100","DIN PN 100",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D7",14,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 160","DIN PN 160",,False
+"TAW","CH/TW_PROCCONN_DETAIL","D8",15,True,False,0,"CH/TW_CONSTRUCTION IN (J,K)","DIN PN 250","DIN PN 250",,False
+"TAW","CH/TW_PROCCONN_DETAIL","G1",16,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. BSP P","½ in. BSP P",,False
+"TAW","CH/TW_PROCCONN_DETAIL","G2",17,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. BSP P","¾ in. BSP P",,False
+"TAW","CH/TW_PROCCONN_DETAIL","G3",18,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. BSP P","1 in. BSP P",,False
+"TAW","CH/TW_PROCCONN_DETAIL","G4",19,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. BSP P","1¼ in. BSP P",,False
+"TAW","CH/TW_PROCCONN_DETAIL","B1",20,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. BSP T","½ in. BSP T",,False
+"TAW","CH/TW_PROCCONN_DETAIL","B2",21,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. BSP T","¾ in. BSP T",,False
+"TAW","CH/TW_PROCCONN_DETAIL","B3",22,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. BSP T","1 in. BSP T",,False
+"TAW","CH/TW_PROCCONN_DETAIL","B4",23,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. BSP T","1¼ in. BSP T",,False
+"TAW","CH/TW_PROCCONN_DETAIL","N1",24,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","½ in. NPT","½ in. NPT",,False
+"TAW","CH/TW_PROCCONN_DETAIL","N2",25,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","¾ in. NPT","¾ in. NPT",,False
+"TAW","CH/TW_PROCCONN_DETAIL","N3",26,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1 in. NPT","1 in. NPT",,False
+"TAW","CH/TW_PROCCONN_DETAIL","N4",27,True,False,0,"NOT(CH/TW_CONSTRUCTION = K)","1¼ in. NPT","1¼ in. NPT",,False
+"TAW","CH/TW_PROCCONN_DETAIL","W1",28,True,False,0,"NOT(CH/TW_CONSTRUCTION = J)","Weld In","Weld In",,False
+"TAW","CH/TW_INSTCONN","G1",1,True,False,0,"CH/EXTENSION = M1","½ in. BSP P (Female)","½ in. BSP P (Female)",,False
+"TAW","CH/TW_INSTCONN","B1",2,True,False,0,"CH/EXTENSION = M1","½ in. BSP T (Female)","½ in. BSP T (Female)",,False
+"TAW","CH/TW_INSTCONN","G2",3,True,False,0,"CH/EXTENSION IN (M1,M2)","¾ in. BSP P (Female)","¾ in. BSP P (Female)",,False
+"TAW","CH/TW_INSTCONN","B2",4,True,False,0,"CH/EXTENSION IN (M1,M2)","¾ in. BSP T (Female)","¾ in. BSP T (Female)",,False
+"TAW","CH/TW_INSTCONN","N1",5,True,False,0,"CH/EXTENSION = M2","½ in. NPT (Female)","½ in. NPT (Female)",,False
+"TAW","CH/TW_INSTCONN","N2",6,True,False,0,"CH/EXTENSION IN (M1,M2)","¾ in. NPT (Female)","¾ in. NPT (Female)",,False
+"TAW","CH/TW_INSTCONN","M1",7,True,False,0,"CH/EXTENSION IN (M1,M2)","M14 (Female)","M14 (Female)",,False
+"TAW","CH/TW_INSTCONN","M2",8,True,False,0,"CH/EXTENSION IN (M1,M2)","M18 (Female)","M18 (Female)",,False
+"TAW","CH/TW_INSTCONN","M3",9,True,False,0,"CH/EXTENSION IN (M1,M2)","M20 (Female)","M20 (Female)",,False
+"TAW","CH/TW_INSTCONN","M4",10,True,False,0,"CH/EXTENSION IN (M1,M2)","M24 (Female)","M24 (Female)",,False
+"TAW","CH/TW_PROFILE","P",1,True,False,0,"","Parallel","Parallel",,False
+"TAW","CH/TW_PROFILE","T",2,True,False,0,"","Tapered","Tapered",,False
+"TAW","CH/TW_PROFILE","S",3,True,False,0,"","Stepped","Stepped",,False
+"TAW","CH/TW_ROOT_DIA","Min",0,True,False,0,"","Min diameter","Min diameter","",False
+"TAW","CH/TW_ROOT_DIA","Max",1,True,False,0,"","Max diameter","Max diameter","100",False
+"TAW","CH/TW_ROOT_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/TW_ROOT_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/TW_ROOT_DIA","Units",4,True,False,0,"","Units for root diameter","Units for root diameter","mm",False
+"TAW","CH/TW_TIP_DIA","Min",0,True,False,0,"","Min diameter","Min diameter","",False
+"TAW","CH/TW_TIP_DIA","Max",1,True,False,0,"","Max diameter","Max diameter","[SelectedItem]{CH/TW_ROOT_DIA}",False
+"TAW","CH/TW_TIP_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/TW_TIP_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/TW_TIP_DIA","Units",4,True,False,0,"","Units for tip diameter","Units for tip diameter","mm",False
+"TAW","CH/TW_TIP_DIA","Value",5,True,False,0,"NOT(CH/TW_PROFILE=P)","Same as root when parallel","","[SelectedItem]{CH/TW_ROOT_DIA}",False
+"TAW","CH/TW_STEP","Min",0,True,False,0,"","Minimum","Minimum","",False
+"TAW","CH/TW_STEP","Max",1,True,False,0,"","Maximum","Maximum","",False
+"TAW","CH/TW_STEP","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/TW_STEP","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/TW_STEP","Units",4,True,False,0,"","Units for step position","Units for step position","mm",False
+"TAW","CH/TW_STEP","Value",5,True,False,0,"NOT(CH/TW_PROFILE=P)","Zero when Parallel","Zero when Parallel","0",False
+"TAW","CH/TW_BORE","A",1,True,False,0,"","3.3 mm","3.3 mm",3.3,False
+"TAW","CH/TW_BORE","B",2,True,False,0,"","6.5 mm","6.5 mm",6.5,False
+"TAW","CH/TW_BORE","C",3,True,False,0,"","7.0 mm","7.0 mm",7.0,False
+"TAW","CH/TW_BORE","D",4,True,False,0,"","9.5 mm","9.5 mm",9.5,False
+"TAW","CH/TW_BORE","E",5,True,False,0,"","10.3 mm","10.3 mm",10.3,False
+"TAW","CH/TW_BORE","F",6,True,False,0,"","13.0 mm","13.0 mm",13,False
+"TAW","CH/TW_BORE","G",7,True,False,0,"","18.0 mm","18.0 mm",18,False
+"TAW","CH/TW_BORE","H",8,True,False,0,"","25.4 mm","25.4 mm",25.4,False
+"TAW","CH/TW_TIP_THICK","T1",1,True,False,0,"","3.0 mm","3.0 mm",3,False
+"TAW","CH/TW_TIP_THICK","T2",2,True,False,0,"","5.5 mm","5.5 mm",5.5,False
+"TAW","CH/TW_TIP_THICK","T3",3,True,False,0,"","6.0 mm","6.0 mm",6,False
+"TAW","CH/TW_TIP_THICK","T4",4,True,False,0,"","6.35 mm","6.35 mm",6.35,False
+"TAW","CH/TW_TIP_THICK","T5",5,True,False,0,"","9.5 mm","9.5 mm",9.5,False
+"TAW","CH/TW_TIP_THICK","T6",6,True,False,0,"","12.0 mm","12.0 mm",12,False
+"TAW","CH/IMMERSIONLEN","Min",0,True,False,0,"","Min length","Min length","[SelectedItem]{CH/EXTENSIONLEN}+41",False
+"TAW","CH/IMMERSIONLEN","Max",1,True,False,0,"","Max length","Max length","3000",False
+"TAW","CH/IMMERSIONLEN","Digits",2,True,False,0,"","Digits","Digits","4",False
+"TAW","CH/IMMERSIONLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/IMMERSIONLEN","Units",4,True,False,0,"","Units for immersion length","Units for immersion length","mm",False
+"TAW","CH/LAGGINGLEN","Min",0,True,False,0,"","Min length","Min length","",False
+"TAW","CH/LAGGINGLEN","Max",1,True,False,0,"","Max length","Max length","100",False
+"TAW","CH/LAGGINGLEN","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/LAGGINGLEN","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/LAGGINGLEN","Units",4,True,False,0,"","Units for lagging length","Units for lagging length","mm",False
+"TAW","CH/TW_VCOL","Y",1,True,False,0,"","Yes","Yes",,False
+"TAW","CH/TW_VCOL","N",2,True,False,0,"","No","No",,False
+"TAW","CH/TW_VCOL_DIA","Min",0,True,False,0,"","Min dia","Min dia","",False
+"TAW","CH/TW_VCOL_DIA","Max",1,True,False,0,"","Max dia","Max dia","100",False
+"TAW","CH/TW_VCOL_DIA","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/TW_VCOL_DIA","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/TW_VCOL_DIA","Units",4,True,False,0,"","Units for vcol dia","Units for vcol dia","mm",False
+"TAW","CH/TW_VCOL_POS","Min",0,True,False,0,"","Min","Min","",False
+"TAW","CH/TW_VCOL_POS","Max",1,True,False,0,"","Max","Max","100",False
+"TAW","CH/TW_VCOL_POS","Digits",2,True,False,0,"","Digits","Digits","3",False
+"TAW","CH/TW_VCOL_POS","DPs",3,True,False,0,"","DPs","DPs","0",False
+"TAW","CH/TW_VCOL_POS","Units",4,True,False,0,"","Units for vcol position","Units for vcol position","mm",False
+"TAW","CH/TW_PLUG","N",1,True,False,0,"","N/A","N/A",,False
+"TAW","CH/TW_PLUG","B",2,True,False,0,"","Brass","Brass",,False
+"TAW","CH/TW_PLUG","S",3,True,False,0,"","Stainless Steel","Stainless Steel",,False
+"TAW","CH/TW_COATING","Y0",1,True,False,0,"","None","None",,False
+"TAW","CH/TW_COATING","TS",2,True,False,0,"","Tantalum Sheath","Tantalum Sheath",,False
+"TAW","CH/TW_COATING","SS",3,True,False,0,"","Stellite Spray","Stellite Spray",,False
+"TAW","CH/TW_COATING","SW",4,True,False,0,"","Stellite Weld","Stellite Weld",,False
+"TAW","CH/TW_COATING","TC",5,True,False,0,"","Tungsten Carbide","Tungsten Carbide",,False
+"TAW","CH/TW_COATING","PT",6,True,False,0,"","PTFE","PTFE",,False
+"TAW","CH/TW_COATING","C8",7,True,False,0,"","COLMONOY 88","COLMONOY 88",,False
+"TAW","CH/TX_UNITS","1",1,True,True,0,"","Deg C","Deg C",,False
+"TAW","CH/TX_UNITS","2",2,True,False,0,"","Deg F","Deg F",,False
+"TAW","CH/TX_RANGEMIN","Min",0,True,False,0,"","Min Value for Temperature Range - Min","Min Value for Temperature Range - Min","",False
+"TAW","CH/TX_RANGEMIN","Max",0,True,False,0,"","Max Value for Temperature Range - Min","Max Value for Temperature Range - Min","",False
+"TAW","CH/TX_RANGEMIN","Digits",0,True,False,0,"","# Digits for Temperature Range - Min","# of Digits for Temperature Range - Min","4",False
+"TAW","CH/TX_RANGEMIN","Units",0,True,False,0,"","Units for Temperature Range - Min","Units for Temperature Range - Min","CH/TX_UNITS",False
+"TAW","CH/TX_RANGEMAX","Min",0,True,False,0,"","Min Value for Temperature Range - Max","Min Value for Temperature Range - Max","",False
+"TAW","CH/TX_RANGEMAX","Max",0,True,False,0,"","Max Value for Temperature Range - Max","Max Value for Temperature Range - Max","",False
+"TAW","CH/TX_RANGEMAX","Digits",0,True,False,0,"","# Digits for Temperature Range - Max","# of Digits for Temperature Range - Max","4",False
+"TAW","CH/TX_RANGEMAX","Units",0,True,False,0,"","Units for Temperature Range - Max","Units for Temperature Range - Max","CH/TX_UNITS",False
+"TAW","CH/TX_BURNOUT","1",1,True,True,0,"NOT(CH/COMMS IN (H5,H7))","Upscale","Upscale",,False
+"TAW","CH/TX_BURNOUT","2",2,True,False,0,"NOT(CH/COMMS IN (H5,H7))","Downscale","Downscale",,False
+"TAW","CH/TX_HOTBACKUP","1",1,True,True,0,"","No","No",,False
+"TAW","CH/TX_HOTBACKUP","2",2,True,False,0,"CH/TX IN (Y0,A2)","Yes","Yes",,False
+"TAW","CH/TX_SIL","1",1,True,True,0,"","No","No",,False
+"TAW","CH/TX_SIL","2",2,True,False,0,"","Yes","Yes",,False

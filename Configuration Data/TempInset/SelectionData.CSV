@@ -7,16 +7,17 @@
 "TIN","CH/HAZARD","B1",6,True,False,0,"","IECEx d","IECEx d",,False
 "TIN","CH/HAZARD","F0",7,True,False,0,"","FM Intrinsically Safe - With installed certified transmitter","FM Intrinsically Safe - With installed certified transmitter",,False
 "TIN","CH/HAZARD","S0",8,True,False,0,"","Simple Apparatus Equipment - For intrinsically safe installations without transmitter","Simple Apparatus Equipment - For intrinsically safe installations without transmitter",,False
-"TIN","CH/TX","Y0",1,True,False,0,"CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0","None","None",,False
-"TIN","CH/TX","Z9",2,True,False,0,"","Customer Specific","Customer Specific",,False
-"TIN","CH/TX","A2",3,True,False,0,"","TTH200 - Smart HART, single sensor input","TTH200 - Smart HART, single sensor input",,False
-"TIN","CH/TX","A3",4,True,False,0,"","TTH300 - Smart HART, extended functionality, dual sensor input","TTH300 - Smart HART, extended functionality, dual sensor input",,False
+"TIN","CH/TX","Y0",1,True,False,0,"CH/HAZARD IN (A0,B0,F0)","None","None",,False
+"TIN","CH/TX","Y1",2,True,False,0,"CH/HAZARD IN (A0,B0,F0,S0)","Customer Free Issue","Customer Free Issue",,False
+"TIN","CH/TX","Y2",3,True,False,0,"CH/HAZARD IN (A0,B0,F0,S0)","Customer to Install Own Transmitter","Customer to Install Own Transmitter",,False
+"TIN","CH/TX","A2",4,True,False,0,"CH/HAZARD=S0","ABB TTH200 - Smart HART, single sensor input","ABB TTH200 - Smart HART, single sensor input",,False
+"TIN","CH/TX","A3",5,True,False,0,"CH/HAZARD=S0","ABB TTH300 - Smart HART, extended functionality, dual sensor input","ABB TTH300 - Smart HART, extended functionality, dual sensor input",,False
+"TIN","CH/TX","Z9",6,True,False,0,"","Customer Specific","Customer Specific",,False
 "TIN","CH/COMMS","Y0",1,True,False,0,"NOT(CH/TX=Y0)","None","None",,False
 "TIN","CH/COMMS","H5",2,True,False,0,"CH/TX=Y0","HART 5 (4...20 mA)","HART 5 (4...20 mA)",,False
 "TIN","CH/COMMS","H7",3,True,False,0,"CH/TX=Y0 OR CH/TX=A2","HART 7 (4...20 mA)","HART 7 (4...20 mA)",,False
 "TIN","CH/COMMS","P1",4,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Profibus PA","Profibus PA",,False
 "TIN","CH/COMMS","F1",5,True,False,0,"CH/TX=Y0 OR CH/TX=A2","Foundation Fieldbus - H1","Foundation Fieldbus - H1",,False
-"TIN","CH/UNUSED","00",1,False,False,0,"","Unused","Unused",,False
 "TIN","CH/SENSORTYPE","S1",1,True,False,0,"","1 x PT100 - Standard Range Thin Film","1 x PT100 - Standard Range Thin Film",,False
 "TIN","CH/SENSORTYPE","S2",2,True,False,0,"","2 x PT100 - Standard Range Thin Film","2 x PT100 - Standard Range Thin Film",,False
 "TIN","CH/SENSORTYPE","P1",3,True,False,0,"","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)","1 x PT100 - Wide Range Wire Wound (-200 to +600 Deg C)",,False
@@ -36,21 +37,21 @@
 "TIN","CH/SENSORTYPE","T3",17,True,False,0,"","3 x Type T - Cu/CuNi","3 x Type T - Cu/CuNi",,False
 "TIN","CH/SENSORTYPE","E3",18,True,False,0,"","3 x Type E - NiCr/CuNi","3 x Type E - NiCr/CuNi",,False
 "TIN","CH/SENSORTYPE","N3",19,True,False,0,"","3 x Type N - NiCrSi/NiSi","3 x Type N - NiCrSi/NiSi",,False
-"TIN","CH/SENSORTOL","A",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'A' IEC 60751","Class 'A' IEC 60751",,False
-"TIN","CH/SENSORTOL","B",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'B' IEC 60751","Class 'B' IEC 60751",,False
-"TIN","CH/SENSORTOL","C",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2)","Class 'AA' IEC 60751","Class 'AA' IEC 60751",,False
-"TIN","CH/SENSORTOL","1",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '1' IEC 60751","Class '1' IEC 60751",,False
-"TIN","CH/SENSORTOL","2",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","Class '2' IEC 60751","Class '2' IEC 60751",,False
-"TIN","CH/SENSORTOL","6",6,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=P2","MC-96.1 Standard Class","MC-96.1 Standard Class",,False
-"TIN","CH/SENSORCON","2",1,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","2 Wire PT Sensor","2 Wire PT Sensor",,False
-"TIN","CH/SENSORCON","3",2,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2)","3 Wire PT Sensor","3 Wire PT Sensor",,False
-"TIN","CH/SENSORCON","4",3,True,False,0,"NOT(CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1) OR NOT(CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2) OR NOT(CH/HAZARD=Y0 OR CH/HAZARD=A0 OR CH/HAZARD=B0 OR CH/HAZARD=F0 OR CH/HAZARD=S0)","4 Wire PT Sensor","4 Wire PT Sensor",,False
-"TIN","CH/SENSORCON","I",4,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Insulated Thermocouple Hot Junction","Insulated Thermocouple Hot Junction",,False
-"TIN","CH/SENSORCON","B",5,True,False,0,"CH/SENSORTYPE=S1 OR CH/SENSORTYPE=P1 OR CH/SENSORTYPE=S2 OR CH/SENSORTYPE=P2","Bonded Thermocouple Hot Junction","Bonded Thermocouple Hot Junction",,False
-"TIN","CH/IMMERSIONLEN","Min",0,True,False,0,"","Min immersion length","min immersion length","100",False
-"TIN","CH/IMMERSIONLEN","Max",1,True,False,0,"","Max immersion length","max immersion length","30000",False
-"TIN","CH/IMMERSIONLEN","Digits",2,True,False,0,"","Number of digits","Number of digits","5",False
-"TIN","CH/IMMERSIONLEN","Units",3,True,False,0,"","Units","Units for immersion length","mm",False
+"TIN","CH/SENSORTOL","A",1,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'A' IEC 60751","Class 'A' IEC 60751",,False
+"TIN","CH/SENSORTOL","B",2,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'B' IEC 60751","Class 'B' IEC 60751",,False
+"TIN","CH/SENSORTOL","C",3,True,False,0,"NOT(CH/SENSORTYPE IN (S1,S2,P1,P2))","Class 'AA' IEC 60751","Class 'AA' IEC 60751",,False
+"TIN","CH/SENSORTOL","1",4,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Class '1' IEC 60751","Class '1' IEC 60751",,False
+"TIN","CH/SENSORTOL","2",5,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Class '2' IEC 60751","Class '2' IEC 60751",,False
+"TIN","CH/SENSORTOL","6",6,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","MC-96.1 Standard Class","MC-96.1 Standard Class",,False
+"TIN","CH/SENSORCON","2",1,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1,S2,P2))","2 Wire PT Sensor","2 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","3",2,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1,S2,P2))","3 Wire PT Sensor","3 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","4",3,True,False,0,"NOT(CH/SENSORTYPE IN (S1,P1)) AND NOT(CH/SENSORTYPE IN (S2,P2) AND CH/HAZARD IN (Y0,A0,B0,F0,S0))","4 Wire PT Sensor","4 Wire PT Sensor",,False
+"TIN","CH/SENSORCON","I",4,True,False,0,"CH/SENSORTYPE IN (S1,P1,S2,P2)","Insulated Thermocouple Hot Junction","Insulated Thermocouple Hot Junction",,False
+"TIN","CH/SENSORCON","B",5,True,False,0,"CH/SENSORTYPE IN (S1,P1,S2,P2)","Bonded Thermocouple Hot Junction","Bonded Thermocouple Hot Junction",,False
+"TIN","CH/SENSORLEN","Min",0,True,False,0,"","Min sensor length","min sensor length","100",False
+"TIN","CH/SENSORLEN","Max",1,True,False,0,"","Max sensor length","max sensor length","30000",False
+"TIN","CH/SENSORLEN","Digits",2,True,False,0,"","Number of digits","Number of digits","5",False
+"TIN","CH/SENSORLEN","Units",3,True,False,0,"","Units","Units for sensor length","mm",False
 "TIN","CH/SENSORDIA","D1",1,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","1.5 mm","1.5 mm",,False
 "TIN","CH/SENSORDIA","D2",2,True,False,0,"CH/SENSORTYPE IN (S2,P2,J2,K2,T2,E2,N2,J3,K3,T3,E3,N3)","3 mm","3 mm",,False
 "TIN","CH/SENSORDIA","D3",3,True,False,0,"","4.5 mm","4.5 mm",,False
@@ -69,10 +70,26 @@
 "TIN","CH/SHEATHMAT","U4",7,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Alloy 446","Alloy 446",,False
 "TIN","CH/SHEATHMAT","C2",8,True,False,0,"CH/SENSORTYPE IN (S1,S2,P1,P2)","Hastelloy X","Hastelloy X",,False
 "TIN","CH/SENSORTERM","T1",1,True,False,0,"NOT(CH/TX=Y0)","Ceramic Terminal Block - Spring Loaded","Ceramic Terminal Block - Spring Loaded",,False
-"TIN","CH/SENSORTERM","F1",2,True,False,0,"CH/TX=Y0","Transmitter Flange and Transmitter Tails - Spring Loaded","Transmitter Flange and Transmitter Tails - Spring Loaded",,False
-"TIN","CH/SENSORTERM","S1",3,True,False,0,"CH/HAZARD IN (A1,B1)","Spring Loaded For M20 Cable Entry (requires back stop)","Spring Loaded For M20 Cable Entry (requires back stop)",,False
-"TIN","CH/SENSORTERM","S2",4,True,False,0,"CH/HAZARD IN (A1,B1)","Shell Std For Spring Loading in Union","Shell Std For Spring Loading in Union",,False
-"TIN","CH/SENSORTERM","P1",5,True,False,0,"CH/HAZARD IN (A1,B1)","Std Plain Pot Seal","Std Plain Pot Seal",,False
-"TIN","CH/SENSORTERM","P2",6,True,False,0,"CH/HAZARD IN (A1,B1)","Screwed Pot Seal","Screwed Pot Seal",,False
-"TIN","CH/SENSORTERM","R1",7,True,False,0,"CH/HAZARD IN (A1,B1)","Strain Relief Spring Assembly","Strain Relief Spring Assembly",,False
-"TIN","CH/SENSORTERM","C1",8,True,False,0,"CH/HAZARD IN (A1,B1)","Plain Crimp Tube","Plain Crimp Tube",,False
+"TIN","CH/SENSORTERM","F1",2,True,False,0,"CH/TX=Y0","Transmitter Flange and Tails - Spring Loaded","Transmitter Flange and Tails - Spring Loaded",,False
+"TIN","CH/SENSORTERM","S1",3,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Spring Loaded For M20 Cable Entry (requires back stop)","Spring Loaded For M20 Cable Entry (requires back stop)",,False
+"TIN","CH/SENSORTERM","S2",4,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Shell Std For Spring Loading in Union","Shell Std For Spring Loading in Union",,False
+"TIN","CH/SENSORTERM","P1",5,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Std Plain Pot Seal","Std Plain Pot Seal",,False
+"TIN","CH/SENSORTERM","P2",6,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Screwed Pot Seal","Screwed Pot Seal",,False
+"TIN","CH/SENSORTERM","R1",7,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Strain Relief Spring Assembly","Strain Relief Spring Assembly",,False
+"TIN","CH/SENSORTERM","C1",8,False,False,0,"CH/TX IN (Y0,Y1,Y2,A2,A3,Z9)","Plain Crimp Tube","Plain Crimp Tube",,False
+"TIN","CH/TX_UNITS","1",1,True,True,0,"","Deg C","Deg C",,False
+"TIN","CH/TX_UNITS","2",2,True,False,0,"","Deg F","Deg F",,False
+"TIN","CH/TX_RANGEMIN","Min",0,True,False,0,"","Min Value for Temperature Range - Min","Min Value for Temperature Range - Min","",False
+"TIN","CH/TX_RANGEMIN","Max",0,True,False,0,"","Max Value for Temperature Range - Min","Max Value for Temperature Range - Min","",False
+"TIN","CH/TX_RANGEMIN","Digits",0,True,False,0,"","# Digits for Temperature Range - Min","# of Digits for Temperature Range - Min","4",False
+"TIN","CH/TX_RANGEMIN","Units",0,True,False,0,"","Units for Temperature Range - Min","Units for Temperature Range - Min","CH/TX_UNITS",False
+"TIN","CH/TX_RANGEMAX","Min",0,True,False,0,"","Min Value for Temperature Range - Max","Min Value for Temperature Range - Max","",False
+"TIN","CH/TX_RANGEMAX","Max",0,True,False,0,"","Max Value for Temperature Range - Max","Max Value for Temperature Range - Max","",False
+"TIN","CH/TX_RANGEMAX","Digits",0,True,False,0,"","# Digits for Temperature Range - Max","# of Digits for Temperature Range - Max","4",False
+"TIN","CH/TX_RANGEMAX","Units",0,True,False,0,"","Units for Temperature Range - Max","Units for Temperature Range - Max","CH/TX_UNITS",False
+"TIN","CH/TX_BURNOUT","1",1,True,True,0,"NOT(CH/COMMS IN (H5,H7))","Upscale","Upscale",,False
+"TIN","CH/TX_BURNOUT","2",2,True,False,0,"NOT(CH/COMMS IN (H5,H7))","Downscale","Downscale",,False
+"TIN","CH/TX_HOTBACKUP","1",1,True,True,0,"","No","No",,False
+"TIN","CH/TX_HOTBACKUP","2",2,True,False,0,"CH/TX IN (Y0,A2)","Yes","Yes",,False
+"TIN","CH/TX_SIL","1",1,True,True,0,"","No","No",,False
+"TIN","CH/TX_SIL","2",2,True,False,0,"","Yes","Yes",,False
