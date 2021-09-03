@@ -2,7 +2,7 @@
 "ProductDetailsRow","<!-- ProductDetailsRow --><tr style=""padding-top:5px""><td style=""width: 195px; padding-left:5px;"">{0}&nbsp;</td><td style=""width: 50px;"">{1}&nbsp;</td><td style=""width: 15px; text-align:center;"">:&nbsp;</td><td style=""width:auto; word-wrap:break-word;"">{2}&nbsp;</td></tr><!-- ProductDetailsRow END -->","Product details row"
 "ProductDetailsSectionHeader","<!-- ProductDetailsSectionHeader --><table cellspacing=""0"" cellpadding=""0"" border=""0"" style=""font-family: arial, Helvetica, sans-serif; font-size: 8pt; text-align: left; margin: 0; padding: 0; width:auto; border-spacing: 0px;""><!-- ProductDetailsSectionHeader END -->","Product details section; header"
 "ProductDetailsSectionFooter","<!-- ProductDetailsSectionFooter --></table><!-- ProductDetailsSectionFooter END -->","Product details section; footer"
-"DatasheetURL","https://search-ext.abb.com/library/Download.aspx?DocumentID=DS%2fFPD175-EN&LanguageCode=en&DocumentPartId=&Action=Launch","Online datasheet URL"
+"DatasheetURL","https://www.mcmenon.com/products-services/flow-measurement/orifice-plate/","Online datasheet URL"
 "CheckRuleForSpecialGroupAndMandatory","Error","Check rule for special groups that are mandatory"
 "CheckRuleForSpecialGroupNonMandatory","None","Check rule for special groups that are optional"
 "CheckRuleForMandatoryGroupNotSpecial","Warning","Check rule for mandatory groups that aren't special groups"

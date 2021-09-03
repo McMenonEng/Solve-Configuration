@@ -215,8 +215,8 @@
 "FPD170","CH/FPD/CERTIFICATION","CA",5,True,False,11,"","Positive Material Identification (Niton XRF)","Positive Material Identification (Niton XRF)",,False
 "FPD170","CH/FPD/CERTIFICATION","C6",6,True,False,50,"","100% Dimensional Check","100% Dimensional Check",,False
 "FPD170","CH/FPD/CERTIFICATION","Z9",7,True,False,999999,"","Others","Others",,False
-"FPD170","CH/FPD/TESTING","CH1",1,True,False,999999,"(CH/FPD/TESTING=CH2) OR (CH/FPD/PLATE/THICK=S01 OR CH/FPD/PLATE/THICK=S02 OR CH/FPD/PLATE/THICK=S03 OR CH/FPD/PLATE/THICK=S04 OR CH/FPD/PLATE/THICK=S05 OR CH/FPD/PLATE/THICK=S06 OR CH/FPD/PLATE/THICK=S07)","Impact Testing @ -46 °C","Impact Testing @ -46 °C",,False
-"FPD170","CH/FPD/TESTING","CH2",2,True,False,999999,"(CH/FPD/TESTING=CH1) OR (CH/FPD/PLATE/THICK=S01 OR CH/FPD/PLATE/THICK=S02 OR CH/FPD/PLATE/THICK=S03 OR CH/FPD/PLATE/THICK=S04 OR CH/FPD/PLATE/THICK=S05 OR CH/FPD/PLATE/THICK=S06 OR CH/FPD/PLATE/THICK=S07)","Impact Testing @ -196 °C","Impact Testing @ -196 °C",,False
+"FPD170","CH/FPD/TESTING","CH1",1,True,False,999999,"(CH/FPD/TESTING=CH2) OR (CH/FPD/PLATE/THICK=S01 OR CH/FPD/PLATE/THICK=S02 OR CH/FPD/PLATE/THICK=S03 OR CH/FPD/PLATE/THICK=S04 OR CH/FPD/PLATE/THICK=S05 OR CH/FPD/PLATE/THICK=S06 OR CH/FPD/PLATE/THICK=S07)","Impact Testing @ -46 ï¿½C","Impact Testing @ -46 ï¿½C",,False
+"FPD170","CH/FPD/TESTING","CH2",2,True,False,999999,"(CH/FPD/TESTING=CH1) OR (CH/FPD/PLATE/THICK=S01 OR CH/FPD/PLATE/THICK=S02 OR CH/FPD/PLATE/THICK=S03 OR CH/FPD/PLATE/THICK=S04 OR CH/FPD/PLATE/THICK=S05 OR CH/FPD/PLATE/THICK=S06 OR CH/FPD/PLATE/THICK=S07)","Impact Testing @ -196 ï¿½C","Impact Testing @ -196 ï¿½C",,False
 "FPD170","CH/FPD/TESTING","CH3",3,True,False,999999,"","Hardness Survey","Hardness Survey",,False
 "FPD170","CH/FPD/TESTING","CZ9",4,True,False,999999,"","Others","Others",,False
 "FPD170","CH/FPD/DOC/LANG","M1",1,True,False,999999,"","German","German",,False
@@ -270,7 +270,7 @@
 "FPD175","CH/FPD175/MANIFOLD","M5",2,True,False,51,"","Integral 5-valve manifold","Integral 5-valve manifold",,False
 "FPD175","CH/FPD175/ORIEN","PNH",1,True,False,0,"","Horizontal pipe","Horizontal pipe",,False
 "FPD175","CH/FPD175/ORIEN","PNV",2,True,False,0,"","Vertical pipe","Vertical pipe",,False
-"FPD175","CH/FPD175/TEMP/ELEM","AT",1,True,False,102,"","Integral RTD","Integral RTD",,False
+"FPD175","CH/FPD175/TEMP/ELEM","AT",1,True,False,102,"","Integral RTD - Simple Apparatus suitable for use in Safe Area and Intrinsically Safe circuits","Integral RTD - Simple Apparatus suitable for use in Safe Area and Intrinsically Safe circuits",,False
 "FPD175","CH/FPD175/CERTIFICATE","C2",1,True,False,0,"","Material Certs acc. EN 10204 3.1","Material Certs acc. EN 10204 3.1",,False
 "FPD175","CH/FPD175/CERTIFICATE","CN",2,True,False,0,"","Material acc. NACE MR0175","Material acc. NACE MR0175",,False
 "FPD175","CH/FPD175/DOC/LANG","M1",1,True,False,0,"","German","German",,False

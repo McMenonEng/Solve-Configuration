@@ -180,7 +180,7 @@ A6,CH/A6/MOUNTING,11,"G",7,True,False,"","21.8","Front Panel, End Caps","Front P
 A6,CH/A6/MOUNTING,11,"H",8,True,False,"","29","Front Panel, End Caps, Adaptor Plates","Front Panel, End Caps, Adaptor Plates",,TRUE
 A6,CH/A6/MOUNTING,11,"M",9,True,False,"NOT(CH/A6/CONN/ORIEN=1)","17.7","Front Panel to SES1589V","Front Panel to SES1589V",,TRUE
 A6,CH/A6/DESIGN/LEVEL,12,"A",1,True,False,"","0","A","A",,TRUE
-A6,CH/A6/CERT,13,"D",1,True,False,"CH/A6/ALARMS=B OR CH/A6/ALARMS=C OR CH/A6/ALARMS=D OR CH/A6/ALARMS=E","47.8","ATEX II 2 GD c 130C without Alarm","ATEX II 2 GD c 130C without Alarm",,TRUE
-A6,CH/A6/CERT,13,"A",2,True,False,"CH/A6/ALARMS=A","0","ATEX II 2 G c 130C with Alarm","ATEX II 2 G c 130C with Alarm",,TRUE
+A6,CH/A6/CERT,13,"D",1,True,False,"CH/A6/ALARMS=B OR CH/A6/ALARMS=C OR CH/A6/ALARMS=D OR CH/A6/ALARMS=E","47.8","ATEX: II 2GD Ex h IIC T4 Gb; Ex h IIIC T130° Db","ATEX: II 2GD Ex h IIC T4 Gb; Ex h IIIC T130° Db",,TRUE
+A6,CH/A6/CERT,13,"A",2,True,False,"CH/A6/ALARMS=A","0","ATEX: II 2G Ex h IIC T6 to T4 Gb","ATEX: II 2G Ex h IIC T6 to T4 Gb",,TRUE
 A6,CH/A6/CERT,13,"S",3,True,False,"","0","Safe Area Design","Safe Area Design",,TRUE
 A6,CH/A6/DEGR,14,"D",1,True,False,"","30.4","Degreasing","Degreasing",,TRUE
